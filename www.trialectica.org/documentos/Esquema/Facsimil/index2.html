@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Facsimil de El Gran Esquema (1967)</TITLE>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<SCRIPT type="text/javascript" src="slideshow.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="paginas.js"></SCRIPT>
+</HEAD>
+
+<body onload="SLIDES.update()">
+<center>
+
+<DIV ID="SLIDESTEXT" class="descrip" STYLE="position: absolute; left:0px;top:385px;width:60px;">
+Su navegador no soporta cuadros de texto en javascript
+</DIV>
+
+<div id="laminas" style="position:absolute; left:10px; top:33px; width:520px;">
+<!-- Resolución 800x600 -->
+
+<A ID="ss_img_link" HREF="javascript:SLIDES.hotlink()">
+<IMG ID="ss_img" NAME="SLIDESIMG" SRC="portadas.png" border=1
+width=568
+STYLE="filter:progid:DXImageTransform.Microsoft.Fade();">
+</A>
+
+</div>
+
+<div id="cuerpo" style="position:absolute; left:30px; top:5px;width:500px;">
+<FORM>
+<INPUT TYPE="button" VALUE="   INICIAR   " onClick="SLIDES.next();SLIDES.play(10000)">
+<INPUT TYPE="button" VALUE="    PARAR    " onClick="SLIDES.pause()">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<INPUT TYPE="button" VALUE="&lt; ANTERIOR" onClick="SLIDES.previous()">
+<INPUT TYPE="button" VALUE="SIGUIENTE &gt;" onClick="SLIDES.next()">
+</FORM>
+
+<SCRIPT type="text/javascript">
+<!--
+if (document.images) {
+  SLIDES.image = document.images.SLIDESIMG;
+  SLIDES.textid = "SLIDESTEXT";
+  SLIDES.update();
+//  SLIDES.play();
+}
+//-->
+</SCRIPT>
+
+</div>
+<div id="cuerpo2" style="position:absolute; left:30px; top:425px; width:500px;">
+ <a href="javascript:history.back(1)">Regresar</a>
+</div>
+
+</center>
+</BODY>
+</HTML>

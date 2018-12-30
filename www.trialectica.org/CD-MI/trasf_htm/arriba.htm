@@ -1,0 +1,516 @@
+<html>
+
+<head>
+<meta NAME="Author" CONTENT="Emilio J. Gómez ejgo@venezuela.com.ve">
+<title>Municipio Inteligente - Indice General</title>
+
+<style>
+a.lem:link      {color:#cccccc; text-decoration:none; }
+a.lem:visited {color:#bbbbbb; text-decoration:none;}
+a.lem:hover   {color:#ffffff; text-decoration:none;}
+a.lem:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+</style>
+
+<script LANGUAGE="JavaScript">
+
+<!--// Emilio J. Gómez  ejgo@venezuela.com.ve     egomez@eudoramail.com
+
+ if (navigator.appName == 'Netscape' && document.layers != null) { // ****** Netscape 4.X
+ obj = new Array('document.layers','hide','show','[\'','\']');   }
+else if (navigator.appName == 'Netscape') { // ****** New Mozilla 5.X
+   obj = new Array('document.getElementById','hidden','visible','(\'','\')');   }
+else { // ****** IE 4.X
+   obj = new Array('document.all','hidden','visible','[\'','\']');   }
+
+function showHideLayers() {
+ var j, mode, layer, args, theObj;
+ args = showHideLayers.arguments;
+ for (j=0; j<(args.length-1); j+=2) { // for each (layer, mode)
+   theObj = eval(obj[0] + obj[3] + args[j] + obj[4]);
+ //   alert(obj[0] + obj[3] + args[j] + obj[4] + theObj);
+     if (eval(theObj) != "undefined") {
+      if (document.layers != null) theObj.visibility = obj[1+args[j+1]];
+      else theObj.style.visibility = obj[1+args[j+1]];
+     }
+     }
+  }
+
+function changeImages() {
+  if (document.images && (preloadFlag == true)) {
+  for (var i=0; i<changeImages.arguments.length; i+=3) {
+     document.images[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+     showHideLayers("l"+changeImages.arguments[i],changeImages.arguments[i+2]);
+     }
+  }}
+
+var preloadFlag = false;
+function newImage(arg) { rslt = new Image(); rslt.src = arg; return rslt; }
+if (document.images) {
+    presentacion_over = newImage("pasos.gif");
+    noticias = newImage("arriba.gif");
+    productos = newImage("arriba.gif");
+    proyectos = newImage("arriba.gif");
+    contactar = newImage("arriba.gif");
+    preloadFlag = true;
+    }
+// -->
+
+</script>
+<script LANGUAGE="JavaScript"
+FPTYPE="dynamicanimation">
+<!--
+  // If you want to change this script, you must also make the following
+  // changes so that FrontPage will not overwrite your new script.
+  // In the script tag, change type="dynamicanimation" to type="mydynamicanimation"
+  // In the first script statement, change "dynamicanimation" to "mydynamicanimation"
+  // Throughout the HTML content, change dynamicanimation= to mydynamicanimation=
+  // Change function dynAnimation to function mydynAnimation
+  // In the body tag, change onload="dynAnimation()" to onload="mydynAnimation()"
+  dynamicanimAttr = "dynamicanimation"
+  animateElements = new Array()
+  currentElement = 0
+  speed = 0
+  stepsZoom = 8
+  stepsWord = 8
+  stepsFly = 12
+  stepsSpiral = 16
+  steps = stepsZoom
+  step = 0
+  outString = ""
+  function dynAnimation()
+  {
+    var ms = navigator.appVersion.indexOf("MSIE")
+    ie4 = (ms>0) && (parseInt(navigator.appVersion.substring(ms+5, ms+6)) >= 4)
+    if(!ie4)
+    {
+      if((navigator.appName == "Netscape") &&
+         (parseInt(navigator.appVersion.substring(0, 1)) >= 4))
+      {
+        for (index=document.layers.length-1; index >= 0; index--)
+        {
+            layer=document.layers[index]
+            if (layer.left==10000)
+                layer.left=0
+        }
+      }
+      return
+    }
+    for (index=document.all.length-1; index >= document.body.sourceIndex; index--)
+    {
+      el = document.all[index]
+      animation = el.getAttribute(dynamicanimAttr, false)
+      if(null != animation)
+      {
+        if(animation == "dropWord" || animation == "flyTopRightWord" || animation == "flyBottomRightWord")
+        {
+          ih = el.innerHTML
+          outString = ""
+          i1 = 0
+          iend = ih.length
+          while(true)
+          {
+            i2 = startWord(ih, i1)
+            if(i2 == -1)
+              i2 = iend
+            outWord(ih, i1, i2, false, "")
+            if(i2 == iend)
+              break
+            i1 = i2
+            i2 = endWord(ih, i1)
+            if(i2 == -1)
+              i2 = iend
+            outWord(ih, i1, i2, true, animation)
+            if(i2 == iend)
+              break
+            i1 = i2
+          }
+          document.all[index].innerHTML = outString
+          document.all[index].style.posLeft = 0
+          document.all[index].setAttribute(dynamicanimAttr, null)
+        }
+        if(animation == "zoomIn" || animation == "zoomOut")
+        {
+          ih = el.innerHTML
+          outString = "<SPAN " + dynamicanimAttr + "=\"" + animation + "\" style=\"position: relative; left: 10000;\">"
+          outString += ih
+          outString += "</SPAN>"
+          document.all[index].innerHTML = outString
+          document.all[index].style.posLeft = 0
+          document.all[index].setAttribute(dynamicanimAttr, null)
+        }
+      }
+    }
+    i = 0
+    for (index=document.body.sourceIndex; index < document.all.length; index++)
+    {
+      el = document.all[index]
+      animation = el.getAttribute(dynamicanimAttr, false)
+      if (null != animation)
+      {
+        if(animation == "flyLeft")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)-el.offsetWidth
+          el.style.posTop = 0
+        }
+        else if(animation == "flyRight")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)+document.body.offsetWidth
+          el.style.posTop = 0
+        }
+        else if(animation == "flyTop" || animation == "dropWord")
+        {
+          el.style.posLeft = 0
+          el.style.posTop = document.body.scrollTop-offsetTop(el)-el.offsetHeight
+        }
+        else if(animation == "flyBottom")
+        {
+          el.style.posLeft = 0
+          el.style.posTop = document.body.scrollTop-offsetTop(el)+document.body.offsetHeight
+        }
+        else if(animation == "flyTopLeft")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)-el.offsetWidth
+          el.style.posTop = document.body.scrollTop-offsetTop(el)-el.offsetHeight
+        }
+        else if(animation == "flyTopRight" || animation == "flyTopRightWord")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)+document.body.offsetWidth
+          el.style.posTop = document.body.scrollTop-offsetTop(el)-el.offsetHeight
+        }
+        else if(animation == "flyBottomLeft")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)-el.offsetWidth
+          el.style.posTop = document.body.scrollTop-offsetTop(el)+document.body.offsetHeight
+        }
+        else if(animation == "flyBottomRight" || animation == "flyBottomRightWord")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)+document.body.offsetWidth
+          el.style.posTop = document.body.scrollTop-offsetTop(el)+document.body.offsetHeight
+        }
+        else if(animation == "spiral")
+        {
+          el.style.posLeft = 10000-offsetLeft(el)-el.offsetWidth
+          el.style.posTop = document.body.scrollTop-offsetTop(el)-el.offsetHeight
+        }
+        else if(animation == "zoomIn")
+        {
+          el.style.posLeft = 10000
+          el.style.posTop = 0
+        }
+        else if(animation == "zoomOut")
+        {
+          el.style.posLeft = 10000
+          el.style.posTop = 0
+        }
+        else
+        {
+          el.style.posLeft = 10000-offsetLeft(el)-el.offsetWidth
+          el.style.posTop = 0
+        }
+        el.initLeft = el.style.posLeft
+        el.initTop = el.style.posTop
+        animateElements[i++] = el
+      }
+    }
+    window.setTimeout("animate();", speed)
+  }
+  function offsetLeft(el)
+  {
+    x = el.offsetLeft
+    for (e = el.offsetParent; e; e = e.offsetParent)
+      x += e.offsetLeft;
+    return x
+  } 
+  function offsetTop(el)
+  {
+    y = el.offsetTop
+    for (e = el.offsetParent; e; e = e.offsetParent)
+      y += e.offsetTop;
+    return y
+  } 
+  function startWord(ih, i)
+  {
+    for(tag = false; i < ih.length; i++)
+    {
+      c = ih.charAt(i)
+      if(c == '<')
+        tag = true
+      if(!tag)
+        return i
+      if(c == '>')
+        tag = false
+    }
+    return -1
+  }
+  function endWord(ih, i)
+  {
+    nonSpace = false
+    space = false
+    while(i < ih.length)
+    {
+      c = ih.charAt(i)
+      if(c != ' ')
+        nonSpace = true
+      if(nonSpace && c == ' ')
+        space = true
+      if(c == '<')
+        return i
+      if(space && c != ' ')
+        return i
+      i++
+    }
+    return -1
+  }
+  function outWord(ih, i1, i2, dyn, anim)
+  {
+    if(dyn)
+      outString += "<SPAN " + dynamicanimAttr + "=\"" + anim + "\" style=\"position: relative; left: 10000;\">"
+    outString += ih.substring(i1, i2)
+    if(dyn)
+      outString += "</SPAN>"
+  }
+  function animate()
+  {
+    el = animateElements[currentElement]
+    animation = el.getAttribute(dynamicanimAttr, false)
+    step++
+    if(animation == "spiral")
+    {
+      steps = stepsSpiral
+      v = step/steps
+      rf = 1.0 - v
+      t = v * 2.0*Math.PI
+      rx = Math.max(Math.abs(el.initLeft), 200)
+      ry = Math.max(Math.abs(el.initTop),  200)
+      el.style.posLeft = Math.ceil(-rf*Math.cos(t)*rx)
+      el.style.posTop  = Math.ceil(-rf*Math.sin(t)*ry)
+    }
+    else if(animation == "zoomIn")
+    {
+      steps = stepsZoom
+      el.style.fontSize = Math.ceil(50+50*step/steps) + "%"
+      el.style.posLeft = 0
+    }
+    else if(animation == "zoomOut")
+    {
+      steps = stepsZoom
+      el.style.fontSize = Math.ceil(100+200*(steps-step)/steps) + "%"
+      el.style.posLeft = 0
+    }
+    else
+    {
+      steps = stepsFly
+      if(animation == "dropWord" || animation == "flyTopRightWord" || animation == "flyBottomRightWord")
+        steps = stepsWord
+      dl = el.initLeft / steps
+      dt = el.initTop  / steps
+      el.style.posLeft = el.style.posLeft - dl
+      el.style.posTop = el.style.posTop - dt
+    }
+    if (step >= steps) 
+    {
+      el.style.posLeft = 0
+      el.style.posTop = 0
+      currentElement++
+      step = 0
+    }
+    if(currentElement < animateElements.length)
+      window.setTimeout("animate();", speed)
+  }
+//-->
+</script></head>
+
+<body BGCOLOR="#FFFFFF" LINK="#FFFFFF" VLINK="#FFFFFF" ALINK="#FF0000" MARGINHEIGHT="8"
+MARGINWIDTH="8" TOPMARGIN="8" LEFTMARGIN="8" text="#000099"
+background="imagenes/framemed.gif" onload="dynAnimation()">
+<p align="center"><!--#### Menu ####--> </p>
+<div align="center"><center>
+
+<div id=mensaje style="position:absolute;left:556px;top:19px;width:223px;height:480px;bgcolor:"#cccccc";>
+<img src=imagenes/bienvenida.png width=230 height=480 style="border: 1px #808080 solid;" alt="Bienvenidos !">
+</div>
+
+
+
+</center>
+</div>
+
+<div align="center">
+<NOSCRIPT>
+<p>
+<font size="4"
+face="Verdana, Arial, Helvetica, sans-serif">Deberias usar Internet Explorer o Netscape 4.0 o superior</font>. </NOSCRIPT> <!--#### Fin Menu ejgo####--> <!--#### Contenido de la Seccion ####--> <p></p>
+</div>
+<div align="left"></div>
+
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="434">
+  <tr>
+    <td WIDTH="460" VALIGN="top"><br>
+    <div align="left"></div>
+      <table width="38%" border="0" align="left">
+        <tr> 
+          <td dynamicanimation="flyTop"
+        style="position: relative !important; left: 10000 !important" colspan="2"><a href="introduccion.htm"
+        onMouseOver="changeImages('contactar', 'intro1.gif',1); return true;"
+        onMouseOut="changeImages('contactar', 'intro2.gif',0); return true;"><img name="contactar"
+        src="intro1.gif" width="147" height="32" border="0" alt></a></td>
+        </tr>
+        <tr> 
+          <td colspan="2"></td>
+        </tr>
+        <tr> 
+          <td dynamicanimation="flyTop"
+        style="position: relative !important; left: 10000 !important" colspan="2"><a href="capitulo01.htm"
+        onMouseOver="changeImages('noticias', 'capi1.gif',1); return true;"
+        onMouseOut="changeImages('noticias', 'capi2.gif',0); return true;"><img name="noticias"
+        src="capi1.gif" width="147" border="0" alt height="32"></a></td>
+        </tr>
+        <tr> 
+          <td dynamicanimation="flyTop"
+        style="position: relative !important; left: 10000 !important" colspan="2"><a href="capitulo02.htm"
+        onMouseOver="changeImages('productos', 'capii1.gif',1); return true;"
+        onMouseOut="changeImages('productos', 'capii2.gif',0); return true;"><img name="productos"
+        src="capii1.gif" width="147" height="32" border="0" alt></a></td>
+        </tr>
+        <tr> 
+          <td dynamicanimation="flyTop"
+        style="position: relative !important; left: 10000 !important"> 
+            <p><a href="capitulo03.htm"
+        onMouseOver="changeImages('servicios', 'capiii1.gif',1); return true;"
+        onMouseOut="changeImages('servicios', 'capiii2.gif',0); return true;"><img
+        name="servicios" src="capiii1.gif" width="147" height="30" border="0" alt></a></p>
+            <p><font face="Tahoma" color="#FFFFFF" size="2"></font></p>
+          </td>
+          <td dynamicanimation="flyTop"
+        style="position: relative !important; left: 10000 !important">&nbsp;</td>
+        </tr>
+      </table>
+    <font size="+1" face="Tahoma" color="#ffffff"><p align="center">&nbsp; </p>
+    </font><p ID="texto" align="center"><br>
+    <br>
+    <br>
+    </td>
+  </tr>
+</table>
+<!--#### Fin Contenido de la Seccion ####--> <!--#### Descripciones ####--> 
+
+<table width="75%" border="0">
+  <tr>
+    <td width="1%">&nbsp;</td>
+<!--
+    <td width="27%"><font face="Tahoma" color="#FFFFFF" size="2"><i><a href="referencias.htm">contactos</a></i></font></td>
+-->
+    <td><a href="conclusion.htm" class=lem><span style='font-size:13.0pt;'>Conclusión</span></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p><font face="Tahoma" color="#FFFFFF" size="2"><i><a href="referencias.htm"> 
+  </a></i></font></p>
+<div ID="forlynx"
+STYLE="position:absolute; z-index: 0; top:0px; left:0px; visibility: hidden">
+
+<p>&nbsp;<br>
+&nbsp;<br>
+<br>
+<br>
+III.com.ve<br>
+------------------------------------<br>
+&nbsp; &nbsp; &nbsp; Secciones </p>
+</div><div id="lcontactar"
+style="position:absolute; left:557px; top:20px; width:221px; z-index:6; visibility: hidden">
+
+<!--
+<div id=mensaje style="position:absolute;left:0px;top:4px;width:200px;height:320px;z-index:1;background-color:#00cccc;>
+</div>
+-->
+
+<table width="222" border="0" cellspacing="0" cellpadding="1" bgcolor="#000000" ">
+  <tr>
+    <td><table width="222"  height=450 border="0" cellspacing="0" cellpadding="3" bgcolor="#FFFFCC">
+      <tr bgcolor="#000000">
+        <td valign=top><font color="#b5b5c2"><i><span id="peq"><b>Introducción</b><br></span></i></font></td>
+      </tr>
+      <tr bgcolor="#000000">
+            <td valign=top height=450><font color="ffd900">Desde un Municipio Inteligente hacia una sociedad mejor organizada y más justa.<span id="peq"> 
+              </span></font>
+<img src=imagenes/Introduccion.png width=222 height=379>
+<!-- 
+              <p><span
+        id="peq"><font face="Tahoma" size="-1"><br>
+        </font></span></td>
+-->
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</div>
+
+<!-- div ID="lnoticias" STYLE="position:absolute; left:557px; top:20px; width:222px;height:320px; z-index:3; visibility: hidden" -->
+
+
+<div ID="lnoticias" STYLE="position:absolute; left:557px; top:20px; width:222px;height:480px; z-index:3; visibility: hidden">
+
+<table WIDTH="222" height=480 BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#000000" ">
+  <tr valign=top>
+    <td valign=top><table WIDTH="198" BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFCC">
+      <tr bgcolor="#000000">
+        <td><font color="#b5b5c2"><i><span id="peq"><b>Capitulo I</b><br></span></i></font></td>
+      </tr>
+      <tr bordercolor="#FFFFFF" bgcolor="#000000">
+        <td valign=top height=300><font color="#ffd900">Pueblo-Gobierno-Territorio<br>Catastro
+        Integral
+        <br>Enfoque Sistémico
+        <br>Objetivos del Catastro Integral
+        <br>Principios Conceptuales</font>
+<p><img src=imagenes/Capitulo1.png width=220 height=320>
+</td>
+      </tr>
+    </table>
+
+    </td>
+  </tr>
+</table>
+</div><div id="lproductos"
+style="position:absolute; left:557px; top:20px; width:222px;height:480px; z-index:4; visibility: hidden">
+
+<table width="222" height=480 border="0" cellspacing="0" cellpadding="1" bgcolor="#000000" ">
+  <tr>
+    <td valign=top><table width="198" border="0" cellspacing="0" cellpadding="3" bgcolor="#FFFFCC">
+      <tr bgcolor="#000000">
+        <td valign=top><font color="#b5b5c2"><i><span id="peq"><b>Capitulo II</b><br></span></i></font></td>
+      </tr>
+      <tr bgcolor="#000000">
+        <td valign=top height=300><font color="#ffd900">Sistema de Información Social
+        Sistema Organizacional
+        <br>Sistema de Activación Social
+        <br>Activación de la comunidad</font>
+<p><img src=imagenes/Capitulo2.png width=220 height=338></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</div><div id="lservicios"
+style="position:absolute; left:557px; top:20px; width:222px; z-index:5; visibility: hidden">
+
+<table width="222" height=480 border="0" cellspacing="0" cellpadding="1" bgcolor="#000000" ">
+  <tr>
+    <td valign=top><table width="222" border="0" cellspacing="0" cellpadding="3" bgcolor="#FFFFCC">
+      <tr bgcolor="#000000">
+        <td><font color="#b5b5c2"><i><xspan id="peq"><b>Capítulo III</b><br><x/span></i></font></td>
+      </tr>
+      <tr bgcolor="#000000">
+        <td valign=top><font color="#ffd900">Dominio del Espacio Social
+        <br>Dominio del Espacio Económico
+        <br>Dominio del Espacio Político</font>
+<p><img src=imagenes/Capitulo3.png width=220 height=356></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</div><!--#### Fin Descripciones ####-->
+
+</body>
+</html>

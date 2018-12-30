@@ -1,0 +1,160 @@
+<html>
+<head>
+<meta name="Author" content="Luis Gómez de la Vega">
+
+<title>capitulo II</title>
+</head>
+<body  background="fondo.jpg" bgcolor="#FFFFFF" alink="#0000FF"
+onload="scroll();">
+
+<br><center>
+  <font size=+3><img src="toneco2.gif" width="67" height="20"></font> 
+</center>
+<font
+color="#000000">
+<script language="JavaScript">
+var txt=" Hacia un Municipio Inteligente "+"....."
+ +" catastro Integral"+"......."+" Instituto de Investigaciones Integradas";
+function scroll()
+{
+  window.status = txt;
+  txt = txt.substring(1, txt.length) + txt.charAt(0);
+  window.setTimeout("scroll()",150);
+}
+</script>
+</font> 
+<p align="center"> <br>
+  <font color="#000000"><br>
+  <script language="JavaScript">
+<!--
+var NS4 = (document.layers) ? true : false;
+var IE4 = (document.all) ? true : false;
+var NS4MAC = NS4 &&
+            (navigator.appVersion.indexOf("Macintosh") > -1);
+var size = 8;
+var active = false;
+var style = 1;
+start();
+function site(name, url) {
+  this.name = name;
+  this.url = url;
+}
+function byName(a, b) {
+  var anew = a.name.toLowerCase();
+  var bnew = b.name.toLowerCase();
+  if (anew < bnew) return -1;
+  if (anew > bnew) return 1;
+  return 0;
+}
+function display() {
+  var list = document.organizer.list;
+  if (list.selectedIndex > -1)
+    location.href = list.options[list.selectedIndex].value;
+}
+function update() {
+  if ((!NS4 && !IE4) || NS4MAC) return;
+  var form = document.organizer;
+  var field = form.prefix;
+  var list = form.list;
+  field.value = list.options[list.selectedIndex].text;
+}
+function select(list, i) {
+  if (list.selectedIndex != i) list.selectedIndex = i;
+}
+function checkKey() {
+  if (!active) return;
+  var form = document.organizer;
+  var field = form.prefix;
+  var list = form.list;
+  var str = field.value.toLowerCase();
+  if (str == "") {
+    select(list, 0);
+    return;
+  }
+  for (var i = 0; i < list.options.length; ++i) {
+    if (list.options[i].text.toLowerCase().indexOf(str) == 0) {
+      select(list, i);
+      return;
+    }
+  }
+  if (style == 1) {
+    for (i = list.options.length - 1; i >= 0; --i) {
+      if (str > list.options[i].text.toLowerCase()) {
+        select(list, i);
+        return;
+      }
+    }
+    select(list, 0);
+  }
+}
+function printList() {
+  with (document) {
+    write(
+      '<FORM NAME="organizer" ',
+      'onSubmit="display(); return false;">',
+      '<TABLE BGCOLOR="#ffffff" CELLSPACING="0" ',
+      'CELLPADDING="5" BORDER="20" bordercolor="#000000"><TR><TD>',
+      '<TABLE BGCOLOR="000000"  CELLSPACING="0" ',
+      'CELLPADDING="5" BORDER="5" bordercolor="#000000"><TR><TD>'
+    );
+    if ((NS4 || IE4) && !NS4MAC)
+      write(
+        '<INPUT TYPE="text" NAME="prefix" ',
+        'SIZE="40" onFocus="active = true" ',
+        'onBlur="active = false"><BR>'
+      );
+    write(
+      '<SELECT NAME="list" SIZE="', size,
+      '" onChange="update()">'
+    );
+    for (var i = 0; i < ar.length; ++i) {
+      write('<OPTION VALUE="', ar[i].url, '">', ar[i].name);
+    }
+    write(
+      '</SELECT><BR>',
+      '<font size=+1><INPUT TYPE="submit" VALUE=" (  Click Para Mostrar  Contenido ) "></font>',
+      '</TD></TR></TABLE></TD></TR></TABLE></FORM>'
+    );
+  }
+}
+function start() {
+  if (!window.Array) return;
+  ar = new Array(); 
+    ar[0] = new site("...Sistema de Información Social",
+          "sisteinfosocial.htm");
+ ar[1] = new site("..Sistema Organizacional",
+          "sisteorganizacional.htm");
+  ar[2] = new site(".Sistema de Activación Social",
+          "activasocial.htm");
+ar[3] = new site("Activación de las Comunidades Organizadas",
+          "activacomunidades.htm");
+  
+   
+
+     if (ar.sort) ar.sort(byName);
+  printList();
+  if (NS4) document.captureEvents(Event.KEYUP);
+  document.onkeyup = checkKey;
+}
+// -->
+</script>
+  <script
+language="JavaScript">
+function Regresar () {
+history.go(-1)
+}
+</script>
+  </font></p>
+
+<p align="center"><font color="#0000FF"><left><left> </font></p>
+<div align="center"><center><table border="0" bgcolor="#ffffff" bordercolor="#ffffff">
+    <tr>
+        <td background="fondo.jpg" bgcolor="#FFFFFF"><p
+        align="center"><font color="#000000">
+</font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+</body></html>

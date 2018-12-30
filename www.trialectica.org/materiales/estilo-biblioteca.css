@@ -1,0 +1,300 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFE3B3;
+	background-image: url("fondo.jpg");
+}
+
+.tabla_marco {
+	position:relative;
+	top: 10px;
+	margin: 0px;
+	padding: 6px;
+	float: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #FF0000;
+	background: #FFFFFF;
+}
+
+.Titulo {
+	font-size: 22px;
+	color: #FF0000;
+   text-align: center;
+	font-family: Tahoma,"Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.tabla_mensajes {
+	position:relative;
+	top: 10px;
+	margin: 10px;
+	padding: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
+	float: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FF0000;
+	background: #FFFFee;
+	font-family: Tahoma,Verdana,Times;
+	line-height: 16px; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.titular {
+	font-size: 18px;
+	color: #333333;
+   text-align: left;
+	font-family: Tahoma,"Courier New", Courier, monospace;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.fuente {
+	font-size: 11px;
+	color: #666666;
+   text-align: left;
+	font-family: Tahoma,"Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.resumen {
+	font-size: 14px;
+	color: #666666;
+	padding-left: 20px;
+	padding-right: 20px;
+   text-align: justify;
+	font-family: Tahoma,"Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.cuerpo {
+	font-size: 13px;
+	color: #666666;
+   text-align: justify;
+	font-family: Tahoma,"Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+
+.encabeza_rep {
+	font-size: 14px;
+	color: #FF0000;
+   text-align: center;
+	font-family: Tahoma,"Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.documenta {
+	font-family: Times;
+	line-height: 18px; 
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	color: #cc0000;
+	text-align:justify;
+	text-decoration: none;
+}
+
+.ref {
+	font-family: Times;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+	text-align:justify;
+	text-decoration: none;
+	padding-bottom:4px;
+}
+
+a.documenta {
+	font-family: Times;
+	line-height: 18px; 
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration:none;
+	border-bottom: 1px dashed #FF0000;
+}
+
+.encabezado1 {
+	padding: 1px;
+	border: 2px solid #CCCCCC;
+	-moz-border-radius: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	background-color: #FF3333;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	height: 25px;
+	color: #FFFFFF;
+	text-transform: none;
+	text-decoration:none;
+}
+
+a.Encabezado1:hover {
+	color: #FFFF00;
+	text-decoration:none;
+}
+
+.seccion {
+	font-family: Verdana;
+	line-height: 20px; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.seccion_negra {
+	font-family: Verdana;
+	line-height: 22px; 
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.opciones {
+	font-family: Verdana, Times;
+	line-height: 24px; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #cc0000;
+	text-decoration: none;
+}
+
+a.opciones {
+	font-family: Verdana, Times;
+	line-height: 22px; 
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ff0000;
+	text-decoration: none;
+}
+
+a.opciones:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.Estilo2 {font-size: 12px; color: #FFFFFF; }
+.Estilo3 {font-size: 11px; color: #FFFFFF; }
+.Estilo4 {font-size: 14px; color: #FFFFFF; }
+.Estilo5 {font-size: 14px; color: #FFFFFF; }
+.Estilo6 {color: #FFFFFF;
+ 	font-weight: bold;
+	font-size: 10px;}
+.Estilo7 {color: #cc0000;font-weight:bold;text-decoration:none;}
+.Estilo8 {color: #FFFFFF;font-size: 16px;font-weight:bold }
+.Estilo9 {color: #cc0000;font-weight:normal;	margin: 0px;
+	padding: 6px;}
+
+.Estilo10 {
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+.Nota {color: #FFFFFF;font-size: 20px; }
+a.Nota {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	position:relative;
+	top: -1px;
+	margin: 0px;
+	padding: 6px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+}
+a.Nota:hover {color:yellow}
+
+.cont_plain_centro {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+   text-align: center;
+	text-decoration: none;
+	color: #FF0000;
+}
+/* ****** Fin de modificaciones LEM */
+
+
+.cont_plain {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	text-decoration: none;
+	color: #FF0000;
+}
+.lineavert {
+	border-right-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #FF0000;
+}
+.subrayado {
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+
+
+.cont_bold {
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.cont_sumario {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #003399;
+
+	text-decoration none;
+	width: 95%;
+	border: 1px none #CCCCCC;
+	padding: 5px 5px;
+	background-color: #F3F3F3;
+	text-transform:uppercase;
+}
+
+.tablaborde {
+	margin: 0px;
+	padding: 0px;
+}

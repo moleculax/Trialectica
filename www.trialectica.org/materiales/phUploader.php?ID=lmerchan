@@ -1,0 +1,160 @@
+<title>Gestor para Transferencias de Archivos a la Biblioteca</title>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+ var pagina = 'index.php';
+ function redireccion() {
+ document.location.href=pagina;
+}
+</script>
+<title>Transferencias de Archivos al Portal Trialectica.org<br>Area: Materiales de Referencia para la Biblioteca</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<style type="text/css">
+	body{
+		background-color:#FFE3B3;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 12pt;
+		color: #000000;
+	}
+	
+	.error_message{
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 11pt;
+		color: #FF0000;
+	}
+	
+	.uploaded_message{
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 11pt;
+		color: #000000;
+	}
+	
+	a:link{
+		text-decoration:none;
+		color: #000000;
+	}
+	a:visited{
+		text-decoration:none;
+		color: #000000;
+	}
+	a:hover{
+		text-decoration:underline;
+		color: #000000;
+	}
+	
+	
+	.table {
+		border-collapse:collapse;
+		border:1px solid #000000;
+		width:725px;
+	}
+	
+	.table_header{
+		border:1px solid #070707;
+		background-color:#C03738;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 12pt;
+		font-weight:bold;
+		color: #FFFFFF;
+		text-align:center;
+		padding:2px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	.upload_info{
+		border:1px solid #070707;
+		background-color:#EBEBEB;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 8pt;
+		color: #000000;
+		padding:4px;
+	}
+	
+	
+	.table_body{
+		border:1px solid #070707;
+		background-color:#EBEBEB;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 10pt;
+		color: #000000;
+		padding:2px;
+	}
+
+	.celda{
+		border:1px solid #070707;
+		background-color:#EBEBEB;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 10pt;
+		color: #000000;
+		padding:2px;
+		padding-top:7px;
+		padding-bottom:7px;
+	}
+	
+	.table_footer{
+		border:1px solid #070707;
+		background-color:#C03738;
+		text-align:center;
+		padding:2px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	
+	input,select,textarea {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 10pt;
+		color: #000000;
+		background-color:#AFAEAE;
+		border:1px solid #000000;
+	}
+	
+	.copyright {
+		border:0px;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 9pt;
+		color: #000000;
+		text-align:right;
+	}
+	
+	form{
+		padding:0px;
+		margin:0px;
+	}
+</style>
+<br>
+
+<form method="POST" action="/materiales/phUploader.php">
+<table align="center" class="table">
+<tr>
+<td width="100%" class="table_header" colspan="2">Clave requerida para Transferir Archivos a la Biblioteca</td>
+</tr>
+<tr><td colspan=2 class="table_body">Para aportar materiales a la Biblioteca, hace falta ser miembro del Forum Agora y suministrar la respectiva clave de acceso.<tr>
+</tr>
+<tr><td colspan="2" align="center" class="table_body">
+<br>Favor ingresar la Clave de Acceso: <input type="password" name="check_password" /> <input type="hidden" name="verify_password" value="true">
+&nbsp; &nbsp;&nbsp; &nbsp;  <input type="submit" value=" Verificar Clave " />
+</td>
+</tr>
+</table>
+</form>
+<table class="table" style="border:0px;" align="center">
+<!--
+	<tr>
+		<td><div class="copyright">&copy;<a href="http://www.phphq.net?script=phUploader" target="_blank" title="Uploader Powered By phUploader &lt;www.phphq.net&gt;">phUploader</a></div></td>
+	</tr>
+-->
+
+<tr><td colspan=2 align=right><font size=-1><br><a href=normas.html>Click Aquí para ver Normas de la Biblioteca</a></font></td></tr>
+
+</table>
+</body>
+</html>
+
+

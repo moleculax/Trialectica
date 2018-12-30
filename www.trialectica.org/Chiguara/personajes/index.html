@@ -1,0 +1,71 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="../estilo.css">
+<script language="JavaScript">
+var windowW=420
+var windowH= 380
+var windowX = 460
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+// s = "width="+windowW+",height="+windowH;
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+
+
+function abrir(urlPop){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+</head>
+
+<body bgcolor=#C6E0E2>
+
+<div class="subtit" style="position:absolute;top:2px;">
+Anécdotas, Personajes y Testimonios de Chiguará
+</div><br><br>
+
+<div id="cuerpo" style="width:570px;">
+
+<p>
+En esta sección presentamos materiales multimedia relacionados con personajes, testimonios y anécdotas de Chiguará:
+<p>
+<ul>
+<li><a href="javascript:abrir('videos/Entrevista a Pulido.html')">Video: Entrevista al Dr. Rafael Pulido</a> (4:18 minutos - 13 Mb)<br>
+El General Pedro Dávila Fernández entrevista al Dr. Rafael Pulido Hernández en torno al Proyecto <b>"Chiguará: Pueblo Ecológico, Hermoso y Limpio"</b>, presentado en acto público a la comunidad el pasado día 04/09/2010.<p>
+<li><a href="javascript:abrir('videos/Gloria Martinez.html')">Video: Entrevista a la Lic. Gloria Martínez</a> (3:16 minutos - 12 Mb)<br>
+Gloria Martínez, miembro fundadora del Instituto de Investigaciones Integradas, nos habla de sus vivencias en el trabajo con FundaChiguará, iniciado meses antes de que se constituyera FundaChiguará en el año 1984, así como de su valoración actual de la experiencia llevada adelante por Chiguará y su gente, modelo de desarrollo integral de Venezuela para el Mundo.<p>
+<li><a href="javascript:abrir('videos/Entrevista GPDF.html')">
+Video: Testimonio del General Pedro Dávila Fernández</a> (6:37 minutos - 27 Mb)<br>
+Entrevista al General Dávila, hijo ilustre de Chiguará y Miembro Fundador del Instituto de Investigaciones 
+Integradas. Nos habla sobre la constitución de FundaChiguara y la instalación de la primera <b><i>Sala de Inteligencia Operativa</i></b>, realizada
+en Chiguará en el año 1985. Entrevista realizada por Luis Merchán en Julio de 2010.<p>
+<li><a href="javascript:abrir('videos/Chiguara TV.html')">
+Video: Chiguará TV presenta "Epopeya de Bolívar con Pajarillo"</a> (8:34 minutos - 22 Mb)<br>
+El trío de cuerdas Ensamble CEMFIRO, integrado por Eduardo Gómez de la Vega, José Virgilio Largo y Germán Lacruz, interpreta la 
+<b>Epopeya de Bolívar con Pajarillo</b>, grabado en los estudios de la emisora local Chiguará TV.<p>
+<li><a href="documentos/Discurso de Pulido.html">Documento: Discurso del Dr. Rafael Pulido</a><br>
+Palabras pronunciadas en Agosto 2010 por el Dr. Rafael Pulido Hernández en ocación de su nombramiento como Hijo Ilustre de Chiguará.<p>
+<li><a href="documentos/Chiguara y las Metas del Milenio.html">Documento: Chiguará y los Objetivos y Metas del Milenio 2000</a><br>
+El General Dávila Fernández nos habla de FundaChiguará y de sus múltiples logros, relacionándolos con los Objetivos y Metas planteados
+por la Organización de las Naciones Unidas en septiembre del 2000 durante la realización de la llamada Cumbre del Milenio.
+
+</ul>
+</div>
+</body>
+
+</html>

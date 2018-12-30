@@ -1,0 +1,166 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 16 términos definidos en la Sección H</div>
+<dl>
+<dt>HABERES:</dt>
+<dd>Los objetos de que tiene <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> el hombre. Véase Julián Marías, Ortega: Las trayectorias (Madrid, 1983), pp. 280- 82; cf. Ferrater, DF, II, p. 1417. Como punto de partida, Véase la Lección IV de ¿que es <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a>? de Ortega y Gasset (OC, VII, Pp. 315-28 y en particular el texto siguiente: Entiendo por Universo formalmente 'todo cuanto hay'. Es decir, que al filósofo no le interesa cada una de las cosas que hay por sí, en su <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> aparte y diríamos privada, sino que, por el contrario le interesa la totalidad de cuanto hay, y, consecuentemente, de cada cosa lo que ella es frente y junto a las demás, su puesto, papel y rango en el conjunto de todas las cosas- -diríamos la <a href=javascript:abrir("VIDA") class=glosa>vida</a> publicada de cada cosa, lo que representa y vale en la soberana publicidad de la <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> universal. Por cosas entenderemos no solo las reales físicas o anímicas, sino también las irreales, las ideales y fantásticas, las transreales si es que las hay. Por eso elijo el verbo 'haber', ni siquiera digo 'todo lo que existe', sino 'todo lo que hay'. Este 'hay', que no es un grito de dolor, es el círculo más amplio de objetos que cabe trazar, hasta los cuales es forzoso decir que las hay pero no existen. Así, por ejemplo, el cuadrado redondo, el cuchillo sin hoja ni cacha o todos esos seres maravillosos de que nos habla el poeta Mallarmé-como la hora sublime que es, según él 'la hora ausente del cuadrante', o la mujer mejor, que es 'la mujer ninguna'. Del cuadrado redondo sólo podemos decir que no existe, y no por casualidad, sino que su <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> es imposible; pero para poder dictar sobre el pobre cuadrado redondo tan cruel sentencia es evidente que tiene previamente que ser habido por nosotros, es menester que en algún <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> lo haya&quot; (OC, V II, p.319; véase supra, s. v. 'conocimiento').</dd>
+<dt>HARDWARE:</dt>
+<dd>Parte material de un <a href=javascript:abrir("SISTEMA%20INFORMATICO") class=glosa>sistema informático</a></dd>
+<dt>HECHOS:</dt>
+<dd>1.- <a href=javascript:abrir("OBJETIVOS") class=glosa>Objetivos</a> reales: Cosas o sistemas, propiedades de los sistemas, estados (haces de propiedades), sucesos (cambios de estado) y procesos (sucesos encadenados que conducen a un fin). 2.- Conceptos, verdades e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> en general (datos) derivados del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> de los hechos (1, supra) que tienen <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> objetiva; es decir, independiente del sujeto cognoscente (cf. supra 'haberes').</dd>
+<dt>HERRAMIENTA METODOLOGICA: (Trialéctica)</dt>
+<dd>Conjunto de técnicas que hacen posible el ajuste de la relación entre medios, <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y resultados mediante el análisis a posteriori.</dd>
+<dt>HIC ET NUNC:</dt>
+<dd>Expresión tomada del Latín (&quot;aquí y ahora&quot;) que denota el lugar donde uno se encuentra (hic) en el momento presente (nunc). Obsérvese que en el mundo de nuestra <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> cotidiana, el momento presente es la única <a href=javascript:abrir("DIMENSION") class=glosa>dimensión</a> del tiempo que es real aunque no es más que un punto temporal que apenas deja de ser para transformarse en el siguiente. Ni el pasado ni el futuro tiene <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> real física; ambos son <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> psíquicos: recuerdo del tiempo pasado y anticipación del tiempo por venir. No obstante, la ciencia procede como si el pasado, el momento actual y el futuro fuesen <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> de un modo único de <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> con <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> efectiva, Véase s. v. '<a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>'.</dd>
+<dt>HOJA ELECTRONICA DE CALCULO:</dt>
+<dd>Programa estándar para la realización de cálculos financieros.</dd>
+<dt>HOLISMO:</dt>
+<dd>1.- <a href=javascript:abrir("DOCTRINA") class=glosa>Doctrina</a> filosófica, formulada por primera vez por Jan C. Smuts, según la cual los factores determinantes en la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> son todos (en forma de <a href=javascript:abrir("ORGANISMO") class=glosa>organismo</a>), los cuales son irreducibles a la suma de sus partes; la <a href=javascript:abrir("EVOLUCION") class=glosa>Evolución</a> del universo constituye el registro de la <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a> y formación de tales todos. 2.- Teoría o doctrina según la cual un todo no puede ser descompuesto mediante análisis en la suma de sus partes sin que reste algún residuo; tampoco puede ser reducido a elementos discretos. W'STNID (Véase 'evolución <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a>').</dd>
+<dt>HOLISTICO:</dt>
+<dd>1.- Relacionado con el <a href=javascript:abrir("HOLISMO") class=glosa>holismo</a> como teoría y con las ideas defendidas por el Holismo. 2.- Que da énfasis a la relación <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> u orgánica entre las partes y los todos.</dd>
+<dt>HOLOGRAFIA:</dt>
+<dd>1.- Técnica fotográfica basada en el empleo de la luz coherente producida por el láser. En la placa fotográfica se impresionan las interferencias causadas por la luz reflejada de un objeto con la luz indirecta. Iluminada (después de revelada) placa fotográfica con la luz del láser, se forma la imagen tridimensional del objeto original. DRAE. 2.- <a href=javascript:abrir("METODO") class=glosa>Método</a> que permite obtener una fotografía en relieve usando interferencias producidas por dos haces de rayos láser, el primero procedente del aparato y el otro reflejado por el objeto que se va a producir. 3.- Holonimia graficada.</dd>
+<dt>HOLOGRAMA:</dt>
+<dd>1.- Placa fotográfica obtenida mediante <a href=javascript:abrir("HOLOGRAFIA") class=glosa>holografía</a>. 2.- Imagen óptica obtenida mediante dicha técnica. DRAE. En el holograma, &quot;lo que a primera vista parece ser una placa de cristal sin <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> se reorganiza en una imagen detallada cuando un haz de rayos láser se refleja sobre ella&quot;. (Davies, UD, p. 200). &quot;En los últimos años se ha prestado atención al papel de la física cuántica en el establecimiento de <a href=javascript:abrir("VINCULOS") class=glosa>vínculos</a> entre las partes y el todo. Una elocuente exposición del tema nos la ofrece David Bohm en su libro la totalidad y el orden, donde escribe: 'la teoría cuántica posee un tipo fundamentalmente nuevo de relación no local, que puede ser descrito como una conexión no causal entre elementos distantes'. &quot;Bohm presenta una analogía entre el orden del Universo cuántico y el orden de un holograma. Un holograma es un dispositivo para codificar <a href=javascript:abrir("INFORMACION") class=glosa>información</a> acerca de una imagen. La escena codificada puede reconstruirse en forma de imagen tridimensional proyectada con luz láser. La <a href=javascript:abrir("INFORMACION") class=glosa>información</a> sobre la escena está almacenada en una placa fotográfica, pero en una forma irreconocible por el ojo humano. De hecho, la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> se almacena codificándola mediante la interferencia de dos rayos láser, y el proceso generalmente muy <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a>. Tan sólo puede ser recuperada recurriendo de nuevo a los rayos láseres. En una placa fotográfica convencional, cada rasgo de la imagen proyectada tiene su contrapartida en un lugar de la placa; existe una correspondencia unívoca entre las partes de la placa y las partes de la imagen. Un holograma es algo completamente distinto. Cada rasgo de la imagen se halla codificado a lo largo de toda la placa fotográfica. La diferencia se hace obvia si iluminamos sólo un fragmento de la placa. La imagen recreada permanece intacta, aunque algo degrada en calidad, ya que hay aún <a href=javascript:abrir("INFORMACION") class=glosa>información</a> disponible y sin utilizar en la otra porción de la placa. Algo totalmente distinto sucede con una placa convencional, donde una iluminación parcial produce una imagen proyectada carente de alguna de sus partes&quot;. (Davies, S. p. 2339).</dd>
+<dt>HOLONlMIA:</dt>
+<dd>Forma resumida y sintética de presentar un modelo racional - <a href=javascript:abrir("HOLISTICO") class=glosa>holístico</a>.</dd>
+<dt>HORA / HOMBRE:</dt>
+<dd>Tiempo empleado por una o más personas en la realización de una <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a> o <a href=javascript:abrir("TAREA") class=glosa>tarea</a>. Es la conjunción hombre - tiempo necesaria para <a href=javascript:abrir("DESARROLLAR") class=glosa>desarrollar</a> una <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a> medible en el tiempo.</dd>
+<dt>HOT:</dt>
+<dd>Siglas que designan un sistema de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> o investigación evaluativa que consta de los siguientes tres componentes. H. 'Hombre': el <a href=javascript:abrir("FACTOR") class=glosa>factor</a> humano y su capacidad, confiabilidad y <a href=javascript:abrir("RESPONSABILIDAD") class=glosa>responsabilidad</a>. O. 'Organización': <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> organizacional, <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a>; organización, <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a>, <a href=javascript:abrir("FUNCION") class=glosa>función</a>; organización por niveles. T. 'Tiempo': tiempo físico cuantificado utilizable y <a href=javascript:abrir("OPTIMIZABLE") class=glosa>optimizable</a>; el tiempo ha de ser proporcional al sistema de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>. Se debe buscar una óptima <a href=javascript:abrir("PROPORCIONALIDAD") class=glosa>proporcionalidad</a> entre los tres componentes del sistema (H, O y T).</dd>
+<dt>HUMANISMO:</dt>
+<dd>1.- Cultivo y <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> de las letras humanas (en contraposición a las letras sacras o divinas). 2.- <a href=javascript:abrir("DOCTRINA") class=glosa>Doctrina</a> de los humanistas del Renacimiento. DRAE. Este saber e impulso cultural renacentista se caracterizó por el redescubrimiento de la literatura clásica (griega y latina), el individualismo, el espíritu crítico y una mayor atención a los asuntos humanos a expensas de lo religioso y sobrenatural. 3.- Dedicación al <a href=javascript:abrir("BIENESTAR") class=glosa>bienestar</a> del ser humano; interés y preocupación por el hombre: HUMANIDAD, HUMANITARISMO. 4.- <a href=javascript:abrir("DOCTRINA") class=glosa>Doctrina</a>, conjunto de actitudes y modo de <a href=javascript:abrir("VIDA") class=glosa>vida</a> cuyos centros de atención son los intereses y valores humanos: (a) <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> que rechaza lo sobrenatural, considera al hombre un objeto de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> y afirma la dignidad esencial y el valor del hombre al igual que su capacidad de autorrealización mediante el uso de la razón y del <a href=javascript:abrir("METODO") class=glosa>método</a> científico - - conocido también bajo las designaciones de 'humanismo naturalista' y 'humanismo científico: of. INSTRUMENTALISMO, PRAGMATISMO; (b) religión que mantiene estas creencias: HUMANISMO RELIGIOSO; (c) <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> que defiende la autorrealización del hombre dentro del marco de los principios del cristianismo: HUMANISMO CRISTIANO; Véase <a href=javascript:abrir("HUMANISMO%20INTEGRAL") class=glosa>HUMANISMO INTEGRAL</a> W'STNID.</dd>
+<dt>HUMANISMO INTEGRAL:</dt>
+<dd>Humanismo cristiano basado en principios tomísticos y propugnado particularmente por Jacquez Maritain. W'STNID.</dd>
+<dt>HEXADECIMAL:</dt>
+<dd>Sistema de numeración de base 16.</dd>
+</dl>
+</div></body></html></body></html>

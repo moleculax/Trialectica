@@ -1,0 +1,230 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 48 términos definidos en la Sección S</div>
+<dl>
+<dt>SALAS:</dt>
+<dd>Herramientas complejas que en un espacio específico y articulado permiten el uso de la <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a> y su aplicación al <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a> o estratégico de las organizaciones. &quot;Redes de Salas&quot; Adjunción y conjunto de unidades interactivadas que propenden al desarrollo estratégico.</dd>
+<dt>SALA DE INTELIGENCIA OPERATIVA:</dt>
+<dd>(1) Sitio donde se concentra el sistema de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>, inteligencia, registro, tomas de decisión y ajustes para <a href=javascript:abrir("OPTIMIZAR") class=glosa>optimizar</a> la relación objetivo-resultado, en un proceso de <a href=javascript:abrir("INVESTIGACION%20EXTENSIVA") class=glosa>investigación extensiva</a>.</dd>
+<dt>SALA DE EFICIENCIA POR SISTEMA:</dt>
+<dd>(2) Sitio donde se dirige en un proceso de mejoramiento institucional estratégico.</dd>
+<dt>SALA DE CONTROL DE GESTION:</dt>
+<dd>(3) Sitio donde se evalúa en un proceso de alta gerencia utilitaria. En las <a href=javascript:abrir("SALAS") class=glosa>salas</a> (1, 2 y 3) I.O., E.S. y en la C.G., se aplican algunos códigos normalizados que significan lo siguiente: lA) <a href=javascript:abrir("OBJETIVOS") class=glosa>Objetivos</a>, 2) Territorio, 3) Programación cronológica, 4) <a href=javascript:abrir("ORGANIGRAMA") class=glosa>Organigrama</a>, 5) Funcionagrama, 6) <a href=javascript:abrir("FLUJOGRAMA") class=glosa>Flujograma</a>, 7) <a href=javascript:abrir("ARCHIVO%20CENTRAL") class=glosa>Archivo Central</a> (documental, analítico y de <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a>), 8) Presupuesto conceptual, 9) Presupuesto <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> y 10) Control y <a href=javascript:abrir("EVALUACION%20CONTINUA") class=glosa>evaluación continua</a> (CEC) 1B) Resultados. Otros códigos empleados en las <a href=javascript:abrir("SALAS") class=glosa>salas</a> son los siguientes: MO. Memorando Operativo. REMO. Registro <a href=javascript:abrir("EFICIENTE") class=glosa>eficiente</a> de Memorandos Operativos. P.F. Prefactibilidad de Inteligencia o Pre-inteligencia. A.C. <a href=javascript:abrir("ARCHIVO%20CENTRAL") class=glosa>Archivo Central</a> C.E.C. Control y Evaluación Continua. P.F: Presupuesto Funcional (en Bolívares o en valores monetarios). P.C: Presupuesto Conceptual o <a href=javascript:abrir("DOCTRINA") class=glosa>Doctrina</a> (en conceptos básicos <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a>es).</dd>
+<dt>SALIDA DE RESULTADOS:</dt>
+<dd>Acción de extraer datos de la computadora.</dd>
+<dt>SALUD SOCIAL:</dt>
+<dd>Conjunto <a href=javascript:abrir("SECTORIAL") class=glosa>sectorial</a> de factores y relaciones de salud integral.</dd>
+<dt>SATISFACTORES:</dt>
+<dd>Que satisfacen necesidades.</dd>
+<dt>SECTOR:</dt>
+<dd>Parte de un <a href=javascript:abrir("TRIALECTOGRAMA") class=glosa>trialectograma</a> que representa el conjunto de personas y medios cuyo propósito social es común y que les da actividades y conocimientos peculiares y especializados. a) Porción de círculo comprendido entre un arco y los dos radios que giran por ser extremidades. b) Sector esférico: cuerpo engendrado por un sector de círculo que gira sobre uno de los radios que lo limitan, 1). Parte de una clave o colectividad que presenta caracteres propios y demostrativos. 3. Parte en que se considera dividido un conjunto importante o <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a>.</dd>
+<dt>SECUENCIA:</dt>
+<dd>Sucesión en el tiempo y/o en el espacio de ciclos.</dd>
+<dt>SECTORIAL:</dt>
+<dd>Referido a uno o varios sectores del <a href=javascript:abrir("TRIALECTOGRAMA") class=glosa>trialectograma</a>.</dd>
+<dt>SECTORIALIDAD:</dt>
+<dd>Area conceptual.</dd>
+<dt>SENTIDO:</dt>
+<dd>Significado, <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a>, <a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a>. En el lenguaje ordinario todos estos términos designan el mismo concepto, es decir, quieren decir lo mismo o son sinónimos. (semántica: Bunge) Primer miembro del par ordenado (sentido, referencia) que define el <a href=javascript:abrir("SIGNIFICADO") class=glosa>significado</a> de los conceptos. El sentido se descompone en x aparte o poseer y, x <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> x <a href=javascript:abrir("IMPORTE") class=glosa>importe</a>.</dd>
+<dt>SERVICIOS:</dt>
+<dd>Se denominan así a los alquileres de inmuebles y equipos, los servicios básicos (electricidad, gas, agua, teléfono y otros), servicios de transporte y almacenaje, servicios de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> impresión y relaciones públicas, etc.</dd>
+<dt>SERIE DE ESTUDIO:</dt>
+<dd>Serie de publicaciones, que recogen los resultados de las investigaciones realizadas por una <a href=javascript:abrir("DIRECCION") class=glosa>Dirección</a> General y Asesoría Técnica del desarrollo o bajo su dirección y que son ordenadas por consejo de asesores o por Autoridades Competentes.</dd>
+<dt>SEUDOCODIGO:</dt>
+<dd>Notación para describir algoritmos.</dd>
+<dt>SIGNIFICACION:</dt>
+<dd>1.- <a href=javascript:abrir("SIGNIFICADO") class=glosa>Significado</a> 2.- (semántica Bunge) Los signos tienen significación (TC, p. 91); Los conceptos significado, preferimos <a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a> en este <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> como término técnico. Significación y significado son sinónimos, en español Bunge distingue, en ingles, entre Meanny y significance (de un símbolo TBP, p. 45) parece más indicado no seguir el uso del traductor de Bunge (IC), ya que se puede habilitar el término 'significancie' para traducir significance. Así pues, mantenemos la sinonimia de 'significance' y 'significación' y en <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a>s no técnicos el uso general idiomático según en (significación). En lenguaje técnico distinguimos entre la <a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a> de los símbolos o formas lingüística y el significado de los conceptos.- Ver infres, s. vv. 'significado' y '<a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a>'.</dd>
+<dt>SIGNIFICADO:</dt>
+<dd>1.- <a href=javascript:abrir("SIGNIFICACION") class=glosa>Significación</a>: el designado por una forma lingüística. 2.- (semántica: Bunge). Los conceptos tienen significado, el cual está poniendo constituido por el par ordenado <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a>, referencia, y los símbolos tienen <a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a>. Algunos símbolos representan <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> ideográficos y todos los significan. La distinción que estipula Bunge (TB, p2, p. 45) entre los verbos to signify traducen por 'significar y 'querer decir' ante esta dificultad a to signify la equivalencia de 'representar' y reservarnos 'significar' por traducir to mean.</dd>
+<dt>SIGNIFICANCIA:</dt>
+<dd>1.- <a href=javascript:abrir("SIGNIFICADO") class=glosa>Significado</a>, <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a>. Esta <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> no figura en el DRAE, pero sí en un Diccionario ideológico de la lengua Española.</dd>
+<dt>SINERGIA:</dt>
+<dd>Potencial de relación entre la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> / tiempo y espacio producto conceptual acumulado en el <a href=javascript:abrir("ORGANISMO") class=glosa>organismo</a> humano capaz de ser activado volitivamente a través del sistema nervioso central, apto para especiales situaciones.</dd>
+<dt>SINTERGIA:</dt>
+<dd>Potencial de relación energética en el espacio que se inserta en la <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> del ser humano.</dd>
+<dt>SINERGIA SOCIAL:</dt>
+<dd>La que totaliza la <a href=javascript:abrir("SINERGIA") class=glosa>sinergia</a> individual en un socio-sistema.</dd>
+<dt>SINTESIS:</dt>
+<dd>Es la <a href=javascript:abrir("TRANSFORMACION") class=glosa>transformación</a> de la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> en materias dinamizadas en el tiempo y en Espacio a través de contenidos y formas complejas.</dd>
+<dt>SISTEMA:</dt>
+<dd>Integración de <a href=javascript:abrir("DIMENSION") class=glosa>dimensión</a>, recursos y relación. Conjunto de partes integradas teleológicamente a través de las dimensiones, recursos y relaciones. Conjunto de elementos interrelacionados o interdependientes, de tal manera que forman una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> compleja, un compuesto de partes dispuestas en forma ordenada según cierto plan. Ej. Sistema de Contabilidad Fiscal, Sistema de Autoliquidación.</dd>
+<dt>SISTEMA ADMINISTRATIVO:</dt>
+<dd>Comprende el conjunto de las funciones administrativas (Planificación y <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> y <a href=javascript:abrir("COORDINACION") class=glosa>coordinación</a>, <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>, <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a>, control y análisis, evaluación) ejercidas en todos los niveles de la <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> interinstitucional.</dd>
+<dt>SISTEMA DE INFORMACION:</dt>
+<dd>Recolección <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> de datos, obtenidos en las fuentes primarias y procesados de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> a técnicas contables y estadísticas, para alimentar los sistemas de <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> y de desarrollo, preferiblemente deben estar codificados e informatizados.</dd>
+<dt>SISTEMA DE PLANIFICACION:</dt>
+<dd>Lo constituyen los <a href=javascript:abrir("PLANES%20DE%20DESARROLLO") class=glosa>planes de desarrollo</a> (de mediano y largo plazo) y los planes operativos (de corto plazo), con órganos: tales como <a href=javascript:abrir("DIRECCION") class=glosa>Dirección</a> General, Consejo Asesor, Consejo Académico, <a href=javascript:abrir("ESTADO") class=glosa>Estado</a> Mayor, y Consejo de Investigaciones.</dd>
+<dt>SISTEMA DIMENSIONAL:</dt>
+<dd>El que <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> y explica la <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> cuantitativa en relación con unidades predeterminadas.</dd>
+<dt>SISTEMA RDR:</dt>
+<dd>Sistema de Recursos <a href=javascript:abrir("DIMENSION") class=glosa>dimensión</a> relacionados.</dd>
+<dt>SISTEMA RECURSAL:</dt>
+<dd>El que <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> y explica la <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> cualitativa en relación con cualquier recurso utilizable, expresado en términos concretos.</dd>
+<dt>SISTEMATICA:</dt>
+<dd>Es la <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> del pasado y del futuro y la vinculación de todas las leyes Sociales, Políticas y Económicas. Es también la <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> de dinámicas.</dd>
+<dt>SISTEMA INFORMATICO:</dt>
+<dd>Conjunto de elementos físicos y lógicos para el tratamiento automático de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a>.</dd>
+<dt>SISTEMA OPERATIVO:</dt>
+<dd>Conjunto de programas que controlan el <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> de la computadora.</dd>
+<dt>SISTEMAS DE COMUNICACION SOCIAL:</dt>
+<dd>Los que permiten formas continuas de <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a> entre personas y grupos humanos.</dd>
+<dt>SISTEMAS DE INFORMACION SOCIAL:</dt>
+<dd>Los que transfieren y procesan mensajes informativos de cualquier <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>.</dd>
+<dt>SISTEMAS DE INTELIGENCIA SOCIAL:</dt>
+<dd>La interpelación secuencial y dirigida de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> social.</dd>
+<dt>SISTEMAS DE PODER SOCIAL:</dt>
+<dd>La acumulación de poder de individuos y grupos direccionados conceptualmente.</dd>
+<dt>SISTEMATICO:</dt>
+<dd>Que sigue un sistema específico.</dd>
+<dt>SISTEMICO:</dt>
+<dd>Relativo a o visto en <a href=javascript:abrir("FUNCION") class=glosa>función</a> de o formado por, o apoyado por, la teoría de sistema.</dd>
+<dt>SUBSISTEMA:</dt>
+<dd>Es una subdivisión del sistema, ejemplo: sistema de liquidación, contiene subsistema como el de registro de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> fiscal (RIF), como subdivisión al sistema puede tener su propia <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> y <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a>.</dd>
+<dt>SUB-PROGRAMA:</dt>
+<dd>División de un <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a> ya sea por su <a href=javascript:abrir("COMPLEJIDAD") class=glosa>complejidad</a> o por falta de posibilidad de asignarlos a responsabilidades admnistrativas diferenciadas. Es una subdivisión del <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a>. Sus relaciones de conocimientos son exclusivas con el <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a>.</dd>
+<dt>SUBSISTENCIA:</dt>
+<dd>Regula las relaciones humanas dirigidas al <a href=javascript:abrir("MINIMO%20VITAL") class=glosa>mínimo vital</a>.</dd>
+<dt>SISTEMA DE NUMERACION:</dt>
+<dd>Método de representación de números y cantidades.</dd>
+<dt>SUPERVISION:</dt>
+<dd>Denominación de las acciones de las autoridades dirigidas a comprobar la aplicación de las normas, el <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> de los órganos establecidos y la <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> de sus propias decisiones. La supervisión pueden ser círculos preventivos.</dd>
+<dt>SOCIO SISTEMA:</dt>
+<dd>Conjunto de realidades sociales en un espacio y tiempo determinados.</dd>
+<dt>SOFTWARE:</dt>
+<dd>Parte inmaterial (programas) de un <a href=javascript:abrir("SISTEMA%20INFORMATICO") class=glosa>sistema informático</a>.</dd>
+<dt>SOPORTE DE INFORMACION:</dt>
+<dd>Medio físico capaz de almacenar <a href=javascript:abrir("INFORMACION") class=glosa>información</a>.</dd>
+<dt>SUMADOR:</dt>
+<dd>Circuito de la UAL encargado de las operaciones de adición.</dd>
+<dt>SUPERVIVENCIA:</dt>
+<dd>En él aparecen los excedentes de concepto y de uso.</dd>
+</dl>
+</div></body></html></body></html>

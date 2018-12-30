@@ -1,0 +1,256 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 61 términos definidos en la Sección A</div>
+<dl>
+<dt>ABACO:</dt>
+<dd>Gráfico que refuerza el <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a> didáctico y lo cuantifica bien sea numéricamente o en valores deducibles, propios de alguna escala de medición.</dd>
+<dt>ABORDAJE:</dt>
+<dd>Etapa inicial de un <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a> en la cual el interesado informa sistemáticamente (actuando de manera territorial, <a href=javascript:abrir("SECTORIAL") class=glosa>sectorial</a> y jurisdiccional) acerca del mismo y establece los <a href=javascript:abrir("VINCULOS") class=glosa>vínculos</a> necesarios para el avance hacia las etapas siguientes. <a href=javascript:abrir("ACTIVIDAD") class=glosa>Actividad</a> metodológica del <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a>.</dd>
+<dt>ACARREO:</dt>
+<dd>Cantidad excedente que se produce cuando el resultado de operar dos cifras es mayor o igual que la <a href=javascript:abrir("BASE%20DE%20NUMERACION") class=glosa>base de numeración</a>.</dd>
+<dt>ACCESIBILIDAD:</dt>
+<dd>Posibilidad de un <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a> de ser alcanzado.</dd>
+<dt>ACCESO ALEATORIO:</dt>
+<dd>Característica de algunos soportes que permite la localización de un dato con independencia de su <a href=javascript:abrir("POSICION") class=glosa>posición</a> en el dispositivo de almacenamiento</dd>
+<dt>ACCESO SECUENCIAL:</dt>
+<dd>Es aquel donde los datos han de ser accedidos uno detrás de otro.</dd>
+<dt>ACCESO:</dt>
+<dd>Acto de lectura o escritura en <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a>.</dd>
+<dt>ACCION:</dt>
+<dd>Proceso a través de la cual se realizan las pretensiones que se dirigen al logro de un objeto, a nivel de erogación de caja y de <a href=javascript:abrir("CONCEPTO%20BASICO") class=glosa>concepto básico</a> terciario.</dd>
+<dt>ACERCAMIENTO A LA IDENTIDAD:</dt>
+<dd>Producto de la <a href=javascript:abrir("CONCURRENCIA") class=glosa>concurrencia</a> y <a href=javascript:abrir("ADECUACION") class=glosa>adecuación</a> en la concientización de sus <a href=javascript:abrir("FINES") class=glosa>fines</a> y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>.</dd>
+<dt>ACTA:</dt>
+<dd>Documento que recoge las informaciones producidas en un sitio y momento dado.</dd>
+<dt>ACTA DE INTELIGENCIA PARA EL DESARROLLO (AID):</dt>
+<dd>Instrumento de evaluación del desarrollo <a href=javascript:abrir("INTERDISCIPLINARIO") class=glosa>interdisciplinario</a></dd>
+<dt>ACTA DE PREINTELIGENCIA (API):</dt>
+<dd>La que registra, mediante los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>, la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> que se produce en el desarrollo de un <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a>.</dd>
+<dt>ACTIVACION:</dt>
+<dd>Consecuencia dirigida de la <a href=javascript:abrir("ACCION") class=glosa>acción</a> actualizada y motorizada conscientemente.</dd>
+<dt>ACTIVIDAD:</dt>
+<dd>1.- <a href=javascript:abrir("SECUENCIA") class=glosa>Secuencia</a> de actos, de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> varia, dirigidos a alcanzar un objetivo, contando para ello con la dotación, necesaria y suficiente, de medios y recursos. 2.- Serie de actos repetidos concretos, específicos y homogéneos, mediante los cuales se funcionaliza y materializa un <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a>. Con esta actividad primaria se pueden dar, concurrentemente, otras actividades subsidiarias y paralelas que contribuyen al adecuado desarrollo del <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a>.</dd>
+<dt>ACTIVIDADES ACADEMICAS:</dt>
+<dd>Conjunto de acciones dirigidas a las funciones curriculares de docencia, investigación y extensión, las cuales pueden estar destinadas a alcanzar un objetivo relacionado con el <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a> sociocultural. En la investigación pura se da la búsqueda desinteresada de la verdad como fin en sí mismo o fin último.</dd>
+<dt>ACUERDO:</dt>
+<dd>Adopción por concenso de una decisión.</dd>
+<dt>ACUMULADOR:</dt>
+<dd>Registro utilizado en operaciones aritméticas y lógicas que contiene, inicialmente, uno de los operandos y una vez realizada la operación, el resultado de la misma.</dd>
+<dt>ADA:</dt>
+<dd>Lenguaje de programación de alto nivel desarrollado por el Departamento de Defensa de los Estados Unidos y estandarizado en 1.963.</dd>
+<dt>ADECUACION:</dt>
+<dd>Adaptación de los elementos a las capacidades y no a las necesidades propias del individuo o sociedad en un tiempo y espacio dados; preparación para el uso del <a href=javascript:abrir("CONCEPTO%20BASICO") class=glosa>concepto básico</a> respectivo.</dd>
+<dt>ADECUAR:</dt>
+<dd>Proporcionar, acomodar, apropiar un concepto a un criterio.</dd>
+<dt>ADMINISTRAR:</dt>
+<dd>Controlar, dirigir, vigilar la <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a>, uso o <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> de un <a href=javascript:abrir("ENTE") class=glosa>ente</a>. Desempeñar la función de Administrador.</dd>
+<dt>ADMINISTRACION:</dt>
+<dd>1. <a href=javascript:abrir("ACCION") class=glosa>Acción</a> y efecto de <a href=javascript:abrir("ADMINISTRAR") class=glosa>administrar</a>. 2. La <a href=javascript:abrir("FUNCION") class=glosa>función</a> <a href=javascript:abrir("DIRECTIVA") class=glosa>directiva</a>, general o ejecutiva relacionada con la marcha de un <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a> o de una empresa, oficina u <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> de cualquier tipo. 3. Un cuerpo de administradores, directivos o ejecutivos, tomados en conjunto. 4. Los principios, prácticas y técnicas sistematizados que se emplean para lograr las <a href=javascript:abrir("METAS") class=glosa>metas</a>, <a href=javascript:abrir("FINES") class=glosa>fines</a> y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> de una <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> o <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a>. 5. Aplicación de diversas disciplinas académicas (economía, administración de empresas, psicología, sociología, antropología, matemáticas, etc.) al estudio de la <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> de organizaciones. Como ciencia aplicada la administración se ocupa de los principios, técnicas y prácticas que, aplicados a sistemas de seres humanos y artefactos, permiten establecer y <a href=javascript:abrir("DESARROLLAR") class=glosa>desarrollar</a> sistemas racionales de esfuerzo participativo, mediante los cuales se pueden alcanzar <a href=javascript:abrir("METAS") class=glosa>metas</a> comunes que no es factible lograr a través de la acción individual.</dd>
+<dt>ALFABETO BINARIO:</dt>
+<dd>Alfabeto con dos únicos símbolos, normalmente 0 y 1.</dd>
+<dt>ALFABETO:</dt>
+<dd>Conjunto de símbolos elementales que sirven de base para la construcción de palabras y sentencias en un lenguaje concreto.</dd>
+<dt>ALFANUMERICO:</dt>
+<dd>Información compuesta por caracteres alfabéticos, numéricos especiales.</dd>
+<dt>ALGEBRA DE BOOLE:</dt>
+<dd>Algebra para la operación con variables binarias.</dd>
+<dt>ALGORITMO DIFERENCIAL:</dt>
+<dd>Esquema lógico que resalta conceptos utilitarios de contraste.</dd>
+<dt>ALGORITMO:</dt>
+<dd>Conjunto finito y ordenado de reglas y procedimientos que describen la <a href=javascript:abrir("RESOLUCION") class=glosa>resolución</a> de un problema.</dd>
+<dt>AMBIENTE:</dt>
+<dd>1. Lo que circunda: <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a>, <a href=javascript:abrir("MEDIO") class=glosa>medio</a>. 2. En todo sistema se dan tres factores fundamentales, <a href=javascript:abrir("COMPOSICION") class=glosa>composición</a>, ambiente y <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> (Bunge).</dd>
+<dt>AMBITO:</dt>
+<dd>1. Espacio, real o figurado, comprendido dentro de ciertos límites; lugar que se determina de algún modo. El ámbito puede ser también juristructural y <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a>. 2. Sinónimo de 'ambiente', 'composición', 'estructura' y 'sistema'.</dd>
+<dt>ANALISIS:</dt>
+<dd>1. Proceso que consiste en la <a href=javascript:abrir("DESCOMPOSICION") class=glosa>descomposición</a> de lo <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a> en lo simple. 2. -Método propio de la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> y la ciencia que divide un todo en sus partes, con el fin de llegar a una <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> ulterior equivalente a conocimientos nuevos. El análisis y la <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> son métodos complementarios. 3. (trialéctica). El estudio critico de la combinación de los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>, el cual anticipa un criterio para todas las técnicas críticas de la <a href=javascript:abrir("METODOLOGIA%20COMPLEJA") class=glosa>metodología compleja</a>. El análisis interpreta al estudio por separado de las partes que componen un todo, sin perder de vista su carácter <a href=javascript:abrir("SISTEMICO") class=glosa>sistémico</a>, cuando dicho todo es algo más que un simple agregado.</dd>
+<dt>ANALISIS DE AJUSTE CONTINUO: (Técnica, TPR)</dt>
+<dd>Estudio, comparativo y <a href=javascript:abrir("SISTEMATICO") class=glosa>sistemático</a>, de pronóstico y diagnóstico, llevado a cabo en forma discreta, continua e interactuante.</dd>
+<dt>ANALISIS DE AJUSTE PERMANENTE:</dt>
+<dd>Entiéndase &quot;análisis de ajuste continuo&quot;. A pesar del frecuente uso que se la ha dado a este término en el pasado, debe ser eliminado del glosario oficial del III, ya que constituye una flagrante CONTRADICTIO IN TERMINIS que, incluso, niega el concepto que pretende <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a>. Esto resulta obvio al consultar cualquier diccionario. Así, el DRAE: permanentemente: que permanece. Permanecer: mantenerse sin mutuación en un mismo lugar, <a href=javascript:abrir("ESTADO") class=glosa>estado</a> o localidad. Permanencia: duración firme, constancia, perseverancia, estabilidad, inmutabilidad. El Diccionario de uso español de Maria Moliner: Permanece: se aplica a lo que permanece; a lo que dura mucho o no se altera. El concepto que se quiere <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> es justamente todo lo contrario de inmutable o inalterable. Es &quot;ajuste&quot; precisamente porque se acomoda o se adapta. Y es &quot;continuo&quot; justamente porque la adaptación es sin interrupción en el espacio o en el tiempo.</dd>
+<dt>ANALISIS DE NIVELES DECISIONALES: (AND)</dt>
+<dd>Es una técnica que proporciona la incidencia, frecuencia y <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> de decisiones válidas y útiles en un sistema integrado específico, se acopian a la <a href=javascript:abrir("FUNCION") class=glosa>función</a> trascendente de PROFUNDIDAD.</dd>
+<dt>ANALISIS DE RELACIONES ACTIVADAS (ARA, técnica):</dt>
+<dd>Estudio de <a href=javascript:abrir("CONCURRENCIA") class=glosa>concurrencia</a> y adecuaciones entre sujetos activos y pasivos. Utilizado para la optimización de los abanicos vinculares.</dd>
+<dt>ANALISIS SISTEMATICO HISTORICO (ASH Técnica):</dt>
+<dd>Estudio crítico retrospectivo realizado con el propósito de identificar los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>. De esta manera, o bien se revelan los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> positivos de un proceso, o bien se encuentran las fallas del mismo, pudiéndose también identificar los errores cometidos, causa de un resultado no satisfactorio. ANALISIS DE SEGURIDAD Y SEGUIMIENTO (ASS técnica): Estudio del espacio <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a>, bajo condiciones y términos tabulados, con el fin de asegurar resultados de distribución y mantener así un mínimo de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> útil y oportuna.</dd>
+<dt>ANALISIS TRIALECTOGRAFICO (ATG Técnica):</dt>
+<dd>Estudio cuantitativo de ingreso y egreso de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> útil, completa y oportuna (<a href=javascript:abrir("INFORMACION") class=glosa>información</a> UCO) en un sistema integrado específico y en referencia a un eje de espacio-tiempo.</dd>
+<dt>ANALISIS TRIALECTOLOGICO (ATL Técnica):</dt>
+<dd>Estudio cuantitativo de ingreso y egreso de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> útil, completa y oportuna (<a href=javascript:abrir("INFORMACION") class=glosa>información</a> UCO) en un sistema integrado específico y en referencia a un eje de tiempo- espacio.</dd>
+<dt>ANALOGIA:</dt>
+<dd>Similitud, semejanza, afinidad, equivalencia, relación de las mismas entre cosas, procesos y sistemas distintos. Modelo Analógico: el que representa propiedades reales que se relacionan entre sí reproduciendo la <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> de otros sistemas.</dd>
+<dt>ANALOMA:</dt>
+<dd>Véase <a href=javascript:abrir("ANALOGIA%20LOGICO%20MATEMATICA") class=glosa>Analogía Lógico Matemática</a>.</dd>
+<dt>ANALOGIA LOGICO MATEMATICA:</dt>
+<dd>Similitud, semejanza, afinidad, equivalencia, relación de las mismas entre cosas, procesos y sistemas distintos. Modelo Analógico: el que representa propiedades reales que se relacionan entre sí reproduciendo la <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> de otros sistemas. <a href=javascript:abrir("LOGICA") class=glosa>Lógica</a>: Evidencia, corrección, sensatez: ciencia que racionaliza con exactitud y <a href=javascript:abrir("COHERENCIA") class=glosa>coherencia</a>. Matemática: Exactitud, cálculo, rigurosa y puntual: ciencia que estudia las magnitudes númericas y especiales y las relaciones que se establecen entre ellas. <a href=javascript:abrir("ANALOMA") class=glosa>ANALOMA</a>: Es la relación individual de semejanza y equivalencia entre procesos y sistemas distintos, que están representados por propiedades &quot;reales&quot;, donde se reproducen <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a>s, condiciones de otros sistemas y procesos, con evidencia homologada de raciocinios exactos, analizables por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de magnitudes numéricas, espaciales y temporales. Hay un sólido que es isomórfico e <a href=javascript:abrir("INTERDISCIPLINARIO") class=glosa>interdisciplinario</a> de un concepto representado por la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> básica de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>, &quot;EL CONO&quot;, cuya definición es: &quot;Sólido engendrado por un triángulo rectángulo que gira alrededor de uno de sus catetos y en el cual, al realizarse cortes verticales, oblicuos y horizontales, por homologación, se generan círculos concéntricos y progresivos, elipses, parábolas, hipérboles, etc.&quot;. Al relacionar la altura del mismo corte, con un aumento progresivo del ángulo de relación a medida que transcurre el tiempo, se genera un &quot;CONOIDE&quot;. Acotación: El cono es el 'concepto teórico', pero la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> práctica del concepto <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> y de la <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a>idad de cada concepto, se mide en el CONOIDE . En el conoide se dan las condiciones fundamentales lógicas y analógicas entre los límites matemáticos que van de O a 8 y de 8 a O, para los dos catetos ambos &quot;generados&quot; de las relaciones, que son la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> y el tiempo así como la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> y el espacio que resultan interdimensionables: (a) Del <a href=javascript:abrir("CONTINENTE") class=glosa>continente</a>: espacio - temporal y (b). Del <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a>: - Energía, <a href=javascript:abrir("INFORMACION") class=glosa>información</a> - para producirse la analogía lógico matemática; expresada como Matriz Conceptual de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>. La <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> vista así, a través de los conceptos de la <a href=javascript:abrir("GEOMETRIA%20LUGOVIANA") class=glosa>Geometría Lugoviana</a> y de sus matrices conceptuales, es una sola, y constituye un verdadero CONCEPTO REAL. También único, que tiene (ahora y aquí) &quot;hic et nunc&quot; una característica Universal: &quot;Que siendo abstracciones del nivel META-HUMANO (Tiempo real, <a href=javascript:abrir("ESPACIO%20REAL") class=glosa>espacio real</a>, <a href=javascript:abrir("INFORMACION") class=glosa>información</a> real, trabajo real) puede ser sin embargo comprendido y aprehendido para <a href=javascript:abrir("FINES") class=glosa>fines</a> prácticos individualizados, destinados al criterio humano, a su desarrollo estratégico eminentemente <a href=javascript:abrir("INTERDISCIPLINARIO") class=glosa>interdisciplinario</a>, pero especifico, cotidiano y concreto. (Salario real, valor real de una <a href=javascript:abrir("PRESENCIA") class=glosa>presencia</a>, valor real de una <a href=javascript:abrir("NECESIDAD") class=glosa>necesidad</a>, <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a> del proceso de <a href=javascript:abrir("DESCOMPOSICION") class=glosa>descomposición</a>, etc.) Así valiéndose de la ANOLOGIA LOGICO MATEMATICA, en Matrices denominadas &quot;PLATAFORMAS&quot; Conceptuales, se pueden explicar también suficientemente de manera objetiva conceptos mas abstractos, en una nueva <a href=javascript:abrir("DIMENSION") class=glosa>dimensión</a> teórico práctica de tercera relación o <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a>: concepto de <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>, de Dios, de origen y fin del Universo, etc. Geometría que estudia las relaciones lógicas, Semióticas, Energéticas y Matemáticas de la ciencia interdisciplinaria. Esta nueva <a href=javascript:abrir("DIMENSION") class=glosa>dimensión</a> expresada y significada de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>, es también esencialmente científica e interactiva y rige los fundamentos de la <a href=javascript:abrir("INGENIERIA%20CONCEPTUAL") class=glosa>ingeniería conceptual</a> y de la <a href=javascript:abrir("INGENIERIA%20SOCIAL") class=glosa>Ingeniería Social</a>, ambas en plena <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a>. Igualmente, desde ella se extienden las investigaciones de la ingeniería <a href=javascript:abrir("PROSPECTIVA") class=glosa>prospectiva</a>. El caso es que, al poderse interpretar la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> como una interdimencionalidad, a través de una <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> desagregable, diferenciable y nuevamente integrable, se admite también la agregación y sustracción de recursos y la respectiva interpretación, sin que por ello se pierda o disminuya la calidad del análisis, lográndose así lo que llamamos CEC (Control y <a href=javascript:abrir("EVALUACION%20CONTINUA") class=glosa>Evaluación Continua</a>) o sea el control y evaluación continua de los procesos. EL &quot;<a href=javascript:abrir("ANALOMA") class=glosa>ANALOMA</a>&quot; (Analogía lógico Matemática) encuentra en cada institución, <a href=javascript:abrir("ORGANISMO") class=glosa>organismo</a>, persona jurídica o natural, su máxima expresión en la Matriz o plataforma conceptual correspondiente. Las palabras conceptuales son la representación &quot;REAL&quot; de la inteligencia, sea ésta humana, artificial, natural, ecológica, policial, fiscal o cromática, ética o musical; y por supuesto, desde su propio <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a> y <a href=javascript:abrir("CONTINENTE") class=glosa>continente</a> de diseño y desarrollo, existe la inteligencia para hacerla operativa. De allí que la Analogía lógico matemática ó &quot;<a href=javascript:abrir("ANALOMA") class=glosa>ANALOMA</a>&quot; se explica en la Sala <a href=javascript:abrir("INTELIGENCIA%20OPERATIVA") class=glosa>Inteligencia Operativa</a> y de Control de Costos en las cuales se inducen y conducen los procesos de <a href=javascript:abrir("EFICIENCIA") class=glosa>Eficiencia</a> por Sistema después de saltar los niveles de efectismo (léase: demagogia); <a href=javascript:abrir("EFECTIVIDAD") class=glosa>efectividad</a> (léase: Impacto); eficacia (léase: Logro de objetivo); eficiencia (léase: optimización de recursos) y eficiencia por sistema (léase: optimización de recursos, secuencial y acelerable).</dd>
+<dt>AND:</dt>
+<dd>Operador lógico de conjunción. Técnica de Decisiones.</dd>
+<dt>APREHENDER:</dt>
+<dd>1. Percibir con los sentidos o el intelecto. 2. (Trialectología) (a) Posee la concepción trialectológica y trialectográfica de los conocimientos y servirse de ella para <a href=javascript:abrir("FINES") class=glosa>fines</a> específicos. (b) Concebir género y especie de los objetos, sin formular juicios de valor sobre ellos y sin afirmar o negar.</dd>
+<dt>APRENDER:</dt>
+<dd>1. Adquirir el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> sobre algo, o habilidad para algo, mediante el estudio, la práctica o la enseñanza recibida.</dd>
+<dt>APORTE: (Semántica: Bunge)</dt>
+<dd>Tenor. En el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> de la teoría semántica de Mario Bunge (TBP, 1 y 2), se tiene la <a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a> de &quot;ascendencia <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>&quot;, &quot;implicantes&quot; o &quot;presupuestos&quot; del <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de un constructo en un texto determinado. Asignamos a estos conceptos equivalentes el significante (símbolo 'tenor'). Se habilita 'aporte' como sinónimo de 'tenor' con el fin de establecer cierta analogía de forma con <a href=javascript:abrir("IMPORTE") class=glosa>importe</a> g.v.), el tercer <a href=javascript:abrir("COMPONENTE") class=glosa>componente</a> del <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de un concepto: aporte, <a href=javascript:abrir("INTENSION") class=glosa>intensión</a>, <a href=javascript:abrir("IMPORTE") class=glosa>importe</a>.</dd>
+<dt>ARCHIVO:</dt>
+<dd>Conjunto de datos relativos a un mismo tema estructurados en registros.</dd>
+<dt>ARCHIVO CENTRAL:</dt>
+<dd>Sección o <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> documental donde ingresan los contenidos propios de los Subsistemas de una Sala de <a href=javascript:abrir("INTELIGENCIA%20OPERATIVA") class=glosa>inteligencia Operativa</a> y donde, a la vez se analizan las responsabilidades estructurales, funcionales y procedimentales; esta <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> es el lugar de tránsito de los memoranda operativos y de la documentación.</dd>
+<dt>ARQUITECTURA:</dt>
+<dd>Organización general de un <a href=javascript:abrir("SISTEMA%20INFORMATICO") class=glosa>sistema informático</a>.</dd>
+<dt>ASPECTOS:</dt>
+<dd>Los conceptos de aspectos se refieren a una de las posibles maneras de ver o ser presentados a la vista. La <a href=javascript:abrir("TRIALECTOLOGIA") class=glosa>trialectología</a> distingue un total de doce (12) aspectos, los cuales están representados por los sectores del <a href=javascript:abrir("TRIALECTOGRAMA") class=glosa>trialectograma</a>, a saber: 1. Social, 2. Educación, 3. Promoción, 4. Inteligencia, 5. Política, 6. Normativo, 7. Administrativo, 8. Economía, 9. Producción 10.- Infraestructura, 11. <a href=javascript:abrir("ECOLOGIA") class=glosa>Ecología</a>, y 12. Salud.</dd>
+<dt>ATRIBUIR:</dt>
+<dd>Asignar cada una de las funciones y responsabilidades, así como los derechos y facultades que corresponden a cada cargo.</dd>
+<dt>ATRIBUCION:</dt>
+<dd>Acción de <a href=javascript:abrir("ATRIBUIR") class=glosa>atribuir</a> o asignar.</dd>
+<dt>AUTOGESTION:</dt>
+<dd>Principio de <a href=javascript:abrir("ACCION") class=glosa>acción</a> que le permite al individuo (aplicable a los diferentes <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a>: individuo, familia, <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a>, región, país, etc.) identificar sus necesidades y capacidades reales o potenciales y <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> las acciones necesarias para convertir <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> en resultados. Estados de <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> característicos de la madurez.</dd>
+<dt>AUTOMOTIVACION AL LOGRO:</dt>
+<dd>Metodología psíquica para darse ánimo y valor en la búsqueda de un objetivo. Exige visualización (perspectiva), racional (Proyectiva) y voluntad concreta continua (prospectiva).</dd>
+<dt>AUTORIDAD:</dt>
+<dd>1. Potestad o facultad que por ley o agente humano se otorga a una persona para ejercer funciones. 2. Capacidad decisoria para que se logren los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>.</dd>
+<dt>AUTO ESTIMA:</dt>
+<dd>Aprecio por sí mismo.</dd>
+<dt>AUTOEVALUABLE Y BAJO CONTROL:</dt>
+<dd>Capacidad de controlar sus <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a> desagregándolos y diferenciándolos.</dd>
+<dt>A.N.D.:</dt>
+<dd>Análisis de Niveles Decisionales.</dd>
+<dt>A.R.A.:</dt>
+<dd>Análisis de Relaciones Activadas y Activables; guarda relación con los abanicos vinculares.</dd>
+<dt>A.S.H.:</dt>
+<dd>Análisis <a href=javascript:abrir("SISTEMATICO") class=glosa>Sistemático</a> Histórico.</dd>
+<dt>A.T.G.:</dt>
+<dd>Análisis Trialectográfico (Con quién y Con qué).</dd>
+<dt>A.T.L.:</dt>
+<dd>Análisis Trialectológico. Fórmula para medir flujos de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> y determinar velocidades.</dd>
+</dl>
+</div></body></html></body></html>

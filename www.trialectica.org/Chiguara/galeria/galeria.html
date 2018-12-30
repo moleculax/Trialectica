@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Galería de Imágenes para Chiguará</TITLE>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<SCRIPT TYPE="text/javascript" SRC="slideshow.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="imagenes.js"></SCRIPT>
+
+
+
+<script language="JavaScript">
+var accion = "seguir";
+var orden = (location.search) ? location.search.substring(1, location.search.length) : accion;
+if ( orden != "seguir" ) {
+//  alert("recargando la pagina");
+location.href = "galeria.html";
+}
+
+var windowW=950
+var windowH= 380
+var windowX = 40
+var windowY = 30
+var titulo =  "Ventana"
+var autoclose = true
+// s = "width="+windowW+",height="+windowH;
+
+
+
+function abrir(urlPop,windowH){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+NFW=window.open(urlPop,titulo,par);
+NFW.blur();
+window.focus();
+NFW.resizeTo(windowW,windowH);
+NFW.moveTo(windowX,windowY);
+NFW.focus();
+if (autoclose){
+window.onunload = function(){NFW.close()}
+}
+//return NFW;
+}
+</script>
+
+</HEAD>
+
+<!--
+The update() method is required to make sure the text matches the image.
+The restore_position() and save_position() methods are optional.
+The 'SLIDES_POSITION' parameter is the name of the cookie in which the slide
+number is stored.
+-->
+<BODY BGCOLOR=#FEFFCB ONLOAD="SLIDES.restore_position('SLIDES_POSITION');SLIDES.update();"
+ONUNLOAD="SLIDES.save_position('SLIDES_POSITION');">
+
+<div class="subtit" style="position:absolute;top:5px;">
+Chiguará: Galería de Imágenes
+</div><br><br>
+
+<div id=editar class=editar style="position:absolute;left:590px;top:9px;width:120px;">
+vínculo ?
+</div>
+
+<!-- <a href="wizard.html" class=ctrl title="Agregar, Modificar o Eliminar Imágenes"><b>[Editar Galería]</b></a> -->
+
+<!-- INDICE GENERAL DE LAS IMAGENES -->
+<div class="indice" style="position: absolute; left:590px;top:45px;width:120px;"><b>INDICE GENERAL:</b><br>
+
+<!-- INICIO DE REFERENCIAS -->
+<a href="javascript:SLIDES.goto_slide(0)" title="galeria.png" class=ctrl>001</a>
+<a href="javascript:SLIDES.goto_slide(1)" title="Lic Ramon Sosa.jpg" class=ctrl>002</a>
+<a href="javascript:SLIDES.goto_slide(2)" title="Parque Xerofito.jpg" class=ctrl>003</a>
+<a href="javascript:SLIDES.goto_slide(3)" title="Merida.GIF" class=ctrl>004</a>
+<a href="javascript:SLIDES.goto_slide(4)" title="reencuentro.jpg" class=ctrl>005</a>
+<a href="javascript:SLIDES.goto_slide(5)" title="Caja Intercomunal.gif" class=ctrl>006</a>
+<a href="javascript:SLIDES.goto_slide(6)" title="Amanecer.jpg" class=ctrl>007</a>
+<a href="javascript:SLIDES.goto_slide(7)" title="Plaza de Toros.JPG" class=ctrl>008</a>
+<a href="javascript:SLIDES.goto_slide(8)" title="Biblioteca.jpg" class=ctrl>009</a>
+<a href="javascript:SLIDES.goto_slide(9)" title="Ubicacion de Chiguara.png" class=ctrl>010</a>
+<a href="javascript:SLIDES.goto_slide(10)" title="Chiguara 01.jpg" class=ctrl>011</a>
+<a href="javascript:SLIDES.goto_slide(11)" title="PUME-Chiguara-PlazaBolivar2.jpg" class=ctrl>012</a>
+<a href="javascript:SLIDES.goto_slide(12)" title="Dr Pulido y Luis Gomez de la Vega en 1984.jpg" class=ctrl>013</a>
+<a href="javascript:SLIDES.goto_slide(13)" title="feria del cafe.jpg" class=ctrl>014</a>
+<a href="javascript:SLIDES.goto_slide(14)" title="Acta Fundachiguara 1984.jpg" class=ctrl>015</a>
+<a href="javascript:SLIDES.goto_slide(15)" title="Festividad religiosa en 1935.jpg" class=ctrl>016</a>
+<a href="javascript:SLIDES.goto_slide(16)" title="Sede Funda Chiguara.jpg" class=ctrl>017</a>
+<a href="javascript:SLIDES.goto_slide(17)" title="CHIGUARA calle principal 2.jpg" class=ctrl>018</a>
+<a href="javascript:SLIDES.goto_slide(18)" title="PUME-Chiguara-Casas2.jpg" class=ctrl>019</a>
+<a href="javascript:SLIDES.goto_slide(19)" title="casa de la cultura.jpg" class=ctrl>020</a>
+<a href="javascript:SLIDES.goto_slide(20)" title="Indiecitos.jpg" class=ctrl>021</a>
+<a href="javascript:SLIDES.goto_slide(21)" title="nata.jpg" class=ctrl>022</a>
+<a href="javascript:SLIDES.goto_slide(22)" title="Escudo y Logo.png" class=ctrl>023</a>
+<a href="javascript:SLIDES.goto_slide(23)" title="Montana de los Suenos - Mapa.jpg" class=ctrl>024</a>
+<a href="javascript:SLIDES.goto_slide(24)" title="SIO Chiguara - 1985.jpg" class=ctrl>025</a>
+<a href="javascript:SLIDES.goto_slide(25)" title="Chiguara.jpg" class=ctrl>026</a>
+<a href="javascript:SLIDES.goto_slide(26)" title="Vista del pueblo de Chiguara.jpg" class=ctrl>027</a>
+<a href="javascript:SLIDES.goto_slide(27)" title="Vista Del Pueblo.jpg" class=ctrl>028</a>
+<a href="javascript:SLIDES.goto_slide(28)" title="Panoramica Chiguara 1960.jpg" class=ctrl>029</a>
+<a href="javascript:SLIDES.goto_slide(29)" title="Ecologia y Cultura.jpg" class=ctrl>030</a>
+<a href="javascript:SLIDES.goto_slide(30)" title="Chiguara 02.jpg" class=ctrl>031</a>
+<a href="javascript:SLIDES.goto_slide(31)" title="pasion viviente.jpg" class=ctrl>032</a>
+<a href="javascript:SLIDES.goto_slide(32)" title="francy.jpg" class=ctrl>033</a>
+<a href="javascript:SLIDES.goto_slide(33)" title="Iglesia en 1940 - DavilaBalza.jpg" class=ctrl>034</a>
+<!-- FIN DE REFERENCIAS -->
+
+</div>
+<!-- FIN DEL INDICE GENERAL DE LAS IMAGENES -->
+
+<DIV ID="slideshow" style="width:570;position:absolute;top:40px;";>
+
+<FORM ID="SLIDES_form" NAME="SLIDES_form" ACTION="" METHOD="GET">
+
+<DIV ID="SLIDES_controls">
+
+<SCRIPT type="text/javascript">
+document.write("<b>&nbsp;" + SLIDES.slides.length + " Imágenes en la Galería - Controles: &nbsp; </b> ");
+</SCRIPT>
+
+<A ID="SLIDES_next" class=ctrl HREF="javascript:SLIDES.next()"><SPAN><img src=sig.gif border=0 title="Ver siguiente imágen">&nbsp;Siguiente</SPAN></A>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A ID="SLIDES_prev" class=ctrl HREF="javascript:SLIDES.previous()"><SPAN><img src=ant.gif border=0 title="Ver imágen anterior"> Anterior</SPAN></A>
+
+</DIV>
+
+<DIV ID="SLIDES_img_div">
+
+<IMG
+ID="SLIDES_img" NAME="SLIDES_img" SRC="galeria.png" border=1
+STYLE="width:570px;filter:progid:DXImageTransform.Microsoft.Fade();"
+ALT="Bienvenidos !"></A>
+
+</DIV>
+
+<DIV ID="SLIDES_text" align=justify style="font-size:12px">
+
+<SCRIPT type="text/javascript">
+<!--
+
+// The contents of this DIV will be overwritten by browsers
+// that support innerHTML.
+//
+// For browsers that do not support innerHTML, we will display
+// a TEXTAREA element to hold the slide text.
+// Note however that if the slide text contains HTML, then the
+// HTML codes will be visible in the textarea.
+
+document.write('<TEXTAREA ID="SLIDES_textarea" NAME="SLIDES_textarea" ROWS="6" COLS="40" WRAP="virtual"><\/TEXTAREA>\n');
+
+SLIDES.textarea = document.SLIDES_form.SLIDES_textarea;
+
+//-->
+</SCRIPT>
+
+</DIV>
+
+</FORM>
+
+</DIV>
+
+<SCRIPT TYPE="text/javascript">
+<!--
+
+// Finish defining and activating the slideshow
+
+// Set up the select list with the slide titles
+function config_SLIDES_select() {
+var selectlist = document.SLIDES_form.SLIDES_select;
+selectlist.options.length = 0;
+for (var i = 0; i < SLIDES.slides.length; i++) {
+selectlist.options[i] = new Option();
+selectlist.options[i].text = (i + 1) + '. ' + SLIDES.slides[i].title;
+}
+selectlist.selectedIndex = SLIDES.current;
+}
+
+// If you want some code to be called before or
+// after the slide is updated, define the functions here
+
+SLIDES.pre_update_hook = function() {
+return;
+}
+
+SLIDES.post_update_hook = function() {
+// For the select list with the slide titles,
+// set the selected item to the current slide
+document.SLIDES_form.SLIDES_select.selectedIndex = this.current;
+return;
+}
+
+if (document.images) {
+
+// Tell the slideshow which image object to use
+SLIDES.image = document.images.SLIDES_img;
+
+// Tell the slideshow the ID of the element
+// that will contain the text for the slide
+SLIDES.textid = "SLIDES_text";
+
+// Randomize the slideshow?
+// SLIDES.shuffle();
+
+// Set up the select list with the slide titles
+config_SLIDES_select();
+
+// Update the image and the text for the slideshow
+SLIDES.update();
+
+// Auto-play the slideshow
+//SLIDES.play();
+}
+
+//-->
+</SCRIPT>
+
+
+<SCRIPT TYPE="text/javascript">
+<!--
+
+// Make the slideshow acceSLIDESible to search engines
+// and non-javascript browsers.
+//
+// The following function is normally left commented out.
+// It is used only to produce some HTML that you can copy
+// into the NOSCRIPT section below.
+// The HTML produced will contain all of the slideshow images,
+// plus the text for each image.
+
+// document.write("<PRE>" + SLIDES.noscript() + "<\/PRE>");
+//document.write( "<div class=leyendas><br>" + SLIDES.get_all_text(" "," ") + "</div>" );
+
+//-->
+</SCRIPT>
+
+<NOSCRIPT>
+<b><br>Atención: JavaScript no está activado en su navegador. Para visualizar la Galería debes activarlo !</b><br>
+<div class=leyendas>
+Sede actual de la Caja Rural Intercomunal San Antonio de Padua, la primera cooperativa fundada en Venezuela, hacia el año 1890. La integran las comunidades El Cambur, El Filo, El Guamo, Casanare, San Juanito, Santa Filomena y La Roncona, todas pertenecientes a la Parroquia Chiguará del Municipio Sucre (Estado Mérida). Una verdadera referencia en la evolución del cooperativismo venezolano.
+Caja Intercomunal.gif (570x427)
+Portadas del Tríptico elaborado en el 2006 por el Capítulo Zuliano del Instituto
+Chiguara 01.jpg (570x440)
+Páginas interiores del Tríptico elaborado en el 2006 por el Capítulo Zuliano del Instituto
+Chiguara 02.jpg (570x440)
+Chiguara para el mundo.jpg (388x520)
+A la derecha, Escudo y Logo de Fundachiguará. A la izquierda, portada del Periódico El Chiguarero correspondiente a Abril-Mayo de 1996, donde se anuncia la creación del escudo de la Fundación, con texto explicativo alusivo al diseño y composición del escudo.
+Escudo y Logo.png (570x466)
+Vista General de la Plaza de Chiguará con la Iglesia de San Antonio de Padua al fondo, tal como lucían hacia el año 1940. Fotografía hecha por José de Jesús Dávila Balza.
+Iglesia en 1940 - DavilaBalza.jpg (570x338)
+Merida.gif (468x520)
+Mapa turístico del Parque Temático La Montaña de los Sueños, ubicado a la entrada del pueblo de Chiguará, ocupando varias hectáreas con múltiples atracciones para toda la familia.
+Montana de los Suenos - Mapa.jpg (570x397)
+Vista panorámica de Chiguará en una foto tomada el año 1960. Destaca en el paisaje la Iglesia de San Antonio de Padua, patrimonio histórico del pueblo.
+Panoramica Chiguara 1960.jpg (570x343)
+Una de las obras de FundaChiguará es el Parque Xerófito, emblemático por haber sido construido con la entusiasta participación comunitaria; cada persona que se acercaba llevaba un laja de piedra para colocarla en las caminerías. Hoy es otro atractivo turístico de Chiguará.
+Parque Xerofito.jpg (570x465)
+Plaza de Toros.jpg (570x369)
+Sede de Funda Chiguará, ubicada en una calle aledaña a la Plaza Bolívar. En la placa colocada a la entrada de esta bella casa puede leerse: Funda Chiguará - Consejo Directivo - 05/03/84.
+Sede Funda Chiguara.jpg (570x427)
+Asamblea de vecinos en la primera Sala de Inteligencia Operativa instalada en Funda Chiguará en el año 1985. Imágen tomada de una revista de la época.
+SIO Chiguara - 1985.jpg (570x403)
+Chiguará se encuentra ubicado al sur-este de la Ciudad de Mérida, sobre la autopista Mérida - El Vigía, a unos 45 kilómetros de Mérida y a 26 de El Vigía, donde está la entrada al pueblo; desde allí son unos 6 kilómetros más por muy buena carretera. Para consultar otros mapas interactivos de la zona, puedes hacer Click Aquí para acceder al servidor de mapas Pueblos 2.0
+</div>
+</NOSCRIPT>
+
+<script type="text/javascript">
+
+var imgsrc="probar_conexion.php";
+var img = new Image();
+var mensaje="hola";
+
+img.onerror = function () {
+mensaje='<a href="#" class=ctrl title="Opción desabilitada: PHP no disponible."><b>[Editar Galería]</b></a>';
+document.getElementById('editar').innerHTML = mensaje;
+//document.editar=mensaje;
+//$mensaje="Sin conexion con " + imgsrc;
+//alert($mensaje);
+//document.location.href="galeria.html";
+}
+
+img.onload = function () {
+mensaje='<a href="wizard.html" class=ctrl title="Agregar, Modificar o Eliminar Imágenes"><b>[Editar Galería]</b></a>';
+document.getElementById('editar').innerHTML = mensaje;
+//document.editar=mensaje;
+//alert("Hay conexion a internet.");
+//document.location.href="galeria.php";
+}
+
+img.src = imgsrc;
+
+</script>
+
+</BODY>
+</HTML>

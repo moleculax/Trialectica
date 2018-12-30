@@ -1,0 +1,306 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 86 términos definidos en la Sección C</div>
+<dl>
+<dt>CABEZA DE LECTURA / ESCRITURA:</dt>
+<dd>Componente de una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> de entrada y salida para leer y escribir desde o en el soporte correspondiente. -</dd>
+<dt>CALCULO DE PROBABILIDADES:</dt>
+<dd>Aproximación aparente a la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> producto del análisis retrospectivo y prospectivo.</dd>
+<dt>CAMBIO:</dt>
+<dd>Producto del reconocimiento de necesidades y la creación de capacidades.</dd>
+<dt>CAMPOS DE CONOCIMIENTO Y ACCION:</dt>
+<dd>Los que constituyen toda la <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a> de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> en el espacio y el tiempo.</dd>
+<dt>CAMPO:</dt>
+<dd>Componentes en que se divide un registro.</dd>
+<dt>CANAL:</dt>
+<dd>Medio físico para la <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a> de informaciones.</dd>
+<dt>CATASTRO:</dt>
+<dd>Sistema de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> e inteligencia de los <a href=javascript:abrir("SERVICIOS") class=glosa>servicios</a> del desarrollo. Sistema de análisis permanente de los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>, históricamente referida a mediciones planimétricas.</dd>
+<dt>CATEGORIAS PERSONALES:</dt>
+<dd>Unipersonal, familiar, social, nacional, universal.</dd>
+<dt>CATEGORIAS SOCIALES:</dt>
+<dd>Vinculadas con los campos del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> y la <a href=javascript:abrir("ACCION") class=glosa>acción</a> social.</dd>
+<dt>CAUSALIDAD:</dt>
+<dd>1. La relación de causa y efecto. 2. (a) Agente, <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> o <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a> casual (b) Causa, origen, principio. <a href=javascript:abrir("PRINCIPIO%20O%20LEY%20DE%20CAUSALIDAD") class=glosa>Principio o ley de causalidad</a>: Axioma fundamental del pensamiento según el cual todo <a href=javascript:abrir("FENOMENO") class=glosa>fenómeno</a> tiene una causa.</dd>
+<dt>CENTRO DE PODER Y CAMPOS DE FUERZA:</dt>
+<dd>Conceptos fundamentales de cierta <a href=javascript:abrir("TEORIA%20GEOPOLITICA") class=glosa>teoría geopolítica</a> originaria del modelo <a href=javascript:abrir("TRIAL") class=glosa>trial</a>éctico. Véase supra, s. vv. 'campo' y 'centro'.</dd>
+<dt>CENTRO DE PODER:</dt>
+<dd>Lugar, espacio, persona, grupo o concentración caracterizada de manera significativa o dominante por la <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> o capacidad de ejercer <a href=javascript:abrir("AUTORIDAD") class=glosa>autoridad</a>, control, mando, dominio, <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> coercitiva, <a href=javascript:abrir("AUTORIDAD") class=glosa>autoridad</a> permisiva o influencia substancial, en una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> poder, pues todos estos vocablos y expresiones designan <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> del concepto de &quot;poder&quot; sobre esferas de influencia (territorio, grupos sociales, individuos, actividades de todo tipo, etc, El concepto de &quot;centro de poder&quot; constituye un elemento fundamental de cierta <a href=javascript:abrir("TEORIA%20GEOPOLITICA") class=glosa>teoría geopolítica</a> que, a su vez forma parte del sistema <a href=javascript:abrir("TRIAL") class=glosa>trial</a>éctico general. Véase '<a href=javascript:abrir("TEORIA%20GEOPOLITICA") class=glosa>teoría geopolítica</a>'</dd>
+<dt>CIBERNETICA:</dt>
+<dd>Ciencia de la comunicación y control de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> tanto en seres humanos como en máquinas.</dd>
+<dt>CICLOS DINAMICOS:</dt>
+<dd>Producto de la conceptualización de usos y la utilización de conceptos.</dd>
+<dt>CICLOS DE INSTRUCCION:</dt>
+<dd>Tiempo requerido para la <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> de una <a href=javascript:abrir("INSTRUCCION") class=glosa>instrucción</a>.</dd>
+<dt>CICLO INTELIGENTE: (Trialéctica)</dt>
+<dd>1.- (a) Conceptualización de un uso que deriva de un concepto; es decir, que convierte dicho concepto (objeto conceptual) en hecho (objeto real). (b) Conceptualización de un uso <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> que permite <a href=javascript:abrir("CONOCER") class=glosa>conocer</a> mejor el <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> de algún concepto y hacer más <a href=javascript:abrir("EFICIENTE") class=glosa>eficiente</a> dicho <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a>. 2.- Interrelación que ha de darse entre los procesos de <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> organizacional e investigación evaluativa.</dd>
+<dt>CHIP:</dt>
+<dd>Microplaqueta de silicio que contiene un circuito integrado.</dd>
+<dt>CILINDRO:</dt>
+<dd>Conjunto de las pistas de un diskpack que tienen un mismo radio.</dd>
+<dt>CINTA:</dt>
+<dd>Soporte secuencial de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> (papel o magnética).</dd>
+<dt>CIRCUITOS:</dt>
+<dd>Ciclos de un proceso que permanecen tangibles.</dd>
+<dt>CIRCUITO:</dt>
+<dd>Conjunto de conductores y componentes electrónicos utilizados para el proceso de señales.</dd>
+<dt>CLASIFICACION:</dt>
+<dd>Reubicación de datos en una <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> determinada.</dd>
+<dt>CLAVE:</dt>
+<dd>Campo especial de un registro que lo identifica.</dd>
+<dt>CLIMA CULTURAL:</dt>
+<dd>Conjunto de criterios y valores que prevalecen en un <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> determinado</dd>
+<dt>CIVILIZACION:</dt>
+<dd>1.- Aspecto del concepto general de <a href=javascript:abrir("CULTURA") class=glosa>cultura</a>. La civilización presupone la escritura, ya que ésta hace posible la acumulación de <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> humanístico y científico que, además de producir los refinamientos propios de la alta <a href=javascript:abrir("CULTURA") class=glosa>cultura</a>, origina también los adelantos materiales fruto de la ciencia aplicada o tecnología: urbanismo, comercio, agri<a href=javascript:abrir("CULTURA") class=glosa>cultura</a> tecnificada, industria desarrollada y en gran escala, <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> social y comunidades relacionadas con la <a href=javascript:abrir("VIDA") class=glosa>vida</a> cotidiana. 2.- Conjunto <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a> y secuente de procesos y fenómenos sociales de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> transmisible, el cual presenta manifestaciones morales, religiosas, <a href=javascript:abrir("CULTURA") class=glosa>cultura</a>les, científicas, tecnológicas, económicas y políticas -- en suma &quot;<a href=javascript:abrir("CULTURA") class=glosa>cultura</a>les&quot;, véase '<a href=javascript:abrir("CULTURA") class=glosa>cultura</a>' -- que perduran mientras sus sistemas de valores o escala axiológica los acompaña y soporta. Aunque todos los pueblos o grupos étnicos tienen <a href=javascript:abrir("CULTURA") class=glosa>cultura</a>, la civilización se manifiesta en etapas muy diversas de desarrollo.</dd>
+<dt>CODIFICADORA:</dt>
+<dd>Transcripción de <a href=javascript:abrir("ALGORITMO") class=glosa>algoritmo</a> a <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a>.</dd>
+<dt>CODIFICACION TRIALECTOGRAFICA: (Trialéctica)</dt>
+<dd>Uso que se hace del perímetro de una circunferencia, del área de un círculo o del volumen de una esfera para codificar en un orden lógico- matemático los constructos intencionales que inteligencian tanto cualquier tipo de <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a> como la <a href=javascript:abrir("ACTIVACION") class=glosa>activación</a> propia de los mismos constructos.</dd>
+<dt>CODIGO:</dt>
+<dd>Sistema de signos o símbolos que permite la comunicación de mensajes.</dd>
+<dt>COHERENCIA:</dt>
+<dd>1.- Interrelación <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> o metódica que se da entre partes. 2.- (Trialéctica) (a) Compatibilidad <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> y <a href=javascript:abrir("COMPOSICION") class=glosa>composición</a> energética con vinculación informativa creciente. (b) <a href=javascript:abrir("TELEOLOGIA") class=glosa>Teleología</a> unívoca que implica políticas y estrategias concurrentes y adecuadas. (c) Grado de cohesividad de componentes y vinculantes.</dd>
+<dt>COMITE DE PARTICIPACION SOLIDARIA:</dt>
+<dd>Son instancias de participación y <a href=javascript:abrir("COORDINACION") class=glosa>coordinación</a> de acciones entre la red de Instituciones Públicas y la <a href=javascript:abrir("COMUNIDAD") class=glosa>Comunidad</a>, para la <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> de <a href=javascript:abrir("PROYECTOS") class=glosa>proyectos</a> orientados a elevar la calidad de <a href=javascript:abrir("VIDA") class=glosa>vida</a>, <a href=javascript:abrir("DESARROLLAR") class=glosa>desarrollar</a> la autoestima y consolidar el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de pertenencia, comprometiéndose responsable y organizadamente la comunidad en la búsqueda de soluciones a sus problemas.</dd>
+<dt>COMISION:</dt>
+<dd>Conjunto de individuos que tiene la misión, asignada o asumida, de lograr un cometido.</dd>
+<dt>COMO?:</dt>
+<dd>Metodología, uso y conceptualización.</dd>
+<dt>COMPENSACION:</dt>
+<dd>Proceso armónico coherente que tiende a estabilizar la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> y la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> en el tiempo y en el espacio bajo el principio de <a href=javascript:abrir("CAUSALIDAD") class=glosa>causalidad</a> y dirigida ésta a la <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a>.</dd>
+<dt>COMPROMISO:</dt>
+<dd>Grado de vinculación de un individuo o grupo con la consecución de una meta u objetivo propuesto.</dd>
+<dt>COMPONENTE:</dt>
+<dd>1.- Parte constitutiva de un todo, = los componentes de un sistema=, sinónimo de 'elementos' y 'constituyentes' 2 .(Trialéctica) Representación vectorial de <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>, potencial, <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> o flujo socio-económico.</dd>
+<dt>COMPOSICION:</dt>
+<dd>1.- (Ontología) La primera de las tres coordinadas de todo sistema. El término designa el conjunto de componentes partes atómicas o elementos constituyentes de todo sistema. 2.- (Lógica) La concatenación, combinación o unión de dos o más relaciones, funciones lógicas, proposiciones o predicados- en una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>, de dos constructos.</dd>
+<dt>COMPATIBLE Y DIFUNDIBLE:</dt>
+<dd>Constituye la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> de sus sujetos pasivos y por ello fácilmente aceptada.</dd>
+<dt>COMPATIBLE:</dt>
+<dd>Que puede insertarse.</dd>
+<dt>COMPILADOR:</dt>
+<dd>Programa traductor de lenguaje de alto nivel a lenguaje máquina.</dd>
+<dt>COMPLEJIDAD:</dt>
+<dd>Calidad de <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a>.</dd>
+<dt>COMPLEJO:</dt>
+<dd>Compuesto por diversos elementos.</dd>
+<dt>COMPUTADOR:</dt>
+<dd>Máquina o dispositivo físico utilizado para el tratamiento de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a>.</dd>
+<dt>COMUNIDAD:</dt>
+<dd>Conjunto de individuos que habitan un área geográfica determinada, donde comparte bienes propuesto.</dd>
+<dt>COMUNIDAD BIOLOGICA: (Ecología)</dt>
+<dd>Conjunto de organismos que habitan un espacio en interrelación constante.</dd>
+<dt>CON QUE?:</dt>
+<dd>Elemento recursal material, tecnológico, conceptual o de valor de intercambio.</dd>
+<dt>CON QUIEN?:</dt>
+<dd>Elemento recursal humano (activo, pasivo, neutro).</dd>
+<dt>CONCEPTO BASICO:</dt>
+<dd>Unidad compleja de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> que contienen los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a> ¿Por qué?, ¿Dónde?, ¿Cuando?, ¿Con quien?, ¿Con qué?, ¿Cómo?, y ¿Para qué?.</dd>
+<dt>CONCURRENCIA:</dt>
+<dd>Concurso de varios sucesos a un mismo tiempo, asistencia y ayuda.</dd>
+<dt>CON CAUSA:</dt>
+<dd>Cosa que, justamente con otra, es causa de algún efecto.</dd>
+<dt>CONCENTRADOR:</dt>
+<dd>Dispositivo que transmite mensajes de varios emisores hacia un único receptor.</dd>
+<dt>CONCEPTO:</dt>
+<dd>1.- Lo que concibe la meta: idea, pensamiento, noción; objeto mental. 2.- <a href=javascript:abrir("UNIDAD") class=glosa>Unidad</a> básica del pensamiento: = mayormente pensamos por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de conceptos; aunque existen modalidades de pensamiento no conceptuales, son muchos menos frecuentes que las conceptuales=. 3.- La <a href=javascript:abrir("SIGNIFICANCIA") class=glosa>significancia</a> de un símbolo lingüístico: forma lingüística, <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>, término, vocablo, frase u oración. La teoría semántica de Bunge distingue los siguientes <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> en todo concepto (cada uno de estos <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> términos aparece definido en este glosario): -Significado -Sentido -Aporte o tenor -Intensión o <a href=javascript:abrir("CONNOTACION") class=glosa>connotación</a> -Importe -Referencia o <a href=javascript:abrir("DENOTACION") class=glosa>denotación</a> -Extensión o dominio de aplicabilidad aplicación o de validez.). La <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> de un concepto consiste en rasgos semánticos (rasgos de <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a> o notas), los cuales permiten la identificación, subconsciente o consciente, de los objetos, sean reales o conceptuales. Los conceptos no son rasgos distintivos (rasgos de <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a>) almacenados en el cerebro nos permiten su identificación automática, de manera más bien subconsciente. Hay perros de muchas razas y tamaños; el concepto de &quot;perro&quot; nos permite la identificación de los perros individuales, sin recurso a ninguna imagen específica. &quot;Perro&quot; es un concepto simple &quot;el perro que me mordió&quot; es una concatenación de conceptos o proposición. Los conceptos son objetos lógicos y psicológicos que percibimos mediante formas lingüísticas: frases, en el caso de los conceptos complejos: oraciones, en el caso de las proposiciones; las <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>s designan conceptos simple. Un <a href=javascript:abrir("CONCEPTO%20BASICO") class=glosa>concepto básico</a> es lo que constituyen la esencia significativa de cualquier porción de discurso. Véase 'constructo intencional'. Seguimos la aceptada convención de indicar los conceptos por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de comillas dobles, mientras que las formas lingüísticas aparecen marcadas por conceptos totalmente diferentes, en el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> de la teoría semántica que manejamos - el de &quot;<a href=javascript:abrir("INTENSION") class=glosa>intensión</a>&quot; y el de &quot;significado secundario generalmente cargado de afectividad&quot;.</dd>
+<dt>CONCEPTO BASICO:</dt>
+<dd>Ver supra, s.v. 'concepto' e infra, 'constructo intencional'. Se prefiere el término 'constructo intencional' por representar más adecuadamente el concepto <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a> que se quiere <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> para un objeto determinado. <a href=javascript:abrir("UNIDAD") class=glosa>Unidad</a> cónica que por analogía <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> matemática referencia el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> estructural - <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> en un sistema integrado.</dd>
+<dt>CONCIENCIA:</dt>
+<dd>1.- <a href=javascript:abrir("ESTADO") class=glosa>Estado</a> o condición de tener <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> de la propia <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>, de sensaciones y pensamientos, así como del <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> (natural y social) en que se vive. 2.- Conciencia moral: (a) Facultad que permite distinguir entre el bien y el mal o lo correcto y lo incorrecto, con respecto a la conducta personal. (b) Conformidad con el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> propio de lo que constituye conducta correcta. El término consciencia- en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de &quot;<a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> que el espíritu humano tiene de su propia <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>, de sus estados y de sus actos&quot;- debe usarse sólo como un término filosófico, según el parecer de Manuel Seco. &quot;En el uso corriente debe decirse siempre 'conciencia' (6DD, s. v.) Así y todo, ni Ferrater Mora ni Abbagano registran la forma 'consciencia' en sus diccionarios de <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a>. Esta dilucidación sería un tanto ociosa, de no ser por el hecho de que si bien es cierto que se dice y se escribe 'conciencia', en <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a> el uso establecido, confirmado por el DRAE, obliga a pronunciar y escribir 'conciente'. La inconsecuencia en el uso queda reforzada por el hecho de no admitir la Academia las formas sin ese como variantes, aunque el DRAE sí registra 'consciencia' como variante de 'conciencia' en el <a href=javascript:abrir("CAMPO") class=glosa>campo</a> de la psicología. En caso de posible e inconveniente ambigüedad, cabría usar conciencia para denotar únicamente la conciencia moral y consciencia para <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> las acepciones propias de la psicología y de las otras ramas de la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a>, salvedad hecha de la ética (moral). La lengua inglesa distingue entre Conscience (&quot;conciencia moral&quot;) y conscienness (la &quot;consciencia&quot; aqui sugerida).</dd>
+<dt>CONNOTACION:</dt>
+<dd>1.- <a href=javascript:abrir("SIGNIFICADO") class=glosa>Significado</a> accesorio que sugiere un vocablo, generalmente de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> afectiva, que presupone algún tipo de juicio de valor. &quot;Axila&quot; y &quot;sobaco&quot; tienen como referente la misma idéntica parte de la anfoma humana y, no obstante, el segundo vocablo suena vulgar, populachero y hasta grosero. La connotación refleja una convención cultural y no depende ni de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> del referente ni de la del significado. 2.- <a href=javascript:abrir("INTENSION") class=glosa>Intensión</a>.</dd>
+<dt>CONOCER:</dt>
+<dd>1.- (a) El proceso de archivar en el sistema nervioso <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> psíquicos resultado de la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a>, de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> adquirida o del aprendizaje. (b) &quot;averiguar por el ejercicio de las facultades intelectuales la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>, cualidades y relaciones de las cosas&quot; (DRAE). 2.-&quot;Percibir el objeto como distinto de todo lo que no es él&quot; (op. cit.). 3.- &quot;Entender, advertir, saber, echar de ver&quot; (op. cit.). 4.- Percibir o entender como hecho o verdad.</dd>
+<dt>CONOCIMIENTO:</dt>
+<dd>1.- <a href=javascript:abrir("ACCION") class=glosa>Acción</a> y efecto de <a href=javascript:abrir("CONOCER") class=glosa>conocer</a>. 2.- Conjunto de relaciones establecidas por la mente humana con <a href=javascript:abrir("HECHOS") class=glosa>hechos</a>, verdades o principios; dichas relaciones son el resultado de la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a>, el estudio o la investigación. 3.- Lo que se sabe o puede ser sabido; <a href=javascript:abrir("INFORMACION") class=glosa>información</a>. 4.- La totalidad de verdades, datos e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> acumulada por la humanidad a través de los siglos; la <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a> de tal acumulación habría sido imposible sin la invención de la escritura hace unos cinco mil años. El conocimiento es una relación que se da entre un sujeto cognoscente objeto conocido o por <a href=javascript:abrir("CONOCER") class=glosa>conocer</a>. Los objetos que denominamos <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> (cosas, propiedades, <a href=javascript:abrir("ESTADO") class=glosa>estado</a>, sucesos, procesos) tienen una <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> objetiva o real. En la medida en que la mente descubra <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> de los <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> que componen la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> , sus propias (cualidades) y relaciones, se va generando conocimiento que queda archivado en la mente como engramas o psicones. . Debemos distinguir entre los entes <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>- sistemas y &quot;pautas objetivas del ser y del devenir (Bunge) y las conceptualizaciones formuladas por el hombre, las cuales se manifiestan por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de palabras, frases y enunciados de todo tipo. La <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> es individual y concreta e integra los conceptos de &quot;Tiempo Real&quot;, &quot;Espacio Real&quot;, &quot;Energía Real&quot;, &quot;Información Real&quot;, &quot;Causa Real &quot;, y &quot;Efecto Real&quot; de todos los objetos que existen independientemente de que sean aprehendidos por la mente. La <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> en <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> estricto sólo puede ser real. Lo existente es real y sólo la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> tiene <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>. Ahora bien, el conocimiento no se limita a los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> reales. Existen también objetos conceptuales; es decir, sin <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>. Se trata de entes que sólo se dan en la mente humana y que no tienen <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> objetiva. Ejemplos: la señora hipotenusa y todos los demás objetos de que tratan las ciencias formales (lógica, semántica y matemáticas); los centauros y todos los demás entes mitológicos; Cervantes como personaje que ya sólo existe en la historia y Don Quijote de la Mancha (producto de su imaginación y genio creador; y, en fin, las más inverosímiles ocurrencias del espíritu, tales como &quot;la hora sublime, que es la ausente del cuadrante&quot; (Mallarmé) y &quot;la mujer mejor que es la mujer ninguna)&quot; (idem). De todos estos objetos conceptuales se puede tener también conocimiento, pero ya no se trata de conocimiento de <a href=javascript:abrir("HECHOS") class=glosa>hechos</a>. El conocimiento para ser tal, exige certeza; la creencia u opinión no es conocimiento objetivamente verificable. No obstante, contamos con nuestras creencias, así sean desde el punto de vista del conocimiento crítico. Véase, &quot;Ideas y Creencias&quot; de José Ortega y Gaseet (OC, V, pp. 381- 409): &quot;La certidumbre a que aspira el conocido - hombre de ciencia o filósofo- no es cualquiera. El cree posee certidumbre precisamente porque él no se la ha forjado. La creencia es certidumbre en que nos encontramos sin saber cómo ni por dónde hemos entrado en ella. Toda fé es recibida&quot; (op. cít., p. 407).</dd>
+<dt>CONSTRUCTO:</dt>
+<dd>Resultado de un proceso de construcción mental al que se llega por <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a>. El término 'constructo' se usa como un término superordinado que puede servir para <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> conceptos simples, conceptos complejos, proposiciones y teorías (sistemas de proposiciones), pero cuya utilización en <a href=javascript:abrir("INGENIERIA%20SOCIAL") class=glosa>Ingeniería Social</a>, <a href=javascript:abrir("INGENIERIA%20CONCEPTUAL") class=glosa>Ingeniería Conceptual</a>, Ingeniería <a href=javascript:abrir("PROSPECTIVA") class=glosa>Prospectiva</a>, etc. determina un elemento estructural de la <a href=javascript:abrir("CULTURA") class=glosa>cultura</a>, y por lo tanto de la Inteligencia Social.</dd>
+<dt>CONTRUCTO INTENCIONAL:</dt>
+<dd>Véase 'intención' (Trialéctica) Cualquier objeto conceptual dirigido a la consecución de un objeto o meta. Este término designa una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> fundamental de nuestra técnica conceptual. Comprende toda <a href=javascript:abrir("INFORMACION") class=glosa>información</a> útil, interpretada por un sujeto para denotar el camino crítico (método) que conduce a un objetivo. El constructo intencional es una proposición, expresada en forma de oración codificable , que activa y refuerza usos funcionales igualmente codificados. Dicho constructo representa así mismo un elemento actuante, no simple ('presencia compleja'), cuantificable en <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a>es informativas, que equivale a una aproximación <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> a juicios de valor que se suponen verdaderos y orientados hacia lo real.</dd>
+<dt>CONTENIDO:</dt>
+<dd>1.- Lo que está dentro de otro objeto. 2.- Lo que se expresa por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> del lenguaje. 3.- Los temas que se tratan en la totalidad de un discurso o en una de sus partes. 4. (Semántica) El conjunto de rasgos que conforman un concepto; <a href=javascript:abrir("INTENSION") class=glosa>intensión</a>. 5. (Trialéctica) (a) <a href=javascript:abrir("ACCION") class=glosa>Acción</a> intencionada dirigida a una meta. (b) Contenido de <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a>. (c) lo esencial se ve el agente en el proceso. El alcanzar una meta desde un punto de partida requiere acción intencionada - demarcada, concentrada y orientada por un <a href=javascript:abrir("CONTINENTE") class=glosa>continente</a>. Esta acción intencionada constituye el contenido compuesto de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a>, del proceso con <a href=javascript:abrir("DINAMICA") class=glosa>dinámica</a> intencionada que busca alcanzar la meta previamente definida. Este contenido energético informativo se objetiviza en la forma de personas (tiene carácter social), cosas, finanzas, tecnología y muchos otros sistemas con sus respectivas y múltiples relaciones (estructura) y composiciones.</dd>
+<dt>CONTINENTE:</dt>
+<dd>También continente 1.- Lo que lleva dentro de sí algo. 2.- (Trialéctica) El término designa el concepto de &quot;en&quot; referido a &quot;donde&quot; y &quot;cuando&quot; (espacio y tiempo). Esta referencia tiempo - espacial hace al concepto <a href=javascript:abrir("INMANENTE") class=glosa>inmanente</a> a la <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>.</dd>
+<dt>CONTORNO:</dt>
+<dd>1.- Territorio o conjunto de parajes de que está rodeado un lugar o una población. 2.- Conjunto de las líneas que limitan una figura o <a href=javascript:abrir("COMPOSICION") class=glosa>composición</a>. Términos afines: 'ambiente', '<a href=javascript:abrir("AMBITO") class=glosa>ámbito</a>, 'contorno', 'entorno', 'medio'. Las cinco voces tienen en común la noción de &quot;lo que está alrededor&quot; como rasgo distintivo fundamental del concepto que designan. <a href=javascript:abrir("ENTORNO") class=glosa>Entorno</a> es voz anticuada (DRAE) cuando significa lo mismo que 'contorno'; la acepción filosófica sólo se halla registrada en el Diccionario Vox y no figura en los diccionarios de <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de Abagnano y Ferrater Mora. <a href=javascript:abrir("AMBIENTE") class=glosa>Ambiente</a> denota condiciones o circunstancias de un lugar o que rodean a un objeto cualquiera. El referente del concepto designado es de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> menos tangible que el de &quot;contorno&quot; y &quot;entorno&quot;. El <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> puede ser físico (tangible) o puramente conceptual (&quot;espacio ideal configurado por las cuestiones y los problemas relacionadas entre sí&quot;, DRAE). En todo caso, el vocablo designa también el concepto de &quot;lo comprendido dentro de límites determinados&quot; y equivale a contorno en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de &quot;perímetro o de un límite de un espacio o lugar&quot;, &quot;conjunto de límites que encierran un espacio&quot;. Ambito se suele usar en <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> figurado (&quot;en el <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> de sus atribuciones. DUE) para <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> el concepto de &quot;campo&quot;. <a href=javascript:abrir("MEDIO") class=glosa>Medio</a> es sinónimo de ambiente en el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> conceptual aquí tratado, de lo cual resulta evidente que la tan frecuente empleada frase 'medio ambiente' constituye una redundancia que se debe evitar.</dd>
+<dt>CONSOLIDACION:</dt>
+<dd>Vínculos estables e institucionalizados.</dd>
+<dt>CONSISTENCIA:</dt>
+<dd>Condición que no cambie.</dd>
+<dt>CONTADOR DE PROGRAMA:</dt>
+<dd>Registro de la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> de control que almacena la <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> de <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a> de la siguiente <a href=javascript:abrir("INSTRUCCION") class=glosa>instrucción</a>.</dd>
+<dt>CONTROLADOR DE COMUNICACIONES:</dt>
+<dd>Front End Procesador especializado en la <a href=javascript:abrir("GESTION") class=glosa>gestión</a> de comunicaciones entre el CPU y los periféricos.</dd>
+<dt>CONTINUUM VITAL:</dt>
+<dd>Que no es interrumpible.</dd>
+<dt>CONTEXTO:</dt>
+<dd>1.- Las partes de un discurso, hablado o escrito, que contiene una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>, expresión o trozo de mayor extensión, las cuales suelen contribuir a determinar su <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a>, <a href=javascript:abrir("CONNOTACION") class=glosa>connotación</a> y efecto; el <a href=javascript:abrir("ENTORNO") class=glosa>entorno</a> de una porción de discurso o fragmento de texto. 2.- El conjunto de circunstancias o <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> en que se da un acontecimiento o que constituyen el <a href=javascript:abrir("ENTORNO") class=glosa>entorno</a> de una situación. 3.- Situación: combinación de circunstancias. Adjetivo derivado del sustantivo: 'contextual' (no figura en el DRAE). El concepto de &quot;contexto&quot; es fundamental para el manejo y comprensión de todo lo relacionado con el lenguaje. El término que designa dicho concepto denota todo tipo de marco de referencia de cualquier fragmento de lenguaje <a href=javascript:abrir("EFECTIVO") class=glosa>efectivo</a> o <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> lingüística. El contexto puede ser extralingüístico o lingüístico; asimismo puede ser considerado bajo un aspecto puramente conceptual. Las <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>s tienen <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a> en <a href=javascript:abrir("FUNCION") class=glosa>función</a> del contexto en que son usadas, y este contexto determina el concepto designado por cada <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> y sus significados. Tanto el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> como la referencia de un concepto son contextuales &quot;por depender del cuerpo de conocimientos en que se presenta el constructo en cuestión&quot; (Bunge). Los diccionarios son simplemente repertorios de posible significaciones asignables a una u otra <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>; el contexto convierte la <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a> <a href=javascript:abrir("VIRTUAL") class=glosa>virtual</a> en efectiva (real y precisa).</dd>
+<dt>CONTEXTO LINGUISTICO:</dt>
+<dd>Esta expresión designa el <a href=javascript:abrir("ENTORNO") class=glosa>entorno</a> textual inmediato, de una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> lingüística; las palabras que figuran antes y después de ella formando construcciones gramaticales y <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a>es de comunicación.</dd>
+<dt>CONTEXTO CONCEPTUAL:</dt>
+<dd>Desde el punto de vista del pensamiento, los constructos designados por formas lingüísticas no se dan aislados sino en relación con conceptos individuales, o como constituyentes de proposiciones o como componentes de todo un sistema de proposiciones en teoría. En el lenguaje ordinario, el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> conceptual (ascendencia y progenie lógicas del concepto; véase s. vv., 'aporte', 'importe', 'designar'). tiene un mínimo de determinación, da la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> del cuerpo de conocimientos (los resultados de la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> cotidiana) que refleja dicho lenguaje. El <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> conceptual alcanza un máximo grado de rigor lógico y determinación semántica en el caso de las teorías científicas y lógico -matemáticas. Todo término científico ha de ser entendido en el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> de una teoría, más o menos explícita, más o menos rigurosa, más o menos verdadera. Las teorías constituyen <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a>s de conceptos.</dd>
+<dt>CONTEXTO EXTRALINGUISTICO:</dt>
+<dd>La comunicación por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> del lenguaje presupone un número considerable de circunstancias y detalles anteriores al uso lingüístico e independiente de él que, no obstante, son directamente relevantes para la comunicación. Por 'contexto extralingüístico' entendemos, pues, todo lo que, no siendo lenguaje afecta directamente el acto de habla o la comunicación lingüística: supuestos conceptuales, supuestos derivados de la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> y no necesariamente conceptualizados, convenciones culturales o sociales, normas de conducta, <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> compartida o individual, actitudes, valores, etc. , etc.</dd>
+<dt>CONTEXTO SITUACIONAL:</dt>
+<dd>Toda comunicación, sea real o escrita, se da en algún <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> de situación determinado que es parte de la circunstancia en que ocurre el comportamiento lingüístico y que le es directamente relevante. No hay diferencia esencial entre los conceptos de &quot;<a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> extralingüístico&quot;, no obstante, este segundo concepto se refiere a una circunstancia más concreta e inmediata - la situación que afecta de manera más directa la elección de los recursos lingüísticos y su empleo.</dd>
+<dt>COSMOVISION:</dt>
+<dd>'Conceptos del Mundo', 'concepto de la <a href=javascript:abrir("VIDA") class=glosa>vida</a>', '<a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de la <a href=javascript:abrir("VIDA") class=glosa>vida</a>' o 'ideología', 'concepción del Universo'. Todas estas expresiones del vocablo alemán Weltanschauung (&quot;modo de mirar el mundo&quot;). 1.- La <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de un individuo, de un grupo o de un pueblo (i. e. &quot;nación&quot;), con su interpretación de la historia universal y del proceso civilizatorio. 2.- (a) Concepto amplio del Universo y de la relación del hombre con él. (b) Actitud ante la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> que presupone una interpretación de ella. (Welt, &quot;mundo&quot; y Anschauung, &quot;vista&quot;). El <a href=javascript:abrir("INTEGRALISMO%20TRIALECTICO") class=glosa>Integralismo <a href=javascript:abrir("TRIAL") class=glosa>Trial</a>éctico</a> representa una nueva Cosmovisión.</dd>
+<dt>CONVERTIBLE:</dt>
+<dd>Transformable en base a sus mismos <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a> de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> a su <a href=javascript:abrir("DIRECCIONAMIENTO") class=glosa>direccionamiento</a>.</dd>
+<dt>CONVIVENCIA:</dt>
+<dd>Ordena la socio <a href=javascript:abrir("CULTURA") class=glosa>cultura</a> y la socio política del saber.</dd>
+<dt>COOPERATIVAS Y COORPORACIONES, INSTITUCIONES:</dt>
+<dd>Producto de la sistematización codificada y <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> de la <a href=javascript:abrir("DINAMICA") class=glosa>dinámica</a> socio económica con interés moral.</dd>
+<dt>COORDINACION:</dt>
+<dd>1.- Relación u orden apropiado. 2.- Interacción o combinación armoniosa que se da entre partes funciones. 3.- (Trialéctica) Armonía referida a actividades concurrentes y a decisiones adecuadas cuando éstas corresponden a más de una <a href=javascript:abrir("UNIDAD%20OPERATIVA%20RESPONSABLE") class=glosa>unidad operativa responsable</a>.</dd>
+<dt>CORREO ELECTRONICO:</dt>
+<dd>Sistema de transmisión de mensajes por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de computadora.</dd>
+<dt>CRIPTOGRAFIA:</dt>
+<dd>Ocultación de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> mediante cifrado.</dd>
+<dt>CRONOGRAMA:</dt>
+<dd>1.- Parte de un plan de trabajo donde se indican las fechas aproximadas en que han de estar concluidas las diversas etapas que conforman el conjunto de actividades dirigidas a una meta específica. Gráfico o diagrama por el cual se muestra un flujo de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> sobre acciones y actividades en el tiempo.</dd>
+<dt>CURSOR:</dt>
+<dd>Indicador destellante que señala el lugar donde aparecerá el siguiente carácter.</dd>
+<dt>CUANDO?:</dt>
+<dd>Elemento tiempo, ciclos, duración.</dd>
+<dt>CULTURA:</dt>
+<dd>Conjunto de conocimientos que adquiere una persona mediante el estudio, los viajes y en general el trato con las artes, la literatura, las ciencias, etc. En este <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> connota también modales refinados. Patrones de comportamientos, actitudes, creencias y sistemas de valores.</dd>
+<dt>CULTURA SOCIAL DE PRODUCCION:</dt>
+<dd>Ciclo socio económico que se origina en una capacidad organizada con valores estables y puede sintetizarse.</dd>
+<dt>CUALIDAD:</dt>
+<dd>Propiedad. cf. 'calidad'.</dd>
+<dt>CUANTIFICAR:</dt>
+<dd>Expresar numéricamente una <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a>.</dd>
+<dt>CUANTIFlCACION:</dt>
+<dd>Acción y efecto de <a href=javascript:abrir("CUANTIFICAR") class=glosa>cuantificar</a>. La cuantificación es fundamental para la ciencia, la ciencia aplicada (tecnología) y las técnicas e ingenierías (entre ellas la <a href=javascript:abrir("ADMINISTRACION") class=glosa>administración</a> y la <a href=javascript:abrir("BIO") class=glosa>bio</a> tecnología designada con el hombre de 'medicina'). La cuantificación presupone la medición y se funda en ella, lo cual quiere decir que para entender la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> de la cuantificación resulta indispensable saber en que consiste la medición. La medición, a su vez, presupone la observación, una observación realizada con &quot;precisión cuantitativa&quot; (Bunge. 2IC, p. 717). &quot;El objeto de la observación es, naturalmente, un hecho actual; el producto de un acto de observación es un dato&quot; (loc. cit.). Para ser válida y confiable, la medición ha de tener propiedades: 1-. La medición debe constituir un proceso operacionalmente definible; es decir, dicho proceso debe ser definido mediante la especificación de condiciones (reales o experimentales) y de operaciones específicas que resultan en la medición. (2) Los resultados de un proceso de medición deben ser reproducibles por cualquier observador competente. La reproducibilidad constituye garantía de la confiabilidad y precisión de la medición, por lo tanto las mediciones deben ser comprobadas (repetidas) y no aceptadas como artículo de fe. (3) El proceso de medición ha de tener validez, debe ser exacto, las magnitudes cuantificadas mediante la medición deben ser reales (verdaderas), en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de representar propiedades auténticas del objeto medido. Estas tres propiedades constituyen <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> del concepto de objetividad sin el cual no se puede hablar de medición ni de cuantificación. Finalmente, téngase en cuenta que &quot;lo observable son sistemas concretos - cosas, acaecimientos y procesos - no sus propiedades aisladas; por otro lado, nunca se mide una cosa: lo medible es exclusivamente alguna propiedad de las cosas&quot; (op. cit., p 802). fuentes: Samuel S. Vilks, &quot;Some Aspects of Quantification in Science&quot; en Quantification: A History of the Meaning of Measurement in the Natural and Social Sciences. Edición al cuidado deHarry Woolf (Bobbs- Merril, Indianapolis- Nueva York, 1.961), pp. 5-12. Mario Bunge. La Investigación Científica: Su <a href=javascript:abrir("ESTRATEGIA") class=glosa>estrategia</a> y su <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> (Ariel, Barcelona, 1.933), pp. 717 y con lo cual surge el concepto de Magnitud y el de <a href=javascript:abrir("DIMENSION") class=glosa>dimensión</a>.</dd>
+</dl>
+</div></body></html></body></html>

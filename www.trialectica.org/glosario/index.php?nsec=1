@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 22 términos definidos en la Sección B</div>
+<dl>
+<dt>BANCO DE DATOS:</dt>
+<dd>Conjunto de informaciones interrelacionadas.</dd>
+<dt>BANCO DE OPORTUNIDADES:</dt>
+<dd>Conjunto de conclusiones y recomendaciones de beneficio específico, producto de la inteligencia de los procesos de <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a>.</dd>
+<dt>BANCO DE POSIBILIDADES:</dt>
+<dd>Conjunto de conclusiones y recomendaciones codificadas producto de comparar las tendencias vocacionales y los inventarios priorizados y los recursos en el espacio - tiempo. <a href=javascript:abrir("A.T.G.") class=glosa>A.T.G.</a></dd>
+<dt>BANCO DE PROYECTOS OPTIMIZABLES:</dt>
+<dd>Sistema de informaciones codificado sobre potencialidades activas, factibles y viables.</dd>
+<dt>BASE DE DATOS:</dt>
+<dd>Banco de datos informatizado bajo un esquema relacional o jerárquico compuesto por una serie interconectada de tablas de datos diseñadas para ser eficientemente navegadas mediante índices y otros mecanismos que facilitan su consulta, mantenimiento y actualización permanente.</dd>
+<dt>BASE DE NUMERACION:</dt>
+<dd>Número de dígitos distintos en un sistema de numeración.</dd>
+<dt>BASIC:</dt>
+<dd>Código de instrucciones simbólicas de propósito general para principiantes.</dd>
+<dt>BAUDIO:</dt>
+<dd>Unidad de medida para la transmisión de datos.</dd>
+<dt>BCD:</dt>
+<dd>Sistema de codificación decimal en binario.</dd>
+<dt>BIENESTAR:</dt>
+<dd>1. <a href=javascript:abrir("ESTADO") class=glosa>Estado</a> pasajero o un tanto permanente, propio de quien se siente bien física y animicamente (con salud, <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>, etc.) 2. <a href=javascript:abrir("ESTADO") class=glosa>Estado</a> o situación de bienandanzas. 3. (a) <a href=javascript:abrir("SECUENCIA") class=glosa>Secuencia</a> de logros que mantienen una utilidad social permanente. (b) Satisfacción, conveniencia y comodidad socialmente relevantes.</dd>
+<dt>BIO:</dt>
+<dd>(En algunos casos puede tomar la forma bi.-) Raíz del griego BIOS. &quot;<a href=javascript:abrir("VIDA") class=glosa>vida</a>&quot;, &quot;modo de <a href=javascript:abrir("VIDA") class=glosa>vida</a>&quot;. Designa los conceptos de &quot;<a href=javascript:abrir("VIDA") class=glosa>vida</a>&quot; u &quot;organismo vivo&quot;.</dd>
+<dt>BIOLOGIA:</dt>
+<dd>1. La ciencia de la <a href=javascript:abrir("VIDA") class=glosa>vida</a> y de los procesos vitales. Incluye el estudio de la <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a>, <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a>, desarrollo, origen, <a href=javascript:abrir("EVOLUCION") class=glosa>evolución</a> y distribución de los organismos vivientes. 2.- Los procesos vitales o fenómenos característicos de cualquier grupo o categoría de organismos vivientes. 3. La <a href=javascript:abrir("VIDA") class=glosa>vida</a> vegetal y animal de un lugar o región específicos considerada como <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> u objeto conceptual (i. e., &quot;abstracción&quot;).</dd>
+<dt>BIOLOGICO:</dt>
+<dd>Relacionado con la biología. Cf. 'Biótico'.</dd>
+<dt>BIOMASA:</dt>
+<dd>(Ecología) La materia viviente que forma parte de un habitat o <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a>, expresada bien sea como el peso de los organismos por área, o bien sea como el volumen o peso de tales organismos, por <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> volumétrica de hábitat. El número de organismos, o la biomasa, en una área determinada en un momento especifico, constituye lo que se llama la &quot;cosecha en pie&quot; (standing crop). Si el concepto de &quot;biomasa&quot; está referido a una especie animal o vegetal, se habla de 'biomasa de especie'; si se trata de todas las especies de una <a href=javascript:abrir("COMUNIDAD") class=glosa>com<a href=javascript:abrir("UNIDAD") class=glosa>unidad</a></a> se usa el término 'biomasa comunitaria'. La productividad de un área consiste en la cantidad total de materia orgánica producida por los organismos de una <a href=javascript:abrir("COMUNIDAD") class=glosa>com<a href=javascript:abrir("UNIDAD") class=glosa>unidad</a></a> durante un periodo de tiempo determinado.</dd>
+<dt>BIOMETRIA:</dt>
+<dd>1. Análisis estadístico de los datos propios de los organismos vivientes. 2. Aplicación de la teoría matemático - <a href=javascript:abrir("ESTADISTICA") class=glosa>Estadística</a> a la biología; estudio y análisis para la determinación de las variables biológicas. 3. Cálculo de la duración probable de la <a href=javascript:abrir("VIDA") class=glosa>vida</a> humana que origina las tablas de frecuencia vitales.</dd>
+<dt>BIONICA:</dt>
+<dd>1.- La aplicación de los principios biológicos al estudio y diseño de sistemas de ingeniería, en particular sistemas electrónicos. La biónica imita los sistemas naturales bióticos con el fin de diseñar sistemas artificiales capaces de detectar <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> del <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a>, tal como ocurre con los órganos sensoriales de los animales. 2.- Ciencia para solucionar problemas de infra<a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> y producción en base a la <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>, <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> y <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> de los seres vivos.</dd>
+<dt>BIOPOTENCIAL:</dt>
+<dd>1.- Potencial bioeléctrico. 2.- Diferencias de potenciales (voltajes) cargas de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> en diferentes partes de un <a href=javascript:abrir("ORGANISMO") class=glosa>organismo</a> biológico o sistema social, las cuales permiten diseñar redes de <a href=javascript:abrir("COMPENSACION") class=glosa>compensación</a> y neutralización</dd>
+<dt>BIOTICO:</dt>
+<dd>Relacionado con la <a href=javascript:abrir("VIDA") class=glosa>vida</a> o con los seres vivos. CF, Biológico.</dd>
+<dt>BIESTABLE:</dt>
+<dd>Elemento de <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a> de dos estados estables.</dd>
+<dt>BIT DE PARIDAD:</dt>
+<dd>Bit de control que acompaña a una cadena de bits para la comprobación de la correcta transmisión de la misma.</dd>
+<dt>BIT:</dt>
+<dd>Digito binario o elemento mínimo de <a href=javascript:abrir("INFORMACION") class=glosa>información</a></dd>
+<dt>BLOQUE:</dt>
+<dd>Conjunto de registros que se manipulan de forma unitaria en operaciones de entrada y salida.</dd>
+</dl>
+</div></body></html></body></html>

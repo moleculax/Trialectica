@@ -1,0 +1,228 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 47 términos definidos en la Sección D</div>
+<dl>
+<dt>DATOS:</dt>
+<dd>Representación de <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> para que el hombre o las máquinas puedan procesarlos con facilidad.</dd>
+<dt>DECRETO:</dt>
+<dd>1.- Orden o disposición que emana de una <a href=javascript:abrir("AUTORIDAD") class=glosa>autoridad</a> y que tiene <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> de ley. 2.- Se aplica en <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> restringido a las disposiciones emanadas del gobierno de una nación para poner en <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> las leyes o para completarlas. 3.- <a href=javascript:abrir("RESOLUCION") class=glosa>Resolución</a> tomada por <a href=javascript:abrir("AUTORIDAD") class=glosa>autoridad</a> competente en un asunto de su incumbencia. Los decretos tienen carácter político o gubernativo y emanan de un jefe de <a href=javascript:abrir("ESTADO") class=glosa>Estado</a>, de gobierno de una nación o de un tribunal o juez. Constituyen la forma más solemne en que se manifiesta la potestad de mando, y deben ser refrendados por el ministerio o ministros a quienes corresponda la materia. En <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> restringido, las leyes emanan del poder legislativo y son sancionadas por el poder Ejecutivo: los decretos, en <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>, son propios de entidades gubernamentales, pero no necesariamente de cuerpos legislativos. Cf . s. v., 'ley'.</dd>
+<dt>DECRETO LEY:</dt>
+<dd>Disposición de carácter legislativo que sin ser sometida al órgano adecuado, se promulga por el poder ejecutivo, en virtud de alguna excepción circunstancial o permanente, previamente determinada. DRAE 2.- Actos emanados del ejecutivo mediante los cuales se establecen reglas de derecho sobre materias propias de la ley; son decisiones con <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> de ley.</dd>
+<dt>DENOTACION:</dt>
+<dd>1.- El <a href=javascript:abrir("SIGNIFICADO") class=glosa>significado</a> específico de una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>, 2.- El objeto o referente del concepto designado por una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>, 3.- (Semántica. Bunge) denotación (significancia) es definida por Bunge como resultado de la <a href=javascript:abrir("COMPOSICION") class=glosa>composición</a> (concatenación, combinación <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>, unión) de <a href=javascript:abrir("DESIGNACION") class=glosa>designación</a> y referencia. Las <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>s y demás símbolos lingüísticos no denotan directamente, sino a través de conceptos: los símbolos designan constructos; los constructos se refieren a (ver 'referencia) objetos la relación de referencia se da de un objeto conceptual (constructo) a otro objeto, conceptual o real, que es el segundo miembro o término de la relación. Como términos de la relación de referencia , a los objetos se los desconoce bajo el nombre de referentes. La denotación es el <a href=javascript:abrir("SIGNIFICADO") class=glosa>significado</a> objetivo de una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> que registran los diccionarios. Lo que la <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> sugiere, y que no forma parte de su denotación, constituye la <a href=javascript:abrir("CONNOTACION") class=glosa>connotación</a> de dicha <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>. Las connotaciones nacen de la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> privada o compartida; pueden conservar su <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> privada o se pueden hacer generales, adquiriendo así carácter convencional. Generalmente la <a href=javascript:abrir("CONNOTACION") class=glosa>connotación</a> tiene carácter afectivo y llega a formar parte fundamental del <a href=javascript:abrir("SIGNIFICADO") class=glosa>significado</a> de la <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>. No se pueden usar las <a href=javascript:abrir("PALABRA") class=glosa>palabra</a>s sin tomar en cuenta connotaciones, ya que se puede dar un conflicto entre la <a href=javascript:abrir("CONNOTACION") class=glosa>connotación</a> de una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> y el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> en que figura.</dd>
+<dt>DESAGREGAR:</dt>
+<dd>Descomponer, a los <a href=javascript:abrir("FINES") class=glosa>fines</a> del análisis metódico, el todo en sus partes y desde éstas mantener dicha <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a>.</dd>
+<dt>DESARROLLAR:</dt>
+<dd>Acrecentar, dar incremento a una cosa del orden físico, intelectual y moral.</dd>
+<dt>DESARROLLO:</dt>
+<dd>1.- <a href=javascript:abrir("ACCION") class=glosa>Acción</a> y efecto de <a href=javascript:abrir("DESARROLLAR") class=glosa>desarrollar</a> o <a href=javascript:abrir("DESARROLLAR") class=glosa>desarrollar</a>se. 2.- (<a href=javascript:abrir("TRIALECTICA") class=glosa>Trialéctica</a>) (a) proceso de crecimiento de un <a href=javascript:abrir("ORGANISMO") class=glosa>organismo</a> instituido o institución que no sólo de origen a cambios cuantitativos sino que también produce cambios cualitativos. Ambos tipos de cambio son necesarios para cumplir los compromisos de las instituciones con la sociedad y afectan tanto las actividades generales como las funciones específicas de dichas instituciones. (b) Conjunto de cambios físicos (biológicos) espirituales requeridos para la realización plena del hombre como individuo y como individuo en sociedad (ente social, político y económico). El desarrollo del individuo debe culminar en una adecuada <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> de la personalidad que a su vez, constituye el mejor preventivo de cualquier tipo de alineación. Muy frecuentemente se han confundido los conceptos de &quot;desarrollo&quot; y &quot;crecimiento&quot;. Hay diversas concepciones encontradas del desarrollo, casi todas equivocadas, no tanto por lo que sostienen cuanto por lo que callan. En efecto, hay cinco concepeiones principales del desarrollo de una sociedad humana: la biología, la economía, la política, la cultural y la integral. Cada una de ellas se funda sobre una concepción particular de la sociedad humana. Si esta concepción es equivocada, también lo será la correspondiente concepción del desarrollo. Quién quiera contribuir a superar el sub-desarrollo tendrá que empezar por adoptar una <a href=javascript:abrir("POSICION") class=glosa>posición</a> correcta de la sociedad. Mario Bunge. Ciencia y desarrollo. (ediciones Siglo Veinte, Buenos Aires, 1.980, p. 19. La <a href=javascript:abrir("TRIALECTICA") class=glosa>Trialéctica</a> sigue la línea integralista. Al igual muchos filósofos y entre ellos Bunge sostiene que el desarrollo ha de ser integral y, por lo tanto, &quot;una <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> de los puntos de vista parciales del biologismo, el economismo, el politicismo, el culturailismo&quot; (loc. cit.).&quot; Mas no puede haber desarrollo cultural, ni por lo tanto integral, sin desarrollo científico y tecnológico&quot; (op. cit., p. 24).</dd>
+<dt>DESARROLLO SOCIAL:</dt>
+<dd>Se entiende por Desarrollo Social, al conjunto integrado, armónico y en consecuencia, estratégico, de los desarrollos socioeconómico y sociocultural de una <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a>, <a href=javascript:abrir("ESTADO") class=glosa>estado</a>, país o <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> social.</dd>
+<dt>DESARROLLO SOCIAL ARMONICO:</dt>
+<dd>El desarrollo es, por <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>, armónico. Sin embargo, cuando las leyes que la sociedad impone para dirigir el <a href=javascript:abrir("PROCESO%20SOCIAL") class=glosa>proceso social</a> dejan de ser concurrentes con las leyes de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>, el desarrollo pierde su armonía.</dd>
+<dt>DESARROLLO SOCIAL AUTOGESTIONADO:</dt>
+<dd>Es aquel proceso de desarrollo motorizado <a href=javascript:abrir("POR%20LA%20SOCIEDAD") class=glosa>por la sociedad</a> organizada para tal fin.</dd>
+<dt>DESARROLLO SOCIAL ESTRATEGICO:</dt>
+<dd>El <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a> es estratégico, cuando la sociedad lo dirige hacia sus <a href=javascript:abrir("FINES") class=glosa>fines</a>, es decir, cuando corresponde a una <a href=javascript:abrir("ESTRATEGIA") class=glosa>estrategia</a> predeterminada por los líderes del <a href=javascript:abrir("PROCESO%20SOCIAL") class=glosa>proceso social</a>.</dd>
+<dt>DESARROLLO SOCIAL INTEGRADO:</dt>
+<dd>El <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a> es siempre integrado. El problema es que a veces la sociedad y sus líderes desconocen las <a href=javascript:abrir("LEYES%20NATURALES") class=glosa>leyes naturales</a> que rigen esa <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a>. La falta de <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> de esa <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> natural, impide armonizar con ella.</dd>
+<dt>DE LAS TECNICAS:</dt>
+<dd>Sistema <a href=javascript:abrir("LOGICO%20MATEMATICO") class=glosa>lógico matemático</a> que se desprende de la <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> de los <a href=javascript:abrir("RDR") class=glosa>RDR</a> y que se aplica en alguna etapa del proceso de diseño</dd>
+<dt>DE LOS CAMPOS:</dt>
+<dd>Macro-escenarios en que se desenvuelven algunas categorías de <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> y <a href=javascript:abrir("ACCION") class=glosa>acción</a>, relacionadas entre si.</dd>
+<dt>DE LOS PASOS:</dt>
+<dd>Uso, Utilización, Optimización y Realización.</dd>
+<dt>DEL COMO:</dt>
+<dd>Metodología, uso y conceptualización</dd>
+<dt>DEL CON QUE:</dt>
+<dd>Elemento recursal material y tecnológico, (con o sin espacio y tiempo).</dd>
+<dt>DEL CON QUIEN:</dt>
+<dd>Elemento recursal humano, (activo, pasivo o neutro).</dd>
+<dt>DEL CUANDO:</dt>
+<dd>Elemento tiempo, ciclos, duración DEMOCRACIA DIRECTA Capacidad y posibilidad individual de participar en la toma de decisiones.</dd>
+<dt>DENSIDAD DE GRABACION:</dt>
+<dd>Cantidad de bits grabados en cada <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> de longitud.</dd>
+<dt>DESCIFRAR:</dt>
+<dd>1.- Interpretar o leer un texto ambiguo, oscuro o ilegible. 2.- Convertir un texto cifrado o en <a href=javascript:abrir("CODIGO") class=glosa>código</a> en otro escritorio en lenguaje ordinario; descodificar.</dd>
+<dt>DESCODIFICAR:</dt>
+<dd>Convertir en texto de lenguaje ordinario lo que ha sido escrito en lenguaje cifrado. El prefijo 'des-' denota negación o inversión del <a href=javascript:abrir("SIGNIFICADO") class=glosa>significado</a> o vocablo al cual se antepone. Por lo tanto, 'descodificar' designa el proceso contrario de codificar. Ahora bien, codificar quiere decir (1) poner en <a href=javascript:abrir("CODIGO") class=glosa>código</a>; es decir, en lenguaje secreto o (2) asignar números y/o letras a ciertos conceptos claves que constituyen una nomenclatura. En relación con esta segunda aceptación, no es tanto cosa de descodificar algo secreto, sino de <a href=javascript:abrir("DESARROLLAR") class=glosa>desarrollar</a> la capacidad de entender los <a href=javascript:abrir("CODIGO") class=glosa>código</a>s asignados para facilitar el trabajo automáticamente, de manera subconsciente.</dd>
+<dt>DESCOMPONER:</dt>
+<dd>1.- Desintegrar. 2.- Separar los elementos constituyentes de un todo.</dd>
+<dt>DESIGNACION:</dt>
+<dd>1.- <a href=javascript:abrir("ACCION") class=glosa>Acción</a> y efecto de <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a>. 2.- (Semántica) &quot;La designación es una relación entre un elemento lingüístico, pero <a href=javascript:abrir("TIEMPO%20REAL") class=glosa>tiempo real</a>&quot; (Ferreter, 6DF, p. 769). Los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> son reales o conceptuales; no hay otros. Véase infra, 'relación de designación'.</dd>
+<dt>DESCOMPOSICION:</dt>
+<dd>1.- <a href=javascript:abrir("ACCION") class=glosa>Acción</a> o efecto de <a href=javascript:abrir("DESCOMPONER") class=glosa>descomponer</a>; desintegración, deterioro, ruina, degeneración. 2.- (Trialéctica). Proceso en que ciertos componentes disfuncionales (que entorpecen el <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> <a href=javascript:abrir("EFECTIVO") class=glosa>efectivo</a> y deseable) se oponen más o menos sistemáticamente al proceso integrador del diseño ético-social.</dd>
+<dt>DESIGNAR:</dt>
+<dd>1-. Denominar, indicar. 2.- (Semántica) Simbolizar, representar, significar. Todas estas equivalencias no son más que burdas aproximaciones al concepto técnicos que a continuación explicamos. Debe mantenerse siempre clara la distinción entre formas lingüísticas que cumplen la <a href=javascript:abrir("FUNCION") class=glosa>función</a> de designantes (del latín designans, plural designantes) los constructos por ellas designados (designatum, plural designata).- los significantes y significados de Ferdinand de Saussure (significans, significantes). En la teoría semántica de Mario Bunge (Treatise of basic philosophy, 1 y 2. passim), los objetos lingüísticos (formas lingüísticas, palabras, frases, oraciones, expresiones) designan constructos u objetos conceptuales (&quot;significados&quot;.) Los objetos lingüísticos son objetos reales físicos (concretos, materiales), ya que se dan en la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> primordialmente en la forma de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> propagada a través del aire (habla). Esta <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>, en forma de ondas sonoras, produce impulsos nerviosos en el sistema auditivo y el cerebro del oyente. El habla -- simbolismo primario y fundamental-- se puede presentar gráficamente (escritura o simbolismo secundario constituido por símbolos de símbolos). En este segundo caso, los objetos lingüísticos siguen siendo objetos reales físicos, puesto que la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> se convierte en ondas de luz que, transmitidas a través del aire y capacitadas por el ojo, producen impulsos y <a href=javascript:abrir("SERVICIOS") class=glosa>servicios</a> nerviosos que, a su vez, originan procesos cerebrales (reacciones electroquímicas). La teoría de Mario Bunge postula la relación de <a href=javascript:abrir("DESIGNACION") class=glosa>designación</a> entre los objetos lingüísticos y sus significados. Entre los significados o constructos (conceptos, proposiciones) y sus referentes (los objetos de que se habla se da la relación de referencia. La <a href=javascript:abrir("DENOTACION") class=glosa>denotación</a> (significancia ) es definida por Bunge como la <a href=javascript:abrir("COMPOSICION") class=glosa>com<a href=javascript:abrir("POSICION") class=glosa>posición</a></a> (concatenación, combinación <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>, unión) de <a href=javascript:abrir("DESIGNACION") class=glosa>designación</a> y referencia. De Bunge, véase también el capitulo cuatro, &quot;Semántica&quot;, de su obra titulada. Lingüística y <a href=javascript:abrir("FILOSOFIA") class=glosa>Filosofía</a> (Ariel, 1.983) y, en particular, téngase en cuenta la siguiente explicación ( op. cit., p. 59). &quot;La esencia de nuestra semántica es que todo concepto y toda pro<a href=javascript:abrir("POSICION") class=glosa>posición</a> tienen tanto un <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> como una referencia, y que el significado de un constructo (concepto o pro<a href=javascript:abrir("POSICION") class=glosa>posición</a>) es el par ordenado formado por su <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> y su referencia. Ambos son contextuales por depender del cuerpo de conocimientos en que se presenta el constructo en cuestión. Más aún, el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de un constructo en un <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> determinado se define como el conjunto de todos sus implicantes (o presupuestos) e implicados (o consecuencias), o sea, como su ascendencia <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> mas su progenie <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>. Y la (clase) de referencia de un constructo es el conjunto de todos los objetos (materiales o conceptuales) a los que se aplica, sea verdaderamente o no. Para este autor ( Treatise .... 1.- passim), el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> (sense) se puede <a href=javascript:abrir("DESCOMPONER") class=glosa>descomponer</a> en tres elementos: purport, <a href=javascript:abrir("INTENSION") class=glosa>intensión</a>, import. Al traducirse a si mismo al español (véase el trozo citado en la página anterior), Bunge designa el concepto de &quot;purport&quot; sirviéndose de los términos 'implicantes', 'presupuestos' y 'ascendencia'. Así y todo, quizá convendría habilitar vocablo 'tenor' como término clave para traducir el purport bungiano. Aunque esto prácticamente equivaldría a una definición por estipulación, la traducción tampoco parece nada traída en forma absurda, ya que cualquier diccionario bilingüe registra 'tenor' como traducción del purport inglés, <a href=javascript:abrir("INTENCION") class=glosa>intención</a>, por otra parte, no ofrece problema alguno de traducción, pues existe en <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> el término castellano '<a href=javascript:abrir("INTENSION") class=glosa>intensión</a>' (escrito con ese ; Ferrater, 6DF, s. v.) como designante de lo que también se denomina 'comprensión' , 'connotación' o 'contenido' de un concepto cuatro maneras diferentes de significar el mismo objeto conceptual: &quot;las constancias mentales que en el concepto responden a las notas constitutivas del objeto &quot;(Francisco romero, citado por Ferrater, op. cit., p. 545). Aunque en el <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> de que nos ocupamos, estas cuatro palabras son perfectamente sinónimas, conviene servirse casi exclusivamente del último término (cf. 'extensión' ), con algún uso esporádico de 'contenido'. Se evitan, de este modo, posibles confusiones, ya que 'comprensión' y 'connotación' (g. vv.) tienen otras acepciones, importantes para nuestros <a href=javascript:abrir("FINES") class=glosa>fines</a> descriptivos, que deben mantenerse sin equívoco alguno. En cuanto a import. convendría habilitar el término '<a href=javascript:abrir("IMPORTE") class=glosa>importe</a>', derivado, igual que la palabra inglesa, del verbo latino importare. Por analogía con '<a href=javascript:abrir("IMPORTE") class=glosa>importe</a>', no parece del todo desacertado acuñar el neologismo semántico 'aporte' como sinónimo de 'tenor' ya que así se crea un efecto de simetría fonética, por el estilo de la terminología de lengua inglesa (purport - import; 'aporte' - '<a href=javascript:abrir("IMPORTE") class=glosa>importe</a>'), que en nada obstaculizaría la asimilación de una <a href=javascript:abrir("POSICION") class=glosa>posición</a> por el estilo de &quot;El significado de un concepto consiste en <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> y referencia; el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a>, a su vez, se descompone en aporte, <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> e <a href=javascript:abrir("IMPORTE") class=glosa>importe</a>&quot;. Finalmente, téngase en cuenta, como ya advierte Bunge, que toda palabra depende para su <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a> del <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> en que figura, y que dicho <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> tiene carácter situacional, conceptual y lingüístico. En efecto, se trata de un concepto único de &quot;<a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> &quot;en el que cabe distinguir los tres términos '<a href=javascript:abrir("DENOTACION") class=glosa>denotación</a>', 'aporte' , o 'tenor' 'Extensión' e '<a href=javascript:abrir("IMPORTE") class=glosa>importe</a>' quedan aquí adscritos al <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> de la teoría semántica de Mario Bunge mediante fiat estipulado que, en <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>, consta en la obra del autor, escrita en lengua inglesa. Nos limitamos a unos ligeros toques filosóficos para adaptar la terminología inglesa al español. Por tratarse de términos altamente especializados, los diccionarios bilingües no nos resuelven, sin más, el problema de traducción.</dd>
+<dt>DEPURACION:</dt>
+<dd>Localización y eliminación de los errores en un <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a>.</dd>
+<dt>DESAGREGACION:</dt>
+<dd>Producto de la <a href=javascript:abrir("DIFERENCIACION") class=glosa>diferenciación</a>.</dd>
+<dt>DIMENSION:</dt>
+<dd>1.- <a href=javascript:abrir("MAGNITUD") class=glosa>Magnitud</a>, tamaño: (a) <a href=javascript:abrir("MAGNITUD") class=glosa>Magnitud</a> o medida tomada en la línea recta y en una <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> única, a lo largo de un diámetro o eje principal: altura, longitud, anchura, (b) Medición (véase 'cuantificación') efectuada sobre una línea (longitud, anchura, altura, grosor, perímetro o circunferencia). (c) El plural 'dimensiones' equivale a 'tamaño', 'volumen', 'área', 'extensión', 'magnitud' (g. v.). 2.- (Matemáticas) <a href=javascript:abrir("NUMERO%20REAL") class=glosa>Número real</a> que es uno de los elementos que constituyen un Número <a href=javascript:abrir("COMPLEJO") class=glosa>complejo</a>. 3.- La característica (propiedad, <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a> ) física de longitud, anchura o grosor, 4.- (Geometría y física) <a href=javascript:abrir("MAGNITUD") class=glosa>Magnitud</a> real que - sea sola, sea con otras - determina el tamaño de una figura mensurable. 5.- (Geometría) Longitud de una linea, extensión de una superficie o volumen de un cuerpo. 6.- (Física) <a href=javascript:abrir("MAGNITUD") class=glosa>Magnitud</a> (g . v.). 7.- (Física) La dimensión de una magnitud compuesta se define partiendo de la manera en que la medida de las cantidades de esa magnitud dependen de la medida de las cantidades de las magnitudes fundamentales. Una fórmula entre magnitudes físicas es homogénea cuando ambos miembros expresan cantidades iguales de la misma magnitud, y por tanto de iguales dimensiones. Quillet. 8.- (Geometría) (a) Una de las tres coordenadas que determinan la <a href=javascript:abrir("POSICION") class=glosa>posición</a>. (b) <a href=javascript:abrir("MAGNITUD") class=glosa>Magnitud</a> real que - sea sola, sea con otra- determina la <a href=javascript:abrir("POSICION") class=glosa>posición</a> de un punto sobre una línea, sobre una superficie o en un espacio. Se dice, en consecuencia, que un espacio tiene dimensiones para determinar cada uno de sus puntos. En este <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a>, la dimensión es una magnitud real que nos da un marco de referencia (o parte de él) para ubicar un punto, un <a href=javascript:abrir("ENTE") class=glosa>ente</a> o un proceso de manera adecuada. De un punto se dice que carece de dimensión; la longitud es la única dimensión de una línea; una superficie tiene las dos dimensiones de longitud y anchura; los sólidos tienen tres dimensiones: anchura y grosor o altura. 9.- (Matemáticas) espacio de n dimensiones. Conjunto de elementos, cada uno de los cuales exige para su individualización n números reales ordenados. Esta definición incluye las líneas como espacios de una dimensión, las SUPERFICIES como espacios de dos dimensiones, el espacio ordinario como espacio de tres dimensiones, siempre que se le conciba como conjunto de sus puntos o de sus planos, pero no de sus rectas, pues cada recta del espacio exige cuatro números para su determinación. Quillet. 10.- (Trialéctica) Concepto propio para <a href=javascript:abrir("CUANTIFICAR") class=glosa>cuantificar</a>, ubicar o temporalizar los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>. Del término con que se designa este concepto se deriva el verbo 'dimensionar' (g . v.)</dd>
+<dt>DIMENSIONAR:</dt>
+<dd>Véanse '<a href=javascript:abrir("CUANTIFICAR") class=glosa>cuantificar</a>' y 'cuantificación'. Siguiendo un patrón de derivación perfectamente idiomático, del sustantivo 'dimensión' se forma, mediante el sufijo de infinitivo 'ar', el verbo 'dimensionar', el cual no figura en ningún diccionario. En un primer intento de fijar el concepto designado por esta derivación se ha recurrido al testimonio de dos venezolanos a quienes se les ha oído usar el verbo, redacta esta nota. El verbo es utilizado por la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> proporcionada que se refleja en la <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> siguiente: 1.- Medir y, en consecuencia, <a href=javascript:abrir("CUANTIFICAR") class=glosa>cuantificar</a> (g . v.). 2.- (uso transitivo) (a) Dimensionar algo: darse cuenta de algo. (b) Ubicarse (en <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> figurado más que el puramente físico de &quot;situar&quot; &quot;situarse&quot;). 3.- Evidenciar i e. &quot;atestiguar objetivamente un efecto&quot;. Las aceptaciones 2 y 3 contienen un elemento afectivo de <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a>. Cf. 'interdimencionar'. Este primer intento de descripción queda sujeto a más documentación y análisis ulteriores.</dd>
+<dt>DIMENSIONALIDAD DEL CONTENIDO: (Trialéctica)</dt>
+<dd>Magnitud de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>, de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> o de ambas.</dd>
+<dt>DINAMICA:</dt>
+<dd>1.- (Física) Parte de la mecánica cuyo objeto es la relación existente (leyes) entre las fuerzas y los movimientos de los sistemas sobre los cuales actúan dichas fuerzas. 2.- (trialéctica) Conjunto de transferencias y transformaciones que se dan en la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> entre dos de las tres condiciones existenciales (ser, poder, poseer). <a href=javascript:abrir("INTEGRACION") class=glosa>Integración</a> de dinámicas <a href=javascript:abrir("SINTESIS") class=glosa>Síntesis</a> producida por la conceptualización y transferencia de usos o la utilización y transferencia de conceptos. Por <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> entendemos (1) &quot;lo que hay&quot;, &quot;los <a href=javascript:abrir("HABERES") class=glosa>haberes</a> del hombre&quot; (Ortega) y (2) sensu stricto, &quot;lo que existe&quot; los <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> (cosas -sistemas, propiedades, estados, sucesos y procesos). Postulamos, por otra parte, que la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> es siempre individual, circunstancial, sistémica y objetiva (i. e.) que existe independientemente del sujeto cognoscente). Los <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> se convierten en <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> cuando el sujeto cognoscente toma <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a>, con mayor o menor acierto, de ellos. Asimismo, partimos del dictum Orteguiano de que la <a href=javascript:abrir("VIDA") class=glosa>vida</a> (&quot;lo que hacemos y lo que nos pasa&quot;) es la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> radical. La <a href=javascript:abrir("VIDA") class=glosa>vida</a> de cada hombre es regida por el destino, combinación de carácter, circunstancia y azar (Ortega).</dd>
+<dt>DIRECCION Y COORDINACION: (Trialéctica)</dt>
+<dd>Actos de gobierno o <a href=javascript:abrir("ADMINISTRACION") class=glosa>administración</a> en una institución (organismo), los cuales afectan los distintos niveles de su <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>. La <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> se ejerce como <a href=javascript:abrir("ORIENTACION") class=glosa>orientación</a> o como decisiones. En el primer caso, corresponde más bien a los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> cualitativos, mientras que, de ordinario, las decisiones involucran cuestiones tanto cualitativas como cuantitativas. La <a href=javascript:abrir("COORDINACION") class=glosa>coordinación</a>, interna o externa, es otro atributo de los actos de <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a>. Puede ejercerse internamente, sobre otras unidades del sistema en cuestión, o externamente en relación con otros sistemas del <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> (v. gr.,) otras instituciones o niveles del <a href=javascript:abrir("SECTOR") class=glosa>sector</a> público privado.</dd>
+<dt>DIRECTIVA:</dt>
+<dd>1.- <a href=javascript:abrir("JUNTA%20DIRECTIVA") class=glosa>Junta Directiva</a>: Conjunto de personas que, conforme a lo estipulado en los estatutos de la <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>, tiene a su cargo la <a href=javascript:abrir("ADMINISTRACION") class=glosa>administración</a> o <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> de los asuntos de una entidad (corporación, compañía, sociedad civil, etc.) 2.- (adj) Dícese de lo que tiene facultad y virtud de dirigir; por lo tanto, sustantivo, <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a>, orden o estipulación que obliga a su cumplimiento. Las directivas suelen ser orientaciones de carácter general que sirven de marco a la formulación de políticas.</dd>
+<dt>DISCRETO:</dt>
+<dd>Cantidad, o sucesión discreta. (Matemáticas) La que no es continuo. 2.- (adj) Aplícase a lo que constituye un objeto separado; individual, distinto; formado por los elementos distintos y sin conexión (separados).</dd>
+<dt>DISCURSO: (Lingüística)</dt>
+<dd>Texto de lenguaje igual o superior a la oración; consta de una sucesión de elementos, con principio y final constituyen un mensaje de cualquier tipo. La oración es la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> del párrafo o el párrafo es la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> del discurso (o de la <a href=javascript:abrir("COMPOSICION") class=glosa>composición</a>), lo cual quiere decir que, en la última instancia, la oración deja de ser el término superior del análisis (gramática o lingüística) para convertirse en <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> o elemento constituyente. Se puede dar un discurso de una sola oración . La lengua funciona como instrumento de comunicación a través del discurso.</dd>
+<dt>DIAGRAMA DE FLUJO:</dt>
+<dd>Representación gráfica por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de símbolos de la <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> de un <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a>.</dd>
+<dt>DIMENSIONABLE:</dt>
+<dd>Que tiene magnitudes y unidades de medidas.</dd>
+<dt>DIRECCIONABLE:</dt>
+<dd>Orientable a un objetivo u <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> concretos.</dd>
+<dt>DIFERENCIACION:</dt>
+<dd>Identificación de las partes.</dd>
+<dt>DIRECCIONAMIENTO:</dt>
+<dd>Orientación hacia <a href=javascript:abrir("FINES") class=glosa>fines</a> <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y <a href=javascript:abrir("METAS") class=glosa>metas</a>.</dd>
+<dt>DIRECCION:</dt>
+<dd>Localización de una <a href=javascript:abrir("POSICION") class=glosa>posición</a> de <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a>.</dd>
+<dt>DISCO:</dt>
+<dd>Soporte de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> de forma circular.</dd>
+<dt>DISTRIBUClON:</dt>
+<dd>Reparto de recursos, cargas y responsabilidades.</dd>
+<dt>DOCTRINA:</dt>
+<dd>1.- Enunciado o conjunto de enunciados (proposiciones) que es enseñado; conjunto de principios enseñado o definido por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> de la <a href=javascript:abrir("INSTRUCCION") class=glosa>instrucción</a>. 2.- Principio o credo de principios que se ha de aceptar, o en el cual se ha de creer. Las doctrinas son propias de las ideologías (políticas, religiosas, personales) y, por lo tanto, revisten carácter religioso, político, filosófico o pseudocientífico; en <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>, son dogmas</dd>
+<dt>DOGMA:</dt>
+<dd>1.- (Teología) Sistema de doctrinas que, según alguna secta religiosa, constituye la verdad absoluta. 2.- Principio, creencia o enunciado de idea u opinión; en particular, lo que se proclama como verdad absoluta de manera formal o autoritariamente. 3.- Sistema de principios o creencias que revisten tal carácter.</dd>
+<dt>DEL DONDE:</dt>
+<dd>Elemento espacial.</dd>
+</dl>
+</div></body></html></body></html>

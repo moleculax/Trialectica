@@ -1,0 +1,142 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Barra de Navegación - Trialectica.org</title>
+<!--
+<link rel=stylesheet type=text/css href="etc/estilo-barra.css">
+-->
+<META NAME="keywords" CONTENT="Sistemática Interdisciplinaria, Trialéctica, Desarrollo Social, Comindes, Instituto de Investigaciones Integradas, Venezuela">
+
+<style>
+BODY {
+   font-family: Arial,Times;
+   font-size:9pt;
+   background-image: url("etc/fondo-barra3.jpg");
+   padding: 0px 0px 0px 4px;
+   width:190px;
+}
+
+
+/* Estilos para hipervinculos */
+A:link, A:visited {color: #FFFF00; line-height:18px;}
+A:hover   {color: #FFFFFF;line-height:18px;}
+A:active  {color: #FFFF80;line-height:18px;}
+
+A.especial  {
+ color:FFFF00;
+ font-size:14;
+ text-decoration:none;
+ border-top: 1px solid #eeeeee;
+ border-bottom: 1px solid #eeeeee;
+}
+
+A.logo:hover   {color: #888888;line-height:18px;}
+
+.texto1 {font-family:Arial,sans-serif;font-size:9pt;text-align:left;color:ffffff;width:185;}
+.aviso {font-family:Arial,sans-serif;font-size:8pt;color:00aaff;text-align:center}
+</style>
+
+<!--
+<script type="text/javascript" src="js/nieve.js"></script>
+-->
+
+<SCRIPT language=JavaScript>
+<!--
+// ESTE SCRIPT ES PARA LA FECHA DE CABECERA
+function Item(){
+this.length = Item.arguments.length 
+for (var i = 0; i < this.length; i++)
+this[i] = Item.arguments[i]
+}
+function Fecha() {
+var ndia  = new Item('Domingo', 'Lunes', 'Martes', 'Mi&eacute;rcoles', 'Jueves', 'Viernes', 'S&aacute;bado')
+var nmes  = new Item('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 
+'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre')
+var ahora
+var fecha = new Date()
+var ano   = fecha.getYear()
+var mes   = fecha.getMonth()
+var dia   = fecha.getDay()
+var aux   = "" + fecha
+if (ano<10) { ano2 = "200" + eval(ano) }
+else if (ano<80) { ano2 = "20" + ano } 
+else if (ano<=99) { ano2 = "19" + ano }
+else if (ano<1000) { ano2 = eval(ano) + eval(1900) }
+else { ano2 = ano }
+ahora = ndia[dia] + ", " + eval(aux.substring(7, 10)) + " de " + nmes[mes] + " de " + ano2
+return ahora
+}
+//-->
+</SCRIPT>
+
+</head>
+
+<body bgcolor=0000ff>
+
+
+<div class="control"  style="position:absolute;top:4;left:175">
+<a href="control/index.html" target=Cuerpo>
+<img src=imagenes/relleno.gif width=10 height=10 border=0></a>
+</div>
+
+
+<div class="logo" align="center"><img src="imagenes/relleno.gif" width=150 height=2>
+<!--
+<img src="logo.gif"  width=170 height=95 border=0 alt="Logo de la Trialéctica">
+-->
+<a href=index.html class=logo target=_top><img src="imagenes/FIT_180x95.png"  width=180 height=115 border=1 alt="Logo de la Trialéctica"></a>
+<img src="imagenes/relleno.gif" width=150 height=1>
+</div>
+<div class=aviso style="position:absolute;top:121;">
+<!--
+Feliz Navidad y Próspero 2006<br>
+-->
+<div style="text-align:center;color:eeeeee">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var fechahoy = Fecha();
+document.open();
+document.writeln( fechahoy );
+document.close();
+// -->
+</SCRIPT>
+</div>
+
+<div class="logo" align=center width=180>
+<a href=index.html target=_top class=especial>
+WWW.TRIALECTICA.ORG
+</a>
+</div>
+<div class=texto1><br>
+Este es el Sitio Web de la Trialéctica, concebido para apoyar y promover las actividades de investigación, docencia y extensión del equipo humano dedicado a la verdadera Sistemática Interdisciplinaria y Transdiciplinaridad para el Desarrollo Social, en Venezuela y en el mundo, herederos del incansable trabajo llevado adelante por el Dr. Luis Gómez de la Vega y el Instituto de Investigaciones Integradas. 
+</div>
+<br>
+
+<div class="texto1" style="position:absolute;left:3px;align:right;">
+<a href="miembros/index.php" target=Cuerpo>Directorio de Miembros<a><br>
+<!--<a href="chat/" target=Cuerpo>Acceso al Servicio de Chat</a><br>-->
+<a href="agora/agora.html" target=Cuerpo>Acceso al Ágora de la Trialéctica</a><br>
+<a href="documentos/dimension cualitativa/index.html" target="Cuerpo">La Dimensión Cualitativa</a><br>
+<a href="sala/index.html" target=_top>Sala de Inteligencia Operativa</a><br>
+<a href="Chiguara/index.html" target=Cuerpo>El Modelo Chiguará</a><br>
+<a href="CD-MI/index.htm" target=Cuerpo>Hacia El Municipio Inteligente</a><br>
+<a href="materiales/index.php" target=Cuerpo>Documentos y Publicaciones<a><br>
+<a href="glosario/index.php?nsec=-1" target="Cuerpo">Glosario de la Trialéctica</a>
+
+
+<br><br>
+<img src=imagenes/relleno.gif width=72 height=10>
+<a href="documentos/Esquema/granesq.htm" target="Cuerpo">El Gran Esquema</a>
+
+</div>
+
+<!--
+<script type="text/javascript" src="js/buble.js"></script>
+-->
+</div>
+</body>
+
+</html>

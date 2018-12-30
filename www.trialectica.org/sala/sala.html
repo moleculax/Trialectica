@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Sala de Inteligencia Operativa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<SCRIPT language="JavaScript1.2" src="main15.js" type="text/javascript""></SCRIPT>
+<SCRIPT language=JavaScript>
+<!--
+var plush;
+var plusm;
+var pluss;
+var heure;
+function go(){
+auj=new Date();
+if(auj.getHours()<10){plush="0"}else plush='';
+if(auj.getMinutes()<10){plusm="0"}else plusm='';
+if(auj.getSeconds()<10){pluss="0"}else pluss='';
+heure= plush + auj.getHours() + ':' + plusm + auj.getMinutes() + ':' + pluss + auj.getSeconds();
+document.getElementById('hora').innerHTML=heure;
+setTimeout("go()",1000)}
+
+// ESTE SCRIPT ES PARA LA FECHA DE CABECERA
+function Item(){
+this.length = Item.arguments.length 
+for (var i = 0; i < this.length; i++)
+this[i] = Item.arguments[i]
+}
+function Fecha() {
+
+
+var ndia  = new Item('Domingo', 'Lunes', 'Martes', 'Mi&eacute;rcoles', 'Jueves', 'Viernes', 'S&aacute;bado')
+var nmes  = new Item('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 
+'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre')
+var ahora
+var fecha = new Date()
+var ano   = fecha.getYear()
+var mes   = fecha.getMonth()
+var dia   = fecha.getDay()
+var aux   = "" + fecha
+if (ano<10) { ano2 = "200" + eval(ano) }
+else if (ano<80) { ano2 = "20" + ano } 
+else if (ano<=99) { ano2 = "19" + ano }
+else if (ano<1000) { ano2 = eval(ano) + eval(1900) }
+else { ano2 = ano }
+ahora = eval(aux.substring(7, 10)) + " de " + nmes[mes] + " de " + ano2 + "<br>" +ndia[dia]
+return ahora
+}
+//-->
+</SCRIPT>
+
+</head>
+
+<body onload="go()">
+<DIV id="TIP" style="visibility:hidden;position:absolute;z-index:1000;top:-10;"></DIV>
+<SCRIPT language="JavaScript1.2" type="text/javascript" src="sala.js" ></SCRIPT>
+
+<div class="subtit" style="position:absolute;top:5px;">
+Sala de Inteligencia Operativa
+</div></B><br></B><br><br>
+
+<IMG NAME="sala0" SRC="sala.gif" WIDTH="570" HEIGHT="348" BORDER="0" USEMAP="#sala">
+
+<div class=aviso style="position:absolute;left:428;top:253;">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var fechahoy = Fecha();
+document.open();
+document.writeln( fechahoy );
+document.close();
+// -->
+</SCRIPT>
+<div id="hora"></div>
+</div>
+
+
+<MAP NAME="sala">
+<AREA SHAPE="rect" COORDS="240,130,407,217" HREF="#" onMouseOver="stm(Text[0],Style[1])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="412,10,457,46" HREF="#" onMouseOver="stm(Text[1],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="436,92,480,127" HREF="#" onMouseOver="stm(Text[2],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="436,174,480,208" HREF="#" onMouseOver="stm(Text[3],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="397,295,442,329" HREF="#" onMouseOver="stm(Text[4],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="204,294,248,329" HREF="#" onMouseOver="stm(Text[5],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="10,294,54,329" HREF="#" onMouseOver="stm(Text[6],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="10,229,53,264" HREF="#" onMouseOver="stm(Text[7],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="10,151,53,187" HREF="#" onMouseOver="stm(Text[8],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="10,84,53,118" HREF="#" onMouseOver="stm(Text[9],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="11,17,59,52" HREF="#" onMouseOver="stm(Text[10],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="161,13,205,49" HREF="#" onMouseOver="stm(Text[11],Style[2])" onMouseOut="htm()" class=tip2>
+<AREA SHAPE="rect" COORDS="326,11,370,46" HREF="#" onMouseOver="stm(Text[12],Style[0])" onMouseOut="htm()" class=tip2>
+</MAP>
+
+<br>
+<div class="leyenda" style="position:absolute;text-align:center;width:570px;">
+Pantalla interactiva de demostración del Software VWINSIO V4.1 de Soporte a la Sala Técnica.<br>
+Mover el ratón sobre los íconos para visualizar las entradas a los 36 módulos de servicio del sistema.
+</div>
+
+</html>

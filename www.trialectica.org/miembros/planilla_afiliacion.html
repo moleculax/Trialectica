@@ -1,0 +1,98 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+   <title>Planilla para solicitar Inscripción en Trialectica.org</title>
+   <link rel="stylesheet" type="text/css" href="../etc/estilo-cuerpo.css">
+</head>
+
+<script language="JavaScript">
+<!--Comienzo
+
+function isavalidemail (email)
+{
+   if ( email.value.indexOf ("@")  != "-1" &&
+        email.value.indexOf (".")  != "-1" )
+        return true;
+   else
+        return false;
+}
+
+function isallright(form)
+{
+      if ( (form.nombre.value) == "" ) { 
+      alert ("Formulario incompleto: los campos NOMBRE, CEDULA y TELEFONOS son necesarios.\n\nFavor intentar de nuevo.");
+      return false;     
+      }
+
+      if ( (form.cedula.value) == "" ) { 
+      alert ("Formulario incompleto: los campos NOMBRE, CEDULA y TELEFONOS son necesarios.\n\nFavor intentar de nuevo.");
+      return false;     
+      }
+
+      if ( (form.telefonos.value) == "" ) { 
+      alert ("Formulario incompleto: los campos NOMBRE, CEDULA y TELEFONOS son necesarios.\n\nFavor intentar de nuevo.");
+      return false;     
+      }
+
+  if ( isavalidemail (form.direccion) == false )
+  {
+     window.alert ("Atención: la DIRECCION ELECTRONICA suministrada no es válida !\n\nFavor intentar de nuevo.");
+     form.direccion.focus;
+     return false;
+  }
+}
+
+// Fin-->
+</script>
+
+<body>
+<div class="subtit" style="position:absolute;top:5px;">
+Planilla para Solicitar Inscripción en Trialectica.org
+</div><br><br>
+<div class="cuerpo" style="width: 570;">
+
+<center>
+<table width=570 cellspacing=0 cellpadding=2 border=0>
+
+<form action="inscripcion.php" onSubmit="return isallright(this)">
+
+<tr>
+<td width=50%><p>Favor ingresar aqu&iacute; su nombre:<br>
+<input name=nombre size=42></td>
+<td><p>&nbsp;&nbsp;Cédula de Identidad:<br>
+&nbsp;&nbsp;<input name=cedula size=14></td>
+</tr>
+<tr>
+<td>
+<p>Direcci&oacute;n Electr&oacute;nica:<br>
+<input name=direccion size=42></td>
+<td><p>&nbsp;&nbsp;Login Deseado:<br>
+&nbsp;&nbsp;<input name=login size=14> (entre 3 y 12 caracteres)</td>
+</tr>
+<tr>
+<td colspan=2><p>Dirección Física Actual:<br>
+<input name=residencia size=90></td>
+</tr>
+<tr>
+<td colspan=2><p>Teléfonos de Contacto:<br>
+<input name=telefonos size=90></td>
+</tr>
+<tr>
+<td colspan=2><br><p>Breve Trayectoria o Resúmen Curricular:<br>
+<textarea cols=68 name=trayectoria rows=5></textarea></td>
+</tr>
+<tr>
+<td colspan=2><br>
+<p>Ingresar cualquier comentario que juzgue útil para respaldar su Afiliación:<br>
+<textarea cols=68 name=sugerencia rows=3></textarea></td>
+</tr>
+<tr><td colspan=2><br>
+<center>
+<input type=submit value="  Enviar Solicitud  ">
+</center>
+</form>
+
+</td></tr></table>
+</div>
+</html>

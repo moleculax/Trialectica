@@ -1,0 +1,248 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 57 términos definidos en la Sección E</div>
+<dl>
+<dt>EBCDIC:</dt>
+<dd>Extended Binary Coded Decimal Interchange Code. <a href=javascript:abrir("CODIGO") class=glosa>Código</a> de intercambio decimal codificado en binario extendido.</dd>
+<dt>ECOLOGIA:</dt>
+<dd>Ciencia que estudia el equilibrio de los ciclos energéticos. Tendencia al equilibrio.</dd>
+<dt>ECONOMIA SOCIAL DEL MERCADO ASISTEMATICA:</dt>
+<dd>La que no puede convertirse en ciclos sistemáticos ni medirse las frecuencias o convertirse en secuencias.</dd>
+<dt>ECUACION SOCIAL:</dt>
+<dd>Analogía de términos y conceptos de axiología social organizados en forma <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>.</dd>
+<dt>EDITOR:</dt>
+<dd>Programa para la grabación de texto en la computadora.</dd>
+<dt>EFECTIVIDAD:</dt>
+<dd>1.- <a href=javascript:abrir("CUALIDAD") class=glosa>Cualidad</a> de <a href=javascript:abrir("EFECTIVO") class=glosa>efectivo</a>. 2.- (Trialéctica). <a href=javascript:abrir("CUALIDAD") class=glosa>Cualidad</a> de una realización, resultado o logro cuyas características y efectos están en armonía con las intenciones, formuladas como objetos o <a href=javascript:abrir("METAS") class=glosa>metas</a>, que los planificadores o realizadores tenían en mente. Véase s. v., 'eficiencia'.</dd>
+<dt>EFECTIVO:</dt>
+<dd>1.- Impacto Real, verdadero, actual (en contraposición a 'formal' o 'virtual'. 2.- <a href=javascript:abrir("EFICAZ") class=glosa>eficaz</a>: resulte, adecuado para lograr un fin, que produce el resultado que se busca. Véase s. v., 'eficiencia'.</dd>
+<dt>EFICAZ:</dt>
+<dd>1.- <a href=javascript:abrir("EFECTIVO") class=glosa>Efectivo</a>; que produce el efecto deseado. 2.- Poderoso para obrar. 3.- <a href=javascript:abrir("EFICIENTE") class=glosa>Eficiente</a>. Observase que la aceptación 2 de efectivo presupone la 1; en efecto, si algo no es real, difícilmente pueda surtir efecto. Así mismo, la <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> de <a href=javascript:abrir("EFICIENCIA") class=glosa>eficiencia</a> presupone la actualidad que es parte de la <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> del concepto de &quot;efectividad&quot; Véase s. v., '<a href=javascript:abrir("EFICIENCIA") class=glosa>eficiencia</a>'.</dd>
+<dt>EFICIENCIA:</dt>
+<dd>Relación entre los resultados efectivamente alcanzados y <a href=javascript:abrir("METAS") class=glosa>metas</a> por las autoridades o funcionarios competentes.</dd>
+<dt>EFICIENTE:</dt>
+<dd>1.- Apto, capaz, competente. 2.- <a href=javascript:abrir("EFICAZ") class=glosa>Eficaz</a>, <a href=javascript:abrir("EFECTIVO") class=glosa>efectivo</a> Cf. s. v., 'eficiencia' 3.- Que logra un objetivo con un mínimo de recursos, de la mejor manera posible y con un máximo de <a href=javascript:abrir("EFECTIVIDAD") class=glosa>efectividad</a>.</dd>
+<dt>EFICIENCIA POR SISTEMA INTEGRADO:</dt>
+<dd>Optimización de recursos dentro de una <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> e interactividad donde la <a href=javascript:abrir("PRESENCIA") class=glosa>presencia</a>, <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> y frecuencia son superiores en <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a> al proceso de <a href=javascript:abrir("DESCOMPOSICION") class=glosa>descomposición</a>.</dd>
+<dt>EJECUCION:</dt>
+<dd>1.- Realización efectiva de las funciones y actividades por parte de las unidades responsables académicas, administrativas de <a href=javascript:abrir("INSTRUCCION") class=glosa>instrucción</a>, operativas, responsables de la investigación o del suministro de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>. 2.- Puesta en marcha de un <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a></dd>
+<dt>EJECUTAR:</dt>
+<dd>Desempeñar con arte y facilidad alguna cosa.</dd>
+<dt>ELEMENTOS FACTORES:</dt>
+<dd>Componentes existenciales de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>: ¿Por qué?, ¿Dónde?, ¿Cuándo?, ¿Con quién?, ¿Con qué?, ¿Cómo?, y ¿Para qué?. Derivación de los <a href=javascript:abrir("RDR") class=glosa>RDR</a></dd>
+<dt>EMERGENCIA:</dt>
+<dd>1.- <a href=javascript:abrir("ACCION") class=glosa>Acción</a> y efecto de emerges, 2.- Ocurrir, accidente que sobreviene. DRAE. 3.- La aparición de un <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a> o el proceso de <a href=javascript:abrir("EMERGER") class=glosa>emerger</a> ('evolución <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a>').</dd>
+<dt>EMERGENTE:</dt>
+<dd>(Adj) Que nace, sale y tiene principio de otra cosa. 2.- (subs), Objeto producto de un proceso de <a href=javascript:abrir("EMERGENCIA") class=glosa>emergencia</a>.</dd>
+<dt>EMERGER:</dt>
+<dd>1.- Aparecer a la vista (a) por encima de la superficie del agua; b) superando o acumulado el efecto alienante del algo. 2.- Surgir (salir, brotar) dentro de un <a href=javascript:abrir("MEDIO") class=glosa>medio</a>. 3.- Revelarse, manifestarse, producirse, aparecer con mayor claridad; darse a <a href=javascript:abrir("CONOCER") class=glosa>conocer</a>. 4.- Elevarse por encima de una <a href=javascript:abrir("POSICION") class=glosa>posición</a> inferior, o superar una negativa, logrando así una nueva y mejor condición. 5.- (a) Alcanzar un nuevo <a href=javascript:abrir("ESTADO") class=glosa>estado</a> como consecuencia de la <a href=javascript:abrir("EVOLUCION") class=glosa>evolución</a> <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a>; (b) llegar a ser consecuencia de la <a href=javascript:abrir("EVOLUCION") class=glosa>evolución</a> biológica o cósmica.</dd>
+<dt>ENERGIA:</dt>
+<dd>1.- Capacidad para la <a href=javascript:abrir("ACCION") class=glosa>acción</a> o el logro: (a) <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> , poder, <a href=javascript:abrir("EFICIENCIA") class=glosa>eficiencia</a>, virtud para obrar y producir efecto; (b) vigor, vitalidad o poder para la <a href=javascript:abrir("ACCION") class=glosa>acción</a>; (c) capacidad para actuar, operar, <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> un trabajo o producir un efecto; (d) Fuerza de voluntad, vigor y tesón en la <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a>. 2.- Causa capaz de transformarse en movimiento, <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a>, trabajo mecánico; <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> 3.- (Física) capacidad de un sistema o cosa para producir trabajo. 4.- (Trialéctica) el tiempo, el espacio, la energía el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> (<a href=javascript:abrir("INFORMACION") class=glosa>información</a> ), los recursos económicos y, muy particularmente, los <a href=javascript:abrir("RECURSOS%20HUMANOS") class=glosa>recursos humanos</a> constituyen los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a> (integrantes fundamentales) de toda <a href=javascript:abrir("ACCION") class=glosa>acción</a> intencionada. El término energía denota una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> universal - -la energía es una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> de las cosas o sistemas, y todas las cosas tienen energía. El concepto general de &quot;energía&quot; constituye una categoría ontológica fundamental para la ciencia fáctica: tan fundamental que la ciencia no proporciona definición de dicho concepto general. Las ciencias particulares se ocupan de calcular la energía de cada cosa individual, ya que la energía es la única <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> cuantitativa que tiene todas las cosas o sistemas materiales (concretos,) los cuales son entidades físicas por cuanto poseen dicha <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a>. La <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> de la energía depende de la referencia usada para la observación y descripción matemática de los sistemas o cosas. De ahí que los científicos encuentren en la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> muchas clases de energía. El calor (energía degradada), la luz (energía luminosa), la electricidad (energía eléctrica), el movimiento (energía cinética) y la gravedad (<a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> de la gravitación concepto universal de &quot;energía&quot;). Mas no queda con esto agotado el catálogo de clases de energía; los siguientes términos designan algunas de sus modalidades: mecánica cinética: la debida al movimiento; aerodinámica hidráulica, nuclear, química, térmica (calórica o calorífica) eléctrica, magnética, electromagnética (o de radiación) radiante, explosiva, potencial utilizable de inter<a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>. Por otra parte, la equivalencia que se da entre las diferentes clases de energía hace posible su <a href=javascript:abrir("TRANSFORMACION") class=glosa>transformación</a> (la energía eléctrica, por ejemplo, puede ser transformada en trabajo mecánico) e inter<a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>. En física, la noción abstracta de energía abarca la de <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> y la de trabajo (como producto de dicha <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>) y constituye el concepto fundamental de dicha ciencia. El producto de <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> se refiere a todo lo que es capaz de actuar sobre una cosa cualquiera (&quot;causa&quot;). De la actuación de las <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>s de esperar un efecto (&quot;lo que se sigue por virtud de una causa&quot;), puesto que la <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> siempre produce <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a> en el objetivo que la recibe. Un cuerpo en reposo se halla bajo el efecto de diversas <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>s en equilibrio. El concepto de &quot;energía&quot; se refiere a la manera como actúa una <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> o a la fuente de la actual emana e incluye tanto la potencia de dicha <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> como su rapidez de <a href=javascript:abrir("ACCION") class=glosa>acción</a>. Esta noción abstracta de energía física abarca todas las manifestaciones de <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>, movimiento, calor, <a href=javascript:abrir("CAMPO") class=glosa>campo</a> de <a href=javascript:abrir("ACCION") class=glosa>acción</a>, <a href=javascript:abrir("CAMPO") class=glosa>campo</a> eléctrico, <a href=javascript:abrir("CAMPO") class=glosa>campo</a> magnético y <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>s de los núcleos atómicos. En la &quot;concepción 'activista' moderna [ . . . ] el concepto de energía adquiere un valor físico determinado en cuanto <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> que se conserva (Ferrater, 6DF, p. 933d). La materia tiene <a href=javascript:abrir("MASA") class=glosa>masa</a> ocupa espacio en la concepción física clásica, la cual también diferencia la materia de la <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a> o energía. La física del siglo XX (Einstein, teoría de los cuantos) ha borrado &quot;las distinciones clásicas entre materia y energía y entre materia y <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>&quot; (id., p. 2142a). El cuanto es definido como la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> de <a href=javascript:abrir("ACCION") class=glosa>acción</a> o la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> elemental de energía (cuanto de <a href=javascript:abrir("ACCION") class=glosa>acción</a> y cuanto de energía). Según Mario Bunge (MC, p. 43), &quot;La energía es una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> resultante de todo sistema concreto. &quot;Esto quiere decir que los componentes de todo sistema (cosa) tienen energía y que, por lo tanto, no se trata de una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a> (i. e., propia del sistema, pero no de alguno de sus componentes.). Todos los sistemas concretos son entidades físicas por cuanto poseen energía, la cual constituye una medida de variabilidad (changeability) o potencial de <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>. No obstante, algunos sistemas concretos son más que sólo entidades físicas, en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de que las categorías de la física no bastan para dar razón de ellos. Por ejemplo, algunos son sistemas sociales. Y aunque algunos de los conceptos de la física en particular la noción de energía necesarios para dar cuenta de cualquier sociedad, la mayor parte resultan innecesarios. Bunge, TBP, 4, p. 45. Por otra parte, conviene para nuestros <a href=javascript:abrir("FINES") class=glosa>fines</a> relacionar los conceptos de &quot;energía&quot;, &quot;<a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>&quot;, e &quot;<a href=javascript:abrir("INFORMACION") class=glosa>información</a>.&quot; Nuestro mundo es un mundo de cosas pero de cosas cambiantes, no cosas estáticas. Todo Cambia&quot;. Bunge, TBP, 3, p. 268. Con respecto a la <a href=javascript:abrir("CULTURA") class=glosa>cultura</a> o lo social, cabe también afirmar que lo único permanente es el <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a> que se da continuamente de una cosa u otra, y todas las cosas están sujetas a continua mudanza (everything is in flux; op. cit., p. 273). &quot;Podemos, en consecuencia concluir que el que todo contenga energía y el que todo cambie no son más que diferentes <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> del mismo <a href=javascript:abrir("FENOMENO") class=glosa>fenómeno</a>. La <a href=javascript:abrir("INFORMACION") class=glosa>información</a> por otra parte, no es una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> tan universal como la energía, &quot;puesto que no todas las cosas tienen la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> de sistemas de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> &quot;(op. cit., p. 242). La energía, según Bunge (op. cit., pp. 242-43), es una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> intrínsica; la <a href=javascript:abrir("INFORMACION") class=glosa>información</a>, una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> mutua. La base física de todo proceso de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> involucra inter<a href=javascript:abrir("CAMBIO") class=glosa>cambio</a> de energía. Finalmente, &quot;mientras que pueden ocurrir inter<a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>s de energía sin transmisión de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> requiere energía en mayor medida&quot; (op. cit., p. 243). Fuentes: Diccionario enciclopédico Quillet. Enciclopedia Británica (1975). Mario Bunge, Treatise on basic Philosophy. Volume 3, pp. 139, 215-16, 232, 240-43, 268-75; Volume 4, p. 45; Materialismo y ciencia, pp. 41-44. José Ferrater Mora, Diccionario de Fiosofia (1979), s. v. 'energía'.</dd>
+<dt>ENERGIA CINETICA:</dt>
+<dd>Capacidad de la materia en movimiento para <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> trabajo.</dd>
+<dt>ENERGIA DE ENLACE:</dt>
+<dd>Energía que justifica la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> del átomo, (relación <a href=javascript:abrir("MASA") class=glosa>masa</a> del átomo-<a href=javascript:abrir("MASA") class=glosa>masa</a> de electrones, protones y electrones).</dd>
+<dt>ENERGIA DE SISTEMAS ECOLOGICOS:</dt>
+<dd>Capacidad de mantenimiento del equilibrio.</dd>
+<dt>ENERGIA EOLICA:</dt>
+<dd>Energía del aire.</dd>
+<dt>ENERGIA INTERNA:</dt>
+<dd>Contenida en un cuerpo o sistema.</dd>
+<dt>ENERGIA POTENCIAL:</dt>
+<dd>Capacidad para <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> un determinado trabajo.</dd>
+<dt>ENERGRAMA: (Trialéctica)</dt>
+<dd>Registro del flujo energético originado en un proceso, el cual es medido de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> con cierta técnica específica.</dd>
+<dt>ENGRAMA: (Psicología)</dt>
+<dd>Huella o rastro neural que se supone acompaña (o más bien constituye) el aprendizaje y la <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a>. Se supone también que los engramas están localizados en el cerebro. Los psicólogos y neurofisiólogos se han valido del concepto de &quot;engrama&quot; para referirse a la causa de la <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a> de una manera muy general y sin aventurar hipótesis alguna sobre la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> de los cambios en el tejido neuronal a los que se atribuye lo que llamamos &quot;<a href=javascript:abrir("MEMORIA") class=glosa>memoria</a>&quot; durante muchos años el &quot;engrama&quot; o &quot;neurograma&quot; ha sido un concepto prácticamente sin referente dado el desarrollo limitado de la neurofisiología. Ha habido investigadores que incluso se han negado a servirse del concepto. Después de muchos años de infructuosa búsqueda a la caza de engramas, solo muy recientemente (1983) se ha detectado un tipo de engrama en el cerebelo del conejo. Véase Bunge, TBP, 7, II. pp. 55-56 cf. 'psicón'.</dd>
+<dt>ENTE:</dt>
+<dd>1.- (Filosofía) Ser, lo que existe; aquello que es. 2.- (Ontología y <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>) Objeto: cualquier cosa que existe o se puede pensar. 3.- Cosa: en el lenguaje ordinario cosa equivale a 'ente' u 'objeto' en <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> USO: 'ente autónomo' = 'instituto autónomo'.</dd>
+<dt>ENTORNO:</dt>
+<dd>1.- <a href=javascript:abrir("CONTORNO") class=glosa>Contorno</a>; alrededores cercanías, inmediaciones, proximidades, territorio o conjunto de lugares que rodean a otro. 2.- <a href=javascript:abrir("AMBIENTE") class=glosa>Ambiente</a>, lo que rodea. 3.- <a href=javascript:abrir("CONTEXTO") class=glosa>Contexto</a>. 4.- (Filosofía) Conjunto de las cosas que se relacionan con un ser sin formar parte del él (Vox).</dd>
+<dt>ENTRADA DE DATOS:</dt>
+<dd>Acción de introducir datos en la computadora.</dd>
+<dt>ENTROPIA:</dt>
+<dd>1.- (física) (a) <a href=javascript:abrir("MAGNITUD") class=glosa>Magnitud</a> abstracta que se utiliza para medir la degradación de la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>. (b) Alteración de la disposición ordenada de átomos constituyentes que ocurre en ciertos procesos. Por lo tanto, un aumento de la entropía puede equipararse a un momento de desorden. 2.- (mecánica <a href=javascript:abrir("ESTADISTICA") class=glosa>estadística</a>) Medida del azar, desorden o caos que se da en un sistema, la cual se expresa mediante cierta fórmula probabilística. 3.- (Termodinámica) medida de la cantidad de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> no disponible en un sistema para producir trabajo durante un proceso natural. 4.- (teoría de la comunicación ) Medida de la <a href=javascript:abrir("EFICIENCIA") class=glosa>eficiencia</a> que alcanza un sistema (código, lenguajes) en la transmisión de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>. 5.- <a href=javascript:abrir("ESTADO") class=glosa>Estado</a> último alcanzado en el proceso de degradación de la materia y <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> del universo; estado de uniformidad inerte de los componentes de un sistema; falta de forma, diseño, configuración, <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a>, <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>, jerarquía o <a href=javascript:abrir("DIFERENCIACION") class=glosa>diferenciación</a> (W'STNID). 6.- (Trialéctica) Por analogía; (a) medida de desorden que entorpece el <a href=javascript:abrir("FUNCIONAMIENTO") class=glosa>funcionamiento</a> de un sistema cualquiera. (b) Conjunto de factores que disipan la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> de un sistema cualquiera y, en consecuencia, la producción de trabajo. Ver '<a href=javascript:abrir("ENERGIA") class=glosa>energía</a>'.</dd>
+<dt>EPISTEMOLOGIA:</dt>
+<dd>1.- (Filosofía) Teoría del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> científico. Epistemología descriptiva (Bunge). 2.- Teoría del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> en general: estudio de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> de las cosas o entes. (b) Teoría del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a>: gnoseología. La epistemología es parte de la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de la ciencia, la cual estudia también los problemas lógicos, semánticos, ontológicos, axiológicos, éticos y estéticos que se presentan en la ciencia (ciencia como proceso o investigación científica y ciencia como producto o <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> científico). Los ocho temas hasta ahora (1986) publicados del treatise on basic Philosophy de Mario Bunge constituyen un tratado de <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de la ciencia. Los volumenes 5 y 6 del TBP están dedicados a la epistemología descriptiva y a la epistemología normativa o metodología. Bunge concibe la epistemología como una <a href=javascript:abrir("FUNCION") class=glosa>función</a> (merger) de <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a>, psicología y sociología (TBP, 5, p. xiv), y da el nombre de <a href=javascript:abrir("REALISMO") class=glosa>realismo</a> científico a su <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> epistemológica de racionalismo y empiritismo (TBP, 6, p. xii). Del mismo Bunge, Véase Epistemología: Curso de actualización (Ariel, Barcelona, 1980). La ciencia de las ciencias (E. p. 9 ) está constituida por la unión de la epistemología (en este caso equiparadas por el autor con la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de la ciencia), la historia de la ciencia, la psicología de la ciencia, la sociología de la ciencia, la politología de la ciencia&quot; y acaso alguna [disciplina] más. Obsérvese que este autor usa el término 'epistemología' en un <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> lato equivalente a &quot;<a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de la ciencia&quot; y en un <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> restringido de &quot;teoría del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> científico&quot; que incluye la metodología. Obviamente, la obra de Bunge constituye un hito y marca divisoria en el <a href=javascript:abrir("CAMPO") class=glosa>campo</a> de la epistemología.</dd>
+<dt>ESCALAR:</dt>
+<dd>(Sustantivo, matemática) Cantidad que sólo posee <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a>. (las cantidades que tienen <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a> y <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a>, como la <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a> y la <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>, se dominan vectores). Un escalar es una cantidad con referente físico totalmente descrita por su <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a>; es decir, por un número (Adjetivo) 1.- Dícese de la cantidad que sólo tiene <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a> o de la <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a> que se puede representar por su <a href=javascript:abrir("POSICION") class=glosa>posición</a> en una línea o escala. 2.- Aplícase a lo relacionado con los escalares. 3.- (Matemáticas) Dícese de la <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a> cuyas cantidades pueden ordenarse de menor a mayor. Se miden mediante un <a href=javascript:abrir("NUMERO%20REAL") class=glosa>número real</a>, y por su correspondencia con los puntos de una recta se llaman también <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a>es lineales. Las <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a>es no escalares son las vectoriales o complejas y su medida exige un número.</dd>
+<dt>ESENCIA: (Filosofía)</dt>
+<dd>1.- Aquello que hace que algo sea lo que es. 2. Fondo y <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> del ser: lo que el ser es. 3.- Lo que permanece invariable en las cosas, en oposición a lo circunstancial y variable.</dd>
+<dt>ESFERA DE ACTIVIDAD O DE ACCION:</dt>
+<dd>El <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> en que un objeto (agente, causa) existe, actúa o ejerce influencia; <a href=javascript:abrir("CAMPO") class=glosa>campo</a>; dominio.</dd>
+<dt>ESFERA DE INFLUENCIA:</dt>
+<dd>Región o zona geopolítica en la cual una nación ejerce influencia dominante sobre otra u otras menos poderosas y desarrolladas. En las esferas de influencia se suele dar la explotación económica y la dominación política por parte de las naciones imperialistas.</dd>
+<dt>ESFERA DE LIBERTAD:</dt>
+<dd>Campo o esfera de <a href=javascript:abrir("ACCION") class=glosa>acción</a> en que el <a href=javascript:abrir("EXCEDENTE%20OBJETIVO") class=glosa>excedente objetivo</a> puede ser utilizado de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> con criterios subjetivos e intuitivos, pero fundamentalmente racionales e intencionados. La esfera surge, el <a href=javascript:abrir("MINIMO%20VITAL") class=glosa>mínimo vital</a>, puede el individuo emprender actividades de índole no esencial para la <a href=javascript:abrir("SUBSISTENCIA") class=glosa>subsistencia</a> física y la salud mental.</dd>
+<dt>ESFERA GNOSEOLOGICA: (Trialéctica)</dt>
+<dd>Modelo <a href=javascript:abrir("SISTEMATICO") class=glosa>sistemático</a> que representa de forma gráfica y lógico - matemática el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> como <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> racional derivada de los <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> que se dan en el <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> tempoespacial energético de contenidos, continentes y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>. Mediante esta representación geométrica, el sujeto cognoscente puede <a href=javascript:abrir("APREHENDER") class=glosa>aprehender</a> sus constructos y orientar inteligentemente su <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a> vital. Esta representación gráfica hace posible la automatización de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> codificada. Asimismo, en la esfera gnoseológica se integran la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> del pasado y los pronósticos para el futuro, al mismo tiempo que se establecen <a href=javascript:abrir("VINCULOS") class=glosa>vínculos</a> conceptuales entre las leyes sociales, políticas y económicas.</dd>
+<dt>ESPACIO:</dt>
+<dd>Extensión de tres dimensiones, de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> con el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> común y la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> ordinaria, están situados todos los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> físicos (materiales tangibles) y en la que ocurren todos los sucesos o de dos dimensiones (área, superficie) o de tres dimensiones (volumen).</dd>
+<dt>ESPACIO REAL:</dt>
+<dd>Estar donde sucede el hecho que informa.</dd>
+<dt>ESTADISTICA:</dt>
+<dd>Compilación clasificada de datos sobre <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> físicos o morales, direccionables, presupuestables, dimensionables y comparables.</dd>
+<dt>ESTADO:</dt>
+<dd>Haz de propiedades de una cosa o sistema. Los sucesos son cambios de estado, ya que equivale a las alteraciones que se dan en una o más propiedades de la cosa en cuestión. Los <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> que constituyen en la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> son cosas o sistemas, propiedades de sistemas, estados, sucesos y procesos. Bunge.</dd>
+<dt>ESTRATAGEMA:</dt>
+<dd>1.- Ardid (añagaza, argucia, artimaña, treta) de guerra basado en la astucia y la destreza: maniobra militar que persigue el fin de engañar o sorprender el enemigo. 2.- Decepción, engaño, fingimiento, impostura, superchería: <a href=javascript:abrir("ACCION") class=glosa>acción</a> astuta y artificiosa.</dd>
+<dt>ESTRATEGA:</dt>
+<dd>Persona que entiende de <a href=javascript:abrir("ESTRATEGIA") class=glosa>estrategia</a> y se distingue por el manejo de tácticas para el logro de <a href=javascript:abrir("FINES") class=glosa>fines</a> determinados u <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a></dd>
+<dt>ESTRATEGIA:</dt>
+<dd>1.- El arte o técnica del mando militar aplicado a la <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> general y a la conducción de operaciones de combate en gran escala. La estrategia define los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> cuyo logro se efectúa mediante tácticas 2.- Uso diestro de estratagemas. 3.- Plan, <a href=javascript:abrir("METODO") class=glosa>método</a>, proceso o serie de maniobras o estratagemas que persigue alguna meta, objetivo específico, fin o resultado. 4.- (Matemáticas) En un proceso regulado, el conjunto de las reglas que aseguran una decisión óptima en cada momento (DRAE).</dd>
+<dt>ESTRUCTURA:</dt>
+<dd>Es un sistema de relaciones entre elementos. <a href=javascript:abrir("ORGANIZACION") class=glosa>Organización</a>, distribución y orden de las partes de un todo.</dd>
+<dt>ETIQUETA:</dt>
+<dd>Marca física o <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> que se sitúa en diversos soportes de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>.</dd>
+<dt>EVALUAR:</dt>
+<dd>Hacer un juicio sobre el valor, excelencia o importancia de algo mediante análisis critico fundado en la práctica de un examen cuidadoso y en el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> técnico o científico.</dd>
+<dt>EVALUACION:</dt>
+<dd>Análisis de los fenómenos en <a href=javascript:abrir("FUNCION") class=glosa>función</a> de una escala premeditada.</dd>
+<dt>EVALUACION EMERGENTE:</dt>
+<dd>Teoría de la evaluación que mantiene la <a href=javascript:abrir("DIFERENCIACION") class=glosa>diferenciación</a> de niveles ópticos como consecuencia de propiedades irreductibles a los componentes de los niveles (o sistemas) inferior o anteriores. En otras palabras, en cada nivel del ser (de &quot;lo que&quot;) se manifiestan propiedades de otra <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> que la de sus componentes, los cuales pertenecen al nivel precedente. Los niveles de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> (en orden <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a>) son el físico, el químico, biológico, psíquico y el social. Las propiedades <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a>s son nuevas e imprevisibles (cf. 'propiedades resultantes'). La <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> es un <a href=javascript:abrir("ESTADO") class=glosa>estado</a> <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a> de la <a href=javascript:abrir("VIDA") class=glosa>vida</a>, y ésta emerge de la materia: pero <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> y <a href=javascript:abrir("VIDA") class=glosa>vida</a> no son reductibles a las moléculas y átomos de la materia (&quot;animismo de la materia&quot;). Este es el error en que incurre el materialismo reduccionista; hay que admitir, más bien, un materialismo emergista. Así mismo, el movimiento representa una <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a> del espacio-tiempo.</dd>
+<dt>EVALUACION CONTINUA:</dt>
+<dd>Sistema de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> histórico que se opera en una SALA DE <a href=javascript:abrir("INTELIGENCIA%20OPERATIVA") class=glosa>INTELIGENCIA OPERATIVA</a> DE CONTROL DE <a href=javascript:abrir("GESTION") class=glosa>GESTION</a> O DE <a href=javascript:abrir("EFICIENCIA") class=glosa>EFICIENCIA</a> POR SISTEMA, por <a href=javascript:abrir("MEDIO") class=glosa>medio</a> del cual, el registro de todas las operaciones documentadas se acumula en cada objetivo o meta y es automáticamente evaluado dentro de su respectivo expediente y acumulativamente con la respectiva &quot;SALA&quot;.</dd>
+<dt>EVOLUCION:</dt>
+<dd>Proceso continuo y gradual de progreso cultural (social, político, económico, artístico y científico).</dd>
+<dt>EXCEDENTE OBJETIVO:</dt>
+<dd>Todo aquello que sobre pasa el <a href=javascript:abrir("MINIMO%20VITAL") class=glosa>mínimo vital</a> en cualquiera de sus dimensiones. Se califica de objetivo porque es real, no depende de apreciaciones del sujeto. (trialéctica).</dd>
+<dt>EXEGESIS:</dt>
+<dd>Explicación científica de un hecho o un proceso.</dd>
+<dt>EXISTENCIA:</dt>
+<dd>1.- El hecho (<a href=javascript:abrir("ESTADO") class=glosa>estado</a> de <a href=javascript:abrir("EXISTIR") class=glosa>existir</a>. &quot;El hecho de que los existentes&quot; (Ferrater, 6DF, p. 10779 b) 2.-La <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>: (a) lo que está ahí, lo que está fuera (id., p. 1079a) (b) Lo que en <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> es o <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> hecha. (c) La <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> o <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a> en contraposición a la apariencia (cf. &quot;fenómeno&quot;). 3.- Circunstancia de <a href=javascript:abrir("EXISTIR") class=glosa>existir</a>. (a) Modo de ser delimitado y definido. (B) Modo de ser determinado o determinable. (c) La manera de ser que caracteriza el ser en cualquiera de los modos que se le suelen <a href=javascript:abrir("ATRIBUIR") class=glosa>atribuir</a>. El <a href=javascript:abrir("ESTADO") class=glosa>estado</a> que se considera característico de cualquier objeto (existencia real, física, psíquica; conceptual, ideal, matemática, <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>, legal, jurídica, histórica, ficticia, etc). 4.- <a href=javascript:abrir("VIDA") class=glosa>Vida</a> del hombre: (a) &quot;Modo de ser del hombre en el mundo&quot; (Abbagnano, DF, p. 487b). (b) Modo de ser hombre que no es nunca dado, pues éste constituye su propio ser al hacerse a sí mismo viviendo (Ferrater, op. cit., p. 1084d); cf. &quot;el hombre no tiene <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> sino historia&quot;. (Ortega y Gasset). La acepción 2 &quot;la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>&quot;), la fundamental por más general, denota el ser independientemente de la consciencia humana y en oposición al no ser o falta de existencia (cf. 'inexistencia'). Los concebibles modos de <a href=javascript:abrir("EXISTIR") class=glosa>existir</a> a que se refiere la acepción 3 (c) sólo tienen en común (1) la <a href=javascript:abrir("ATRIBUCION") class=glosa>atribución</a> de ser y (2) la <a href=javascript:abrir("ATRIBUCION") class=glosa>atribución</a> de una determinación particular que pueda ser tomada, con mayor o menor <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> en el dominio del lenguaje ordinario, de alguna disciplina humanista o de una de las ciencias fácticas. Para la ciencia fáctica de nuestros días, lo que existe no es el mundo de las ideas o lo inteligible (platonismo), sino &quot;lo que está ahí &quot; o la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> ( <a href=javascript:abrir("REALISMO") class=glosa>realismo</a>). Esto es manifestación de lo que Quine ha llamado &quot;el carácter inevitable de un <a href=javascript:abrir("COMPROMISO") class=glosa>compromiso</a> ontológico; en otras palabras, no se puede dejar de decidir lo que entendemos por &quot;existencia&quot; en los dominios de las diferentes disciplinas humanísticas, y científicas. En <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> restringido, la <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> de existencia sólo la tienen los objetos reales sólo los <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> existen, dicho de otro modo. A los objetos conceptuales únicamente se les puede <a href=javascript:abrir("ATRIBUIR") class=glosa>atribuir</a> una existencia derivada, pues lo que realmente existe son cerebros y procesos cerebrales, de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> electro-química estos últimos, cuyos resultados son expresados mediante símbolos verbales. Aceptamos, no obstante, la ficción de referirnos a los constructos como si tuviesen existencia objetiva (autónoma), a sabiendas de que no tienen otra <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> que la de procesos cerebrales: &quot;lo que es real es el proceso cerebral que consiste en pensar en algún objeto&quot; (Bunge, TBP, 1, p. 27). Esta útil ficción - Bunge disit - es un pretexto metodológico; se admiten ciertos modos de existencia (metafísica ideal, matemática, literaria, histórica....), a sabiendas de que la ciencia fáctica tiene por objeto de <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> lo afectivamente real y no lo imaginado o lo posible. Aunque sólo lo presente tiene existencia en <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> estricto (es efectivamente real), la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> de la ciencia / <a href=javascript:abrir("EPISTEMOLOGIA") class=glosa>epistemología</a> descriptiva y metodología o <a href=javascript:abrir("EPISTEMOLOGIA") class=glosa>epistemología</a> normativa) extiende el concepto de <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> a lo histórico, de tal manera que la ciencia procede como si el pasado (recuerdo, <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a>), el momento actual (<a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>) y el futuro (anticipación, pronóstio, predicción ) fuesen <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> de un modo único de <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> con existencia efectiva. A propósito de todo esto, pueden consultarse tres obrás de MarioBunge: TBP. 1-pp. 13 y 26-31; E, pp. 50. 61; 21C, p. 677. La presunta existencia de objetos metafísicos y teológicos no es de la incumbencia de la ciencia empírica, pues tales objetos quedan fuera del alcance del método científico.&quot; No todos los constructos que se dan en la ciencia fáctica tienen referencia fáctica&quot; (Bunge, TBP, l, p. 59); los que no la tienen se dominan 'constructos fácticamente vacuos,' y los que la tienen son 'contructos factuales' (id.). Para Paul Weiss, la actualidad es el modo de ser espacio-temporal, mientras que la existencia incluye la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> (o aspecto dinámico de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>). Véase Ferrater, 6DF, p. 2252a. Circunstancia de la existencia.- Todo <a href=javascript:abrir("EXISTIR") class=glosa>existir</a> humano se da en un <a href=javascript:abrir("HIC%20ET%20NUNC") class=glosa>hic et nunc</a> (aqui y ahora&quot;); es decir, que la existencia, además de requerir para su determinación un cómo, o manera, exige también un dónde y un cuándo. CF. La noción de &quot;circunstancia&quot; en Ortega y Gassete, para quien la vida es la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> radical: &quot;yo soy yo y mi circunstancia.&quot; Uso lingüístico.- En nuestro universo de discurso, 'existencia' a secas denota la única existencia que es real y efectiva- la existencia propiamente dicha, la existencia en el momento presente y en el presente extenso. Todo otro tipo concebible de existencia es, por definición existencia conceptual e igual que este su modo fundamental, los modos de ella derivados se designan mediante frases: 'existencia ficticia', 'existencia metafísica', 'existencia ideal', etc. La existencia histórica se considera parte de la existencia, por las razones ya aducidas; el designante puede ir adjetivado o no, según mejor convenga de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> con la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> del <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a>.</dd>
+<dt>EXISTIR:</dt>
+<dd>1.- Ser, haber: Tener ser o actualidad (la <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a> de ser actual) - - real, objetivo -por oposición a potencial o vital); tener <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> de procesos cerebrales)= qué es haber algo, esto es, qué es existir (Ferrater, DF, p. 10779b)=, lo que hay no depende del lenguaje (id. p. 550b)=. 2.- Tener <a href=javascript:abrir("PRESENCIA") class=glosa>presencia</a> específica en ciertas circunstancias o en un lugar o tiempo dado: ocurrir O eso no existe en mi país O. 3.- Continuar siendo: mantener el ser. 4.- Vivir: (a) tener <a href=javascript:abrir("VIDA") class=glosa>vida</a>; (b) continuar viviendo.</dd>
+<dt>EXPEDIENTE DE CAMPO (ECA):</dt>
+<dd>Registro documental de todas las informaciones producidas en el <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a> de <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a>.</dd>
+<dt>EXPERIENCIA:</dt>
+<dd>Conocimiento que se adquiere gracias a la práctica. Saber que sabe hacer (utilización del concepto) y saber que hace saber (transferencia de usos y conceptos).</dd>
+</dl>
+</div></body></html></body></html>

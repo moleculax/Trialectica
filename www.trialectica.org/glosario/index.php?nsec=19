@@ -1,0 +1,196 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 31 términos definidos en la Sección T</div>
+<dl>
+<dt>TABLA DE VERDAD:</dt>
+<dd>Tabla que define el resultado de una operación <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>.</dd>
+<dt>TABLA:</dt>
+<dd>Estructura interna de datos que consiste en un número finito y ordenado de elementos del mismo tipo.</dd>
+<dt>TACTICA:</dt>
+<dd>Arte que enseña a poner en orden lógico y oportuno las cosas especiales. Sistema especial que se emplea disimulada y hábilmente, para conseguir un fin. Conjunto de reglas a que se adjuntan en su <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a>, las operaciones militares.</dd>
+<dt>TAREA:</dt>
+<dd>Conjunto de actividades secuenciales que tienden en el tiempo programado y preciso y en la jurisdicción indicada al logro de una META. Tareas Geográficas que afectan las relaciones de poder en la política internacional así como en la nacional. Este análisis tiene el fin de lograr fórmulas políticas racionales (plan de <a href=javascript:abrir("ACCION") class=glosa>acción</a>) que sea más adecuado a los intereses sociales, económicos, políticos de la sociedad. Los factores geopolíticos suelen ser decisivos para la determinación de esferas de influencia porque la actualidad juega un papel determinante en la ciencia, la tecnología y sus convenciones. La <a href=javascript:abrir("TEORIA%20GEOPOLITICA") class=glosa>teoría geopolítica</a> toma en consideración todos los factores que contribuyen a la formulación de una política idónea, sin que sea deseable convertir la atención exclusivamente sobre el aspecto internacional CB 'campos de <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>' y 'centro de poder'.</dd>
+<dt>TECLADO:</dt>
+<dd>Unidad de entrada asociada normalmente a una pantalla.</dd>
+<dt>TECNOLOGIA CONCEPTUAL:</dt>
+<dd>Utilización de técnicas con base científica cuya <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> es el <a href=javascript:abrir("CONCEPTO%20BASICO") class=glosa>concepto básico</a> o constructo intencional.</dd>
+<dt>TEMATICA ANALITICA UNIVERSAL:</dt>
+<dd>El GLOSARIO DE LA <a href=javascript:abrir("TRIALECTICA") class=glosa>TRIALECTICA</a> está conectado con el &quot;ANALOMA&quot; (Analogía Lógico Matemática) y con su representación de Geometría Analítico – Descriptiva, que es &quot;EL CONOIDE LUGOVIANO&quot;, el cual a su vez sirve de referencia a las <a href=javascript:abrir("SALAS") class=glosa>Salas</a> de <a href=javascript:abrir("INTELIGENCIA%20OPERATIVA") class=glosa>Inteligencia Operativa</a>, de Control y <a href=javascript:abrir("EVALUACION%20CONTINUA") class=glosa>Evaluación continua</a> de <a href=javascript:abrir("GESTION") class=glosa>Gestión</a> y a la Sala de <a href=javascript:abrir("EFICIENCIA") class=glosa>EFICIENCIA</a> POR SISTEMA. Es lógico pensar que doquier que se instalen una de estas <a href=javascript:abrir("SALAS") class=glosa>Salas</a>, se abordan &quot;Temas&quot; que se desagregan en CONTENIDOS ANALITICOS y estos a su vez en CONCEPTOS BASICOS, todos los cuales son de interés para los usuarios, bien sea estos, profesores, alumnos, empresarios, gerentes, políticos, investigadores, etc.</dd>
+<dt>TENDENCIA VOCACIONAL:</dt>
+<dd>Organización del individuo, o grupo en un sistema de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> - inteligencia.</dd>
+<dt>TENDENCIAS CULTURALES:</dt>
+<dd>Cambios del ser natural producidos por la <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a> al individuo del resultado de los procesos sociales.</dd>
+<dt>TELEINFORMATICA:</dt>
+<dd>Técnica que se ocupa del uso e interconexión de sistemas informáticos situados a distancia.</dd>
+<dt>TELEOLOGIA:</dt>
+<dd>Estudio de los <a href=javascript:abrir("FINES") class=glosa>fines</a> o propósitos últimos.</dd>
+<dt>TEOLOLOGIA BASICA:</dt>
+<dd>Esquema de misión, <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y <a href=javascript:abrir("METAS") class=glosa>metas</a>.</dd>
+<dt>TEORIA DE LOS EXCEDENTES:</dt>
+<dd>Estudio científico- analítico y axiológico de las políticas de distribución y contribución de bienes y servicio que están por encima del &quot;Mínimo Vital&quot;</dd>
+<dt>TEORIA GEOPOLITICA:</dt>
+<dd>(TRIALECTICA) Sub-sistema del sistema general integrado de la <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a> que tiene por objeto el estudio las relaciones entre la geografía y la política. Dicha teoría se contradice con la de &quot;Masa crítica&quot; por que toman en cuenta los &quot;RDR&quot; y también la <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a> de los procesos.</dd>
+<dt>TEORIA DE LAS RELACIONES DE MEDIDA:</dt>
+<dd>Teoría que explica las relaciones matemáticas, genéricas y filosóficas entre la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> como proceso energético en el tiempo y en el espacio. Las relaciones de medida, como las magnitudes y los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> dimensionales se encuentran descritos en la Geomatría Lugoviana.</dd>
+<dt>TIPICO:</dt>
+<dd>Que caracteriza un tipo.</dd>
+<dt>TRANSFERENCIA:</dt>
+<dd>Proceso de transferir conceptos us</dd>
+<dt>TRANSFORMACION:</dt>
+<dd>Denominación de aquellos cambios que consisten en modificaciones sustanciales de las estructuras sobre las cuales funciona la Institución, para alcanzar los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> de las políticas.</dd>
+<dt>TRATADOS:</dt>
+<dd>Todo <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> celebrado entre miembros de la <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a> internacional, cualquiera que sea la forma que revista y la importancia de los compromisos que contraiga.</dd>
+<dt>TRIADAS EXISTENCIALES:</dt>
+<dd>Significado que de tres en tres denotan la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> de un proceso y pueden llegar a ser una categoría ontológica.</dd>
+<dt>TRIALECTICA:</dt>
+<dd>Es una concepción filosófica, científica y técnica para impulsar el desarrollo integral y maximizar la calidad de <a href=javascript:abrir("VIDA") class=glosa>vida</a>, que surgió como resultado de un largo proceso de .investigación social, realizada por el filósofo, agrimensor y abogado Luís Gómez de la Vega (1927-2007), a través del Instituto de Investigaciones Integradas, y que la dio a <a href=javascript:abrir("CONOCER") class=glosa>conocer</a> por vez primera en Venezuela en 1967, con una propuesta impresa titulada “El Gran Esquema”. La <a href=javascript:abrir("TRIAL") class=glosa>Trial</a>éctica, conocida también como <a href=javascript:abrir("METODOLOGIA%20COMPLEJA") class=glosa>Metodología Compleja</a>, se fundamenta “en un modelo lógico/matemático, que partiendo de la concepción más abstracta interrelaciona sistémicamente todos y cada uno de los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> en los cuales subdividimos el quehacer existencial (nuestra <a href=javascript:abrir("VIDA") class=glosa>vida</a> en el mundo), estableciendo holística y funcionalmente la conjunción entre espacio/tiempo; <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>/información y causa /efecto: Sistemas de Recursos Dimensionables y Relacionados (Los <a href=javascript:abrir("RDR") class=glosa>RDR</a>), que responden a las preguntas que nos hacemos en el devenir, convertidas en <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>Elementos Factores</a>. Todo para dar explicación a lo abstracto conceptual: espacio/tiempo (dónde y cuando); <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>/información (los con quiénes y los con qué) y causa/efecto (por qué y para qué), que al ser diferenciados (cualitativamente) desagregados (cuantitativamente) e integrados (holísticamente) nuevamente en el Cómo Metodológico, indefectiblemente dan respuestas a la problemática existencial, en la búsqueda de la verdad, la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> y la <a href=javascript:abrir("JUSTICIA") class=glosa>justicia</a>. Soportados siempre en el marco referente de la <a href=javascript:abrir("FILOSOFIA") class=glosa>Filosofía</a> Integralista”. La Teoría del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>Conocimiento</a> <a href=javascript:abrir("TRIAL") class=glosa>Trial</a>éctico es <a href=javascript:abrir("LA%20ENVOLVENTE") class=glosa>la envolvente</a> del método trialéctico que exige que para que haya <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> es existencial la triple relación de los macro sistemas antes señalados. Para la <a href=javascript:abrir("TRIAL") class=glosa>Trial</a>éctica la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> se constituye en una trilogía existencial que abarca el Ser, el Poseer y el Poder que están consustanciados en la <a href=javascript:abrir("IGUALDAD%20TELEOLOGICA%20DE%20LOS%20ORDENES%20SOCIALES") class=glosa>igualdad teleológica de los <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a></a> representados, a nivel nacional, por el individuo, la familia, el vecindario, (la aldea en las áreas rurales), la parroquia, el municipio, el <a href=javascript:abrir("ESTADO") class=glosa>estado</a>, las regiones y el país. Para el análisis de la problemática social, económica, política y cultural de los <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a>, se hace uso de la sectorización que se compagina con cada una de estas áreas y se enfatiza en la concepción holística que imprime un método que da relevancia a la interdisciplinariedad. En el <a href=javascript:abrir("CAMPO") class=glosa>campo</a> jurídico se propicia la subordinación a los principios constitucionales y el apego a la legalidad.</dd>
+<dt>TRIALECTOGRAFIA:</dt>
+<dd>Gráfico circular y que muestra la <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> orgánica e integral de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>. <a href=javascript:abrir("CODIGO") class=glosa>Código</a> Universal.</dd>
+<dt>TRIALECTOGRAMA:</dt>
+<dd>Gráfico circular que muestra la <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> orgánica integral de un proceso en un sitio y momento dados. Permitió el diseño de un <a href=javascript:abrir("CODIGO") class=glosa>código</a> universal. Sigue la referencia de coordenadas polares.</dd>
+<dt>TRIALECTOLOGIA:</dt>
+<dd>Técnica específica para la utilización, optimización y realización de recursos informativos y conceptuales. Utilizados y optimizados en el espacio - tiempo. Análisis futurológico, más que retrospectivo.</dd>
+<dt>TRAMA SISTEMATICA:</dt>
+<dd>De los sistemas <a href=javascript:abrir("RDR") class=glosa>RDR</a> (RECURSOS Y DIMENSIONES RELACIONADAS), de la <a href=javascript:abrir("INTEGRACION") class=glosa>INTEGRACION</a> DE DINAMICAS y del acercamiento GRADUAL HACIA LA <a href=javascript:abrir("REALIDAD") class=glosa>REALIDAD</a> inconmensurable; brotan por doquier manifestaciones de expresión, <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a> y <a href=javascript:abrir("ACTIVIDAD") class=glosa>acti<a href=javascript:abrir("VIDA") class=glosa>vida</a>d</a> que merecen abrirse paso heurístico en la <a href=javascript:abrir("VIDA") class=glosa>vida</a> del Instituto de Investigaciones Integradas y en las extensiones que hacemos día a día. A continuación expresamos algunas de ellas sin que por ello podamos afirmar que están admitidas en el glosario oficial del I.I.I., que apenas comenzó a aparecer en la PRIMERA CONVENCION DE &quot;INTELIGENCIA OPERATIVA&quot; que se celebró en Mérida del 26 al 29 de septiembre de 1.986. Se irá caracterizando y codificando en los sucesivos eventos del I.I.I. PRIMERA RELACION 1) LA ESENCIA DEL SER (PODER). 2) <a href=javascript:abrir("ENERGIA") class=glosa>ENERGIA</a> - <a href=javascript:abrir("INFORMACION") class=glosa>INFORMACION</a> 3) EL SER 4) LA <a href=javascript:abrir("EFICIENCIA") class=glosa>EFICIENCIA</a> 5) LA <a href=javascript:abrir("INTEGRACION") class=glosa>INTEGRACION</a> 6) LA VALORACION ETICA 7) LA ARMONIA ESTETICA 8) EL SABER HACER SABER 9) LA INTELIGENCIA DE <a href=javascript:abrir("SINTESIS") class=glosa>SINTESIS</a> 10) LOS INTEGRANTES 11) CONCEPTUALIZACION DE USOS Y UTILIZACION DE CONCEPTOS 12) LA <a href=javascript:abrir("COMPENSACION") class=glosa>COMPENSACION</a> DINAMICA 13) LOS <a href=javascript:abrir("OBJETIVOS") class=glosa>OBJETIVOS</a> 14) LA <a href=javascript:abrir("ADMINISTRACION") class=glosa>ADMINISTRACION</a> (LATUSENSU) 15) LA MOTIVACIONAL LOGRO 16) LA AUTO MOTIVACION 17) EL QUERER LOGRAR 18) LA DOCENCIA 19) EL JUICIO O APRE- CIACION REAL 20) LA UTILIDAD SOCIAL 21) LA <a href=javascript:abrir("RED%20COMPLEJA") class=glosa>RED COMPLEJA</a> 22) LO SOCIAL 23) LA INTENCIONALIDAD 24) EL <a href=javascript:abrir("PRESENTE%20DINAMICO") class=glosa>PRESENTE DINAMICO</a> 25) LA TENDENCIA 26) EL AJUSTE PERMANENTE 27) LA <a href=javascript:abrir("PROSPECTIVA") class=glosa>PROSPECTIVA</a> 28) LA INTEGRALIDAD 29) LA DESICION 30) LA <a href=javascript:abrir("REALIDAD") class=glosa>REALIDAD</a> 31) <a href=javascript:abrir("ANALISIS%20<a href=javascript:abrir("SISTEMATICO") class=glosa>SISTEMATICO</a>%20HISTORICO") class=glosa>ANALISIS <a href=javascript:abrir("SISTEMATICO") class=glosa>SISTEMATICO</a> HISTORICO</a> 32) LA ADAPTACION 33) LA IDENTIDAD 34) LA VALORACION 35) LA CERTEZA 36) LA INTELIGENCIA 37) LA <a href=javascript:abrir("RED%20COMPLEJA") class=glosa>RED COMPLEJA</a> 38) LA <a href=javascript:abrir("SECUENCIA") class=glosa>SECUENCIA</a> 39) LA <a href=javascript:abrir("PRESENCIA") class=glosa>PRESENCIA</a> COMPLEJA 40) EL TEMA DEL DISCURSO 41) <a href=javascript:abrir("CONCEPTO%20BASICO") class=glosa>CONCEPTO BASICO</a> 42) EL PRESUPUESTO DECISIONAL 43) LA <a href=javascript:abrir("TRANSFORMACION") class=glosa>TRANSFORMACION</a> 44) <a href=javascript:abrir("ONTOLOGIA") class=glosa>ONTOLOGIA</a> 45) LA SICO- SOCIOLOGIA 46) LA <a href=javascript:abrir("INTEGRACION") class=glosa>INTEGRACION</a> 47) LA <a href=javascript:abrir("CONCURRENCIA") class=glosa>CONCURRENCIA</a> 48) LA <a href=javascript:abrir("ADECUACION") class=glosa>ADECUACION</a> 49) LA SIGNIFICACION 50) LA EXPRESION 51) LA <a href=javascript:abrir("LOGICA") class=glosa>LOGICA</a> 52) LA <a href=javascript:abrir("EPISTEMOLOGIA") class=glosa>EPISTEMOLOGIA</a> 53) DESARROLLO INTEGRAL 54) ESTUDIO 55) ALINEACION 56) CONCORDANCIA 57) SIGNO INTERPRETANTE 58) INTERELACION SEGUNDA RELACION LA TRASCENDENCIA DEL SER. CAUSA - EFECTO EL PODER LA <a href=javascript:abrir("CONCIENCIA") class=glosa>CONCIENCIA</a>. LA <a href=javascript:abrir("DIFERENCIACION") class=glosa>DIFERENCIACION</a> LA RELACION CONCEPTUAL. EL ESTUDIO DEL <a href=javascript:abrir("CONOCIMIENTO") class=glosa>CONOCIMIENTO</a>. EL SABER HACER. LA EXPANSION GNOSEOLOGIA. LOS VINCULANTES. <a href=javascript:abrir("TRANSFERENCIA") class=glosa>TRANSFERENCIA</a> DE CONCEPTOS. LAS <a href=javascript:abrir("TRANSFERENCIA") class=glosa>TRANSFERENCIA</a>S. LOS CONTENIDOS. EL <a href=javascript:abrir("CONOCIMIENTO") class=glosa>CONOCIMIENTO</a> LA CAPACIDAD. LA SICO MOTIVACION. EL PODER HACERLO. LA INVESTIGACION EL JUICIO SUBJETIVO EL PRODUCTO SOCIAL LA RED DE VINCULACION LO POLITICO LA CALIFICACION LA FUTUROLOGIA. LA <a href=javascript:abrir("PROSPECTIVA") class=glosa>PROSPECTIVA</a>. <a href=javascript:abrir("PLANIFICACION") class=glosa>PLANIFICACION</a> LA <a href=javascript:abrir("PROYECTIVA") class=glosa>PROYECTIVA</a>. LA DINAMICA. EL PRONOSTICO. LA RESULTANTE. ANALISIS TRIALECTO-LOGICO. LA <a href=javascript:abrir("ADECUACION") class=glosa>ADECUACION</a>. EL CONTRASTE. LA RELACION LAS OPCIONES. LA <a href=javascript:abrir("INFORMACION") class=glosa>INFORMACION</a>. LA RED DE VINCULACION Y <a href=javascript:abrir("COMPOSICION") class=glosa>COMPOSICION</a>. LA INCIDENCIA LA <a href=javascript:abrir("PRESENCIA") class=glosa>PRESENCIA</a> DE COMPONENTES. LOS CONTENIDOS. LA <a href=javascript:abrir("PRESENCIA") class=glosa>PRESENCIA</a> COMPLEJA. EL PRESUPUESTO CONCEPTUAL. LA VIBRACION ETICA POLITICA Y PREVENCION LOS CONCURRENTES LOS ADECUADORES LOS SIGNIFICANTES LOS EXPRESANTES LA <a href=javascript:abrir("GRAMATICA") class=glosa>GRAMATICA</a> LA CIENCIA DESARROLLO SOCIO CULTURAL. PROCESO DE ENCADENACION. <a href=javascript:abrir("ADECUACION") class=glosa>ADECUACION</a>. SIGNO OBJETIVO. INTER <a href=javascript:abrir("ACCION") class=glosa>ACCION</a>. TERCERA RELACION LA <a href=javascript:abrir("INMANENCIA") class=glosa>INMANENCIA</a> DEL ESPACIO - TIEMPO POSEER LA <a href=javascript:abrir("EXPERIENCIA") class=glosa>EXPERIENCIA</a> LA <a href=javascript:abrir("DESAGREGACION") class=glosa>DESAGREGACION</a> EL ANALISIS DEL RESUL. PROCESO CONCRETO EL SABER. LA <a href=javascript:abrir("ACCION") class=glosa>ACCION</a> CATALISIS LOS COMPONENTES <a href=javascript:abrir("TRANSFERENCIA") class=glosa>TRANSFERENCIA</a> DE USOS LAS TRANSFORMACIO- NES LOS CONTINENTES LA ACTIVIDAD LA <a href=javascript:abrir("NECESIDAD") class=glosa>NECESIDAD</a> LA SOCIO MOTIVACION EL DEBER SER LA EXTINCION EL JUICIO OBJETIVO EL COSTO SOCIAL LA RED DE <a href=javascript:abrir("COMPOSICION") class=glosa>COMPOSICION</a> LO ECONOMICO LA CUANTIFICACION LA HISTORIA LA <a href=javascript:abrir("RETROSPECTIVA") class=glosa>RETROSPECTIVA</a> EVALUACION <a href=javascript:abrir("PERSPECTIVA") class=glosa>PERSPECTIVA</a> LA INERCIALIDAD EL DIAGNOSTICO LOS RESULTADOS ANALISIS TRIALECTO- GRAFICO LA <a href=javascript:abrir("CONCURRENCIA") class=glosa>CONCURRENCIA</a> LA COINCIDENCIA EL SENTIMIENTO LA PROPUESTA LOS <a href=javascript:abrir("HECHOS") class=glosa>HECHOS</a> Y SUCESOS LA RED COMPUESTA Y SIMPLE LA <a href=javascript:abrir("PRESENCIA") class=glosa>PRESENCIA</a> LA <a href=javascript:abrir("PRESENCIA") class=glosa>PRESENCIA</a> COMP. Y S. LOS CONCEPTOS LA <a href=javascript:abrir("FUNCION") class=glosa>FUNCION</a> ACTIVA EL PRESUPUESTO <a href=javascript:abrir("<a href=javascript:abrir("FUNCION") class=glosa>FUNCION</a>AL") class=glosa><a href=javascript:abrir("FUNCION") class=glosa>FUNCION</a>AL</a> LA OSCILACION ESTETICA ECONOMICA LA CURACION LOS PARTICIPANTES LOS ADECUADOS LOS SIGNIFICADOS LO EXPRESADO LA ARITMETICA LA TECNOLOGIA DESARROLLO SOCIO PRODUCTIVO SISTEMAS <a href=javascript:abrir("SECUENCIA") class=glosa>SECUENCIA</a>L <a href=javascript:abrir("CONCURRENCIA") class=glosa>CONCURRENCIA</a> SIGNO <a href=javascript:abrir("MEDIO") class=glosa>MEDIO</a> ITER<a href=javascript:abrir("ACCION") class=glosa>ACCION</a>. Todas estas tríadas serán sometidas a la integración en forma de &quot;<a href=javascript:abrir("SINTESIS") class=glosa>SINTESIS</a> SOCIAL&quot;, para lo cual deben ser estudiadas dentro de una &quot;investigación evaluativa&quot; que permita seleccionar las que &quot;REALMENTE&quot; son fidedignas y auténticas.</dd>
+<dt>TERMINAL:</dt>
+<dd>Periférico conectado a una computadora.</dd>
+<dt>TERRITORIALIDAD:</dt>
+<dd>Area Política, Geográfica, Topológica, etc.</dd>
+<dt>TIEMPO COMPARTIDO:</dt>
+<dd>Técnica de proceso que consiste en la utilización de un mismo equipo por varios usuarios a la vez.</dd>
+<dt>TIEMPO REAL:</dt>
+<dd>Tiempo de respuesta a la entrada de datos cuando la <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a> de respuesta afecta a la entrada subsiguiente.</dd>
+<dt>TRANSFERENCIA:</dt>
+<dd>Paso de una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> a otra (uso - concepto); movimiento corpuscular, ondulatorio y conceptual.</dd>
+<dt>TRIAL:</dt>
+<dd>Composición de por lo menos tres sectoriales interactivadas.</dd>
+</dl>
+</div></body></html></body></html>

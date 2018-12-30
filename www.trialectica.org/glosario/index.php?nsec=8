@@ -1,0 +1,226 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 46 términos definidos en la Sección I</div>
+<dl>
+<dt>IBG:</dt>
+<dd>Inter Block Gap. Espacio entre bloques no utilizado, en un soporte magnético.</dd>
+<dt>IDENTIDAD:</dt>
+<dd>Aspecto colectivo del conjunto de características que hacen posible que algo sea cognoscible o conocido. 2.- (a) Conjunto de características personales o de comportamiento que permiten el adscribir un individuo a un grupo, como miembro de él . (b) 3.- <a href=javascript:abrir("CUALIDAD") class=glosa>Cualidad</a> o condición de ser exactamente igual a otro objeto. 4.- <a href=javascript:abrir("CUALIDAD") class=glosa>Cualidad</a> o condición de ser permanecer igual.</dd>
+<dt>IDENTIDAD NACIONAL:</dt>
+<dd>La identidad del Venezolano: La personalidad de un individuo que tiene un objeto que persiste en el tiempo.</dd>
+<dt>IDENTIFICADOR:</dt>
+<dd>Nombre o denominación de un objeto en un lenguaje de programación.</dd>
+<dt>IGUALDAD TELEOLOGICA DE LOS ORDENES SOCIALES:</dt>
+<dd>Hipótesis de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> abstracta con cierto grado de ética y de <a href=javascript:abrir("COMPENSACION") class=glosa>compensación</a> en los rasgos y <a href=javascript:abrir("FINES") class=glosa>fines</a> generales que se persiguen en todos los distintos <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a> (individual , familiar, asociativo, comunal, regional, nacional, internacional).</dd>
+<dt>IMPORTE:</dt>
+<dd>Todo concepto tiene <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> y referencia. El <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a>, a su vez, consiste en aportar o tener, <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> e &quot;importe&quot;. Se habilita el término importe (en contraste con aporte) para traducir el import inglés de la semántica Bungiana.</dd>
+<dt>IMPLEMENTACION: (anglicismo):</dt>
+<dd>Realización, <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a>, aplicación (de una ley), puesta en práctica o en <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> (decisiones, medidas) <a href=javascript:abrir("ACCION") class=glosa>acción</a> y efecto de implementar.</dd>
+<dt>IMPLEMENTAR: (anglicismo):</dt>
+<dd>Llevar a cabo, <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a>, <a href=javascript:abrir("EJECUTAR") class=glosa>ejecutar</a>, cumplir (una promesa), aplicar (una ley), poner en práctica o en <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> (decisiones, medidas).</dd>
+<dt>IMPLEMENTO:</dt>
+<dd>(DRA). (Del ingl. implement) m. Utendio. U.M. en pl. anglicismo 'implemento', el cual, en todo caso proviene del Latín implementum (igual que se instrumenta en .inglés, viene del instrumentum latín. Implements e implementación con funciones derivadas (de instrumento se derivan <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a> e instrumentación; los cuales figuran en el DRAE). El diccionario siempre tiene que ir a la zaga de la lingüística. Las condiciones están dadas para que sean aceptados los alcances del legitimo 'implement'. Tal vez la relación que hay entre diccionario y el texto no lingüístico comienza a tener importancia en la medida e que este queda explicitado.</dd>
+<dt>IMPRESORA:</dt>
+<dd>Unidad de salida que maneja un soporte de papel.</dd>
+<dt>INERCIA (DRAE):</dt>
+<dd>Incapacidad de los cuerpos para salir del <a href=javascript:abrir("ESTADO") class=glosa>estado</a> de reposo, para cambiar las condiciones de un movimiento o para crearlo sin la aplicación o igualdad de los <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a>. El ser humano, tiene <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> sea, por ir solo como individuo, como miembro de una socioexistencia, (flia., <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a> local, etc.) Busca en sus formas de <a href=javascript:abrir("EXISTIR") class=glosa>existir</a>, objetos tales como el poder, el prestigio, la posesión de bienes y la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> de vivir con el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> aprehendido y el plan del ejercicio de sus facultades. Es ellas se equipara y homologa con los grupos humanos que constituye. En una medida de la otra, estos entes buscan los mismos logros y es esto lo que nos lleva a hablar de &quot;la <a href=javascript:abrir("IGUALDAD%20TELEOLOGICA%20DE%20LOS%20ORDENES%20SOCIALES") class=glosa>igualdad teleológica de los <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a></a>&quot;. Toda búsqueda de poder o posesión es una tendencia cuyo límite tiende a vulnerar la misma búsqueda de otros. En contraposición, surge un equilibrio que en la condición humana es existencial a la <a href=javascript:abrir("SUBSISTENCIA") class=glosa>subsistencia</a> y a la <a href=javascript:abrir("CONVIVENCIA") class=glosa>convivencia</a>. Evidentemente este equilibrio tiene un fundamento ético, ya que equivale a un proceder con rectitud, en busca de una <a href=javascript:abrir("COMPENSACION") class=glosa>compensación</a> social en la que todo ser busca el mayor poder y poseer posibles, manteniendo ese perfil de equilibrio como parte de la constancia.</dd>
+<dt>INEXISTENCIA:</dt>
+<dd>(No <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a>) La falta de <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> (DRAE). La negación del ser. La ciencia sensu estricto no admite más <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> que la de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> material la de objetos existentes que por su <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> están al alcance del <a href=javascript:abrir("METODO") class=glosa>método</a> científico. Hoy los existentes de la ciencia son los sistemas concretos (entidades o casos físicos) que no deben confundirse con objetos conceptuales que tratan de dar cuenta de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> de los sistemas concretos o existentes sensu estricto. En esa suma, las ciencias fácticas se dedican a la investigación de casos (i. e., sistemas concretos, <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> de materia o <a href=javascript:abrir("SUBSISTENCIA") class=glosa>subsistencia</a> física y entre cuyas propiedades se cuenta su extensión, su <a href=javascript:abrir("DINAMICA") class=glosa>dinámica</a> y también su <a href=javascript:abrir("INERCIA") class=glosa>inercia</a>. Son constituyentes últimos de tales sistemas sus particulares elementales <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>) y &quot;Sólo existe lo individual&quot; firmaban - tenía los nominalitos del siglo IV AC. Como los retratos de su época (siglo V AC.): la ciencia contemporánea y otras al negar <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> la ciencia impuso, no atribuye in<a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> a los objetos inobservables (y otras partículas subatómicas), los agujeros negros, las ondas gravitacionales y otras formas de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> imposibles de detectar. Lo invisible puede tener <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> real para la ciencia, pero dicha <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> siempre esta respaldada por alguna forma de teoría y por el concepto de verdad como <a href=javascript:abrir("COHERENCIA") class=glosa>coherencia</a>. También se le atribuye <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> real a objetos que ya no existen en el momento presente y toda clase de objetos Históricos (<a href=javascript:abrir("FACTOR") class=glosa>factor</a> Español del siglo de oro), &quot;Hemos aprendido a llamar&quot; red a lo que existe en algún lugar del <a href=javascript:abrir("CONTINENTE") class=glosa>continente</a> espacio temporal de cuatro dimensiones (Bunge IB, p. 76). Entre esos objetos históricos con <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> real se habla nada menos que la identidad personal de cada ser humano (el yo de cada individuo): &quot;No basta con decir que 'Yo existo en este instante', ser un individuo implica un continuo de experiencias ligadas mediante un <a href=javascript:abrir("FACTOR") class=glosa>factor</a> <a href=javascript:abrir("VINCULANTE") class=glosa>vinculante</a>, como la <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a>&quot; (DRAE), Dnf, p. 140). El marco de referencia materialista que impone el criterio de verificación empírica propia de la ciencia (i. e., la ciencia como proceso: aplicación del <a href=javascript:abrir("METODO") class=glosa>método</a> científico) deja sin respuesta, en última instancia, las preguntas fundamentales de la <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> humana: ¿quien soy? ¿de donde vengo?, ¿a donde voy? ¿qué hago en esta <a href=javascript:abrir("VIDA") class=glosa>vida</a>?, ¿qué es la <a href=javascript:abrir("VIDA") class=glosa>vida</a> y cuál es su propósito?, ¿tiene necesariamente que estar más allá de la ciencia esta supuesta <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> invisible?. Ante estas 'ultimidades' del intelecto humano caben (1) las respuestas del agnosticismo (&quot;solo sé que nada sé&quot;, &quot;son éstas preguntas sin respuesta&quot;). (2) la afirmación de la fe religiosa (&quot;Creo en un solo Padre, Dios Todopoderoso, creador del cielo y de la Tierra, de todo lo visible y lo invisible&quot;) y (3) La afirmación o negación de lo que habría que dominar las &quot;profesiones de fe&quot; de los científicos. Estos o guardan un prudente silencio al respecto, o niegan la <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> de lo que no es materia (i. em., la mente, el alma, el espíritu y el Espíritu absoluto o Dios), o afirman el dualismo mente - cuerpo. Tal desacuerdo entre los científicos parece indicar que no se trata de una &quot;empresa Humana en que la razón haya de casarse con la experiencia&quot; (Bunge), sino que, al contrario, pese a la argumentación aparente de carácter científico, nos hallamos verdaderamente fuera del <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> científico. Ahora bien, el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> no ordinario que no es ciencia, o es <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> o es teología y religión. El arte, la religión y el amor (ágape, caritas, &quot;buen amor&quot;, pasión erótica) son precisamente las empresas humanas que burlan el rigor del <a href=javascript:abrir("METODO") class=glosa>método</a> científico (Cf. Mario Bunge, La ciencia: Su <a href=javascript:abrir("METODO") class=glosa>método</a> y su <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a>, Buenos Aires, 1981, pp. 64-67.) He aquí las opiniones encontradas de dos físicos que ilustran lo que, pace Bunge, ha llamado &quot;profesiones de fe&quot;.</dd>
+<dt>INERCIAL:</dt>
+<dd>Intervención de alguna <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>. Se considera la <a href=javascript:abrir("INERCIA") class=glosa>inercia</a> como una <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> de la materia. Perteneciente o relativo a la <a href=javascript:abrir("INERCIA") class=glosa>inercia</a> (DRAE). 2.- <a href=javascript:abrir("TRIALECTICA") class=glosa>Trialéctica</a>: sujeto que procesa menos, <a href=javascript:abrir("INFORMACION") class=glosa>información</a> que la que se maneja en el <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> respectivo.</dd>
+<dt>INFORMATICA:</dt>
+<dd>Estudio y acumulación racional de los mensajes entre emisor y receptores de toda índole.</dd>
+<dt>INFORMACION:</dt>
+<dd>Conjunto de datos ordenados y relacionados.</dd>
+<dt>INGENIERIA:</dt>
+<dd>Aplicación de la matemática y otras ciencias exactas al ingenio humano en sus múltiples aspiraciones de mejorar su calidad de <a href=javascript:abrir("VIDA") class=glosa>vida</a>.</dd>
+<dt>INGENIERIA CONCEPTUAL:</dt>
+<dd>Los conceptos, como todos los elementos de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> del ser humano, se relacionan, se estructuran y son dirigidos hacia la trama Social Económica y Política y a las dinámicas que estas constituyen. Las leyes que rigen esos procesos con referencia a la <a href=javascript:abrir("ANALOGIA%20LOGICO%20MATEMATICA") class=glosa>analogía lógico matemática</a> y la <a href=javascript:abrir("JURIMETRIA") class=glosa>jurimetría</a>.</dd>
+<dt>INGENIERIA SOCIAL:</dt>
+<dd>La asistencia, la seguridad y el <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a>, tanto como la <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> en general de la población a todos sus niveles: individual, familiar, vecinal, comunal, regional, nacional, internacional, mundial y cósmico y en todas sus dinámicas, con apoyo de la <a href=javascript:abrir("INGENIERIA%20CONCEPTUAL") class=glosa>Ingeniería conceptual</a> y la <a href=javascript:abrir("INTEGRACION%20DE%20SISTEMAS") class=glosa>integración de sistemas</a>, ha constituido una herramienta que tiene sus propios fundamentos filosóficos, sistemáticos y metodológicos, constituyéndose así la Ingeniería Social.</dd>
+<dt>INMANENCIA:</dt>
+<dd>Aquello con residencia permanente, esencialmente en si mismo.</dd>
+<dt>INMANENTE:</dt>
+<dd>Conjunto de <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a> complejos. (Permanecer en) <a href=javascript:abrir("FILOSOFIA") class=glosa>Filosofía</a>. Inherente a algún ser; inseparable de él que un ser identifica con otro. Constante, imperecedero. Identificado con perteneciente A.</dd>
+<dt>INSTRUCCIONES METODOLOGICAS:</dt>
+<dd>Soluciones estandarizadas para resolver problemas operacionales de la <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> (Instructivos) y la evaluación.</dd>
+<dt>INSTRUMENTAL:</dt>
+<dd>Conjunto de <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a> complejos.</dd>
+<dt>INSTRUMENTOS:</dt>
+<dd>Recursos metodológicos, organizativos y tecnológicos empleados en los procesos de <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a>, <a href=javascript:abrir("ADMINISTRACION") class=glosa>administración</a>, control, evaluación y ajuste.</dd>
+<dt>INSTRUCCION:</dt>
+<dd>Orden o mandato que se proporciona a la computadora para que realice una determinada operación.</dd>
+<dt>INSUMO:</dt>
+<dd>Entrada de recursos en un proceso.</dd>
+<dt>INTEGRACION DE SISTEMAS:</dt>
+<dd>Enfoque <a href=javascript:abrir("SISTEMATICO") class=glosa>sistemático</a> de la intersectorialidad o interacción de dinámicas entre el ser, el poder y el poseer.</dd>
+<dt>INTEGRALISMO TRIALECTICO:</dt>
+<dd>Ideología con fundamentos filosófico y epistemológico social que está implícita en la <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> de los procesos humanos del interdimensionamiento de la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>, la <a href=javascript:abrir("INFORMACION") class=glosa>información</a>, el espacio y el tiempo como manifestaciones de la categoría del ser.</dd>
+<dt>INTEGRANTE:</dt>
+<dd>Partes vinculantes de un sistema, que no actúan como <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> separados sino integrados; son elementos responsables de que el todo sea más que la suma de sus partes, y de la <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> sinérgica. Combina vinculantes socio-conceptuales y componentes socio-económicos.</dd>
+<dt>INTERDIMENSION:</dt>
+<dd>Las &quot;dimensiones&quot; se conciben como espacio, tiempo, <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a>. Una &quot;interdimensión&quot; es la relación que se da entre los objetos antes enumerados en forma de <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a>.</dd>
+<dt>INTERDIMENSIONALIDAD:</dt>
+<dd>Sustantivo abstracto que denota la <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> <a href=javascript:abrir("INTERDIMENSION") class=glosa>interdimensión</a> surgida mediante la <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> de espacio, tiempo <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> en el <a href=javascript:abrir("PROCESO%20SOCIAL") class=glosa>proceso social</a>.</dd>
+<dt>INTERDISCIPLINARIO:</dt>
+<dd>Forma de trabajo o investigación donde se estudian &quot;por <a href=javascript:abrir("METODO") class=glosa>método</a>&quot; los componentes, los vinculantes e interacciones con el exterior, en el <a href=javascript:abrir("ABORDAJE") class=glosa>abordaje</a> de la <a href=javascript:abrir("COMPLEJIDAD") class=glosa>complejidad</a> misma.</dd>
+<dt>INTELIGENCIA:</dt>
+<dd>Facultad de comprender o de <a href=javascript:abrir("CONOCER") class=glosa>conocer</a>: La causa, el proceso y el efecto del trato. Certeza gnoseológica, sobre lo que se está informando.</dd>
+<dt>INTELIGENTE:</dt>
+<dd>&quot;Función inteligente&quot; la que permite conceptualizar los usos distintivos de un concepto.</dd>
+<dt>INTELIGENCIA INTEGRAL:</dt>
+<dd>Conceptualización cierta e interdisciplinaria de un proceso con visión y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> globales. <a href=javascript:abrir("INTENSION") class=glosa>Intensión</a> del concepto referente a una situación con discernimiento de sus <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>, incluyendo su retro <a href=javascript:abrir("INFORMACION") class=glosa>información</a> <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a>.</dd>
+<dt>INTELIGENTE INTERACCION:</dt>
+<dd>Relación entre dos o más partes de un sistema o entre sistemas a través de la <a href=javascript:abrir("ACTIVIDAD") class=glosa>actividad</a>, conociendo sus <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>elementos factores</a>, sus vinculantes</dd>
+<dt>INTELIGENCIA ARTIFICIAL:</dt>
+<dd>Rama de la computación mediante la que se trata de dotar de inteligencia a las máquinas.</dd>
+<dt>INTELIGENCIA OPERATIVA:</dt>
+<dd>Utilización de la inteligencia en forma ordenada y tendiente a la optimización.</dd>
+<dt>INTENCION:</dt>
+<dd>Designar los conceptos de la <a href=javascript:abrir("ACCION") class=glosa>acción</a> y efectos de atender hacia algo. El <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> es posible solo si la <a href=javascript:abrir("ACCION") class=glosa>acción</a> intelectiva esta dirigida a un objeto. El concepto de intención involucra, por lo tanto, un sujeto cognoscente y un objeto por <a href=javascript:abrir("CONOCER") class=glosa>conocer</a>. Del sustantivo 'intención' se derivan el sustantivo abstracto intencionalidad y el adjetivo intencional todo acto o contrato dirigido al logro de un objeto o meta.</dd>
+<dt>INTENSION:</dt>
+<dd>Connotación: &quot;la intensión I (c) de un concepto es, pues, el conjunto de las propiedades y relaciones Pi re (cualitativas del ser) bajo el concepto o que el concepto, por así decirlo, sintetiza&quot;. (Bunge IC, P85). Esta definición &quot;supone que las Pi son poseídas por los objetos que constituyen la referencia de C&quot;.</dd>
+<dt>INTERDISCIPLINARIO:</dt>
+<dd>Forma de trabajo o investigación donde se estudio &quot;por <a href=javascript:abrir("METODO") class=glosa>método</a>&quot; los componentes, los vinculantes e interacciones con el exterior, en el <a href=javascript:abrir("ABORDAJE") class=glosa>abordaje</a> de la <a href=javascript:abrir("COMPLEJIDAD") class=glosa>complejidad</a> misma.</dd>
+<dt>INTEGRACION:</dt>
+<dd>Incorporación relacional a un todo.</dd>
+<dt>INTERFAZ:</dt>
+<dd>Frontera compartida entre dos partes de un sistema.</dd>
+<dt>INTERPRETE:</dt>
+<dd>Traductor, <a href=javascript:abrir("INSTRUCCION") class=glosa>instrucción</a> a <a href=javascript:abrir("INSTRUCCION") class=glosa>instrucción</a> de lenguaje de alto nivel a lenguaje máquina.</dd>
+<dt>ITEM:</dt>
+<dd>Grupo de caracteres <a href=javascript:abrir("TRATADOS") class=glosa>tratados</a> como una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a>.</dd>
+<dt>INVESTIGACION EXTENSIVA:</dt>
+<dd>Investigación Extensiva es reflejo de un proceso natural dentro de la triada investigación, extensión y <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a> o docencia. Es un proceso de relación de relaciones como el que se sucede en el cerebro humano.</dd>
+<dt>INVENTARIO INERCIAL:</dt>
+<dd>El <a href=javascript:abrir("ESTADO") class=glosa>estado</a>, cantidad y ubicación espacio temporal de las personas y las cosas en un <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> y jurisdicción determinado.</dd>
+</dl>
+</div></body></html></body></html>

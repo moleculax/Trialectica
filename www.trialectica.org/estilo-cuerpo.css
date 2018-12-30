@@ -1,0 +1,144 @@
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0;
+	font-family: Tahoma, Helvetica;
+	font-size: 16px;
+      background-color: #c0c0ff;
+      background-image: url("etc/fondo-cuerpo.jpg");
+}
+
+p { 
+ font-size: 14px;
+ text-align:justify;
+}
+p.centrado { 
+ font-size: 14px;
+ text-align:center;
+}
+
+em { 
+ font-size: 14px;
+ color: green;
+ text-align:justify;
+}
+
+li {
+ font-size: 14px;
+}
+h1 { font-size: 130%; margin: 0; font-family: "Comic Sans MS","Verdana" }
+p.proy { font-family: Tahoma; font-size: 14px; color: black; text-align: justify }
+p.forum { color:c2044c;font-size: 17px;font-family:"Comic Sans MS","Verdana";text-align: center }
+
+TD { text-align: justify; font-size: 16px;}
+TD.proy { font-size: 14px;}
+
+TABLE.mundo {background: #000000 url(vinculos/mundo3.gif) no-repeat top left}
+
+a:link { color: #fd1111 }
+a:visited { color: #d36400 }
+a:hover { color: red }
+a:active {color: #ffaa00}
+
+a.tip:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.tip:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.tip:hover   {color:#3333cc; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.tip:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+
+a.aviso:link      {color:#333333; text-decoration:none; }
+a.aviso:visited {color:#333333; text-decoration:none;}
+a.aviso:hover   {color:#ff0000; text-decoration:underline;}
+a.aviso:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+
+DIV {
+	font-family : Tahoma, Helvetica;
+}
+
+.tit {
+ font-size: 20;
+ font-family: times,tahoma,times;
+ color: blue;
+ width:570;
+ text-align: center;
+}
+.subtit  {
+ color:ffffff;
+ background:#0000c0; 
+ width:570;
+ height:23;
+ font-size: 17px;
+ font-family:"tahoma,Comic Sans MS","Verdana";
+ font-weight: 500;
+ text-align: center
+}
+.subtit2 { 
+ color:c2044c;
+ font-size: 14px;
+ font-family:"Comic Sans MS","Verdana";
+ text-align: center
+}
+.subtit3 { 
+ color:000000;
+ font-size: 15px;
+ font-family:"Comic Sans MS","Verdana";
+ text-align: center;
+ text-decoration: underline;
+}
+
+.texto1 {
+ font-size: 14px;
+ width:570;
+ text-align: justify;
+}
+
+.texto2 {
+ font-family:"Comic Sans MS","Verdana";
+ font-size: 13px;
+ text-align: center;
+}
+
+.nota {
+ font-size: 10;
+ font-family: arial,tahoma,times;
+ color: 333333;
+ text-align: left;
+}
+
+.nota2 {
+ font-size: 14px;
+ font-family: arial,tahoma,times;
+ color: 333333;
+ text-align: left;
+}
+
+.nota3 {
+ font-size: 16px;
+ font-family: arial,tahoma,times;
+ color: 333333;
+ text-align: right;
+}
+
+.nota4 {
+ font-size: 16px;
+ font-weight: bold;
+ font-family: times,tahoma,arial;
+ color: #c00000;
+ text-align: right;
+}
+
+.descrip { font-size: 10px;font-family: arial,tahoma,times; color: maroon; text-align: left;}
+
+.observa {font-family: arial; font-size: 13px; text-align: center; }
+
+.clsCMOn {
+	color: black;
+	font-size : 12px;
+	text-decoration : none;
+        padding: 2px 4px;
+}
+
+.clsCMOver {
+	color: red;
+	font-size : 12px;
+	text-decoration : none;
+      padding: 2px 4px;
+}

@@ -1,0 +1,176 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 21 términos definidos en la Sección F</div>
+<dl>
+<dt>FACTICO:</dt>
+<dd>1 - Pertenecer o relativo a <a href=javascript:abrir("HECHOS") class=glosa>hechos</a>. 2.- Basado en <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> limitados a ello, en oposición a teórico o imaginarios. DRAE.</dd>
+<dt>FACTOR:</dt>
+<dd>Elemento (o <a href=javascript:abrir("COMPONENTE") class=glosa>componente</a>), circunstancia o influencia que contribuye a la consecución de un resultado; (g. v.) Véase 'elementos factores'.</dd>
+<dt>FACTUAL:</dt>
+<dd>Fáctico, perteneciente o relativo a <a href=javascript:abrir("HECHOS") class=glosa>hechos</a>.</dd>
+<dt>FENOMENO:</dt>
+<dd>Por su origen griego, la <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> quiere decir &quot;apariencia&quot;, la cual puede ser ilusoria o, en alguna medida, reveladora del ser verdadero (la cosa er. sí). &quot;Un fenómeno es un acaecimiento o un proceso tal como parece a algún hecho sujeto humano: es un hecho perceptible, una ocurrencia sensible o una cadena de ellos&quot; (Bunge, 21C, p. 719).</dd>
+<dt>FENOMENOLOGIA: (Trialéctica)</dt>
+<dd>Conjunto de fenómenos en el tiempo espacio, en oposición a lo abstracto.</dd>
+<dt>FILOGENESIS:</dt>
+<dd>Filogenia.</dd>
+<dt>FILOGENIA:</dt>
+<dd>Formación y desarrollo de una especie por <a href=javascript:abrir("EVOLUCION") class=glosa>evolución</a> biológica.</dd>
+<dt>FILOSOFIA:</dt>
+<dd>Si como ya lo advertiera Justiciano en su Digesto de leyes, &quot;omnis definitio periculosa est&quot; (&quot;toda definición es peligrosa&quot;, y también en los Adagia de Erasmo y conforme a la opinión Samuel Johnson), intentar una definición de lo que se entiende por filosofía, más que temeridad, constituye simple ignorancia. Así y todo, el tener claras algunas nociones fundamentales sobre los conceptos de &quot;filosofía&quot; y &quot;ciencia&quot;, así como también sobre las relaciones que se dan entre ellas es imprescindible desde el punto de vista de la teoría <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a>. De hecho, definir la filosofía resulta imposible pues, según afirma Ferrater Mora, el vocablo posee una especie de plasticidad indefinida. No obstante, como simple punto de partida, podemos dar algunas acepciones, a sabiendas de que ninguna constituye una definición adecuada, ya que &quot;cada sistema filosófico puede valer cono una respuesta a la pregunta acerca de lo que es la filosofía y también acerca de lo que la <a href=javascript:abrir("ACTIVIDAD") class=glosa>acti<a href=javascript:abrir("VIDA") class=glosa>vida</a>d</a> filosófica representa para la <a href=javascript:abrir("VIDA") class=glosa>vida</a> humana&quot; (Ferrater, DF, II, p. 1177). En otras palabras, la filosofía no sólo tiene historia, sino que se define a través de su historia y mediante ella. 1.- Amor sabiduría o búsqueda de la misma (i. e. del saber teórico y práctico). 2.- Estudios de las verdades o principios que fundamentan todo tipo de conocimientos. 3.- Disciplina que trata de la esencia, propiedades, causas y efectos de los objetos naturales. 4.- Cualesquiera de las tres ramas que constituyen estas disciplinas: Metafísica u <a href=javascript:abrir("ONTOLOGIA") class=glosa>ontología</a>, Filosofía de la <a href=javascript:abrir("NATURALEZA") class=glosa>Naturaleza</a> y Filosofía Moral; en particular, metafísica u <a href=javascript:abrir("ONTOLOGIA") class=glosa>ontología</a>. 5.- Disciplina cuyo objeto de estudio son los fundamentos de cualquier rama del saber (v. gr., 'la filosofía de la historia / del arte / de la física'). 6.- Sistema de <a href=javascript:abrir("DOCTRINA") class=glosa>doctrina</a> filosófica ('la filosofía cartesiana'), 7.- Sistemas de principios que sirven de <a href=javascript:abrir("ORIENTACION") class=glosa>orientación</a> en los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> prácticos el vivir cotidiano: (a) <a href=javascript:abrir("COSMOVISION") class=glosa>cosmovisión</a>; (b) actitud digna, compuesta y sabia ante las vicisitudes de la <a href=javascript:abrir("VIDA") class=glosa>vida</a>. Igual que la ciencia (i. e., lo que se entiende por &quot;ciencia moderna&quot; , aproximadamente de 1600 hasta nuestros días). La filosofía es general (no se ocupa de lo individual como tal busca leyes de máxima aplicabilidad) y racional (procede de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> con los dictados, <a href=javascript:abrir("METODO") class=glosa>método</a> y <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> de la razón humana; prescinde de la revelación divina o de cualquier otro <a href=javascript:abrir("FACTOR") class=glosa>factor</a> sobrenatural para la adquisición del conocimiento; rechaza cualquier argumento de <a href=javascript:abrir("AUTORIDAD") class=glosa>autoridad</a> que no sea sometido a análisis crítico). Se puede, por otra parte, sostener que la ciencia es acumulativa en grado máximo, mientras que la filosofía lo es en grado mínimo (de ahí, ese constante volver a los mismos temas filosóficos a través de una historia de veinticinco siglos). Finalmente, la ciencia es empírica en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de que justifica o valida el conocimiento adquirido mediante confrontación con la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> de una <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> que, en última instancia, es accesible a los <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a>s. Este es, en definitiva, el rasgo esencial que nos sirve para distinguir, sensu stricto, la ciencia de la filosofía, ya que si bien ésta es especulativa (en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de teórica, coherente y <a href=javascript:abrir("LOGICA") class=glosa>lógica</a>), no puede alcanzar la certeza que proporciona a la ciencia moderna la confrontación con la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> o validación empírica. El primer problema de la filosofía es la naturaleza del conocimiento filosófico. Puesto que la filosofía busca el saber y se hace cuestión de si misma, no tiene nada de raro que haya llegado a la autonegación . En todo caso la filosofía se fundamenta a sí misma y fundamenta a todas las ciencias fácticas (físicas, químicas, biología, psicología, sociología, antropología, economía, politología). En cuanto a las ciencias formales, la <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> fundamenta a la matemática, y tanto la <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> como la semántica son fundamentadas por la filosofías, sin que exista disciplina alguna que sirva de fundamento a esta última. La expresión filosofía de la ciencia se puede tomar en un <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> lato para <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> un conjunto de disciplinas que fundamenta la ciencia en su <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> moderno: semántica, <a href=javascript:abrir("ONTOLOGIA") class=glosa>ontología</a>, espistemología (descriptiva y normativa o metodología), filosofía de la tecnología y ética. (Véanse los nueves tomos del Treatise on Basic Philosophy de Mario Bunge). También se puede ampliar el término filosofía de la ciencia en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> que se suele dar en lengua inglesa a Philosophy of sciencie: &quot;teoría del conocimiento científico&quot; o &quot;epistemología&quot; La filosofía de la ciencia bungiana en que fundamentamos el conocimiento <a href=javascript:abrir("SISTEMATICO") class=glosa>sistemático</a> de la <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a> es una filosofía orientada hacia la ciencia de nuestros días y, a su vez, influida por ella. Por lo tanto, se trata de un sistema conceptual abierto a cualquier <a href=javascript:abrir("EVOLUCION") class=glosa>evolución</a> que determine el desarrollo de la ciencia más actualizada e innovadora.</dd>
+<dt>FUNDACION PARA EL DESARROLLO:</dt>
+<dd>Ente político-administrativo con personalidad jurídica integrado por miembros de una <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a>, que se encarga de regir y direccionar los <a href=javascript:abrir("RECURSOS%20HUMANOS") class=glosa>recursos humanos</a> y materiales hacia la consecución de <a href=javascript:abrir("METAS") class=glosa>metas</a> y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> de desarrollo socio económico y socio cultural.</dd>
+<dt>FINES:</dt>
+<dd>Resultado que, a largo plazo, buscan las directivas y políticas. Los fines definen y caracterizan las organizaciones. Estas pueden tener un fin único, general o particular, que puede ser de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> social, económica, industrial, científica, cultural, educativa, etc.</dd>
+<dt>FISICA:</dt>
+<dd>Ciencia cuyo objeto de estudio son la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> y <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> de la materia y la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>, así como las relaciones que se dan entre éstas. El objetivo principal de la física consiste en la explicación racional de los fenómenos naturales y, además intenta la definición cuantitativa de dichos fenómenos. Las ramas principales de la física se ocupan del estudio del calor (termodinámica), la <a href=javascript:abrir("ACCION") class=glosa>acción</a> de las fuerzas sobre los cuerpos (mecánica), el sonido (acústica), la luz (óptica), electricidad y magnetismo. Estos son los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> de estudio de la física clásica. La física moderna (o nueva física; es decir, la de este siglo XX) comprende, además, la mecánica cuántica y la mecánica de la relatividad, la física atómica y la física de las partículas subatómicas. La <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> fundamentalmente eléctrica de la materia es causa de la estrecha relación que se da entre la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> superior y la química. Aunque en algunos textos de la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> medieval se encuentran anticipos de la física moderna (es decir, la clásica), ésta alcanza un <a href=javascript:abrir("ESTADO") class=glosa>estado</a> significativo de madurez en la obra de Galileo Galilei (1564- 1642) y llega a su primera gran <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> en la obra de Isaac Newton (1642- 1727. A esta primera gran <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> y sus secuelas se le conoce bajo la denominación de física clásica o newtoniana. La nueva física o física contemporánea (a la cual también se le llama física 'moderna' en contra<a href=javascript:abrir("POSICION") class=glosa>posición</a> a la clásica) es primariamente resultado de la investigación llevada a cabo durante el transcurso del siglo XX. Se trata de la física de la relatividad, la teoría cuántica, la mecánica ondulatoria, las relaciones de incertidumbre y la física nuclear. Conviene en este punto interrumpir el hilo de nuestro discurso con el fin de aclarar la ambigüedad provocada por el concepto de &quot;modernidad&quot;. Lo modernus en Latín era lo acaecido hacía poco tiempo; de ahí, su primera aceptación en español: &quot;que existe hace poco tiempo&quot; o &quot;que ha sucedido recientemente&quot; (DRAE). Pero como el tiempo transcurre, el concepto resulta ambiguo debido a su relatividad: lo que es reciente deja de serlo. Así pues, 'moderno' puede ser lo contrapuesto a lo prehistórico; es decir, lo que se remonta a un pasado más o menos remoto y llega hasta nuestros días. 'Moderno' dícese también de lo que en cualquier tiempo se ha considerado contrapuesto a lo clásico (DRAE). La expresión 'edad moderna' designa el tiempo comprendido entre la edad media y la contemporánea (DRAE). Pero también se usa el adjetivo para calificar lo relacionado con el período histórico que se extiende desde alrededor de 1500 AC. Hasta el momento presente; es decir, que no excluye lo contemporáneo y se contrapone a los conceptos de &quot;antiguo&quot; y &quot;medieval&quot;. Pero como acabamos de ver ('física moderna'), el adjetivo también quiere decir &quot;contemporáneo&quot;, &quot;relativo al tiempo o época actual&quot;. La ciencia moderna (de la época moderna) es la que se va desarrollando a partir, aproximadamente, de 1600. En fin, que las lenguas naturales suelen ser mucho más ambiguas de lo que normalmente se cree. En lo que a la física se refiere, se puede evitar la ambigüedad mediante el uso de la expresión física del siglo XX', pero esto no impedirá que nos encontremos, como expresiones equivalentes, con 'nueva física', 'física contemporánea' y hasta 'física moderna' (la más ambigua de todas). Podemos con esto abandonar la semántica para volver a la física. Conceptos físicos tales como los de &quot;tiempo&quot;, &quot;espacio&quot;, &quot;<a href=javascript:abrir("ENERGIA") class=glosa>energía</a>&quot;, y &quot;causalidad&quot; figuran prominentemente en la teoría <a href=javascript:abrir("TRIALECTICA") class=glosa>Trialéctica</a>, razón por la cual conviene tener una idea clara sobre ciertos <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> de la nueva física y sus relaciones con la física clásica. De esta manera se evitan falsas interpretaciones y aplicaciones ilegítimas de ciertos principios de la física contemporánea a otras áreas del <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a>, tales como las ciencias sociales. En particular se ha abusado el principio de incertidumbre (o indeterminación) de Heisenberg por no haber tenido suficientemente en cuenta el dominio de aplicación de dicho principio, el cual establece que el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> exacto de la <a href=javascript:abrir("POSICION") class=glosa>posición</a> y el movimiento de una partícula subatómica es imposible, incluso en teoría. Este indeterminismo recíproco entre <a href=javascript:abrir("POSICION") class=glosa>posición</a> y momento es un rasgo básico de la materia microscópica y no puede ser atribuido a limitaciones de los aparatos empleados en la observación y medición científicas. La física se ocupa de estudiar objetos infinitamente grandes (astrofísica y cosmología) y otros infinitamente pequeños (la microfísica: el mundo de los átomos, la <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> nuclear y las partículas subatómicas). La nueva física, fenómenos que se dan en estas dimensiones extremas. La física clásica (newtoniana), con su <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> cotidiana o 'zona de dimensiones medias'. Este es el mundo que nos rodea, el mundo de la <a href=javascript:abrir("EXPERIENCIA") class=glosa>experiencia</a> sensorial y del que tenemos ordinariamente <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a>. Para habérnoslas científicamente con este mundo, la física newtoniana conserva su validez. Hasta tal punto es esto cierto que la física clásica sigue siendo indispensable en ingeniería. Así y todo, &quot;indeterminación&quot;, en el <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de Heisenberg, con conceptos aplicables a los infinitamente pequeños sistemas del átomo y de las partículas subatómicas. No se los puede convertir, sin más, en principios epistomológícos aplicables a todos los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>. Afortunadamente existen libros científicos, intelegibles para el lector no especializado, que permiten el <a href=javascript:abrir("ACCESO") class=glosa>acceso</a> conceptual al desconcertante mundo de la física de nuestro siglo. Entre otros que se pudieren dar como referencia, son particularmente apropiadas las siguientes obras: Bunge, Mario Augusto Causality and Modern Sciencie. Third Revised Edition. Dover Publications. New York, 1979. Existe traducción al Español de la primera edición (1959): <a href=javascript:abrir("CAUSALIDAD") class=glosa>Causalidad</a>: El principio de causalidad en la ciencia moderna. EUDEBA, Buenos Aires, 1961. Capra, Fritjof. 'The Tao of Physics: An Exploration of the Parallele Between Modern Physice and Eaestern Mysticism. Second Edition, Revised and Updated. Bantam Books, New York, 1984. Davies, Paul. El universo desbocado: Del BIG BANG a la catástrofe final . Salvat, Barcelona 1985. Edición original en inglés, 1978. Otros mundos: El espacio y el Universo cuántico. Salvat, Barcelona, 1986, Edición original en inglés, 1980. Dios y la nueva física. Salvat, Barcelona, 1986. Edición original en inglés, 1983. Superfuerza. Salvat, Barcelona, 1985. Edición en inglés, 1984. La frontera de infinito: De los agujeros negros a los confines del Universo. Salvat, Barcelona, 1985. Herbert, Nick. Quantum Reality: Beyond the New Physics. Rider Londre. 1.985. La obra de Herbert profundiza en los temas centrales de la Capra y se enfrenta con el clásico problema de ¿qué es la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>? Las obras de Davies son parte de la Biblioteca Científica Salvat : Nos: 1, 28, 36, 4 y 12</dd>
+<dt>FICHERO:</dt>
+<dd>Archivo.</dd>
+<dt>FIRMWARE:</dt>
+<dd>Parte del Software pregrabado en la fabricación.</dd>
+<dt>FLUJOGRAMA:</dt>
+<dd>Gráfico de entrada y salida de <a href=javascript:abrir("VINCULOS") class=glosa>vínculos</a> cognoscitivos de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> que representa líneas de <a href=javascript:abrir("RESPONSABILIDAD") class=glosa>responsabilidad</a> asignadas.</dd>
+<dt>FORTRAN:</dt>
+<dd>Formula Traslator. Lenguaje de programación de alto nivel utilizado para cálculo científico y numérico.</dd>
+<dt>FUERZA:</dt>
+<dd>(Física) Todo lo que es capaz de actuar sobre una cosa (sistema) cualquiera <a href=javascript:abrir("ACCION") class=glosa>acción</a> que tiende a mantener o alterar la <a href=javascript:abrir("POSICION") class=glosa>posición</a> de un cuerpo, o que en algún <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> la distorsiona. Las cuatro fuerzas fundamentales que actuan sobre la materia son : La fuerza de la gravedad, la fuerza electromagnética y las fuerzas fuerte y débil que se dan entre los componentes de los núcleos atómicos. El efecto de una fuerza es determinado por su <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a>, su <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> y su punto de aplicación. El hecho de que toda fuerza tenga <a href=javascript:abrir("MAGNITUD") class=glosa>magnitud</a> y <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> le confiere la <a href=javascript:abrir("PROPIEDAD") class=glosa>propiedad</a> de ser cantidad vectorial. Cf. <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> - fuerzas vs. <a href=javascript:abrir("INFORMACION") class=glosa>información</a> - poder.</dd>
+<dt>FUNCIONAL:</dt>
+<dd>Que contribuye a un logro, y que realiza o incrementa la <a href=javascript:abrir("EFECTIVIDAD") class=glosa>efectividad</a> de cualquier objeto.</dd>
+<dt>FUNCIOGRAMA: (Trialéctico)</dt>
+<dd>Gráfico que representa las funciones de los organismos de una institución. El funciograma señala las relaciones fundamentales dentro de una institución u <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>; en otras palabras, representa la <a href=javascript:abrir("ESTRUCTURA") class=glosa>estructura</a> <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> de un sociosistema (organismo, empresa, <a href=javascript:abrir("PROYECTO") class=glosa>proyecto</a>, etc.).</dd>
+<dt>FUNCION:</dt>
+<dd>1.- Capacidad de <a href=javascript:abrir("ACCION") class=glosa>acción</a> o <a href=javascript:abrir("ACCION") class=glosa>acción</a> de ser apropiada a su condición natural (para lo que existe) o el destino dado por el hombre (para lo que se usa) 2.- Capacidad de <a href=javascript:abrir("ACCION") class=glosa>acción</a> o <a href=javascript:abrir("ACCION") class=glosa>acción</a> propia de los seres vivos y de sus órganos y de las máquinas o <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a>. 3.- Capacidad de <a href=javascript:abrir("ACCION") class=glosa>acción</a> o <a href=javascript:abrir("ACCION") class=glosa>acción</a> propia de los cargos y oficios. DRAE.</dd>
+<dt>FUNCIONAMIENTO:</dt>
+<dd>Acción y efecto de <a href=javascript:abrir("FUNCIONAR") class=glosa>funcionar</a>.</dd>
+<dt>FUNCIONAR:</dt>
+<dd>Desempeñar un objeto de las funciones que le son propias.</dd>
+</dl>
+</div></body></html></body></html>

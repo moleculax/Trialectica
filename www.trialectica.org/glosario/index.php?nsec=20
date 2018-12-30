@@ -1,0 +1,156 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 11 términos definidos en la Sección U</div>
+<dl>
+<dt>UNIDADES OPERATIVAS:</dt>
+<dd>Unidades ejecutoras, que poseen <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> y responsabilidades administrativas propias, desde el punto de vista estructural están representadas por los cargos y sirven de apoyo general.</dd>
+<dt>UNIDAD OPERATIVA RESPONSABLE:</dt>
+<dd>Unidad administrativa responsable en forma total o parcial de llevar a cabo la realización de una o varias funciones hacia el cumplimiento de un objetivo, del cual también es responsable.</dd>
+<dt>USAR:</dt>
+<dd>Toda <a href=javascript:abrir("ACCION") class=glosa>acción</a> dirigida &quot;hacia&quot; asuntos genéricos o indeterminados, <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> o sujetos con &quot;algo&quot;.</dd>
+<dt>UTILIZAR:</dt>
+<dd>Provecho de &quot;algo&quot; (utilidad o beneficio), <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> y <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a> del uso que sigue un objetivo o meta</dd>
+<dt>UTOPIA DEL CONCRETO REAL:</dt>
+<dd>Exégesis de la relación entre presente e infinito dinámico en el sistema tiempo, así mismo en el sistema espacio y en el sistema <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>-información.</dd>
+<dt>UNIDAD:</dt>
+<dd>1.- Cosa o persona individual. 2.- Individuo, conjunto, sistema o <a href=javascript:abrir("ENTE") class=glosa>ente</a> de cualquier <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> al cual se le considera como constituy<a href=javascript:abrir("ENTE") class=glosa>ente</a> elemental, estructural o <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a>, de un todo. 3.- Grupo identificado como parte diferenciada de un grupo mayor. 4.- (a) Parte mecánica o módulo (b) aparato o equipo que lleva a cabo una <a href=javascript:abrir("FUNCION") class=glosa>función</a> específica.</dd>
+<dt>UNIVERSO:</dt>
+<dd>&quot;Lo que hay&quot; (Ortega y Gasset). El Universo es un &quot;sistema compuesto de subsistemas el supersistema de todos los otros sistemas&quot; (Bunge, TBP, 4, p. 44). En ciencia el término universo es la clase de todos los objetos físicos que existen, y por lo tanto se le identifica con el '<a href=javascript:abrir("MUNDO%20FISICO") class=glosa>mundo físico</a>'. La ciencia se ocupa sólo del universo o <a href=javascript:abrir("MUNDO%20FISICO") class=glosa>mundo físico</a> (de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> o de lo que existe).</dd>
+<dt>UAL:</dt>
+<dd>Unidad aritmético-lógica. Parte de la UCP donde se realizan las operaciones aritméticas.</dd>
+<dt>UCP:</dt>
+<dd>Unidad central de proceso. Parte de la computadora cuya misión es la <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a> de los programas.</dd>
+<dt>UC:</dt>
+<dd>Unidad de control. <a href=javascript:abrir("COMPONENTE") class=glosa>Componente</a> de la UCP, que gobierna al resto de unidades.</dd>
+<dt>USO BASICO:</dt>
+<dd>Unidad utilitaria de medida.</dd>
+</dl>
+</div></body></html></body></html>

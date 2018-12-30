@@ -1,0 +1,248 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 57 términos definidos en la Sección P</div>
+<dl>
+<dt>PALABRA:</dt>
+<dd>Unidad de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> a la que se puede acceder de una vez.</dd>
+<dt>PANTALLA:</dt>
+<dd>Unidad de representación visual.</dd>
+<dt>PAQUETE DE DISCOS:</dt>
+<dd>Diskpack. Grupo de discos magnéticos fijados a un eje común.</dd>
+<dt>PARADIGMA:</dt>
+<dd>Proyección.</dd>
+<dt>PASOS CRITICOS:</dt>
+<dd>Condición <a href=javascript:abrir("INMANENTE") class=glosa>inmanente</a> a la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>, la sociedad y al ser humano. Uso natural de los recursos, optimización y realización de los mismos; la esfera gnoseo<a href=javascript:abrir("LOGICA") class=glosa>lógica</a>, relacionando elementos e integrando dinámicas en un sistema de <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a>, dirigido hacia la <a href=javascript:abrir("TRANSFERENCIA") class=glosa>transferencia</a> del proceso. Consecuencia <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> y esencial de la propia esfera gnoseo<a href=javascript:abrir("LOGICA") class=glosa>lógica</a>.</dd>
+<dt>PASOS METODOLOGICOS:</dt>
+<dd>Etapas lógicas, sistemáticas y secuenciales de la <a href=javascript:abrir("METODOLOGIA%20COMPLEJA") class=glosa>Metodología Compleja</a>. Estos son: <a href=javascript:abrir("ANALISIS%20<a href=javascript:abrir("SISTEMATICO") class=glosa>SISTEMATICO</a>%20HISTORICO") class=glosa>ANALISIS <a href=javascript:abrir("SISTEMATICO") class=glosa>SISTEMATICO</a> HISTORICO</a> (ASH); INVENTARIO <a href=javascript:abrir("INERCIAL") class=glosa>INERCIAL</a> (I.I.); INVENTARIO DINAMICO (I.D.); <a href=javascript:abrir("PERSPECTIVA") class=glosa>PERSPECTIVA</a> (PS); <a href=javascript:abrir("PROYECTIVA") class=glosa>PROYECTIVA</a> (PY); <a href=javascript:abrir("PROSPECTIVA") class=glosa>PROSPECTIVA</a> (PV), OPERATIVA (O) y SECUENCIA (S).</dd>
+<dt>PENTA DIMENSIONALIDAD:</dt>
+<dd>Término que denota las categorías de recursos de que se vale la <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a>. Entre ellas, las continentales con las tres dimensiones espaciales (longitud, anchura y profundidad). Y la cuarta del tiempo. Además la dimensión de contenidos: energético - informativos.</dd>
+<dt>PERIFERICOS:</dt>
+<dd>Unidades de entrada, salida y almacenamiento conectadas a la computadora.</dd>
+<dt>PERSPECTIVA:</dt>
+<dd>Visión que se tiene del <a href=javascript:abrir("AMBITO") class=glosa>ámbito</a> jurisdiccional, territorial y <a href=javascript:abrir("SECTORIAL") class=glosa>sectorial</a> y con tendencia hacia el futuro, estando ubicados en un sitio y momento determinados.</dd>
+<dt>PIXELS:</dt>
+<dd>Puntos luminosos que constituyen las imágenes y caracteres representados en una pantalla.</dd>
+<dt>PLANES:</dt>
+<dd>Son los conjuntos de designaciones consistentes y pertinentes genéricamente aportados a las soluciones metodológicas del desarrollo y operativas. Se diferencia de la programación por los <a href=javascript:abrir("RECURSOS%20TECNOLOGICOS") class=glosa>recursos tecnológicos</a> y sistemas empleados.</dd>
+<dt>PLANES DE DESARROLLO:</dt>
+<dd>Elección de los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> - <a href=javascript:abrir("METAS") class=glosa>metas</a> - institucionales para un periodo futuro elegido, lo cual supone la adaptación previa de un conjunto de políticas y la selección de las estrategias para alcanzarlas, incluyendo codificación, tácticas y sobre todo METODOLOGIA.</dd>
+<dt>PLANEAMIENTO:</dt>
+<dd>Acción y efecto trazar un plan.</dd>
+<dt>PLANIFICACION:</dt>
+<dd>Se llama planificación, el estudio y elaboración de un conjunto coherente de <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, que representan las respuestas institucionales - jurisdiccionales, al curso previsto de las demandas sociales, políticas y económicas y a sus propias necesidades de incorporación a la <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a>, para alcanzar tales <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, se ordenará el empleo de Metodologías y de los medios necesarios, de forma tal que se asegure su resultado óptimo teórico. Consiste en un arte que establece procedimientos lógicos y secuenciales para la optimización de las relaciones entre sujetos, medios y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, proporcionando normas y pautas para la toma de decisiones coherentes, compatibles e integradas que conducen a una <a href=javascript:abrir("ACCION") class=glosa>acción</a> sistemáticamente organizada y coherente y oportunamente ejecutada. Estudio y elaboración de un conjunto coherente de <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> a corto, mediano y largo plazo.</dd>
+<dt>PLANIMETRIA:</dt>
+<dd>Representación horizontal de una superficie no horizontal, o de objetos situados en dicha superficie.</dd>
+<dt>PLOTTER:</dt>
+<dd>Unidad de salidas para trazado de <a href=javascript:abrir("GRAFICOS") class=glosa>gráficos</a>.</dd>
+<dt>POLITICAS:</dt>
+<dd>Arte o traza con que se conduce un asunto o se emplean los medios para alcanzar un fin de los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> determinados.</dd>
+<dt>POLITICA:</dt>
+<dd>Ciencia de la toma de decisiones.</dd>
+<dt>POLITICAS ESPECIFICAS:</dt>
+<dd>Aquellas normas que se aplican y/o se cumplen en un área administrativa, o en una <a href=javascript:abrir("ORGANIZACION") class=glosa>Organización</a> o <a href=javascript:abrir("DIRECCION") class=glosa>Dirección</a>. Ej. Políticas de Personal, políticas de cobros o de Recaudación de Impuestos.</dd>
+<dt>POLITICAS GUBERNAMENTALES:</dt>
+<dd>Norma de carácter general basada en períodos quinquenales que guían la actuación de los integrantes de la institución sobre una serie de funciones para alcanzar los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> deseados por el gobierno en su <a href=javascript:abrir("PERSPECTIVA") class=glosa>perspectiva</a> vertical.</dd>
+<dt>POLITICAS GENERALES:</dt>
+<dd>Norma de carácter general que orienta las acciones de los integrantes de la institución sobre una <a href=javascript:abrir("FUNCION") class=glosa>función</a> determinada, para alcanzar los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, <a href=javascript:abrir("METAS") class=glosa>metas</a> y sub<a href=javascript:abrir("METAS") class=glosa>metas</a>.</dd>
+<dt>POLITICAS INSTITUCIONALES:</dt>
+<dd>Elección de una serie de <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y estrategias para alcanzar y determinar las funciones y actividades futuras de la institución, cubriendo sus lineamientos básicos. En la <a href=javascript:abrir("PERSPECTIVA") class=glosa>perspectiva</a> política se logra la armonía y la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> para que tales <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> aporten las características determinadas por la institución.</dd>
+<dt>POLITICA SOCIAL DE PRODUCCION:</dt>
+<dd>Decisiones coherentes y sistemáticas que tienen esencia cíclica y secuencial para mejorar la calidad de la <a href=javascript:abrir("VIDA") class=glosa>vida</a>.</dd>
+<dt>POR LA CULTURA:</dt>
+<dd>Se acumulan juicios de relación, valor y enfoques que promueven la <a href=javascript:abrir("AUTOGESTION") class=glosa>autogestión</a>.</dd>
+<dt>POR LA LEY:</dt>
+<dd>Se estrablecen los parámetros del proceso autogestionario.</dd>
+<dt>POR LA SOCIEDAD:</dt>
+<dd>Es Autogestionaria..</dd>
+<dt>POR LA NATURALEZA:</dt>
+<dd>Es autogestionaria.</dd>
+<dt>POTENCIAL DE ENERGIA:</dt>
+<dd>Reserva sintérgica del proceso, <a href=javascript:abrir("INTERDIMENSIONALIDAD") class=glosa>interdimensionalidad</a> e interrecursalidad de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a>-información, espacio-tiempo y causa-efecto.</dd>
+<dt>POTENCIAL ppp:</dt>
+<dd>Sigla <a href=javascript:abrir("DE%20LOS%20PASOS") class=glosa>de los pasos</a> de la metodología, que constituyen el aspecto futurológico: <a href=javascript:abrir("PERSPECTIVA") class=glosa>perspectiva</a>, <a href=javascript:abrir("PROYECTIVA") class=glosa>proyectiva</a> y <a href=javascript:abrir("PROSPECTIVA") class=glosa>prospectiva</a>.</dd>
+<dt>PRESENCIA DINAMICA:</dt>
+<dd>Presencia real. El individuo piensa, conoce y sabe aquello que ocurre en el sitio y momento donde es y esta.</dd>
+<dt>PRESENCIAS:</dt>
+<dd>Vínculo de percepción.</dd>
+<dt>PRESENTE:</dt>
+<dd>Momento de <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> <a href=javascript:abrir("INERCIAL") class=glosa>inercial</a>.</dd>
+<dt>PRESUPUESTABLE:</dt>
+<dd>Que es conceptualizable dentro de una <a href=javascript:abrir("DOCTRINA") class=glosa>doctrina</a>.</dd>
+<dt>PRESENTE DINAMICO:</dt>
+<dd>Selección y relación continua de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> sobre tiempo, representado por un triángulo rectángulo, donde el cateto opuesto al ángulo agudo, representa la <a href=javascript:abrir("INFORMACION") class=glosa>información</a>, el cateto adyacente representa el tiempo transcurrido debido al proceso y la apertura entre la hipotenusa y el cateto adyacente equivale a la tangente del ángulo. <a href=javascript:abrir("TRANSFERENCIA") class=glosa>Transferencia</a> de informaciones aceleradas hacia un objetivo, o relación de informaciones útiles, sobre tiempo cronológico.</dd>
+<dt>PRESENCIA:</dt>
+<dd>Vínculo que se inicia perceptualmente con tendencia a volverse conceptual y perceptual. Facultad síquica del presente externo.</dd>
+<dt>PRINCIPIO O LEY DE CAUSALIDAD:</dt>
+<dd>Viene 'causalidad', proceder <a href=javascript:abrir("PROCEDIMENTAL") class=glosa>procedimental</a> principio de <a href=javascript:abrir("ENTROPIA") class=glosa>entropía</a> o principio de la <a href=javascript:abrir("ENTROPIA") class=glosa>entropía</a> o principio de la disminución de la <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a>.</dd>
+<dt>PROCEDIMIENTO:</dt>
+<dd>Es la sucesión cronológica o consecuencia de operaciones concatenadas y su <a href=javascript:abrir("METODO") class=glosa>método</a> de <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a>, que, realizadas por una o varias personas constituye una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> secuencial y que son necesarias para <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> una <a href=javascript:abrir("FUNCION") class=glosa>función</a> o un aspecto de ella. 1.- <a href=javascript:abrir("ACCION") class=glosa>Acción</a> efecto de proceder. 2.- Manera de conducirse, obrar u operar para llegar a un fin u obtener un resultado. 3.- (Trialéctica) sucesión de operaciones metódicamente concatenadas que constituyen una <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> y elección a un fin. 4.- Instrucciones (orales o escritas) que le dan sanción legal a ciertos <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> del <a href=javascript:abrir("SISTEMA%20ADMINISTRATIVO") class=glosa>sistema administrativo</a> 5.- Conjunto de rutinas específicas de trabajo tales como flujo de documentos, de registros, normas de trabajo que pueden pre-refenciarse mediante un <a href=javascript:abrir("ALGORITMO") class=glosa>algoritmo</a>.</dd>
+<dt>PROCEDIMIENTO DE IMPLEMENTACION:</dt>
+<dd>Documento mandato taxativo o &quot;Acuerdos&quot; (e instructivos operativos) que establecen un modo de accionar para cumplir con lo dispuesto en los mismos.</dd>
+<dt>PROCEDIMENTAL:</dt>
+<dd>Dícese de lo relacionado con procedimientos individuales o con el concepto de partes del proceso. Este adjetivo no figura en el DRAE y, como es de esperar, tampoco en los otros diccionarios de lengua española. El hecho de que una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> no figure en los diccionarios no quiere decir, que no existe o que no se debe usar, ya que los diccionarios clásicos no logran nunca estar al día en su labor de describir el <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a> idiomático y aceptable; claro que en algunos casos la omisión puede ser deliberada o resulta de una manera de <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> una forma conservadora y reprobable. 'Procedimental' es una <a href=javascript:abrir("PALABRA") class=glosa>palabra</a> perfectamente aceptable tanto por su forma como por su <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a>. El sufijo al se añade a los nombres para formar adjetivos y denota &quot;rotación - pertenencia&quot;. 'Procedimiento' /procedimiento/ se transforma en procedimiento debido al desplazamiento del acento prosódico fuerte /procedimiento/. Es el mismo como de pensar, pienso, pensé. Apretar, aprieto, apreté; nevar, nieva, nevó; etc. En cuanto a la ó final es remplazada por la a del sufijo. La derivación es, pues, perfectamente regular y produce una forma perfectamente aceptable. = La cuestión procedimental se convierte en <a href=javascript:abrir("FACTOR") class=glosa>factor</a> de primera importancia (o. Paz, el Nacional, 26/08/86, p. D-2). 2.- &quot;Un proceso es una <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> temporalmente ordenada de acaecimiento, tal que cada miembro de la <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> toma parte en la determinación del miembro siguiente... si se analizan con la suficiente profundidad, la mayoría de los acontecimientos resultan procesos... no es <a href=javascript:abrir("TAREA") class=glosa>tarea</a> fácil la de precisar los procesos presentes en la mañana de los acontecimientos. Mario Bunge, La investigación científica: y su <a href=javascript:abrir("ESTRATEGIA") class=glosa>estrategia</a>. (Odiel, Barcelona, 1.967), p. 718.</dd>
+<dt>PROCESO:</dt>
+<dd>1.- Serie de transformaciones, transferencias y relaciones ocurridas y que producen el paso de un <a href=javascript:abrir("ESTADO") class=glosa>estado</a> a otro. 2.- &quot;Un proceso es una <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> temporalmente ordenada de acaecimiento, tal que cada miembro de la <a href=javascript:abrir("SECUENCIA") class=glosa>secuencia</a> toma parte en la determinación del miembro siguiente... si se analizan con la suficiente profundidad, la mayoría de los acontecimientos resultan procesos... no es <a href=javascript:abrir("TAREA") class=glosa>tarea</a> fácil la de precisar los procesos presentes en la mañana de los acaecimientos. Mario Bunge, La investigación científica: y su <a href=javascript:abrir("ESTRATEGIA") class=glosa>estrategia</a>. (Odiel, Barcelona, 1.967). p. 718. 3.- <a href=javascript:abrir("PROGRAMA") class=glosa>Programa</a> en <a href=javascript:abrir("EJECUCION") class=glosa>ejecución</a>.</dd>
+<dt>PROCESADOR:</dt>
+<dd>Elemento físico cuya misión es la de <a href=javascript:abrir("EJECUTAR") class=glosa>ejecutar</a> instrucciones.</dd>
+<dt>PROCESO ADMINISTRATIVO LEGAL:</dt>
+<dd>Serie de acciones u operaciones que se cumplen de <a href=javascript:abrir("ACUERDO") class=glosa>acuerdo</a> a leyes, reglas, normas y principios.</dd>
+<dt>PROCESO DE AUTOESTIMA:</dt>
+<dd>Base de la ampliación de su <a href=javascript:abrir("LOGOSFERA") class=glosa>logosfera</a> natural mediante el desarrollo de sus relaciones habilidades e inteligencia.</dd>
+<dt>PROCESO SOCIAL:</dt>
+<dd>Serie de acontecimientos, eventos y <a href=javascript:abrir("HECHOS") class=glosa>hechos</a> sin normativa legal y espontáneos, que tiende a integrarse.</dd>
+<dt>PROGRAMACION DE OPORTUNIDADES:</dt>
+<dd>Producto del análisis de la relación entre el sistema personal del individuo y su <a href=javascript:abrir("CONTEXTO") class=glosa>contexto</a> social.</dd>
+<dt>PROGRAMACION:</dt>
+<dd>Actividad de diseñar programas.</dd>
+<dt>PROGRAMA:</dt>
+<dd>Algoritmo escrito en un lenguaje de programación.</dd>
+<dt>PROMOCIONES INTEGRADAS:</dt>
+<dd>Sistema científico de transferir informaciones.</dd>
+<dt>PROPIEDAD:</dt>
+<dd>Atributo característica <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a>: nota esencial y permanente de una cosa que contribuye a hacerla lo que es y como es. Las propiedades o <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a>es son siempre atributos de algún objeto; es decir, no pueden <a href=javascript:abrir("EXISTIR") class=glosa>existir</a> por si solas. Si '<a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a>' denota &quot;manera de ser&quot;, la 'calidad' denota grado de bondad. Las relaciones se consideran también propiedades de los objetos entre sí, tal cual existen. Sinónimo y términos en semántica: rasgos (distintivos) notas (esenciales), <a href=javascript:abrir("NOTAS%20INEQUIVOCAS") class=glosa>notas inequívocas</a>, características, <a href=javascript:abrir("CUALIDAD") class=glosa>cualidad</a>es. Propiedad <a href=javascript:abrir("EMERGENTE") class=glosa>emergente</a>, propiedad resultante <a href=javascript:abrir("PROPORCIONALIDAD") class=glosa>proporcionalidad</a>.</dd>
+<dt>PROPORCIONALIDAD:</dt>
+<dd>Preposición que se da en los procesos cuando un <a href=javascript:abrir("ENTE") class=glosa>ente</a> relaciona un objetivo con los recursos de que dispone para lograrlo.</dd>
+<dt>PROSPECTIVA TRIALECTICA:</dt>
+<dd>Visión con <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> de futuro en la cual la convicción y datos en reunión con los recursos constituye, el lugar, tiempo y condición de los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> propuestos siempre y cuando se cuente con dichos recursos (conceptuales, funciones y materiales) adecuados. La <a href=javascript:abrir("PROSPECTIVA") class=glosa>prospectiva</a> representa una <a href=javascript:abrir("SINTESIS") class=glosa>síntesis</a> de la perpectiva y la <a href=javascript:abrir("PROYECTIVA") class=glosa>proyectiva</a>.</dd>
+<dt>PROSPECTIVA:</dt>
+<dd>Es un conjunto organizado de <a href=javascript:abrir("FINES") class=glosa>fines</a>, <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, <a href=javascript:abrir("METAS") class=glosa>metas</a>, señalamiento de <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a>, medios y recursos utilizables para que unidas a una <a href=javascript:abrir("ESTRATEGIA") class=glosa>estrategia</a> deben lograr el desarrollo de un área o jurisdicción determinada (país, región, provincia, <a href=javascript:abrir("COMUNIDAD") class=glosa>comunidad</a>) o de un <a href=javascript:abrir("SECTOR") class=glosa>sector</a> de la economía (agrícola, industrial, minero, etc.).</dd>
+<dt>PROTOCOLO:</dt>
+<dd>Conjunto de reglas y convenios que posibilitan la transmisión de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> a través de una red de telecomunicaciones.</dd>
+<dt>PROYECTO:</dt>
+<dd>Es el conjunto de actividades concatenadas ideales y subjetivas que constituye la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> más pequeña que forma parte de un <a href=javascript:abrir("PROGRAMA") class=glosa>programa</a> y prevee su desarrollo en el tiempo y en el espacio.</dd>
+<dt>PROYECTOS:</dt>
+<dd>Se les define en conjunto como las unidades orgánicas o temáticas de la <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> a través de las cuales se produce la implementación de los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> - <a href=javascript:abrir("METAS") class=glosa>metas</a> y su incorporación en las funciones y actividades.</dd>
+<dt>PROYECTIVA:</dt>
+<dd>Conjunto de documentos, <a href=javascript:abrir("GRAFICOS") class=glosa>gráficos</a>, ábacos y nomogramas que representan un proceso futuro. Pronóstico, causado y racionalizado, científica interdisciplinariamente, determinado objetivamente en forma técnica.</dd>
+<dt>POSICION:</dt>
+<dd>Sistemas neuronal político (i,e, no fijo, que se adapta por sí mismo). Las posiciones en un constante equilibrio dinámico constituyen la causa de ciertas funciones neurales fundamentales, tales como el aprendizaje; el concepto de posición es fundamental para las hipótesis neuronales y síquicas. Véase Bunge, PMC, pp. Parte de la <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a> o <a href=javascript:abrir("METODOLOGIA%20COMPLEJA") class=glosa>metodología compleja</a> que da entrada a las relaciones de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> en el tiempo y en el espacio. Rasgos diferenciales de la metodología.</dd>
+</dl>
+</div></body></html></body></html>

@@ -1,0 +1,192 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 29 términos definidos en la Sección R</div>
+<dl>
+<dt>REALISMO:</dt>
+<dd>(Semántica, <a href=javascript:abrir("EPISTEMOLOGIA") class=glosa>epistemología</a> y antología) teoría que en la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> y ciencia contemporáneos más actualizados, particularizan que los objetos no son conceptuales tienen <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> propia; es decir, que existen independientemente de que sean percibidos o concebidos por los sujetos. &quot;El Sujeto&quot; crea, prueba y aplica hipótesis y técnicas en lugar de crear los referentes de dichos contratos o asumir el carácter de los mismos (BUNGE) tafilandia de la ciencia que refuta todas las <a href=javascript:abrir("EPISTEMOLOGIA") class=glosa>epistemología</a>s no realistas; en particular, realizan el convencionalismo y el positivismo (pragmático, operacionismo y fenomenalismo). Según la <a href=javascript:abrir("EPISTEMOLOGIA") class=glosa>epistemología</a> convencionalista, &quot;Las Técnicas científicas no son sino <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a> convenientes para la manipulación de datos experimentales&quot; (Bunge, E, P80). Véase también s. v.; positivismo. &quot;El realismo metafísico afirma que las cosas existen fuera e independientemente de la <a href=javascript:abrir("CONCIENCIA") class=glosa>conciencia</a> o del sujeto&quot; (Fe, 6DF, p. 2795).</dd>
+<dt>REALIDAD:</dt>
+<dd>Conjunto de los contenidos y de las relaciones de medida en los continentes de espacio y <a href=javascript:abrir("TIEMPO%20REAL") class=glosa>tiempo real</a> expresados objetivamente, o <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> de las dinámicas. Es la <a href=javascript:abrir("EXISTENCIA") class=glosa>existencia</a> efectiva - objetiva integral.</dd>
+<dt>REALIDAD (Epistemología):</dt>
+<dd>1.- En <a href=javascript:abrir("SENTIDO") class=glosa>sentido</a> estricto, lo actual o &quot;suma total de lo que existe ahora, respecto de cierto marco de referencia&quot; Bunge 21 C, p. 677). 2.- &quot;La suma total de existentes en algún momento&quot; (id.) Esta segunda aceptación es la aceptada en ciencia fáctica.</dd>
+<dt>REALIDAD SOCIAL:</dt>
+<dd>La que es y está en un espacio y tiempo bajo circunstancias informales en ellos mismos.</dd>
+<dt>REALIZAR:</dt>
+<dd>Hacer concurrir optimizaciones de <a href=javascript:abrir("ENERGIA") class=glosa>energía</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> con tendencia al tiempo, espacio, reales para un fin.</dd>
+<dt>RECURSOS:</dt>
+<dd>Expresión equivalente a &quot;medios&quot;, empleada para <a href=javascript:abrir("DESIGNAR") class=glosa>designar</a> a la totalidad de los elementos necesarios para alcanzar los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, <a href=javascript:abrir("METAS") class=glosa>metas</a> y <a href=javascript:abrir("FINES") class=glosa>fines</a> institucionales. Comprenden los <a href=javascript:abrir("RECURSOS%20HUMANOS") class=glosa>recursos humanos</a> de todo tipo incluyendo la motivación como <a href=javascript:abrir("FACTOR") class=glosa>factor</a> principal: las dotaciones a edificios, laboratorios, talleres, equipos y otros <a href=javascript:abrir("RECURSOS%20FISICOS") class=glosa>recursos físicos</a>, las inversiones del período, incrementos de todo tipo, los materiales (de uso corriente), los subsidios; la <a href=javascript:abrir("INFORMACION") class=glosa>información</a> e <a href=javascript:abrir("INFORMACION") class=glosa>información</a> y la esfera gnoseológica, la metodología y la tecnología. Medios empleados para buscar y alcanzar <a href=javascript:abrir("METAS") class=glosa>metas</a> y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>. Medios de <a href=javascript:abrir("SUBSISTENCIA") class=glosa>subsistencia</a>. Elemento que constituye la riqueza o la potencia de una Nación. Medio. Auxilio, <a href=javascript:abrir("PROCEDIMIENTO") class=glosa>procedimiento</a> trámites. Componentes de un proceso que permiten lograr sus <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>. Por eso &quot;son&quot; y &quot;están&quot; y por lo tanto, son dimensionales y transferibles, transformables y operables. Los recursos se identifican, tanto con los R.D.R como con los <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>ELEMENTOS FACTORES</a>.</dd>
+<dt>RECURSOS BASICOS:</dt>
+<dd>Se denomina así a los <a href=javascript:abrir("RECURSOS%20HUMANOS") class=glosa>recursos humanos</a> altamente calificados y las dotaciones de capital institucionales, factores decisivos de la cantidad y calidad exigida.</dd>
+<dt>RECURSOS FINANCIEROS:</dt>
+<dd>Es el conjunto de elementos monetarios y de créditos necesarios a las actividades de una <a href=javascript:abrir("ORGANIZACION") class=glosa>Organización</a>.</dd>
+<dt>RECURSOS FISICOS:</dt>
+<dd>Se refiere a la dotación de capital de la institución, en términos de activo utilizable, en la <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> se le emplean como categoría <a href=javascript:abrir("DINAMICA") class=glosa>dinámica</a> que requiere renovación (reemplazo), retiros (por inactividad u obsolescencia), crecimiento, por demandas superiores a las disponibilidades (Inversiones nuevas); y uno de los <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> más importantes; requiere conocimientos precisos de sus gastos de utilización; deben estar codificados y registrados.</dd>
+<dt>RECURSOS HUMANOS:</dt>
+<dd>El conjunto de seres humanos con que cuenta una <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> para el logro de sus <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>.</dd>
+<dt>RECURSOS MATERIALES:</dt>
+<dd>Son el conjunto de materiales y otros implementos necesarios o disponibles en una <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> para la obtención de sus <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>.</dd>
+<dt>RECURSOS TECNOLOGICOS:</dt>
+<dd>El conjunto de equipos, patentes, maquinarias, <a href=javascript:abrir("INSTRUMENTOS") class=glosa>instrumentos</a>, técnicos puestos en práctica para el logro de un objetivo, meta o submeta.</dd>
+<dt>RED COMPLEJA:</dt>
+<dd>Es el <a href=javascript:abrir("DIRECCIONAMIENTO") class=glosa>direccionamiento</a> del proceso real.</dd>
+<dt>RED DE COMUNICACION:</dt>
+<dd>Interconexión de computadoras y periféricos situados en diferentes lugares.</dd>
+<dt>RED VINCULAR:</dt>
+<dd>Sistematización, codificación y <a href=javascript:abrir("ORGANIZACION") class=glosa>organización</a> de la <a href=javascript:abrir("DINAMICA") class=glosa>dinámica</a> socio política.</dd>
+<dt>REGLAMENTOS:</dt>
+<dd>A) Son normativos y declaraciones escritas unilaterales, emanadas de las autoridades administrativas creadoras de las reglas de derecho y aplicación general obligatorias, pero inferiores a las leyes. B) Disposición complementaria o suplementaria de una ley dictada por el Poder Ejecutivo sin intervención de Legislativo y con ordenamiento general de detalle más expuesto a variaciones con el transcurso del tiempo.</dd>
+<dt>REGLAMENTO ADMINISTRATIVO:</dt>
+<dd>El dictado sin ley que lo permita ni lo prohiba como facultad de las autorizaciones para mandar y gobernar, según las leyes y cuando estas dispongan, y no sean opuestos a la misma.</dd>
+<dt>REGLAMENTO DE LA ADMINISTRACION PUBLICA:</dt>
+<dd>El acto complementario de la ley, ya por mandato expreso de ella, ya por imprescindible requerimiento de posibilitar su ejercicio. Se denomina también reglamento ejecutivo, por el poder del que emana y por la finalidad que se propone.</dd>
+<dt>REGLAMENTO DE TRABAJO:</dt>
+<dd>Conjunto de disposiciones de orden interno de una manera de carácter disciplinario y técnico que se dirige esencialmente al posible desarrollo de la prestación efectiva de los <a href=javascript:abrir("SERVICIOS") class=glosa>servicios</a> por parte de los trabajadores y que integra el contrato de trabajo como condición puesta al cumplimiento del mismo, pero no con carácter consensual.</dd>
+<dt>REGISTRO FISICO:</dt>
+<dd>Cantidad de <a href=javascript:abrir("INFORMACION") class=glosa>información</a> que se transfiere en una operación de lectura o escritura.</dd>
+<dt>REGISTRO LOGICO:</dt>
+<dd>Componentes de un archivo que constituyen la <a href=javascript:abrir("UNIDAD") class=glosa>unidad</a> de tratamiento.</dd>
+<dt>RELACION UTILITARIA DE ELEMENTOS FACTORES:</dt>
+<dd>Proceso de destruir o construir un <a href=javascript:abrir("CLIMA%20CULTURAL") class=glosa>clima cultural</a> y el análisis de sus productos.</dd>
+<dt>RELOJ:</dt>
+<dd>Dispositivo generador de señales periódicas que se utiliza para sincronizar las operaciones de la UCP.</dd>
+<dt>RESOLUCIONES:</dt>
+<dd>Son las medidas dictadas por los Ministros sobre las materias propias de su competencia, en cumplimiento de órdenes dadas por el Presidente de la República, ejemplo: Permisos, multas, exoneraciones para los nombramientos (salvo los de los Ministros y de Gobernadores).</dd>
+<dt>RESOLUCION:</dt>
+<dd>Grado de nitidez con el que se visualizan las imágenes en una pantalla. Se mide por el número de pixels.</dd>
+<dt>ROSTOV:</dt>
+<dd>Unidad de saturación de <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> en tiempo y espacio óptimos.</dd>
+<dt>RESPONSABILIDAD:</dt>
+<dd>Deuda: obligación de reparar y satisfacer por sí o por otro, a consecuencia de delito de una culpa o de otra causa legal. Aspecto inherente a la <a href=javascript:abrir("AUTORIDAD") class=glosa>autoridad</a>, cuando ésta se ejerce o no y de la que se está obligado a rendir cuenta. No se disminuye por ausencia de culpa.</dd>
+<dt>RETROSPECTIVA:</dt>
+<dd>Perspectiva dirigida al pasado histórico.</dd>
+<dt>RDR:</dt>
+<dd>Recursos Dimensionados Relacionados RDR. Sigla que denota la Sistematización de un proceso integrado.</dd>
+</dl>
+</div></body></html></body></html>

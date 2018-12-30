@@ -1,0 +1,104 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<html>
+
+<head>
+<title>Página de Bienvenida</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link rel="stylesheet" type="text/css" href="estilo-cuerpo.css">
+<SCRIPT language="JavaScript1.2" src="js/main15.js" type="text/javascript""></SCRIPT>
+<style>
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="glosario/ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+</head>
+
+<body bgcolor=c0c0ff>
+
+<DIV id="TIP" style="visibility:hidden;position:absolute;z-index:1000;top:-100;"></DIV>
+<SCRIPT language="JavaScript1.2" type="text/javascript" src="bienvenida.js" ></SCRIPT>
+
+<div class=nota style="top:1">
+<table width=565 cellpadding=0 cellspacing=0 border=0><tr>
+<td>
+<div class=nota>
+Este es el nuevo Sitio Web de la Trialéctica<br>
+y del Intituto de Investigaciones Integradas
+</div>
+</td>
+<td width=230 align=right class=nota4>
+De Venezuela para el Mundo
+<!--
+<a href=ELB-Perija/index.html target=_top class="aviso">
+<div class=nota style="text-align:right">
+<a href=ELB-Perija/index.html class="aviso">
+Proyecto Especial ELB-Perijá:<br>
+Enero a Mayo de 2007
+<!--
+<a href=sala/index.html target=_top class="aviso">
+Demo especial sobre la<br>
+Sala de Inteligencia Operativa
+<div class=nuevo style="position:absolute;top:0;left:430;">
+<div class=nuevo style="position:absolute;top:0;left:398;">
+<img src="imagenes/nuevo.gif" border=0>
+-->
+</div>
+</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<div class=tit style="position:absolute;top:30px;">
+
+Bienvenidos al Sitio Web de la Trialéctica y del<br>
+Instituto de Investigaciones Integradas
+</div><br><br>
+
+<br>
+<div class=texto1>
+<img src="imagenes/triada existencial.jpg" width=240 height=200 alt="Diagrama Fundamental de la Trialéctica"
+  width=240 height=200 border=1 hspace=6 vspace=6 align=right>
+En el <a href="#" onMouseOver="stm(Text[0],Style[0])" onMouseOut="htm()" class=tip>Instituto de Investigaciones Integradas (III)</a> siempre fue una preocupación la carencia de una doctrina que permitiera una integración de ciencias interactivadas, para mejorar las condiciones del desarrollo social y por lo tanto elevar gradualmente la calidad de vida de los pueblos. Hacía falta también que ésta tuviera un rigor científico y una aplicación tecnológica que permitiera transferir grandes cantidades de datos a muchas partes y al mismo tiempo. Pero hacían  falta también: metodologías de campo y sistemas inteligentes para manejar, controlar y evaluar tales productos, por lo demás, cambiantes en forma contínua.
+<p>
+
+<p>
+
+<div align=center>
+Así nació la <b><a href=javascript:abrir("UTOPIA%20DEL%20CONCRETO%20REAL") class=glosa>UTOPIA DEL CONCRETO REAL</a></b>
+</div>
+
+<p>Para éste propósito, desde hace más de 45 años el Instituto viene desarrollando una concepción filosófica, científica y técnica que permita impulsar verdaderamente el desarrollo integral y maximizar la calidad de vida de la población. La Trialéctica, conocida también como <a href=javascript:abrir("METODOLOGIA%20COMPLEJA") class=glosa>Metodología Compleja</a>, se fundamenta en un modelo lógico/matemático, que partiendo de la concepción más abstracta interrelaciona sistémicamente todos y cada uno de los aspectos en los cuales subdividimos el quehacer existencial, estableciendo holística y funcionalmente la conjunción entre espacio/tiempo; energía/información y causa/efecto, mediante los Sistemas de Recursos Dimensionables y Relacionados (<a href=javascript:abrir("RDR") class=glosa>RDR</a>), que responden a las preguntas que nos hacemos en el devenir, convertidas en <a href=javascript:abrir("ELEMENTOS%20FACTORES") class=glosa>Elementos Factores</a>.  Para el análisis de la problemática social, económica, política y cultural de los <a href=javascript:abrir("ORDENES%20SOCIALES") class=glosa>órdenes sociales</a>, se hace uso de la sectorización que se compagina con cada una de estas áreas y se enfatiza en la concepción holística que da relevancia a la interdisciplinariedad.
+
+<hr>
+
+
+</body>
+
+</html>

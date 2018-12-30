@@ -1,0 +1,60 @@
+/* Estilo para Barra de Navegación */
+
+BODY {
+   font-family: Arial,Times;
+   font-size:9pt;
+   background-image: url("fondo-barra3.jpg");
+   padding: 0px 0px 0px 4px;
+}
+
+
+/* Estilos para hipervinculos */
+A:link, A:visited {color: #FFFF00; line-height:18px;}
+A:hover   {color: #FFFFFF;line-height:18px;}
+A:active  {color: #FFFF80;line-height:18px;}
+
+A.especial  {
+ color:FFFF00;
+ font-size:14;
+ text-decoration:none;
+ border-top: 1px solid #eeeeee;
+ border-bottom: 1px solid #eeeeee;
+}
+
+/* Estilos para otras etiquetas */ 
+P {font-family:Verdana,Tahoma,sans-serif;font-size:12pt;
+   font-weight:600}
+
+B {font-family:Verdana,Tahoma,sans-serif; font-weight:900} 
+
+I {font-family:Verdana,Tahoma,sans-serif; font-weight:850;
+   color=B90318;}
+
+UL {font-family:Arial,Verdana,Tahoma,sans-serif;font-weight:normal;text-align:left;margin-left:15px;} 
+
+OL {font-family:Verdana,Tahoma,sans-serif;font-weight:bold;
+    font-size:12pt;text-align:justify}
+
+table {
+ font-family:Arial,sans-serif;
+ font-size:9pt;
+ text-align:left;
+ color:ffffff;
+ background-color:0000ff;
+ border: 1px solid black;
+}
+
+.tit {font-family:Arial,Verdana,Tahoma,sans-serif; font-size:20pt;
+    text-align:center;color:ff2222}
+
+.texto1 {font-family:Arial,sans-serif;font-size:9pt;text-align:left;color:ffffff;width:185;}
+
+.subtit {font-family:Arial,sans-serif;font-size:12pt;text-align:center;color:663333;}
+
+.lema {font-family:Arial,sans-serif;font-size:8pt;color:663333;text-align:left}
+
+.nota {font-family:Arial,sans-serif;font-size:9pt;color:663333;text-align:right}
+
+.nota2 {font-family:Arial,sans-serif;font-size:10pt;color:e0d6d6;text-align:center}
+
+.aviso {font-family:Arial,sans-serif;font-size:8pt;color:00aaff;text-align:center}

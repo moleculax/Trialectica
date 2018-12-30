@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Glosario de Trialéctica</title>
+<style>
+body {
+      padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-family: Helvetica, Tahoma;
+      background-color: #c0c0ff;
+      background-image: url("fondo-glosario.jpg");
+}
+a.glosa:link      {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:visited {color:#333366; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:hover   {color:#ff0000; text-decoration:none; border-bottom: 1px dashed #333333;}
+a.glosa:active  {color:#333300; text-decoration:none; border-bottom: 1px dashed #333333;}
+.tit {
+ width:730;
+ font-weight:bold;
+ font-size:26;
+ text-align:center;
+ color:ff0000;
+}
+.resumen {
+ width:730;
+ font-weight:bold;
+ font-size:18;
+ text-align:center;
+}
+.cuerpo {
+ width:730;
+	font-family: Helvetica, Tahoma, Times;
+}
+dt {  font-weight: bold;}
+
+dd {  text-align: justify;
+ margin:0;
+ margin-bottom: 15pt;
+ padding: 0px 15px;
+}
+.destacar  {
+ background:#ffff80; 
+}
+</style>
+<script language="JavaScript">
+var windowW=500
+var windowH= 660
+var windowX = 10
+var windowY = 15
+var titulo =  "Ventana"
+var autoclose = true
+par = "scrollbars,status=0,toolbar=0,location=0,resizable=1,directories=0,menubar=0,width="+windowW+",height="+windowH;
+function abrir(Clave){
+//    NFW=window.open(urlPop,"popFrameless","scrollbars,status=0,toolbar=1,location=0,resizable=1,directories=0,menubar=0,"+s);
+	 urlPop="ventana.php?clave="+Clave;
+	 NFW=window.open(urlPop,titulo,par);
+    NFW.blur();
+    window.focus(); 
+    NFW.resizeTo(windowW,windowH);
+    NFW.moveTo(windowX,windowY);
+  NFW.focus();
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+</script> 
+
+</head>
+<body onload="fixedBackground('fondo.gif');">
+<div class=tit>Glosario de Trialéctica</div><p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+<tr height=46>
+
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=0 title="Sección A" ><img src="img5/a5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=1 title="Sección B" ><img src="img5/b5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=2 title="Sección C" ><img src="img5/c5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=3 title="Sección D" ><img src="img5/d5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=4 title="Sección E" ><img src="img5/e5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=5 title="Sección F" ><img src="img5/f5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=6 title="Sección G" ><img src="img5/g5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=7 title="Sección H" ><img src="img5/h5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=8 title="Sección I" ><img src="img5/i5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=9 title="Sección J" ><img src="img5/j5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=10 title="Sección K" ><img src="img5/k5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=11 title="Sección L" ><img src="img5/l5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ff0000>
+   <a href=index.php?nsec=12 title="Sección M" ><img src="img5/m5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=13 title="Sección N" ><img src="img5/n5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=14 title="Sección O" ><img src="img5/o5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=15 title="Sección P" ><img src="img5/p5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=16 title="Sección Q" ><img src="img5/q5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=17 title="Sección R" ><img src="img5/r5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=18 title="Sección S" ><img src="img5/s5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=19 title="Sección T" ><img src="img5/t5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=20 title="Sección U" ><img src="img5/u5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=21 title="Sección V" ><img src="img5/v5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=22 title="Sección W" ><img src="img5/w5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=23 title="Sección X" ><img src="img5/x5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=24 title="Sección Y" ><img src="img5/y5.gif" border=0></a></td>
+<td width=26 align=center bgcolor=ffffff>
+   <a href=index.php?nsec=25 title="Sección Z" ><img src="img5/z5.gif" border=0></a></td>
+
+</tr></table>
+<div class=cuerpo>
+
+<div class=resumen><br>Hay 35 términos definidos en la Sección M</div>
+<dl>
+<dt>MACROSISTEMAS:</dt>
+<dd>En la concepción <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a> son tres y están integrados de forma tal, que ninguno puede <a href=javascript:abrir("EXISTIR") class=glosa>existir</a> sin la <a href=javascript:abrir("PRESENCIA") class=glosa>presencia</a> e <a href=javascript:abrir("INTEGRACION") class=glosa>integración</a> de los otros dos. Ellos son: el macrosistema <a href=javascript:abrir("DIRECCION") class=glosa>dirección</a>, el macrosistema <a href=javascript:abrir("CONTENIDO") class=glosa>contenido</a> y el macrosistema <a href=javascript:abrir("CONTINENTE") class=glosa>continente</a>.</dd>
+<dt>MAGNITUD:</dt>
+<dd>Tamaño de un objeto físico, extensión de una superficie, amplitud y límites indicados de un espacio. 2.- Importancia, o <a href=javascript:abrir("SIGNIFICACION") class=glosa>significación</a> de algo. 3.- <a href=javascript:abrir("CUALIDAD") class=glosa>Cualidad</a> física que puede ser medida y por lo tanto cuantificada; (a) volúmen, (b) tamaño, (c) longitud, (d) numeralidad, (e) extensión, área o superficie, (f) temperatura, (g) peso, (h) altura, (i) intensidad, (j) frecuencia, (k) <a href=javascript:abrir("FUERZA") class=glosa>fuerza</a>, (l) número, cantidad, (m) <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a>, (n) etc. etc. Ver: Bunge, IC, P787,80.</dd>
+<dt>MANTISA:</dt>
+<dd>Cifras significativas de un número representado en coma flotante.</dd>
+<dt>MAQUINA VIRTUAL:</dt>
+<dd>Máquina teórica ficticia que simula características de programación diferentes de las reales.</dd>
+<dt>MASA:</dt>
+<dd>Materia, material.</dd>
+<dt>MATEMATICA:</dt>
+<dd>Es la ciencia exacta que sobre una base numérica y secuencial permite <a href=javascript:abrir("DIMENSIONAR") class=glosa>dimensionar</a>, asignar magnitudes y aplicar unidades de medida precisas, y abstractas para relacionar los elementos, factores de la <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>, la ciencia y la sociedad en el espacio, el tiempo y las distintas formas y manifestaciones energéticas e informativas, en toda clase de procesos.</dd>
+<dt>MECANISTA:</dt>
+<dd>Quien pretenda explicar al todo por el <a href=javascript:abrir("CONOCIMIENTO") class=glosa>conocimiento</a> de sus componentes donde el todo es un elemento pasivo determinado por las fuerzas extremas y las leyes de la mecánica interna.</dd>
+<dt>MEDIO:</dt>
+<dd>Lo que puede servir para determinado fin: (1) instrumento o <a href=javascript:abrir("ACCION") class=glosa>acción</a> que se utiliza para lograr un efecto determinado; (e) 'medios económicos' (2) <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> o círculo; a) conjunto de circunstancias culturales, económicas; y sociales en que vive una persona, o grupo humano; (b) <a href=javascript:abrir("SECTOR") class=glosa>sector</a> círculo o <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> social: (c) elemento en que se encuentra una persona, animal o cosas; (d) sinónimo del <a href=javascript:abrir("AMBIENTE") class=glosa>ambiente</a> como una de las partes de todo sistema. Medición de la <a href=javascript:abrir("INFORMACION") class=glosa>información</a>. La <a href=javascript:abrir("INFORMACION") class=glosa>información</a> pertinente y oportuna que se incorpora a un sistema, debe ser cuantificante con el propósito de <a href=javascript:abrir("EJECUTAR") class=glosa>ejecutar</a> los mecanismos y el ajuste continuo. Hay medios de cuantificación donde figura la optimización social, como sucede bajo el concepto de &quot;sinergia social&quot;.</dd>
+<dt>METAS:</dt>
+<dd>Es la definición cuantitativa o cualitativa, del objeto precisado en tiempo-lugar, personas responsables, y <a href=javascript:abrir("ORIENTACION") class=glosa>orientación</a> tecnológico - financiera.</dd>
+<dt>METODO:</dt>
+<dd>Es la forma o manera de <a href=javascript:abrir("REALIZAR") class=glosa>realizar</a> <a href=javascript:abrir("LOGICA") class=glosa>lógica</a> y en un orden determinado un proceso general o particular un labor, pero tomando en cuenta los <a href=javascript:abrir("FINES") class=glosa>fines</a>, los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, las facilidades y disponibilidad de los recursos que se utilizan en su relación.</dd>
+<dt>METODOS DE CONTROL:</dt>
+<dd>Soluciones estandarizadas para comprobar el cumplimiento de planes, estratégicos, políticas, leyes, <a href=javascript:abrir("REGLAMENTOS") class=glosa>reglamentos</a>, normas.</dd>
+<dt>METODOS DE PLANIFICACION:</dt>
+<dd>Soluciones sistemáticas para resolver los problemas de fijación de <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y la determinación de los medios para alcanzarlos.</dd>
+<dt>METODOLOGIA:</dt>
+<dd>Conjunto de pasos y técnicas a seguir para conseguir, en una situación estandarizada con base <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a>, los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> propuestos. Soluciones estandarizadas con base <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> que permite resolver problemas repetitivos de la <a href=javascript:abrir("PLANIFICACION") class=glosa>planificación</a> la <a href=javascript:abrir("ADMINISTRACION") class=glosa>administración</a> y la evaluación, incorporando aquellas variables significativas y una interpretación de los fenómenos que los origina, dirigida a los <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y <a href=javascript:abrir("FINES") class=glosa>fines</a>.</dd>
+<dt>METODOLOGIA COMPLEJA:</dt>
+<dd>El enfoque <a href=javascript:abrir("TRIAL") class=glosa>trial</a>éctico se sirve de una metodología denominada &quot;compleja&quot; ya que no se limita a <a href=javascript:abrir("ASPECTOS") class=glosa>aspectos</a> particulares de la <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a>, sino que también toma en cuenta todo tipo de <a href=javascript:abrir("REALIDAD") class=glosa>realidad</a> como un todo de <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a> sistémica; consecuencia de este enfoque es todo un repertorio de método general (el método científico), métodos específicos (o fácticos) y técnicos que buscan la <a href=javascript:abrir("EFICIENCIA") class=glosa>eficiencia</a> por sistema y el desarrollo integral de los sistemas sociales. En consecuencia, podemos afirmar que la <a href=javascript:abrir("TRIALECTICA") class=glosa><a href=javascript:abrir("TRIAL") class=glosa>trial</a>éctica</a> da origen a una metodología de investigación integral. Metodología de la investigación integral que estudia la optimización y realización de los recursos hacia <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a> y <a href=javascript:abrir("FINES") class=glosa>fines</a>.</dd>
+<dt>MEMORIA VIRTUAL:</dt>
+<dd>Técnica que simula una capacidad de <a href=javascript:abrir("MEMORIA") class=glosa>memoria</a> central superior a la real.</dd>
+<dt>MEMORIA:</dt>
+<dd>Dispositivo físico para el almacenamiento de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>.</dd>
+<dt>MICROCOMPUTADORA:</dt>
+<dd>Computadora de tamaño pequeño que utiliza microprocesador.</dd>
+<dt>MICROONDAS:</dt>
+<dd>Ondas electromagnéticas de frecuencia elevada utilizadas en teleproceso.</dd>
+<dt>MICROPROCESADOR:</dt>
+<dd>Procesador encapsulado en una sola pastilla.</dd>
+<dt>MIPYME:</dt>
+<dd>Micro, pequeña y mediana empresa.</dd>
+<dt>MIS ELEMENTOS SINERGICOS:</dt>
+<dd>Mi salud <a href=javascript:abrir("BIO") class=glosa>bio</a>-psico-social, mis sistemas naturales de <a href=javascript:abrir("INFORMACION") class=glosa>información</a>, los insumos y la <a href=javascript:abrir("ADMINISTRACION") class=glosa>administración</a> de mis sistemas espacio tiempo.</dd>
+<dt>MIS FINES OBJETIVOS Y METAS:</dt>
+<dd>Mi <a href=javascript:abrir("DIRECCIONAMIENTO") class=glosa>direccionamiento</a>.</dd>
+<dt>MIS INSTRUMENTOS BASICOS:</dt>
+<dd>Mis sentidos, la <a href=javascript:abrir("FILOSOFIA") class=glosa>filosofía</a> integralista, la <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a> y la <a href=javascript:abrir("TRIALECTICA") class=glosa>trialéctica</a>.</dd>
+<dt>MINIMO VITAL:</dt>
+<dd>Estado límite para actuar y reaccionar con normalidad, teniendo un nivel de <a href=javascript:abrir("SUBSISTENCIA") class=glosa>subsistencia</a>, <a href=javascript:abrir("CONVIVENCIA") class=glosa>convivencia</a> y conceptualización apto para lograr la sobrevivencia.</dd>
+<dt>MODELO DE DESARROLLO:</dt>
+<dd>Esquema estructural - <a href=javascript:abrir("FUNCIONAL") class=glosa>funcional</a> informado e inteligenciado que sobre una fundamentación doctrinaria, persigue el crecimiento económico y el <a href=javascript:abrir("DESARROLLO%20SOCIAL") class=glosa>desarrollo social</a> integral.</dd>
+<dt>MODELOS DE DESARROLLO ESTRATEGICO:</dt>
+<dd>Esquema que incluye escala de valores y <a href=javascript:abrir("OBJETIVOS") class=glosa>objetivos</a>, doctrinas, habilidades generadas a la <a href=javascript:abrir("VELOCIDAD") class=glosa>velocidad</a> del propio proceso de <a href=javascript:abrir("CAMBIO") class=glosa>cambio</a>, políticas, logística, metodología en base a sistemas integrados (sico y socio motivados ) y teleológicos.</dd>
+<dt>MODEM:</dt>
+<dd>Modulador - demodulador o convertidor de señal digital en analógica y viceversa.</dd>
+<dt>MOTIVACION:</dt>
+<dd>Intención potencial; <a href=javascript:abrir("INTENSION") class=glosa>intensión</a> causada que se exterioriza.</dd>
+<dt>MOTIVACION AL LOGRO:</dt>
+<dd>Concurrencia y <a href=javascript:abrir("ADECUACION") class=glosa>adecuación</a> de <a href=javascript:abrir("NECESIDAD") class=glosa>necesidad</a>, capacidad, sentimiento y voluntad, direccionados a algo o alguien, de manera <a href=javascript:abrir("SISTEMATICA") class=glosa>sistemática</a>.</dd>
+<dt>MOVIMIENTO ECLECTICO:</dt>
+<dd>Movimiento de conciliación de diferentes tesis basadas en diferentes filosofías.</dd>
+<dt>MUNDO:</dt>
+<dd>Universo.</dd>
+<dt>MUNDO FISICO:</dt>
+<dd>La <a href=javascript:abrir("NATURALEZA") class=glosa>naturaleza</a>, ha dado al hombre en contravención el mundo social que el ser humano crea moviendo. El hombre es creador y creativo de <a href=javascript:abrir("CULTURA") class=glosa>cultura</a>, racional, todo su escenario vital es su mundo ambiental; <a href=javascript:abrir("LA%20ENVOLVENTE") class=glosa>la envolvente</a> geográfica de todos los ambientes es el mundo físico.</dd>
+<dt>MULTIPROCESO:</dt>
+<dd>Trabajo simultáneo de varios procesadores.</dd>
+<dt>MULTIPROGRAMACION:</dt>
+<dd>Ejecución concurrente de varios programas por un mismo procesador.</dd>
+<dt>MULTIPLEXOR:</dt>
+<dd>Dispositivo que controla la unión de varios canales en uno sólo.</dd>
+</dl>
+</div></body></html></body></html>
