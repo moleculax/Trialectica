@@ -1,0 +1,30 @@
+import React from 'react';
+import './App.css';
+import CapituloUno from "./component/CapituloUno";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PuebloGobiernoTerritorio from "./component/PuebloGobiernoTerritorio.jsx";
+import ObjetivoGeneralCatastro from "./component/ObjetivoGeneralCatastro.jsx";
+import PrincipiosConceptualesCatastro from "./component/PrincipiosConceptualesCatastro.jsx";
+import SistemaInformacionSocial from "./component/: SistemaInformacionSocial.jsx";
+import HomeTrialectica from "./component/HomeTrialectica.jsx"; // 👈 falta Route
+
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                {/* Ejemplo de ruta principal */}
+                 <Route path="/" element={<HomeTrialectica />} />
+
+                {/*<Route path="/capitulouno" element={<CapituloUno />} />*/}
+                <Route path="/SistemaInformacionSocial" element={<SistemaInformacionSocial />} />
+                <Route path="/ObjetivoGeneralCatastro" element={<ObjetivoGeneralCatastro />} />
+                <Route path="/PrincipiosConceptualesCatastro" element={<PrincipiosConceptualesCatastro />} />
+
+                <Route path="/PuebloGobiernoTerritorio" element={<PuebloGobiernoTerritorio/>} />
+
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+export default App;

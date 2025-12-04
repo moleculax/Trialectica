@@ -1,10 +1,16 @@
-<p align="center"><a href="http://eureka.com.ve/"><img src="https://1.bp.blogspot.com/-Qtv4TDe3LcI/Wykpyuf9k2I/AAAAAAAADQs/V0-HwUHc0XcxYGcfPnB2ZcdOGCjsKt1hACLcBGAs/s320/Bdeureka-big.png"></a><br>http://www.eureka.com.ve/</p>
+# React + Vite
 
-Partimos de la motivación de poner a disposición de todo aquel interesado una serie de manuales para que estos puedan fortalecer sus desarrollo académico/profesional/personal en diferentes áreas. Esperamos contar con su contribución y participación para continuar creciendo.<p>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-<h1> Eureka/Pdfhandbooks
-</h1>
-<br>
-Visitenos en:<i> http://www.emiliogomez.com.ve</i>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
