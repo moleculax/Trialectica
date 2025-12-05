@@ -7,7 +7,9 @@ import ObjetivoGeneralCatastro from "./component/ObjetivoGeneralCatastro.jsx";
 import PrincipiosConceptualesCatastro from "./component/PrincipiosConceptualesCatastro.jsx";
 import SistemaInformacionSocial from "./component/: SistemaInformacionSocial.jsx";
 import HomeTrialectica from "./component/HomeTrialectica.jsx";
-import AcotacionFilosofica from "./component/AcotacionFilosofica.jsx"; // 👈 falta Route
+import AcotacionFilosofica from "./component/AcotacionFilosofica.jsx";
+import AspectosConceptuales from "./component/AspectosConceptuales.jsx";
+import AspectosConceptualesSalaTecnica from "./component/AspectosConceptualesSalaTecnica.jsx"; // 👈 falta Route
 
 function App() {
     return (
@@ -23,6 +25,12 @@ function App() {
 
                 <Route path="/PuebloGobiernoTerritorio" element={<PuebloGobiernoTerritorio/>} />
                 <Route path="/AcotacionFilosofica" element={<AcotacionFilosofica/>} />
+
+                <Route path="/AspectosConceptuales" element={<AspectosConceptuales/>} />
+                <Route path="/AspectosConceptualesSalaTecnica" element={<AspectosConceptualesSalaTecnica/>} />
+
+
+
 
             </Routes>
         </BrowserRouter>

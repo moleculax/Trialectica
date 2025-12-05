@@ -43,6 +43,20 @@ export default function Navbar() {
                             <NavLink to="/PrincipiosConceptualesCatastro" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Principios Conceptuales Catastro</NavLink>
                         </li>
 
+
+
+                        <li className="nav-item mx-2">
+                            <NavLink to="/AspectosConceptuales" className={({ isActive }) =>
+                                `nav-link ${isActive ? "active fw-semibold" : ""}`}>Aspectos Conceptuales</NavLink>
+                        </li>
+
+                        <li className="nav-item mx-2">
+                            <NavLink to="/AspectosConceptualesSalaTecnica" className={({ isActive }) =>
+                                `nav-link ${isActive ? "active fw-semibold" : ""}`}>Aspectos Sala Tecnica</NavLink>
+                        </li>
+
+
+
                         <li className="nav-item mx-2">
                             <NavLink to="/AcotacionFilosofica"
                                      className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>

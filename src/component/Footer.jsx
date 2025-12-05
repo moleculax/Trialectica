@@ -13,7 +13,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Proyecto Catastro Integral
         </span>
                 <small className="fw-medium">
-                    Autor: <strong>Luis Gómez de la Vega</strong> — Instituto de Investigaciones Integradas
+                    Autor: <strong>Luis Gómez de la Vega</strong>
                 </small>
             </div>
         </footer>
