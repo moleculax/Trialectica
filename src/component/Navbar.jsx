@@ -3,6 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import AcotacionFilosofica from "./AcotacionFilosofica.jsx";
 
 export default function Navbar() {
     return (
@@ -41,6 +42,14 @@ export default function Navbar() {
                         <li className="nav-item mx-2">
                             <NavLink to="/PrincipiosConceptualesCatastro" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Principios Conceptuales Catastro</NavLink>
                         </li>
+
+                        <li className="nav-item mx-2">
+                            <NavLink to="/AcotacionFilosofica"
+                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
+                                Acotacion Filosofica de la Realidad
+                            </NavLink>
+                        </li>
+
                     </ul>
                 </div>
             </div>

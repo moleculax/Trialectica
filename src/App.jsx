@@ -6,7 +6,8 @@ import PuebloGobiernoTerritorio from "./component/PuebloGobiernoTerritorio.jsx";
 import ObjetivoGeneralCatastro from "./component/ObjetivoGeneralCatastro.jsx";
 import PrincipiosConceptualesCatastro from "./component/PrincipiosConceptualesCatastro.jsx";
 import SistemaInformacionSocial from "./component/: SistemaInformacionSocial.jsx";
-import HomeTrialectica from "./component/HomeTrialectica.jsx"; // 👈 falta Route
+import HomeTrialectica from "./component/HomeTrialectica.jsx";
+import AcotacionFilosofica from "./component/AcotacionFilosofica.jsx"; // 👈 falta Route
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/PrincipiosConceptualesCatastro" element={<PrincipiosConceptualesCatastro />} />
 
                 <Route path="/PuebloGobiernoTerritorio" element={<PuebloGobiernoTerritorio/>} />
+                <Route path="/AcotacionFilosofica" element={<AcotacionFilosofica/>} />
 
             </Routes>
         </BrowserRouter>
