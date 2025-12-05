@@ -9,7 +9,8 @@ import SistemaInformacionSocial from "./component/SistemaInformacionSocial.jsx";
 import HomeTrialectica from "./component/HomeTrialectica.jsx";
 import AcotacionFilosofica from "./component/AcotacionFilosofica.jsx";
 import AspectosConceptuales from "./component/AspectosConceptuales.jsx";
-import AspectosConceptualesSalaTecnica from "./component/AspectosConceptualesSalaTecnica.jsx"; // 👈 falta Route
+import AspectosConceptualesSalaTecnica from "./component/AspectosConceptualesSalaTecnica.jsx";
+import ContactosRedisComponent from "./component/ContactosRedisComponent.jsx"; // 👈 falta Route
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/AspectosConceptuales" element={<AspectosConceptuales/>} />
                 <Route path="/AspectosConceptualesSalaTecnica" element={<AspectosConceptualesSalaTecnica/>} />
 
+                <Route path="/ContactosRedisComponent" element={<ContactosRedisComponent/>} />
 
 
 

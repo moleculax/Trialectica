@@ -64,6 +64,15 @@ export default function Navbar() {
                             </NavLink>
                         </li>
 
+                        <li className="nav-item mx-2">
+                            <NavLink to="/ContactosRedisComponent"
+                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
+                                Contactos
+                            </NavLink>
+                        </li>
+
+
+
                     </ul>
                 </div>
             </div>
