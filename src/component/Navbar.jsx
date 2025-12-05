@@ -51,6 +51,18 @@ export default function Navbar() {
                                 Sistema Inf. Social
                             </NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink
+                                to="/ObjetivoGeneralCatastro"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
+                                Objetivos del catastro
+                            </NavLink>
+                        </li>
+
+
                         {/*<li className="nav-item">*/}
                         {/*    <NavLink*/}
                         {/*        to="/capitulotres"*/}
