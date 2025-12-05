@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PuebloGobiernoTerritorio from "./component/PuebloGobiernoTerritorio.jsx";
 import ObjetivoGeneralCatastro from "./component/ObjetivoGeneralCatastro.jsx";
 import PrincipiosConceptualesCatastro from "./component/PrincipiosConceptualesCatastro.jsx";
-import SistemaInformacionSocial from "./component/: SistemaInformacionSocial.jsx";
+import SistemaInformacionSocial from "./component/SistemaInformacionSocial.jsx";
 import HomeTrialectica from "./component/HomeTrialectica.jsx";
 import AcotacionFilosofica from "./component/AcotacionFilosofica.jsx";
 import AspectosConceptuales from "./component/AspectosConceptuales.jsx";
