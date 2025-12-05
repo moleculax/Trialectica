@@ -3,6 +3,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
+import SemblanzaLuisGomez from "./SemblanzaLuisGomez.jsx";
 
 export default function BiografiaLuisGomez() {
     return (
