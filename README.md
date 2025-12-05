@@ -1,16 +1,29 @@
-# React + Vite
+# TRIALECTICA  
+### Sistema conceptual sobre energía, información y realidad integrada  
+https://trialectica.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción  
+Este repositorio presenta una síntesis conceptual sobre la **realidad trialéctica**, entendida como un sistema donde **energía, información, espacio y tiempo** actúan como causas y efectos infinitos dentro de un proceso continuo, integrado y acelerado.
 
-Currently, two official plugins are available:
+La trialéctica parte del principio de que toda realidad surge de una esencia común, la cual se manifiesta tanto en el cosmos como en el ser humano. Lo real no es únicamente aquello que está en el espacio y el tiempo: lo real es aquello que **es espacio, es tiempo, es energía y es información**. Cada sistema, incluido el ser humano, opera como causa y efecto simultáneamente y sin interrupción.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fundamentos Conceptuales
 
-## React Compiler
+### 1. El cosmos como sistema trialéctico  
+La relación continua que integra y acelera los sistemas se basa en la naturaleza misma del cosmos. Toda realidad deviene de una esencia integrada que es simultáneamente trascendente e inmanente al ser humano.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La energía se concentra y diversifica sus efectos cuando, incluso bajo la presión de nueva información en el espacio, los fines se mantienen. De esta observación se concluye que el cosmos es una **realidad trialéctica**, porque constituye un proceso infinito de causas y efectos de energías e informaciones desplegadas en espacio y tiempo.
 
-## Expanding the ESLint configuration
+### 2. El axioma del sistema integrador  
+Para comprender lo real es necesario introducir el axioma del sistema integrador:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- No solo estamos en el espacio y el tiempo; **somos espacio y tiempo**.  
+- No solo recibimos y emitimos información o generamos energía después de procesarla; **somos energía e información**.  
+- Somos **causa y efecto en forma continua y acelerada**.  
+
+Desde esta perspectiva, los seres humanos y todo lo existente son sistemas reales, integrados por dinámicas **etiológicas** (causa) y **teleológicas** (finalidad).
+
+## Sitio Web  
+El desarrollo conceptual puede leerse y explorarse en:  
+https://trialectica.vercel.app/
+
