@@ -11,6 +11,7 @@ export default function AcotacionFilosofica() {
         <>
             <Navbar/>
 
+
         <section className="py-5 text-dark" style={{ minHeight: '100vh', background: 'transparent' }}>
             <div className="container">
                 <div className="row justify-content-center">
