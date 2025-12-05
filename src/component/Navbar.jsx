@@ -71,6 +71,12 @@ export default function Navbar() {
                             </NavLink>
                         </li>
 
+                        <li className="nav-item mx-2">
+                            <NavLink to="/BiografiaLuisGomez"
+                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
+                               Luis Gomez de la vega
+                            </NavLink>
+                        </li>
 
 
                     </ul>

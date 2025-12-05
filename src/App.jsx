@@ -10,7 +10,9 @@ import HomeTrialectica from "./component/HomeTrialectica.jsx";
 import AcotacionFilosofica from "./component/AcotacionFilosofica.jsx";
 import AspectosConceptuales from "./component/AspectosConceptuales.jsx";
 import AspectosConceptualesSalaTecnica from "./component/AspectosConceptualesSalaTecnica.jsx";
-import ContactosRedisComponent from "./component/ContactosRedisComponent.jsx"; // 👈 falta Route
+import ContactosRedisComponent from "./component/ContactosRedisComponent.jsx";
+import BiografiaLuisGomez from "./component/BiografiaLuisGomez.jsx";
+import SemblanzaLuisGomez from "./component/SemblanzaLuisGomez.jsx"; // 👈 falta Route
 
 function App() {
     return (
@@ -31,6 +33,9 @@ function App() {
                 <Route path="/AspectosConceptualesSalaTecnica" element={<AspectosConceptualesSalaTecnica/>} />
 
                 <Route path="/ContactosRedisComponent" element={<ContactosRedisComponent/>} />
+                <Route path="/BiografiaLuisGomez" element={<BiografiaLuisGomez/>} />
+                <Route path="/SemblanzaLuisGomez" element={<SemblanzaLuisGomez/>} />
+
 
 
 
