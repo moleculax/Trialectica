@@ -1,20 +1,26 @@
-// Navbar.jsx (links centrados)
+// Navbar.jsx (con ícono de React en el brand)
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import AcotacionFilosofica from "./AcotacionFilosofica.jsx";
+import { SiReact } from "react-icons/si"; // ← Ícono oficial de React
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100 shadow-sm">
             <div className="container-fluid d-flex justify-content-center">
-                {/* Brand */}
-                <NavLink className="navbar-brand fw-bold me-4" to="/">
-                    Trialectica
+
+                {/* Brand con ícono de React */}
+                <NavLink className="navbar-brand fw-bold d-flex align-items-center gap-2 me-4" to="/">
+                    <SiReact
+                        size={32}
+                        className="text-cyan"
+                        style={{ filter: "drop-shadow(0 0 8px #00ffff)" }}
+                    />
+                    <span className="text-white">Trialéctica</span>
                 </NavLink>
 
-                {/* Botón responsive */}
+                {/* Botón hamburguesa */}
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -27,63 +33,156 @@ export default function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                {/* Links centrados */}
+                {/* Menú centrado */}
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul className="navbar-nav text-center">
-                        <li className="nav-item mx-2">
-                            <NavLink to="/PuebloGobiernoTerritorio" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Pueblo Gobierno Territorio</NavLink>
-                        </li>
-                        <li className="nav-item mx-2">
-                            <NavLink to="/SistemaInformacionSocial" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Sistema Inf. Social</NavLink>
-                        </li>
-                        <li className="nav-item mx-2">
-                            <NavLink to="/ObjetivoGeneralCatastro" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Objetivos del Catastro</NavLink>
-                        </li>
-                        <li className="nav-item mx-2">
-                            <NavLink to="/PrincipiosConceptualesCatastro" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Principios Conceptuales Catastro</NavLink>
-                        </li>
+                    <ul className="navbar-nav text-center gap-1 gap-lg-3">
 
-
-
-                        <li className="nav-item mx-2">
-                            <NavLink to="/AspectosConceptuales" className={({ isActive }) =>
-                                `nav-link ${isActive ? "active fw-semibold" : ""}`}>Aspectos Conceptuales</NavLink>
-                        </li>
-
-                        <li className="nav-item mx-2">
-                            <NavLink to="/AspectosConceptualesSalaTecnica" className={({ isActive }) =>
-                                `nav-link ${isActive ? "active fw-semibold" : ""}`}>Aspectos Sala Tecnica</NavLink>
-                        </li>
-
-
-
-                        <li className="nav-item mx-2">
-                            <NavLink to="/AcotacionFilosofica"
-                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
-                                Acotacion Filosofica de la Realidad
+                        {/* Trialéctica */}
+                        <li className="nav-item">
+                            <NavLink
+                                to="/DefinicionTrialectica"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
+                                Trialéctica
                             </NavLink>
                         </li>
 
-                        <li className="nav-item mx-2">
-                            <NavLink to="/ContactosRedisComponent"
-                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
-                                Contactos
+                        {/* DROPDOWN 1: Catastro Integral */}
+                        <li className="nav-item dropdown">
+                            <a
+                                className="nav-link dropdown-toggle fw-medium"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Catastro Integral
+                            </a>
+                            <ul className="dropdown-menu dropdown-menu-dark border-0 shadow">
+                                <li>
+                                    <NavLink
+                                        to="/PuebloGobiernoTerritorio"
+                                        className={({ isActive }) =>
+                                            `dropdown-item ${isActive ? "bg-primary text-white" : ""}`
+                                        }
+                                    >
+                                        Pueblo · Gobierno · Territorio
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/SistemaInformacionSocial"
+                                        className={({ isActive }) =>
+                                            `dropdown-item ${isActive ? "bg-primary text-white" : ""}`
+                                        }
+                                    >
+                                        Sistema Inf. Social
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/ObjetivoGeneralCatastro"
+                                        className={({ isActive }) =>
+                                            `dropdown-item ${isActive ? "bg-primary text-white" : ""}`
+                                        }
+                                    >
+                                        Objetivos del Catastro
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/PrincipiosConceptualesCatastro"
+                                        className={({ isActive }) =>
+                                            `dropdown-item ${isActive ? "bg-primary text-white" : ""}`
+                                        }
+                                    >
+                                        Principios Conceptuales Catastro
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        </li>
+
+                        {/* DROPDOWN 2: Aspectos */}
+                        <li className="nav-item dropdown">
+                            <a
+                                className="nav-link dropdown-toggle fw-medium"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Aspectos
+                            </a>
+                            <ul className="dropdown-menu dropdown-menu-dark border-0 shadow">
+                                <li>
+                                    <NavLink
+                                        to="/AspectosConceptuales"
+                                        className={({ isActive }) =>
+                                            `dropdown-item ${isActive ? "bg-primary text-white" : ""}`
+                                        }
+                                    >
+                                        Aspectos Conceptuales
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        to="/AspectosConceptualesSalaTecnica"
+                                        className={({ isActive }) =>
+                                            `dropdown-item ${isActive ? "bg-primary text-white" : ""}`
+                                        }
+                                    >
+                                        Aspectos Sala Técnica
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        </li>
+
+                        {/* Resto de enlaces */}
+                        <li className="nav-item">
+                            <NavLink
+                                to="/AcotacionFilosofica"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
+                                Acotación Filosófica
                             </NavLink>
                         </li>
 
-                        <li className="nav-item mx-2">
-                            <NavLink to="/BiografiaLuisGomez"
-                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
-                               Luis Gomez de la vega
+                        <li className="nav-item">
+                            <NavLink
+                                to="/BiografiaLuisGomez"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
+                                Luis Gómez de la Vega
                             </NavLink>
                         </li>
-                        <li className="nav-item mx-2">
-                            <NavLink to="/SemblanzaLuisGomez"
-                                     className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>
+
+                        <li className="nav-item">
+                            <NavLink
+                                to="/SemblanzaLuisGomez"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
                                 Semblanza
                             </NavLink>
                         </li>
 
+                        <li className="nav-item">
+                            <NavLink
+                                to="/ContactosRedisComponent"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
+                                Contactos
+                            </NavLink>
+                        </li>
 
                     </ul>
                 </div>
