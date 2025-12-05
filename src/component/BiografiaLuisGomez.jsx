@@ -36,7 +36,7 @@ export default function BiografiaLuisGomez() {
                         <div className="alert alert-light border-start border-primary border-5 mb-5">
                             <p className="mb-0 text-end fst-italic text-muted">
                                 Sobre el Dr. Luis Gómez de la Vega, puedes leer también la{" "}
-                                <a href="/SemblanzaLuisGomez" className="text-primary fw-bold text-decoration-underline">
+                                <a href="#" className="text-primary fw-bold text-decoration-underline">
                                     Semblanza
                                 </a>{" "}
                                 que escribió Gloria Martínez.
