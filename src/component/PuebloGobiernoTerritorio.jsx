@@ -161,7 +161,7 @@ export default function PuebloGobiernoTerritorio() {
                             <p className="fs-5 lh-lg mt-4" style={justifyStyle}>
                                 Se impone a corto plazo la organicidad e integración sectorial de Ciudades y Municipios a todo lo largo de los diversos continentes. Con el advenimiento del tercer milenio surgen las transferencias entre mapas que van de dos dimensiones hasta cinco: 2D, 3D, 4D, 5D.
                             </p>
-                          
+
                         </section>
 
 

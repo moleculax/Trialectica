@@ -120,7 +120,7 @@ export default function ObjetivoGeneralCatastro() {
 
 
 
-                 <a href="/PrincipiosConceptualesCatastro">Principios Conceptuales Catastro</a>
+
                     </main>
                 </div>
             </div>

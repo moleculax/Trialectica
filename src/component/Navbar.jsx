@@ -1,21 +1,19 @@
-// Navbar.jsx
+// Navbar.jsx (links centrados)
 import React from "react";
 import { NavLink } from "react-router-dom";
-
-// Import completos de Bootstrap (CSS + JS)
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
-            <div className="container-fluid">
+            <div className="container-fluid d-flex justify-content-center">
                 {/* Brand */}
-                <NavLink className="navbar-brand fw-bold" to="/">
-                    Proyecto Catastro
+                <NavLink className="navbar-brand fw-bold me-4" to="/">
+                    Trialectica
                 </NavLink>
 
-                {/* Botón responsive (hamburger) */}
+                {/* Botón responsive */}
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -28,51 +26,21 @@ export default function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                {/* Links */}
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <NavLink
-                                to="/PuebloGobiernoTerritorio"
-                                className={({ isActive }) =>
-                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
-                                }
-                            >
-                                Pueblo Gobierno Territorio
-                            </NavLink>
+                {/* Links centrados */}
+                <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul className="navbar-nav text-center">
+                        <li className="nav-item mx-2">
+                            <NavLink to="/PuebloGobiernoTerritorio" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Pueblo Gobierno Territorio</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink
-                                to="/SistemaInformacionSocial"
-                                className={({ isActive }) =>
-                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
-                                }
-                            >
-                                Sistema Inf. Social
-                            </NavLink>
+                        <li className="nav-item mx-2">
+                            <NavLink to="/SistemaInformacionSocial" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Sistema Inf. Social</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink
-                                to="/ObjetivoGeneralCatastro"
-                                className={({ isActive }) =>
-                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
-                                }
-                            >
-                                Objetivos del catastro
-                            </NavLink>
+                        <li className="nav-item mx-2">
+                            <NavLink to="/ObjetivoGeneralCatastro" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Objetivos del Catastro</NavLink>
                         </li>
-
-
-                        {/*<li className="nav-item">*/}
-                        {/*    <NavLink*/}
-                        {/*        to="/capitulotres"*/}
-                        {/*        className={({ isActive }) =>*/}
-                        {/*            `nav-link ${isActive ? "active fw-semibold" : ""}`*/}
-                        {/*        }*/}
-                        {/*    >*/}
-                        {/*        Capítulo Tres*/}
-                        {/*    </NavLink>*/}
-                        {/*</li>*/}
+                        <li className="nav-item mx-2">
+                            <NavLink to="/PrincipiosConceptualesCatastro" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}>Principios Conceptuales Catastro</NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>
