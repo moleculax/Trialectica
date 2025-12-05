@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './App.css';
 import CapituloUno from "./component/CapituloUno";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -34,7 +34,10 @@ function App() {
 
                 <Route path="/ContactosRedisComponent" element={<ContactosRedisComponent/>} />
                 <Route path="/BiografiaLuisGomez" element={<BiografiaLuisGomez/>} />
+
                 <Route path="/SemblanzaLuisGomez" element={<SemblanzaLuisGomez />} />
+                <Fragment></Fragment>
+
 
 
 
