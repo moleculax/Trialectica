@@ -34,7 +34,7 @@ function App() {
 
                 <Route path="/ContactosRedisComponent" element={<ContactosRedisComponent/>} />
                 <Route path="/BiografiaLuisGomez" element={<BiografiaLuisGomez/>} />
-                <Route path="/SemblanzaLuisGomez" element={<SemblanzaLuisGomez/>} />
+                <Route path="/SemblanzaLuisGomez" element={<SemblanzaLuisGomez />} />
 
 
 
