@@ -5,7 +5,7 @@
     <url>
         <loc>https://trialectica.vercel.app/</loc>
         <priority>1.0</priority>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
     </url>
 
     <!-- Definición Trialéctica -->
@@ -47,7 +47,7 @@
     <url>
         <loc>https://trialectica.vercel.app/AspectosConceptuales</loc>
         <priority>0.7</priority>
-        <changefreq>monthly</changefreq>
+        <changefreq>daily</changefreq>
     </url>
 
     <!-- Aspectos Sala Técnica -->
@@ -68,21 +68,33 @@
     <url>
         <loc>https://trialectica.vercel.app/BiografiaLuisGomez</loc>
         <priority>0.6</priority>
-        <changefreq>yearly</changefreq>
+        <changefreq>daily</changefreq>
     </url>
 
     <!-- Semblanza -->
     <url>
         <loc>https://trialectica.vercel.app/SemblanzaLuisGomez</loc>
         <priority>0.6</priority>
-        <changefreq>yearly</changefreq>
+        <changefreq>daily</changefreq>
     </url>
 
     <!-- Contactos -->
     <url>
         <loc>https://trialectica.vercel.app/ContactosRedisComponent</loc>
         <priority>0.5</priority>
-        <changefreq>yearly</changefreq>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <url>
+        <loc>https://moleculaxapp.vercel.app/</loc>
+        <priority>0.9</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <url>
+        <loc>https://anamucpro.vercel.app/</loc>
+        <priority>0.5</priority>
+        <changefreq>daily</changefreq>
     </url>
 
 </urlset>
