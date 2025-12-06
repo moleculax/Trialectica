@@ -1,0 +1,13 @@
+# robots.txt para https://trialectica.vercel.app/
+
+# Permitir acceso a todo el sitio
+User-agent: *
+Allow: /
+
+# Bloquear carpetas internas de desarrollo (si existen)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Ubicación del sitemap
+Sitemap: https://trialectica.vercel.app/sitemap.xml
