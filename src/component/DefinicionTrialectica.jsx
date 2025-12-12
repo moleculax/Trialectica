@@ -67,7 +67,11 @@ export default function DefinicionTrialectica() {
                                     Trialéctica: un modelo venezolano para el desarrollo integral con justicia social
                                 </p>
                                 <p className="text-muted fst-italic">
-                                    De Venezuela para el mundo
+                                    {/*De Venezuela para el mundo*/}
+                                    <img   src="/image/vmundo.gif"
+                                           alt="Venezuela para el mundo"
+                                           className="me-2 "
+                                           />
                                 </p>
                             </div>
 
