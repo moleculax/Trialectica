@@ -122,7 +122,10 @@ export default function AspectosConceptualesSalaTecnica() {
                                 </div>
                             </div>
 
+                            <div style={{height: "100px"}}>
 
+
+                            </div>
 
                         </article>
                     </div>
