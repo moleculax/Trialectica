@@ -151,6 +151,19 @@ export default function Navbar() {
                             </NavLink>
                         </li>
 
+
+
+                        <li className="nav-item">
+                            <NavLink
+                                to="/GranEsquemaComponent"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active fw-semibold" : ""}`
+                                }
+                            >
+                                Gran Esquema
+                            </NavLink>
+                        </li>
+
                         <li className="nav-item">
                             <NavLink
                                 to="/BiografiaLuisGomez"
