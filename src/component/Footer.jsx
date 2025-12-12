@@ -19,7 +19,9 @@ export default function Footer() {
                            Autor: <strong>Luis Gómez de la Vega</strong> .::
                     </small>
                 </div>
-
+                <strong>
+                    Cumaná - Sucre - Venezuela / Buenos Aires - Argentina
+                </strong>
                 {/* Derecha: React + Node.js + Redis */}
                 <div className="d-flex align-items-center gap-4 mt-3 mt-md-0">
                     <small className="text-light opacity-75 me-2">Hecho con:</small>
