@@ -117,15 +117,17 @@ const MetodoSeguido = () => {
 
             <p>Hemos de establecer por lo tanto una nueva ética social que nos proporcione una nueva y orgánica orientación, y lenguaje social que nos proporcione a su vez una nueva jerarquía existencial de los valores, basada en un esquema que esté "al margen de lo parcial", apreciando lo que es verdad incontrovertible: un sistema único y universal. Vamos a prepararnos para una nueva era, preparando lo que ya es indispensable: la Ingeniería Social, profesión que permite capacitar nuestra juventud hacia la fusión inminente de las ciencias experimentales, matemáticas y física pura, con el desarrollo social y cultural de una nueva humanidad.</p>
 
-            <p>Ese planteamiento filosófico expresamente enunciado en "La Igualdad Teleológica del Sistema" y en el "Desarrollo Orgánico del Sistema" esta basado en la Tríada Existencial: I) El Ser, II) El Poseer y III) El Poder Trascendente.</p>
+            <p><strong>Ese planteamiento filosófico expresamente enunciado en "La Igualdad Teleológica del Sistema" y en el
+                "Desarrollo Orgánico del Sistema" esta basado en la Tríada Existencial:
+                I) El Ser, II) El Poseer y III) El Poder Trascendente.</strong></p>
 
-            <p>I) El Ser: condición existencial del Poseer y del Poder; en relación universal con el tiempo y el espacio con la energía trasmutando: movimiento, formas y materia; sustancia viva en lo humano es individuo; al ser individuo que posee, es hombre; al ser hombre que decide, es persona. Concepto de Ser genérico, que trasciende de lo individual y llega a organismos sociales superiores: Familia, Población etc.</p>
+            <p><strong>I) El Ser: </strong>  condición existencial del Poseer y del Poder; en relación universal con el tiempo y el espacio con la energía trasmutando: movimiento, formas y materia; sustancia viva en lo humano es individuo; al ser individuo que posee, es hombre; al ser hombre que decide, es persona. Concepto de Ser genérico, que trasciende de lo individual y llega a organismos sociales superiores: Familia, Población etc.</p>
 
-            <p>II) El Poseer: condición existencial de cuánto es; capacidad inmanente a la naturaleza y que trasciende en ella como relación universal de tiempo-espacio; ámbito energético.</p>
+            <p><strong>II)  El Poseer: </strong>condición existencial de cuánto es; capacidad inmanente a la naturaleza y que trasciende en ella como relación universal de tiempo-espacio; ámbito energético.</p>
 
-            <p>III) El Poder: condición existencial del Ser y del Poseer; en relación universal y continua con el tiempo-espacio; inmanente a la energía que se trasmuta en materia, forma y movimiento y que trasciende en ella.</p>
+            <p><strong>III) El Poder: </strong>condición existencial del Ser y del Poseer; en relación universal y continua con el tiempo-espacio; inmanente a la energía que se trasmuta en materia, forma y movimiento y que trasciende en ella.</p>
 
-            <p>Tríada que nace del Cosmos, surge en lo individual, trasciende a lo colectivo y vuelve al Cosmos.</p>
+            <p><strong>Tríada que nace del Cosmos, surge en lo individual, trasciende a lo colectivo y vuelve al Cosmos.</strong></p>
 
             <p>La Persona (individuo y hombre); ente social celular. El Hombre (el individuo que posee); ente económico celular, productor y consumidor.</p>
 
@@ -181,7 +183,8 @@ const MetodoSeguido = () => {
             <h2>Lo pragmático del Esquema.</h2>
 
             <p><strong>PRIMERA FASE</strong><p></p>
-                Un objetivo inmediato: Mínimo de Posesión y Poder vitales,
+              <strong>  Un objetivo inmediato:
+                  Mínimo de Posesión y Poder vitales,
                 medios para conseguirlo:
                 Teoría de los Excedentes;
                 Redistribución Administrativa y Presupuestaria
@@ -191,7 +194,9 @@ const MetodoSeguido = () => {
                 Docencia Orgánica;
                 Programa de Acción Proporcional
                 (Población, espacio, tiempo y correcciones por Productividad,
-                Recuperabilidad y Factor Cibernético)</p>
+                Recuperabilidad y Factor Cibernético)
+              </strong>
+              </p>
 
             <p><strong>SEGUNDA FASE</strong><p></p>
                 Logrado el Mínimo Vital de Posesión y Poder vitales, buscar por la expansión equilibrada del Poseer y del Poder el mayor bienestar y poder posibles sin romper los estímulos históricamente reconocidos.</p>
@@ -208,6 +213,10 @@ const MetodoSeguido = () => {
             <p>Igualmente los invito a leer y aplicar la PRIMERA FASE práctica del Esquema que viene en folleto aparte. Este segundo folleto se titula "Pragmática del Movimiento Comunero". [1967]</p>
             </strong>
                 <p><hr/></p>
+        <div style={{height: "100px"}}>
+
+
+        </div>
             </div>
 
 
