@@ -9,30 +9,40 @@ export default function DefinicionTrialectica() {
         <>
             <Navbar />
 
-            <div className="min-vh-100 bg-white py-5">
-                <div className="container px-4 px-md-5">
-                    <div className="mx-auto" style={{ maxWidth: "1450px" }}>
+            <div className="min-vh-100 bg-white py-4 py-md-5">
+                <div className="container px-3 px-md-5 shadow">
+                    <div className="mx-auto " style={{ maxWidth: "900px" }}>
 
                         {/* Título principal */}
                         <header className="text-center mb-5 pt-4">
-                            <h1 className="display-5 fw-bold text-primary mb-4">
+                            <h1 className="fw-bold text-primary mb-3" style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)" }}>
                                 ¿Qué es la Trialéctica?
                             </h1>
-                            <p className="lead text-muted fs-4">
+
+                            <p
+                                className="lead text-muted"
+                                style={{ fontSize: "clamp(1rem, 2.5vw, 1.3rem)" }}
+                            >
                                 Definición elaborada por antiguos miembros del<br />
                                 <strong>Instituto de Investigaciones Integradas</strong>
                             </p>
-                            <hr className="w-50 w-md-25 mx-auto border-primary border-3 opacity-100 mt-4" />
+
+                            <hr className="mx-auto border-primary border-3 opacity-100"
+                                style={{ width: "clamp(120px, 40%, 260px)" }}
+                            />
                         </header>
 
-                        {/* Definición principal - 100% justificada */}
-                        <article className="text-justify fs-5 lh-lg">
+                        {/* Definición principal */}
+                        <article
+                            className="fs-5 lh-lg text-justify"
+                            style={{ fontSize: "clamp(1rem, 2.2vw, 1.25rem)" }}
+                        >
 
                             <p className="mb-5">
                                 Es una <strong>concepción filosófica, científica y técnica</strong> para impulsar el desarrollo integral y maximizar la calidad de vida, que surgió como resultado de un largo proceso de investigación social realizado por el filósofo, agrimensor y abogado <strong>Luís Gómez de la Vega (1927-2007)</strong>, a través del <em>Instituto de Investigaciones Integradas</em>, y que dio a conocer por primera vez en Venezuela en 1967 con una propuesta impresa titulada <strong><em>El Gran Esquema</em></strong>.
                             </p>
 
-                            <div className="bg-light rounded-4 p-5 shadow-sm border-start border-primary border-5 mb-5">
+                            <div className="bg-light rounded-4 p-4 p-md-5 shadow-sm border-start border-primary border-5 mb-5">
                                 <p className="mb-4 fst-italic">
                                     La <strong>Trialéctica</strong>, conocida también como <strong>Metodología Compleja</strong>, se fundamenta:
                                 </p>
@@ -53,7 +63,7 @@ export default function DefinicionTrialectica() {
                                 Para el análisis de la problemática social, económica, política y cultural de los órdenes sociales, se hace uso de la <strong>sectorización</strong> que se compagina con cada una de estas áreas y se enfatiza en la <strong>concepción holística</strong> que imprime un método que da relevancia a la <strong>interdisciplinariedad</strong>. En el campo jurídico se propicia la subordinación a los principios constitucionales y el apego a la legalidad.
                             </p>
 
-                            <div className="bg-primary text-white rounded-4 p-5 shadow-lg mb-5">
+                            <div className="bg-primary text-white rounded-4 p-4 p-md-5 shadow-lg mb-5">
                                 <h2 className="h4 fw-bold mb-4 text-center">
                                     Herramientas y Aplicación Práctica
                                 </h2>
@@ -62,31 +72,34 @@ export default function DefinicionTrialectica() {
                                 </p>
                             </div>
 
+                            {/* Imagen final centrada y responsive */}
                             <div className="text-center mt-5">
-                                <p className="fs-4 fw-bold text-primary">
+                                <p className="fs-4 fw-bold text-primary" style={{ fontSize: "clamp(1.2rem, 3vw, 1.8rem)" }}>
                                     Trialéctica: un modelo venezolano para el desarrollo integral con justicia social
                                 </p>
-                                <p className="text-muted fst-italic">
-                                    {/*De Venezuela para el mundo*/}
-                                    <img   src="/image/vmundo.gif"
-                                           alt="Venezuela para el mundo"
-                                           className="me-2 "
-                                           />
+                                <p className="text-muted fst-italic d-flex justify-content-center">
+                                    <img
+                                        src="/image/vmundo.gif"
+                                        alt="Venezuela para el mundo"
+                                        className="img-fluid me-2"
+
+                                    />
                                 </p>
                             </div>
+                            <div style={{height: "150px"}}></div>
 
                         </article>
                     </div>
                 </div>
             </div>
 
-            {/* Justificado perfecto en todos los navegadores */}
+            {/* Justificado perfecto */}
             <style jsx global>{`
-        .text-justify {
-          text-align: justify !important;
-          text-justify: inter-word;
-        }
-      `}</style>
+                .text-justify {
+                    text-align: justify !important;
+                    text-justify: inter-word;
+                }
+            `}</style>
 
             <Footer />
         </>

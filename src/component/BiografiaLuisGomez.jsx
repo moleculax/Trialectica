@@ -11,8 +11,8 @@ export default function BiografiaLuisGomez() {
             <Navbar />
 
             <div className="min-vh-100 bg-white py-5">
-                <div className="container px-4 px-md-5">
-                    <div className="mx-auto" style={{ maxWidth: "1450px" }}>
+                <div className="container px-4 px-md-5 shadow">
+                    <div className="mx-auto" style={{ maxWidth: "900px" }}>
 
                         {/* Título principal */}
                         <header className="text-center mb-5 pt-4">
@@ -36,7 +36,7 @@ export default function BiografiaLuisGomez() {
                         <div className="alert alert-light border-start border-primary border-5 mb-5">
                             <p className="mb-0 text-end fst-italic text-muted">
                                 Sobre el Dr. Luis Gómez de la Vega, puedes leer también la{" "}
-                                <a href="#" className="text-primary fw-bold text-decoration-underline">
+                                <a href="/SemblanzaLuisGomez" className="text-primary fw-bold text-decoration-underline">
                                     Semblanza
                                 </a>{" "}
                                 que escribió Gloria Martínez.
@@ -113,7 +113,7 @@ export default function BiografiaLuisGomez() {
                             </p>
 
                             <p className="mb-5">
-                                Como resultado de tantas inquietudes decidió cambiar la razón de su vida para dedicarse a definir lo que será más adelante una de las amplias y coherentes teorías para una nueva civilización: la <u>Teoría General de Integración de Sistemas Sociales</u>, así como el inicio de su aspecto metodológico (la <u>Trialéctica</u>), reflejado en su libro <a href="#" className="text-primary">El Gran Esquema</a>, publicado en <strong>1967</strong>.
+                                Como resultado de tantas inquietudes decidió cambiar la razón de su vida para dedicarse a definir lo que será más adelante una de las amplias y coherentes teorías para una nueva civilización: la <u>Teoría General de Integración de Sistemas Sociales</u>, así como el inicio de su aspecto metodológico (la <u>Trialéctica</u>), reflejado en su libro <a href="/GranEsquemaComponent" className="text-primary">El Gran Esquema</a>, publicado en <strong>1967</strong>.
                             </p>
 
                             <h2 className="h4 fw-bold text-primary mb-4">
@@ -135,6 +135,10 @@ export default function BiografiaLuisGomez() {
                             </p>
 
                         </article>
+
+                        <div style={{height: "150px"}}>
+
+                        </div>
                     </div>
                 </div>
             </div>

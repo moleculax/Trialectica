@@ -18,7 +18,7 @@ export default function SistemaInformacionSocial() {
             {/* Fondo blanco puro en toda la página */}
             <div className="min-vh-100 bg-white py-5">
 
-                <div className="container px-4 px-md-5">
+                <div className="container px-4 px-md-5 shadow">
                     <div className="mx-auto" style={{ maxWidth: "100%" }}>
 
                         {/* Título */}
@@ -85,7 +85,9 @@ export default function SistemaInformacionSocial() {
                                         </p>
                                     </div>
                                 </section>
+                                <div style={{height: "150px"}}>
 
+                                </div>
                             </div>
                         </div>
                     </div>

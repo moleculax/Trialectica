@@ -39,7 +39,7 @@ const MetodoSeguido = () => {
 
 
         <div className="shadow"
-            style={{ padding: "20px", textAlign: "justify", whiteSpace: "pre-wrap", width: "95%", fontSize: "14px !important" }}>
+            style={{ padding: "20px", textAlign: "justify", whiteSpace: "pre-wrap", width: "900px", fontSize: "14px !important" }}>
             <h1>Método Seguido</h1>
 
             <p>Antes de esbozar el esquema, es necesario advertir acerca de cómo, dónde y por qué ha sido elaborado.</p>

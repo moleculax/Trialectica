@@ -29,8 +29,8 @@ export default function ObjetivoGeneralCatastro() {
         <>
             <Navbar/>
         <div className="min-vh-100 bg-white">
-            <div className="container py-5 px-4">
-                <div className="mx-auto" style={{ maxWidth: "1450px" }}>
+            <div className="container py-5 px-4 shadow">
+                <div className="mx-auto" style={{ maxWidth: "900px" }}>
 
                     {/* Título principal */}
                     <header className="text-center mb-5">
@@ -119,7 +119,9 @@ export default function ObjetivoGeneralCatastro() {
                         </section>
 
 
+                        <div style={{height: "150px"}}>
 
+                        </div>
 
                     </main>
                 </div>

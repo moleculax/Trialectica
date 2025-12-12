@@ -10,8 +10,8 @@ export default function AspectosConceptualesSalaTecnica() {
             <Navbar />
 
             <div className="min-vh-100 bg-white py-5">
-                <div className="container px-4 px-md-5">
-                    <div className="mx-auto" style={{ maxWidth: "1450px" }}>
+                <div className="container px-4 px-md-5 shadow">
+                    <div className="mx-auto" style={{ maxWidth: "900px" }}>
 
                         {/* Título principal */}
                         <header className="text-center mb-5 pt-3">

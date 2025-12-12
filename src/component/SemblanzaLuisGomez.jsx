@@ -11,8 +11,8 @@ export default function SemblanzaLuisGomez() {
             <Navbar />
 
             <div className="min-vh-100 bg-white py-5">
-                <div className="container px-4 px-md-5">
-                    <div className="mx-auto" style={{ maxWidth: "1450px" }}>
+                <div className="container px-4 px-md-5 shadow">
+                    <div className="mx-auto" style={{ maxWidth: "900px" }}>
 
                         {/* Título principal */}
                         <header className="text-center mb-5 pt-4">
@@ -123,13 +123,15 @@ export default function SemblanzaLuisGomez() {
 
                             <hr className="my-5" />
 
-                            <footer className="text-muted text-center">
+
                                 <small>
                                     Tomado y ampliado del Prólogo del libro <strong>“Consejos Comunales”</strong> del General Pedro E. Dávila F. (2008).<br />
                                     Gloria Martínez fue Directora del Instituto y Miembro Titular del Consejo Directivo del Instituto de Investigaciones Integradas (1985-1995).
                                 </small>
-                            </footer>
 
+                            <div style={{height: "150px"}}>
+
+                            </div>
                         </article>
                     </div>
                 </div>
