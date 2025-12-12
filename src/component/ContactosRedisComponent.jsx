@@ -1,7 +1,7 @@
 // src/components/ContactosRedisComponent.jsx
 import React, { useState } from "react";
 import axios from "axios";
-import redisnode from "../assets/redisnode.png";
+import proCumana from "/image/proCumana.png";
 import Footer from "./Footer.jsx";
 import Navbar from "./Navbar.jsx";
 
@@ -47,44 +47,21 @@ const ContactosRedisComponent = () => {
         <>
             <Navbar />
 
-            {/* FONDO BLANCO + DISEÑO LIMPIO Y PROFESIONAL */}
             <div className="min-vh-100 bg-white py-5">
                 <div className="container px-4 px-md-5">
+
                     <div className="row justify-content-center">
+                        <div className="col-12 shadow-lg">
 
-                        {/* Logo centrado arriba */}
-                        {/*<div className="col-12 text-center mb-4">*/}
-                        {/*    <img*/}
-                        {/*        src={redisnode}*/}
-                        {/*        alt="Redis Node"*/}
-                        {/*        className="img-fluid"*/}
-                        {/*        style={{*/}
-                        {/*            maxWidth: "220px",*/}
-                        {/*            borderRadius: "16px",*/}
-                        {/*            boxShadow: "0 10px 30px rgba(0,0,0,0.1)",*/}
-                        {/*        }}*/}
-                        {/*    />*/}
-                        {/*</div>*/}
-
-                        {/* Título */}
-                        <div className="col-12 text-center mb-5">
-                            <h1 className="display-5 fw-bold text-primary">
-                                Contacto
-                            </h1>
+                            <h1 className="display-5 fw-bold text-primary">Contacto</h1>
                             <p className="lead text-muted">
                                 Estamos aquí para ayudarte. Envíanos tu mensaje.
                             </p>
-                        </div>
 
-                        {/* Formulario centrado y responsive */}
-                        <div className="col-12 col-md-10 col-lg-8 col-xl-6">
                             <form
                                 onSubmit={handleSubmit}
-                                className="bg-light p-4 p-md-5 rounded-4 shadow-lg"
-                                style={{
-                                    border: "2px solid #e0e0e0",
-                                    borderRadius: "20px",
-                                }}
+                                className="p-4 p-md-5 rounded-4"
+                                style={{ borderRadius: "20px" }}
                             >
                                 <div className="mb-4">
                                     <input
@@ -141,22 +118,22 @@ const ContactosRedisComponent = () => {
                                 </div>
 
                                 <div className="mb-4">
-                  <textarea
-                      name="mensaje"
-                      placeholder="Escribe aquí tu mensaje..."
-                      value={formData.mensaje}
-                      onChange={handleChange}
-                      required
-                      rows={6}
-                      className="form-control form-control-lg"
-                      style={{
-                          borderRadius: "12px",
-                          border: "2px solid #ced4da",
-                          padding: "14px",
-                          fontSize: "1.1rem",
-                          resize: "none",
-                      }}
-                  />
+                                    <textarea
+                                        name="mensaje"
+                                        placeholder="Escribe aquí tu mensaje..."
+                                        value={formData.mensaje}
+                                        onChange={handleChange}
+                                        required
+                                        rows={6}
+                                        className="form-control form-control-lg"
+                                        style={{
+                                            borderRadius: "12px",
+                                            border: "2px solid #ced4da",
+                                            padding: "14px",
+                                            fontSize: "1.1rem",
+                                            resize: "none",
+                                        }}
+                                    />
                                 </div>
 
                                 <div className="text-center">
@@ -177,11 +154,24 @@ const ContactosRedisComponent = () => {
                                         {enviando ? "Enviando mensaje..." : "Enviar Mensaje"}
                                     </button>
                                 </div>
+
+                                <div style={{ height: "150px" }}></div>
                             </form>
-
-
                         </div>
                     </div>
+
+                    {/* Logo */}
+                    <div className="row justify-content-center mt-5">
+                        <div className="col-12 text-center mb-4 shadow rounded-4">
+                            <img
+                                src={proCumana}
+                                alt="Redis Node"
+                                className="img-fluid"
+                                style={{ borderRadius: "16px" }}
+                            />
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

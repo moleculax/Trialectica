@@ -12,7 +12,7 @@ export default function Footer() {
                 {/* Izquierda: Copyright y autor */}
                 <div>
           <span className="text-light">
-            © {new Date().getFullYear()} Proyecto Catastro Integral  ::.
+            © {new Date().getFullYear()} Metodologia Compleja  ::.
           </span>
                     <br className="d-block d-md-none" />
                     <small className="fw-medium">
@@ -24,7 +24,7 @@ export default function Footer() {
                 </strong>
                 {/* Derecha: React + Node.js + Redis */}
                 <div className="d-flex align-items-center gap-4 mt-3 mt-md-0">
-                    <small className="text-light opacity-75 me-2">Hecho con:</small>
+                    <small className="text-light opacity-75 me-2">Web con:</small>
                     <div className="d-flex align-items-center gap-3">
                         <SiReact className="text-info" size={23} title="React" />
                         <SiNodedotjs className="text-success" size={28} title="Node.js" />
