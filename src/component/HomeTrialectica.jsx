@@ -111,6 +111,9 @@ export default function HomeTrialectica() {
                             objetivos y metas, sean estrictamente sociales, políticas o económicas. La trialéctica
                             es el fluido real que invita a la calidad de la vida en nuestro planeta para que la raza humana
                             salga del mismo con ideales cósmicos de perdurabilidad.
+                                <div style={{height: "100px"}}>
+
+                                </div>
                             </p>
                         </div>
                     </div>

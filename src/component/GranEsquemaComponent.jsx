@@ -9,18 +9,16 @@ const MetodoSeguido = () => {
 
 
 
-            <div className="w-[95%] mx-auto mb-16 mt-5 text-center">
+            <div className="  mt-5 text-center">
 
                 <img
                     src="/image/esque.gif"
-                    alt="Gran Esquema Trialéctico"
                     className="w-full max-w-4xl block rounded-lg shadow-2xl border-8 border-black"
                 />
 
                 <p>
                     <img
                         src="/image/gresquem.jpg"
-                        alt="Gran Esquema Trialéctico"
                         className="w-full max-w-4xl block rounded-lg shadow-2xl border-8 border-black"
                     />
                 </p>
@@ -39,7 +37,7 @@ const MetodoSeguido = () => {
 
 
         <div className="shadow"
-            style={{ padding: "20px", textAlign: "justify", whiteSpace: "pre-wrap", width: "900px", fontSize: "14px !important" }}>
+            style={{ padding: "20px", textAlign: "justify", whiteSpace: "pre-wrap", maxWidth: "900px", fontSize: "14px !important" }}>
             <h1>Método Seguido</h1>
 
             <p>Antes de esbozar el esquema, es necesario advertir acerca de cómo, dónde y por qué ha sido elaborado.</p>
