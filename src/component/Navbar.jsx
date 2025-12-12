@@ -12,11 +12,15 @@ export default function Navbar() {
 
                 {/* Brand con ícono de React */}
                 <NavLink className="navbar-brand fw-bold d-flex align-items-center gap-2 me-4" to="/">
-                    <SiReact
-                        size={32}
-                        className="text-cyan"
-                        style={{ filter: "drop-shadow(0 0 8px #00ffff)" }}
-                    />
+                    <img   src="/image/iii.gif"
+                           alt="Logo"
+                           className="me-2 rounded"
+                           style={{ width: "32px", height: "32px" }}/>
+                    {/*<SiReact*/}
+                    {/*    size={32}*/}
+                    {/*    className="text-cyan"*/}
+                    {/*    style={{ filter: "drop-shadow(0 0 8px #00ffff)" }}*/}
+                    {/*/>*/}
                     <span className="text-white">Trialéctica</span>
                 </NavLink>
 

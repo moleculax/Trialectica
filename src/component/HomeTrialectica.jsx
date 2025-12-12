@@ -77,14 +77,14 @@ export default function HomeTrialectica() {
                                     letterSpacing: "-0.02em",
                                 }}
                             >
-                                CATASTRO<br />INTEGRAL
+                               TRIALECTICA
                             </h1>
 
                             <h2
                                 className="fw-light mb-3 text-cyan"
                                 style={{ fontSize: "clamp(1.5rem, 5.5vw, 3rem)" }}
                             >
-                                Municipio Inteligente
+                                La revolución geotecnológica
                             </h2>
 
                             <p
@@ -94,9 +94,21 @@ export default function HomeTrialectica() {
                                     lineHeight: "1.6",
                                 }}
                             >
-                                La revolución geotecnológica que unifica<br />
+                               <br />
                                 <strong>Pueblo • Gobierno • Territorio</strong><br />
                                 con inteligencia social organizada.
+                            </p>
+                            <p>
+                            Desde el comienzos de la humanidad, existen tres relaciones que conforman la realidad:
+                            la primera relación continentaliza el<strong> Espacio-Tiempo</strong>; la segunda le da contenidos a la vida,
+                            a la naturaleza, al mundo y al cosmos,se trata de la <strong>Energía-Información</strong>, pero todo ello a
+                            su vez relaciona las <strong> causas infinitas y sus efectos también infinitos</strong>.
+                                <br/> La trialéctica <strong>(Metodología Compleja)</strong>
+                            es la envolvente conceptual del método trialéctico que implica: para toda síntesis es existencial
+                            la triple relación. Desde ese método se genera: toda revolución, toda adecuación y concurrencia a fines,
+                            objetivos y metas, sean estrictamente sociales, políticas o económicas. La trialéctica
+                            es el fluido real que invita a la calidad de la vida en nuestro planeta para que la raza humana
+                            salga del mismo con ideales cósmicos de perdurabilidad.
                             </p>
                         </div>
                     </div>
