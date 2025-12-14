@@ -85,16 +85,8 @@
         <changefreq>daily</changefreq>
     </url>
 
-    <url>
-        <loc>https://moleculaxapp.vercel.app/</loc>
-        <priority>0.9</priority>
-        <changefreq>daily</changefreq>
-    </url>
 
-    <url>
-        <loc>https://anamucpro.vercel.app/</loc>
-        <priority>0.5</priority>
-        <changefreq>daily</changefreq>
-    </url>
+
+
 
 </urlset>
