@@ -20,7 +20,7 @@ export default function AcotacionFilosofica() {
 
                             <header className="card-header bg-white text-dark d-flex flex-column flex-md-row align-items-md-center justify-content-between">
                                 <div>
-                                    <h1 className="h4 mb-0">ACOTACIÓN FILOSÓFICA SOBRE LA REALIDAD Y LA TRIALECTICA</h1>
+                                    <h1 className="h4 mb-0 " style={{color: "blue"}}>ACOTACIÓN FILOSÓFICA SOBRE LA REALIDAD Y LA TRIALECTICA</h1>
                                     <small className="text-muted">Dr. Luis Gómez de la Vega</small>
                                 </div>
 
