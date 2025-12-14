@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import '../background.css'
+
 
 export default function PrincipiosConceptualesCatastro() {
     const justifyStyle = { textAlign: "justify" };

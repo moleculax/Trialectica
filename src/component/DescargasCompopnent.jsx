@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Footer.jsx";
 import Navbar from "./Navbar.jsx";
+import { IoCloudDownloadSharp } from "react-icons/io5"
 
 export default function DescargasComponent() {
     const [descargas, setDescargas] = useState([]);
@@ -98,7 +99,7 @@ export default function DescargasComponent() {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            Descargar archivo
+                                            <IoCloudDownloadSharp />   Descargar archivo
                                         </a>
                                     </div>
                                 </div>
