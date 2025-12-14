@@ -32,7 +32,7 @@ export default function SistemaInformacionSocial() {
                         {/* Imagen responsive */}
                         <div className="text-center my-5">
                             <img
-                                src="/image/image003.gif"
+                                src="/image/DiagramaSectorial.png"
                                 alt="Flujo del Sistema de Información Social"
                                 className="img-fluid rounded shadow-sm border"
                                 style={{

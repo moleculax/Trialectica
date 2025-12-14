@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
+import '../background.css'
 
 export default function PrincipiosConceptualesCatastro() {
     const justifyStyle = { textAlign: "justify" };
@@ -11,7 +12,9 @@ export default function PrincipiosConceptualesCatastro() {
     return (
         <>
             <Navbar />
+
             <div className="min-vh-100 bg-white">
+
                 <div className="container py-4 py-md-5 px-4 shadow">
                     <div className="mx-auto" style={{ maxWidth: "900px" }}>
                         {/* Título principal */}

@@ -55,7 +55,7 @@ export default function HomeTrialectica() {
                         <div className="col-12 col-lg-6 order-1 order-lg-2 text-center">
                             <img
 
-                                src="/image/sistemasIntegrados..png"
+                                src="/image/sistemasIntegrados.png"
 
                                 alt="Catastro Integral"
                                 className="img-fluid rounded-4 border border-3 border-success shadow-lg"

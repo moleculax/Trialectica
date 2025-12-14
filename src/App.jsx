@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import './App.css';
-import CapituloUno from "./component/CapituloUno";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PuebloGobiernoTerritorio from "./component/PuebloGobiernoTerritorio.jsx";
 import ObjetivoGeneralCatastro from "./component/ObjetivoGeneralCatastro.jsx";

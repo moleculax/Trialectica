@@ -30,7 +30,7 @@ export default function AspectosConceptuales() {
 
                             <div className="col-lg-5 order-lg-2 order-1 text-center mb-4 mb-lg-0">
                                 <img
-                                    src="/image/sistemas integrados.gif"
+                                    src="/image/sistemasIntegrados.png"
                                     alt="Sistemas Integrados"
                                     className="img-fluid rounded shadow-sm border"
                                     style={{ maxWidth: "100%", height: "auto" }}
