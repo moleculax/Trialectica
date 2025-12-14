@@ -14,7 +14,8 @@ import ContactosRedisComponent from "./component/ContactosRedisComponent.jsx";
 import BiografiaLuisGomez from "./component/BiografiaLuisGomez.jsx";
 import SemblanzaLuisGomez from "./component/SemblanzaLuisGomez.jsx";
 import DefinicionTrialectica from "./component/DefinicionTrialectica.jsx";
-import GranEsquemaComponent from "./component/GranEsquemaComponent.jsx"; // 👈 falta Route
+import GranEsquemaComponent from "./component/GranEsquemaComponent.jsx";
+import DescargasComponent from "./component/DescargasCompopnent.jsx"; // 👈 falta Route
 
 function App() {
     return (
@@ -42,7 +43,7 @@ function App() {
                 <Route path="/DefinicionTrialectica" element={<DefinicionTrialectica />} />
                 <Route path="/GranEsquemaComponent" element={<GranEsquemaComponent/>} />
 
-
+                <Route path="/descargas" element={<DescargasComponent/>} />
 
 
 
