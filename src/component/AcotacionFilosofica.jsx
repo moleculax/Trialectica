@@ -256,7 +256,7 @@ export default function AcotacionFilosofica() {
                             </div>
 
                             <footer className="card-footer text-muted small bg-white">
-                                Texto adaptado y formateado para web · Dr. Luis Gómez de la Vega
+                               Autor:  Dr. Luis Gómez de la Vega
                             </footer>
                         </article>
                     </div>
