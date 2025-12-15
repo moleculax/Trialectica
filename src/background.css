@@ -10,12 +10,13 @@
 /*}*/
 
 body {
-    background-color: #0a0a0a !important;                  /* Color de respaldo oscuro */
-    background-image: url('/image/framemed_fond.png') !important; /* ← Tu imagen */
-    background-repeat: no-repeat !important;               /* No se repite */
-    background-position: center top !important;            /* Centrado horizontalmente, pegado arriba */
-    background-attachment: fixed !important;               /* Fijo: no se mueve al hacer scroll */
-    background-size: cover !important;                     /* Cubre todo el ancho, recorta altura si es necesario */
+    background-color: #0a0a0a !important;
+    background-image: url('/image/framemed_fond.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+    background-attachment: fixed !important;
+    /*background-size: cover !important;                   */
+    background-size: contain !important;
 
     /* Si prefieres ver la imagen completa sin recortar (pueden aparecer barras negras arriba/abajo):
        cambia la línea anterior por:
