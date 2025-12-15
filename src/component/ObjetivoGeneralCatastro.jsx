@@ -54,9 +54,9 @@ export default function ObjetivoGeneralCatastro() {
                             </section>
 
                             {/* Tabla de los 12 aspectos */}
-                            <div className="d-flex justify-content-center mb-5">
+                            <div className="d-flex justify-content-start mb-5">
                                 <div className="col-12 col-sm-10 col-md-8 col-lg-6">
-                                    <table className="table table-bordered text-center">
+                                    <table className="table table-bordered table-hover text-start">
                                         <tbody>
                                         {aspectos.map((aspecto, index) => (
                                             <tr key={index}>
