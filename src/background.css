@@ -30,7 +30,7 @@ body {
     /*font-size: 12px !important;*/
 }
 
-/* Ajustes para que Bootstrap se vea bien en modo oscuro */
+
 .bg-white {
     background-color: #1e1e1e !important;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 /* ==================== TABLAS ==================== */
-/* Todas las tablas en general */
+
 table,
 .table {
     color: #ffffff !important;            /* Texto blanco en toda la tabla */
@@ -62,8 +62,8 @@ table,
 .table-bordered td {
     border-color: #555 !important;
     background-color: #1a1a1a !important;
-    color: #ffffff !important;            /* Texto blanco en celdas */
-    padding: 12px;                        /* Un poco más de espacio para mejor legibilidad */
+    color: #ffffff !important;
+    padding: 12px;
 }
 
 /* Cabecera de tabla (si usas thead) */

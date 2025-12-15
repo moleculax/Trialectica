@@ -95,19 +95,34 @@ export default function ObjetivoGeneralCatastro() {
                                     Objetivos Específicos del Catastro Integral – Municipio Inteligente
                                 </h2>
                                 <p className="fs-5 lh-lg" style={justifyStyle}>
-                                    La implementación del Catastro Integral expone la unificación y la transferencia de criterios, técnicas y esquemas metodológicos en el aspecto social, físico, jurídico y económico fiscal.
+                                    La implementación del Catastro Integral expone la unificación y la transferencia de criterios,
+                                    técnicas y esquemas metodológicos en el aspecto social, físico, jurídico y económico fiscal.
                                 </p>
                                 <p className="fs-5 lh-lg mt-4" style={justifyStyle}>
-                                    El Catastro Integral define su calidad y rendimiento destacando los conceptos y tecnología de avanzada en software y hardware para la modernización de las oficinas de Catastro Urbano Municipal, diseñando la estructura de bases de datos Espaciales, en Formato Digital, la cual con el apoyo de tecnología G.I.S permite analizar, visualizar y mantener la consistencia de la configuración social, física, jurídica y económico fiscal.
+                                    El Catastro Integral define su calidad y rendimiento destacando los conceptos y tecnología de
+                                    avanzada en software y hardware para la modernización de las oficinas de Catastro Urbano Municipal,
+                                    diseñando la estructura de bases de datos Espaciales, en Formato Digital, la cual con el apoyo de
+                                    tecnología G.I.S permite analizar, visualizar y mantener la consistencia de la configuración social,
+                                    física, jurídica y económico fiscal.
                                 </p>
                                 <p className="fs-5 lh-lg mt-4" style={justifyStyle}>
-                                    El Catastro Integral por medio de una data digital actualizada evalúa las progresivas necesidades y capacidades de la población, una vez que esta tiene una mínima organización y atiende innovaciones inmobiliarias, manifestadas por el crecimiento del porcentaje de cambio de tipo geométrico reflejado en las unidades territoriales.
+                                    El Catastro Integral por medio de una data digital actualizada evalúa las progresivas necesidades y
+                                    capacidades de la población, una vez que esta tiene una mínima organización y atiende innovaciones
+                                    inmobiliarias, manifestadas por el crecimiento del porcentaje de cambio de tipo geométrico reflejado
+                                    en las unidades territoriales.
                                 </p>
                                 <p className="fs-5 lh-lg mt-4" style={justifyStyle}>
-                                    La Base de Datos Digital Espacial del Catastro Integral permite el monitoreo de los procesos de desarrollo, expansión social, perfecciones de los niveles de comunicación y coordinación entre la Alcaldía y las Comunidades Organizadas, al momento de analizar y planificar acciones referentes a los servicios públicos, asistenciales, educativos, de vialidad y transporte, y recreacionales. Todo de acuerdo a la Ley de los Consejos Locales de Planificación Pública y su Sala Técnica.
+                                    La Base de Datos Digital Espacial del Catastro Integral permite el monitoreo de los procesos de desarrollo,
+                                    expansión social, perfecciones de los niveles de comunicación y coordinación entre la Alcaldía y las
+                                    Comunidades Organizadas, al momento de analizar y planificar acciones referentes a los servicios públicos,
+                                    asistenciales, educativos, de vialidad y transporte, y recreacionales. Todo de acuerdo a la Ley de los
+                                    Consejos Locales de Planificación Pública y su Sala Técnica.
                                 </p>
                                 <p className="fs-5 lh-lg mt-4" style={justifyStyle}>
-                                    El Catastro Integral se debe promover a gran escala, dando cabida a una variedad de trabajos que pueden ser acometidos por distintas instituciones administrativas que consideren de modo especial el espacio Geográfico y sus Recursos. Este permite controlar y evaluar los beneficios y resultados con los ajustes respectivos en el presupuesto de inversión municipal, por parte de la comunidad organizada.
+                                    El Catastro Integral se debe promover a gran escala, dando cabida a una variedad de trabajos que pueden
+                                    ser acometidos por distintas instituciones administrativas que consideren de modo especial el espacio
+                                    Geográfico y sus Recursos. Este permite controlar y evaluar los beneficios y resultados con los ajustes
+                                    respectivos en el presupuesto de inversión municipal, por parte de la comunidad organizada.
                                 </p>
                             </section>
 
