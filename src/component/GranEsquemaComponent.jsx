@@ -105,7 +105,7 @@ const MetodoSeguido = () => {
 
             <p>De esa igualdad obtenemos: materia, formas y movimientos (energía) son "Sustancia de Ser", espacio y tiempo (4a. dimensión) son ámbito del Ser. "Poseer" intensidad, sentido y dirección son "Poder Trascendente Direccional". Síntesis: la expansión vital, expansión del Ser, del Poseer y del Poder es expansión de la energía en el tiempo y espacio bajo una intensidad, sentido y dirección determinadas.</p>
 
-            <p>Ser.Poseer.Poder.Energía.f(tiempo.espacio)= traslación continua o dinámica.</p>
+            <p><strong>Ser*Poseer*Poder*Energía.f(tiempo.espacio) = traslación continua o dinámica.</strong></p>
 
             <p>Afirmamos la unidad de la estructura científica y filosófica. Al ampliar la logosfera, cumplimos no solo con una condición existencial (expansión) sino que ampliamos también nuestra libertad relativa y como al cambiar la escala de análisis, cambia lo adjetivo de la naturaleza, logramos aproximarnos rápidamente a lo verdaderamente sustantivo, es decir a escala universal, sin antropocentrismo ni ideocentrismo.</p>
 
@@ -115,15 +115,15 @@ const MetodoSeguido = () => {
 
             <p>Hemos de establecer por lo tanto una nueva ética social que nos proporcione una nueva y orgánica orientación, y lenguaje social que nos proporcione a su vez una nueva jerarquía existencial de los valores, basada en un esquema que esté "al margen de lo parcial", apreciando lo que es verdad incontrovertible: un sistema único y universal. Vamos a prepararnos para una nueva era, preparando lo que ya es indispensable: la Ingeniería Social, profesión que permite capacitar nuestra juventud hacia la fusión inminente de las ciencias experimentales, matemáticas y física pura, con el desarrollo social y cultural de una nueva humanidad.</p>
 
-            <p><strong>Ese planteamiento filosófico expresamente enunciado en "La Igualdad Teleológica del Sistema" y en el
+            <p><strong className="text-primary">Ese planteamiento filosófico expresamente enunciado en "La Igualdad Teleológica del Sistema" y en el
                 "Desarrollo Orgánico del Sistema" esta basado en la Tríada Existencial:
                 I) El Ser, II) El Poseer y III) El Poder Trascendente.</strong></p>
 
-            <p><strong>I) El Ser: </strong>  condición existencial del Poseer y del Poder; en relación universal con el tiempo y el espacio con la energía trasmutando: movimiento, formas y materia; sustancia viva en lo humano es individuo; al ser individuo que posee, es hombre; al ser hombre que decide, es persona. Concepto de Ser genérico, que trasciende de lo individual y llega a organismos sociales superiores: Familia, Población etc.</p>
+            <p><strong className="text-primary">I) El Ser: </strong>  condición existencial del Poseer y del Poder; en relación universal con el tiempo y el espacio con la energía trasmutando: movimiento, formas y materia; sustancia viva en lo humano es individuo; al ser individuo que posee, es hombre; al ser hombre que decide, es persona. Concepto de Ser genérico, que trasciende de lo individual y llega a organismos sociales superiores: Familia, Población etc.</p>
 
-            <p><strong>II)  El Poseer: </strong>condición existencial de cuánto es; capacidad inmanente a la naturaleza y que trasciende en ella como relación universal de tiempo-espacio; ámbito energético.</p>
+            <p><strong className="text-primary">II)  El Poseer: </strong>condición existencial de cuánto es; capacidad inmanente a la naturaleza y que trasciende en ella como relación universal de tiempo-espacio; ámbito energético.</p>
 
-            <p><strong>III) El Poder: </strong>condición existencial del Ser y del Poseer; en relación universal y continua con el tiempo-espacio; inmanente a la energía que se trasmuta en materia, forma y movimiento y que trasciende en ella.</p>
+            <p><strong className="text-primary">III) El Poder: </strong>condición existencial del Ser y del Poseer; en relación universal y continua con el tiempo-espacio; inmanente a la energía que se trasmuta en materia, forma y movimiento y que trasciende en ella.</p>
 
             <p><strong>Tríada que nace del Cosmos, surge en lo individual, trasciende a lo colectivo y vuelve al Cosmos.</strong></p>
 
@@ -147,9 +147,9 @@ const MetodoSeguido = () => {
 
             <p>Estas Instituciones son socio-políticas, como por ejemplo: la Familia (F), el Municipio (M), la Región (R), el Mundo (M), el Universo (U), o socio-económicas como la Corporación, el Gremio, el Colegio etc. Pero todas las Instituciones, así como el Hombre giran en torno a tres grandes y primarias actividades que corresponden a cada una de las condiciones existenciales. Así:</p>
 
-            <p>La manifestación del Ser produce la actividad Social;
+            <p><strong className="text-primary">La manifestación del Ser produce la actividad Social;
                 La manifestación del Poseer produce la actividad Económica;
-                La manifestación del Poder produce la actividad Política.</p>
+                La manifestación del Poder produce la actividad Política.</strong></p>
 
             <p>Estos son los campos primarios, o sea los que manifiestan en forma directa la estructura del cosmos, pero existen en dependencia directa de los campos primarios los secundarios o sean campos económico-políticos, como lo administrativo y financiero (política económica o economía política); socio- políticos, como la política de seguridad social; socio- económicos, como lo concerniente a bienes de derecho civil y derecho privado en general (excepción de derechos personales) etc. Nótese que en todos dichos campos se cumple el acento vital del Ser luchando por su mayor Poseer y por su mayor Poder. Lo cual confirma que la dinámica vital no es otra cosa que la expansión continua de la Tríada Existencial.</p>
 

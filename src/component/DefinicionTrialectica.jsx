@@ -39,7 +39,11 @@ export default function DefinicionTrialectica() {
                         >
 
                             <p className="mb-5">
-                                Es una <strong>concepción filosófica, científica y técnica</strong> para impulsar el desarrollo integral y maximizar la calidad de vida, que surgió como resultado de un largo proceso de investigación social realizado por el filósofo, agrimensor y abogado <strong>Luís Gómez de la Vega (1927-2007)</strong>, a través del <em>Instituto de Investigaciones Integradas</em>, y que dio a conocer por primera vez en Venezuela en 1967 con una propuesta impresa titulada <strong><em>El Gran Esquema</em></strong>.
+                                Es una <strong>concepción filosófica, científica y técnica</strong> para impulsar el desarrollo integral y
+                                maximizar la calidad de vida, que surgió como resultado de un largo proceso de investigación social
+                                realizado por el filósofo, agrimensor y abogado <strong>Luís Gómez de la Vega (1927-2007)</strong>,
+                                a través del <em>Instituto de Investigaciones Integradas</em>, y que dio a conocer por primera vez
+                                en Venezuela en 1967 con una propuesta impresa titulada <strong><em><a href="/GranEsquemaComponent">El Gran Esquema</a></em></strong>.
                             </p>
 
                             <div className="bg-light rounded-4 p-4 p-md-5 shadow-sm border-start border-primary border-5 mb-5">
@@ -47,7 +51,18 @@ export default function DefinicionTrialectica() {
                                     La <strong>Trialéctica</strong>, conocida también como <strong>Metodología Compleja</strong>, se fundamenta:
                                 </p>
                                 <p className="mb-0">
-                                    “En un modelo lógico/matemático, que partiendo de la concepción más abstracta interrelaciona sistémicamente todos y cada uno de los aspectos en los cuales subdividimos el quehacer existencial (nuestra vida en el mundo), estableciendo holística y funcionalmente la conjunción entre <strong>espacio/tiempo</strong>; <strong>energía/información</strong> y <strong>causa/efecto</strong>: <strong>Sistemas de Recursos Dimensionables y Relacionados (Los RDR)</strong>, que responden a las preguntas que nos hacemos en el devenir, convertidas en <strong>Elementos Factores</strong>. Todo para dar explicación a lo abstracto conceptual: <em>espacio/tiempo</em> (dónde y cuándo); <em>energía/información</em> (los con quiénes y los con qué) y <em>causa/efecto</em> (por qué y para qué), que al ser diferenciados (cualitativamente), desagregados (cuantitativamente) e integrados (holísticamente) nuevamente en el <strong>Cómo Metodológico</strong>, indefectiblemente dan respuestas a la problemática existencial, en la búsqueda de la verdad, la realidad y la justicia. Soportados siempre en el marco referente de la <strong>Filosofía Integralista</strong>.”
+                                    “En un modelo lógico/matemático, que partiendo de la concepción más abstracta interrelaciona sistémicamente
+                                    todos y cada uno de los aspectos en los cuales subdividimos el quehacer existencial (nuestra vida en el mundo),
+                                    estableciendo holística y funcionalmente la conjunción entre
+                                    <strong>espacio/tiempo</strong>; <strong>energía/información</strong> y <strong>causa/efecto</strong>:
+                                    <strong>Sistemas de Recursos Dimensionables y Relacionados (Los RDR)</strong>,
+                                    que responden a las preguntas que nos hacemos en el devenir, convertidas en <strong>Elementos Factores</strong>.
+                                    Todo para dar explicación a lo abstracto conceptual: <em>espacio/tiempo</em> (dónde y cuándo);
+                                    <em>energía/información</em> (los con quiénes y los con qué) y <em>causa/efecto</em>
+                                    (por qué y para qué), que al ser diferenciados (cualitativamente), desagregados (cuantitativamente)
+                                    e integrados (holísticamente) nuevamente en el <strong>Cómo Metodológico</strong>, indefectiblemente
+                                    dan respuestas a la problemática existencial, en la búsqueda de la verdad, la realidad y la justicia.
+                                    Soportados siempre en el marco referente de la <strong>Filosofía Integralista</strong>.”
                                 </p>
                             </div>
 
