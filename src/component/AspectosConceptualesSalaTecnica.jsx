@@ -41,13 +41,13 @@ export default function AspectosConceptualesSalaTecnica() {
                             </p>
 
                             <ul className="list-group list-group-flush mb-5">
-                                <li className="list-group-item"><strong>¿Por qué?</strong> o sea la razón de lo que se requiere obtener en el futuro (causa u objetivos).</li>
-                                <li className="list-group-item"><strong>¿Dónde?</strong> que define el recurso espacial, el lugar en el cual se obtendrá el resultado.</li>
-                                <li className="list-group-item"><strong>¿Cuándo?</strong> o sea el recurso tiempo, lapso en el cual se operará y la posible fecha de conclusión y seguimiento.</li>
-                                <li className="list-group-item"><strong>¿Con quién?</strong> es decir el recurso humano, el personal que opera la organización y las personas de fuera que permitirán o recibirán el producto del resultado.</li>
-                                <li className="list-group-item"><strong>¿Con qué?</strong> referido a los otros recursos con que se cuenta y/o se deberá disponer para lograr el objetivo, o sea recursos materiales, técnicos, financieros, equipo etc.</li>
-                                <li className="list-group-item"><strong>¿Para qué?</strong> es decir, cual sería el resultado concreto obtenido o por obtener.</li>
-                                <li className="list-group-item"><strong>¿Cómo?</strong> o sea la forma de proceder para obtener un resultado deseado, en forma eficiente, por medio de la expansión por la buena utilización y optimización de los recursos.</li>
+                                <li className="list-group-item"><strong>¿Por qué?</strong> Es la razón de lo que se requiere obtener en el futuro (causa u objetivos).</li>
+                                <li className="list-group-item"><strong>¿Dónde?</strong>  Define el recurso espacial, el lugar en el cual se obtendrá el resultado.</li>
+                                <li className="list-group-item"><strong>¿Cuándo?</strong> Es el recurso tiempo, lapso en el cual se operará y la posible fecha de conclusión y seguimiento.</li>
+                                <li className="list-group-item"><strong>¿Con quién?</strong> Es decir el recurso humano, el personal que opera la organización y las personas de fuera que permitirán o recibirán el producto del resultado.</li>
+                                <li className="list-group-item"><strong>¿Con qué?</strong> Referido a los otros recursos con que se cuenta y/o se deberá disponer para lograr el objetivo, o sea recursos materiales, técnicos, financieros, equipo etc.</li>
+                                <li className="list-group-item"><strong>¿Para qué?</strong> Es decir, cual sería el resultado concreto obtenido o por obtener.</li>
+                                <li className="list-group-item"><strong>¿Cómo?</strong> Es la forma de proceder para obtener un resultado deseado, en forma eficiente, por medio de la expansión por la buena utilización y optimización de los recursos.</li>
                             </ul>
 
                             <p className="mb-4">
