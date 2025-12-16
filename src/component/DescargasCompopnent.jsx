@@ -65,7 +65,7 @@ export default function DescargasComponent() {
                 <h1 className="fw-bold text-primary mb-4 fs-3 fs-md-2 text-center text-md-start">
                     Descargas
                 </h1>
-                <h5>Aqui encontrarar una serie de archivos relacionados con la trialectica.</h5>
+                <h5  className="fw-bold text-primary" >Aqui encontrarar una serie de archivos relacionados con la trialectica.</h5>
 
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 g-md-4 mx-0">
                     {descargas.map((item) => (
