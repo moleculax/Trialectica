@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "Geotematica del Sistema Espacio",
     "archivo": "GEOTEMATICA_DEL_SISTEMA_ESPACIO.pdf",
-    "descripcion": "La temática sobre el “Dominio del Sistema Espacio”, hace énfasis en la\npresencia del instrumental ideológico, conceptual, metodológico y\ntecnológico, idóneo al diseño, desarrollo e instrumentación de modelos\ncomplejos de gestión integral, que exalten en el ámbito de los órdenes\nsociales (individuo, familia, área vecinal, parroquia, municipio, región, país",
+    "descripcion": "La temática sobre el “Dominio del Sistema Espacio”, hace énfasis en la presencia del instrumental ideológico, conceptual, metodológico y\ntecnológico, idóneo al diseño, desarrollo e instrumentación de modelos\ncomplejos de gestión integral, que exalten en el ámbito de los órdenes\nsociales (individuo, familia, área vecinal, parroquia, municipio, región, país",
     "image": "/image/descarga.png"
   },
   {
@@ -17,7 +17,15 @@
     "id": 2,
     "titulo": "Sociedad de la Inf. Reg. de Tejidos en redes",
     "archivo": "SociedaddelaInformacionRegulaciondelTejidodeRedes.pdf",
-    "descripcion": "El surgimiento de Internet como medio de comunicación, ha creado nue-\nvos patrones de interacción social como la formación de comunidades virtua-\nles, basadas primordialmente en la comunicación on line la cual se ha interpre-\ntado como la culminación de un proceso histórico de disociación entre locali-\ndad y sociabilidad en la formación de la comunidad: nuevos y selectivos mode-\nlos de las relaciones sociales sustituyen a formas de interacción humana limi-\ntadas territorialmente.",
+    "descripcion": "El surgimiento de Internet como medio de comunicación, ha creado nuevos patrones de interacción social como la formación de comunidades virtua-\nles, basadas primordialmente en la comunicación on line la cual se ha interpre-\ntado como la culminación de un proceso histórico de disociación entre locali-\ndad y sociabilidad en la formación de la comunidad: nuevos y selectivos mode-\nlos de las relaciones sociales sustituyen a formas de interacción humana limi-\ntadas territorialmente.",
+    "image": "/image/descarga.png"
+  },
+
+  {
+    "id": 2,
+    "titulo": "Sintergia organizacional. Un resultante del cambio a la esfera gnoseológica ",
+    "archivo": "Sintergia_organizaciona.pdf",
+    "descripcion": "Esta cultura y didáctica de aprendizaje debe ser elevada al plano organizacional, ya que las relaciones funcionales inherentesa la actividad humana y por ende organizacional, requieren de\nuna sistematización y orden relativo a parámetros filosóficos,\nlos cuales por razones administrativas terminan convirtiéndose\nen indicadores de gestión. ",
     "image": "/image/descarga.png"
   }
 
