@@ -25,13 +25,13 @@ export default function AcotacionFilosofica() {
                                 </div>
 
                                 <div className="mt-3 mt-md-0">
-                                    <button
-                                        className="btn btn-sm btn-outline-dark me-2"
-                                        onClick={() => setExpanded((s) => !s)}
-                                        aria-expanded={expanded}
-                                    >
-                                        {expanded ? 'Colapsar' : 'Leer completo'}
-                                    </button>
+                                    {/*<button*/}
+                                    {/*    className="btn btn-sm btn-outline-dark me-2"*/}
+                                    {/*    onClick={() => setExpanded((s) => !s)}*/}
+                                    {/*    aria-expanded={expanded}*/}
+                                    {/*>*/}
+                                    {/*    {expanded ? 'Colapsar' : 'Leer completo'}*/}
+                                    {/*</button>*/}
 
                                     <a
                                         className="btn btn-sm btn-primary"
