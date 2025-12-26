@@ -163,12 +163,13 @@ const ContactosRedisComponent = () => {
                     {/* Logo */}
                     <div className="row justify-content-center mt-5">
                         <div className="col-12 text-center mb-4 shadow rounded-4">
-                            <img
+                        <a href="/ProcumanaComponent" >   <img
                                 src={proCumana}
                                 alt="Redis Node"
                                 className="img-fluid"
                                 style={{ borderRadius: "16px" }}
                             />
+                        </a>
                         </div>
                     </div>
 

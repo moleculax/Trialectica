@@ -113,6 +113,13 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
+                            <NavLink to="/ProcumanaComponent" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}` } >
+                                Procumana
+                            </NavLink>
+                        </li>
+
+
+                        <li className="nav-item">
                             <NavLink to="/descargas" className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}` } >
                                 Descargas
                             </NavLink>
