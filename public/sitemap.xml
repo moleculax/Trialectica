@@ -85,6 +85,12 @@
         <changefreq>daily</changefreq>
     </url>
 
+    <url>
+        <loc>https://trialectica.vercel.app/ProcumanaComponent</loc>
+        <priority>0.9</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
 
 
 
