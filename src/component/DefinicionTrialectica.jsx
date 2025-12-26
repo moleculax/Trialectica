@@ -27,6 +27,7 @@ export default function DefinicionTrialectica() {
                                 <strong>Instituto de Investigaciones Integradas</strong>
                             </p>
 
+
                             <hr className="mx-auto border-primary border-3 opacity-100"
                                 style={{ width: "clamp(120px, 40%, 260px)" }}
                             />
@@ -100,6 +101,7 @@ export default function DefinicionTrialectica() {
 
                                     />
                                 </p>
+                                <img src="/image/triadaExistencial.jpg"/>
                             </div>
                             <div style={{height: "150px"}}></div>
 
